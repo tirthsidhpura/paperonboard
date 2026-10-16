@@ -1,4 +1,13 @@
 /* Additions for the JSON interface; original styles remain unchanged. */
+.site-ad { margin: 64px auto; padding: 24px 0; width: calc(100% - 32px); text-align: center; background: #fafafa; border-block: 1px solid #ddd; }
+.site-ad-label { color: #666; font-size: 12px; margin-bottom: 12px; }
+.site-ad .adsbygoogle { display: inline-block; width: 250px; height: 250px; }
+#site-ad-unit { min-height: 250px; }
+@media (min-width: 360px) { .site-ad .adsbygoogle { width: 300px; } }
+@media (min-width: 800px) {
+  .site-ad .adsbygoogle { width: 728px; height: 90px; }
+  #site-ad-unit { min-height: 90px; }
+}
 [hidden] { display: none !important; }
 button, input, select { font-family: inherit; }
 button { cursor: pointer; }

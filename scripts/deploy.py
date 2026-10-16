@@ -6,10 +6,28 @@ are deleted. Each upload is staged beside its destination and renamed on success
 import ftplib
 import os
 from pathlib import Path, PurePosixPath
+import re
+import socket
 import ssl
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def checked_host(value):
+    host = value.strip()
+    labels = host.rstrip('.').split('.')
+    if (len(host) > 253 or not host or
+            any(not re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?', label) for label in labels)):
+        raise ValueError('FTP_HOST must contain only the FTP hostname from InfinityFree, such as ftpupload.net. Remove ftp://, ftps://, https://, port numbers, paths, and quotes.')
+    return host
+
+
+def connect_ftp(ftp, host):
+    try:
+        ftp.connect(host, 21)
+    except socket.gaierror:
+        raise ValueError('Cannot resolve FTP_HOST (DNS lookup failed before login). Check the FTP_HOST GitHub secret against your InfinityFree FTP details. Use only the hostname, typically ftpupload.net. If it is correct, rerun the job to rule out a temporary DNS failure.') from None
 
 
 def checked_remote(value):
@@ -31,7 +49,7 @@ def deployment_files(directory):
             raise ValueError('Deployment cannot contain symlinks.')
         if file.is_file():
             relative = file.relative_to(directory)
-            if any(part.startswith('.') for part in relative.parts) or file.suffix.lower() not in {'.html', '.css', '.js', '.json', '.svg', '.gif', '.png', '.jpg', '.jpeg', '.webp', '.pdf', '.md'}:
+            if any(part.startswith('.') for part in relative.parts) or (relative.as_posix() != 'ads.txt' and file.suffix.lower() not in {'.html', '.css', '.js', '.json', '.svg', '.gif', '.png', '.jpg', '.jpeg', '.webp', '.pdf', '.md'}):
                 raise ValueError('Unexpected file type in build output.')
             files.append(file)
     # The entry page goes last so new dependencies exist before it is replaced.
@@ -42,13 +60,14 @@ def deploy():
     required = ['FTP_HOST', 'FTP_USERNAME', 'FTP_PASSWORD', 'FTP_DIRECTORY']
     if any(not os.environ.get(key) for key in required):
         raise ValueError('Set FTP_HOST, FTP_USERNAME, FTP_PASSWORD, and FTP_DIRECTORY in GitHub Actions secrets.')
+    host = checked_host(os.environ['FTP_HOST'])
     remote = checked_remote(os.environ['FTP_DIRECTORY'])
     directory = ROOT / 'dist'
     files = deployment_files(directory)
     context = ssl.create_default_context()
     context.minimum_version = ssl.TLSVersion.TLSv1_2
     with ftplib.FTP_TLS(context=context, timeout=60) as ftp:
-        ftp.connect(os.environ['FTP_HOST'], 21)
+        connect_ftp(ftp, host)
         ftp.login(os.environ['FTP_USERNAME'], os.environ['FTP_PASSWORD'])
         ftp.prot_p()
         ftp.set_pasv(True)

@@ -44,6 +44,15 @@ test('study material filtering excludes question papers', () => {
   assert.equal(vm.runInContext('matchingResources(entry)[0].type', context), 'material');
 });
 
+test('paper cards sort oldest to newest with summer before winter and undated resources last', () => {
+  const labels = ['Winter 2025', 'Notes', 'WINTER 201 8asic Electrical Engineering', 'Summer 2025', 'SUMMMER 2019 Chemistry', 'Winter 2019', 'Other notes'];
+  context.entry = { resources: labels.map((label) => ({ label, type: 'paper' })) };
+  vm.runInContext("state.resource = ''", context);
+  const sorted = vm.runInContext('matchingResources(entry)', context);
+  assert.deepEqual(Array.from(sorted, (r) => r.label), [labels[2], labels[4], labels[5], labels[3], labels[0], labels[1], labels[6]]);
+  assert.deepEqual(context.entry.resources.map((r) => r.label), labels);
+});
+
 test('migration retains catalog scope and the recovered architecture paper', () => {
   const architecture = JSON.parse(fs.readFileSync(path.join(root, 'data/architecture.json'), 'utf8'));
   const subjects = architecture.branches.flatMap((b) => b.semesters.flatMap((s) => s.subjects));
@@ -59,6 +68,8 @@ test('published build excludes backend, private source, original uploads and sec
   const files = walk(directory);
   assert.ok(!files.some((file) => /legacy-private|connect\.php|\.env|\.php$|migration-report|migrate\.py/.test(file)));
   assert.ok(files.includes(path.join('data', 'diploma.json')));
+  assert.equal(fs.readFileSync(path.join(directory, 'ads.txt'), 'utf8').trim(), 'google.com, pub-2553242957639447, DIRECT, f08c47fec0942fa0');
+  assert.match(fs.readFileSync(path.join(directory, 'index.html'), 'utf8'), /adsbygoogle\.js\?client=ca-pub-2553242957639447/);
   assert.ok(files.includes(path.join('coarse', 'bachelors', 'computerengineer.html')));
   for (const file of ['inside.css', 'catalog.css', 'landing.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'paper-urls.js', 'data/urls.json', 'data/contributors.json']) {
     assert.ok(fs.existsSync(path.join(directory, file)), `Missing original design asset: ${file}`);

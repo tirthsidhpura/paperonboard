@@ -1,6 +1,6 @@
 # PaperOnBoard
 
-A free, community-maintained GTU question paper library. The landing and contributors pages have a modern presentation; paper-browsing pages retain the original styling, semester scrolling, subject dropdowns, and download cards. One HTML interface loads its content from one JSON catalog per stream. No frontend framework, database, accounts, or build dependencies.
+A free, community-maintained GTU question paper library. The landing and contributors pages extend the original styling, with consistent navigation and footer. Paper browsing retains the original semester scrolling, subject dropdowns, and download cards. A dismissible open-source announcement appears across all routes and stays dismissed for the browser tab session. One HTML interface loads its content from one JSON catalog per stream. No frontend framework, database, accounts, or build dependencies.
 
 Students can browse **stream → branch → semester → subject → paper**, or use **Search** in the navbar to search all streams by subject name, code, or examination. Branch views show all semesters as before. Each subject dropdown keeps the existing direct links and opens its latest papers in the same single-page interface. Subject views and searches have shareable URLs and support browser back/forward. Projects, IELTS, and the privacy policy retain links to their original public site destinations.
 

@@ -17,7 +17,7 @@ The repository can stay public. The workflow uses a standard GitHub-hosted Ubunt
 3. Under **Variables**, add repository variable `DEPLOY_ENABLED` with value `true` after confirming the upload directory. This enables replacement of matching files on the live site.
 4. Open **Actions → Check and deploy site → Run workflow** on `main` for the first deployment. Future merges or direct pushes to `main` deploy automatically.
 
-Do not send passwords in chat, put them in JSON, or commit `.env` files. The workflow reads secrets only in the deploy step on `main`. Pull requests—including contributions from forks—run checks without FTP secrets. Require PR review on `main` so changes to workflows and deployment code are reviewed before merging.
+Do not send passwords in chat, put them in JSON, or commit `.env` files. The workflow reads secrets only in the deploy step on `main`. Opening or updating a pull request does not run this workflow. Review changes before merging; validation and tests run after the merge, before deployment.
 
 InfinityFree documents using [GitHub Actions for FTP uploads](https://forum.infinityfree.com/t/using-github-actions-for-automatic-upload-to-infinityfree/111008). Its FTP service supports [TLS via ftpupload.net](https://forum.infinityfree.com/t/ftp-encryption-where-did-it-go/82911). The included uploader uses explicit FTPS on port 21, verifies the TLS certificate, and encrypts data transfers. It does not fall back to plaintext FTP.
 
@@ -25,9 +25,9 @@ InfinityFree documents using [GitHub Actions for FTP uploads](https://forum.infi
 
 After the first push, go to **Settings → Rules → Rulesets → New ruleset → New branch ruleset**. Name it `Protect main`, set enforcement to **Active**, and target `main` (or the default branch). Leave the bypass list empty if everyone should follow the rule.
 
-Enable **Require a pull request before merging**, **Block force pushes**, and **Restrict deletions**. Under the pull request rule, require **1 approval**, dismiss stale approvals when new commits arrive, and require review conversations to be resolved. Once the workflow has run, enable **Require status checks to pass** and select the `site` check from this project's workflow.
+Enable **Require a pull request before merging**, **Block force pushes**, and **Restrict deletions**. Set required approvals to **0** and leave **Require status checks to pass** disabled. If a required `site` check was previously configured, remove it: the workflow now runs only on pushes to `main` (including merges) or manual dispatch, not on PRs.
 
-Public visitors do not have push access by default: they fork the repository and submit PRs. Give write access only to trusted maintainers. PR authors cannot approve their own PR; with one required approval and no bypass, your own PRs will also need another trusted reviewer. If you are the only maintainer, requiring PRs with zero required approvals still blocks direct pushes, and you can manually review outside contributions before merging.
+Public visitors do not have push access by default: they fork the repository and submit PRs. Keep yourself as the only account with write/admin access if you want to be the only person who can merge. PR authors cannot formally approve their own PR, but with zero required approvals you can review and merge your own changes as well as others' changes. Requiring PRs still blocks direct pushes without imposing automated PR checks.
 
 These are GitHub settings, not settings a repository file can enforce. They must be enabled after creating the repository. Branch rulesets are available for public repositories on GitHub Free. See [GitHub's ruleset setup guide](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository).
 
@@ -49,3 +49,15 @@ The uploader overwrites matching files but **does not delete unrelated files**. 
 If contributor retrieval, validation, tests, or upload fails, the workflow fails visibly. Contributor retrieval failures do not publish an empty replacement list. Missing FTP secrets fail deployment; deployment stays skipped until `DEPLOY_ENABLED` is set.
 
 The workflow has not been connected to a live repository or FTP account yet. The first live upload must confirm that the selected InfinityFree directory, credentials, TLS, and rename operations work for your account.
+
+## DNS error (`gaierror`)
+
+If connection fails with `gaierror`, first edit the `FTP_HOST` repository secret. It must contain just the FTP hostname shown by InfinityFree, typically `ftpupload.net`. Do not include `ftp://`, `ftps://`, `https://`, `:21`, `/htdocs`, or quotes. The script trims surrounding whitespace and rejects malformed hostnames before connecting. If the hostname is correct, rerun the workflow; the failure may be temporary DNS resolution on the runner or at the provider. A DNS failure during connection occurs before username/password authentication.
+
+## Controlled ad placement
+
+The shared page has one labelled display-ad area after the main content and old-paper explanation, separated from download controls. Its space is reserved before requesting the ad: 250x250 on narrow phones, 300x250 on larger phones, and 728x90 on desktop. It stays mounted during route changes and is requested only once per page load. An empty slot ID hides the area completely.
+
+In AdSense, create a Display ad unit and copy its `data-ad-slot` value into `ads.displaySlot` in `data/site.json` as a string. The existing publisher ID is already configured. Manual ad requests run only on paperonboard.in and www.paperonboard.in. The existing AdSense loader remains present for Auto ads.
+
+For placement controlled entirely by this layout, turn off Auto ads for this site in the AdSense dashboard before enabling the manual slot. Otherwise Google can insert additional ads outside the reserved area. Check the published site on mobile and desktop after activation, including the open-source notice. Compare revenue, viewability and engagement in AdSense before increasing ad density; more ads do not guarantee more revenue.

@@ -13,6 +13,7 @@ const copy = (file) => {
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(path.join(root, file), target);
 };
+copy('ads.txt');
 for (const file of ['index.html', 'index.js', 'paper-urls.js', 'style.css', 'inside.css', 'catalog.css', 'landing.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'img/pob_logo.png', 'CONTRIBUTING.md', 'data/site.json', 'data/urls.json', 'data/contributors.json', ...site.streams.map((s) => s.file)]) copy(file);
 for (const stream of site.streams) {
   const catalog = JSON.parse(fs.readFileSync(path.join(root, stream.file), 'utf8'));

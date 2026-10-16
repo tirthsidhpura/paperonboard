@@ -81,7 +81,15 @@ function matchesQuery(entry) {
   return state.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean).every((token) => entry.searchText.includes(token));
 }
 function matchingResources(entry) {
-  return entry.resources.filter((r) => !state.resource || (r.type || 'paper') === state.resource);
+  return entry.resources.filter((r) => !state.resource || (r.type || 'paper') === state.resource)
+    .sort((a, b) => examOrder(a) - examOrder(b));
+}
+function examOrder(resource) {
+  // Undated resources stay after dated papers, in their original order.
+  const match = (resource.label || '').match(/\b(sum+er|winter)\s+((?:19|20)\d\s?\d)/i);
+  if (!match) return Number.MAX_SAFE_INTEGER;
+  const year = Number(match[2].replace(/\s/g, ''));
+  return year * 2 + (match[1].toLowerCase() === 'winter' ? 1 : 0);
 }
 function routeURL(values) {
   const params = new URLSearchParams();
@@ -148,26 +156,18 @@ function courseBoxes() {
 }
 function home() {
   const page = element('div', 'landing');
-  page.id = 'container1';
-  const hero = element('section', 'landing-hero premium-wrap');
-  const copy = element('div', 'hero-copy');
-  copy.append(element('p', 'premium-eyebrow', 'FOR THE NEXT CHAPTER'));
-  const title = element('h1');
-  title.append(element('span', '', 'Less searching.'), element('span', 'hero-accent', 'More prepared.'));
-  copy.append(title, element('p', 'hero-lead', 'Your next exam deserves a better starting point. Find GTU question papers, revisit the essentials, and make your study time count.'));
-  const actions = element('div', 'premium-actions');
-  const browse = element('a', 'premium-button', 'Find my papers ↗');
-  browse.href = '#choose-course';
-  const search = element('button', 'premium-button secondary', 'Search a subject');
-  search.type = 'button';
-  search.addEventListener('click', () => setSearchOpen(true));
-  actions.append(browse, search);
-  copy.append(actions, element('p', 'hero-footnote', 'Free to access. No account needed.'));
-  const art = element('div', 'study-art');
-  art.setAttribute('aria-hidden', 'true');
-  // Decorative paper composition; all catalog data is rendered separately as text.
-  art.innerHTML = '<div class="art-grid"></div><span class="art-caption">A LITTLE PREPARATION GOES A LONG WAY</span><div class="study-sheet back-sheet"></div><div class="study-sheet front-sheet"><div class="sheet-masthead"><span>PAPERONBOARD</span><span>STUDY / 01</span></div><div class="sheet-divider"></div><p>YOUR NEXT CHAPTER</p><strong>Start here.<br>Go further.</strong><div class="sheet-line"></div><div class="sheet-line short"></div><div class="sheet-question"><span>01</span><i></i></div><div class="sheet-question"><span>02</span><i></i></div><div class="sheet-question"><span>03</span><i></i></div><div class="sheet-footer">PAST PAPERS. NEW POSSIBILITIES. <b>↗</b></div></div><div class="study-note-chip"><span>✓</span> One step closer.</div><span class="art-spark">✳</span>';
-  hero.append(copy, art);
+  const hero = element('div', 'bg');
+  hero.id = 'container1';
+  const both = element('div', 'both');
+  const heading = element('div', 'heading');
+  for (const line of ['More than', '3000+', 'Papers']) heading.append(element('h1', '', line));
+  const subjects = element('div', 'subjects');
+  const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id))
+    .map((stream) => routeLink(stream.name, { stream: stream.id }));
+  links.push(routeLink('VIEW MORE', { view: 'courses' }));
+  subjects.append(dropdown('Select your course', links, true));
+  both.append(heading, subjects);
+  hero.append(both);
   page.append(hero);
   const stats = element('div', 'premium-stats premium-wrap');
   const uniqueSubjects = new Set(entries.map((e) => `${e.catalog.id}/${e.subject.code}`)).size;
@@ -219,12 +219,18 @@ function communityCTA() {
   copy.append(element('p', 'premium-eyebrow', 'BUILT TOGETHER'), element('h2', '', 'The next student\nstarts with you.'), element('p', '', 'A missing paper. A corrected link. A better experience. Every contribution helps someone move forward.'));
   const link = routeLink('Meet the community ↗', { view: 'contributors' });
   link.className = 'premium-button light-button';
-  section.append(copy, link);
+  const github = element('a', 'premium-button light-button', 'Open source on GitHub ↗');
+  github.href = 'https://github.com/tirthsidhpura/paperonboard';
+  github.target = '_blank';
+  github.rel = 'noopener noreferrer';
+  const actions = element('div', 'community-actions');
+  actions.append(link, github);
+  section.append(copy, actions);
   return section;
 }
 
 function contributorsPage() {
-  const page = element('div', 'contributors-page premium-wrap');
+  const page = element('div', 'contributors-page');
   const hero = element('section', 'contributors-hero');
   hero.append(element('p', 'premium-eyebrow', 'THE PEOPLE BEHIND THE PAPERS'), element('h1', '', 'A shared effort.\nA better starting point.'), element('p', 'hero-lead', 'For every student who finds the right paper, someone helped put it here. This is where we celebrate those contributions.'));
   const guide = element('a', 'premium-button', 'Make your first contribution ↗');
@@ -352,10 +358,10 @@ function render() {
   const entry = entries.find((e) => e.catalog.id === state.stream && e.branch.id === state.branch && e.semester.id === state.semester && e.subject.code === state.subject);
   const isContributors = !state.q && !catalog && state.view === 'contributors';
   const isHome = !state.q && !catalog && !['courses', 'contributors'].includes(state.view);
-  document.body.classList.toggle('modern-page', isHome || isContributors);
-  $('oldpaper').hidden = isHome || isContributors;
-  $('announcement').hidden = true;
-  document.querySelector('.about').hidden = true;
+  document.body.classList.toggle('extended-page', isHome || isContributors);
+  $('oldpaper').hidden = isContributors;
+  $('announcement').hidden = !isHome;
+  document.querySelector('.about').hidden = !isHome;
   document.title = entry ? `${entry.subject.name} Question Paper | ${config.name}` : branch ? `${branch.name} Question Paper | ${config.name}` : config.name;
   if (state.q) {
     content.append(banner(`Search question papers: ${state.q}`));
@@ -417,7 +423,36 @@ function setSearchOpen(open) {
   $('search-toggle').setAttribute('aria-expanded', String(open));
   (open ? $('search') : $('search-toggle')).focus({ preventScroll: true });
 }
+function initializeOpenSourceNotice() {
+  const notice = $('open-source-notice');
+  const storageKey = 'paperonboard-open-source-dismissed-v1';
+  try {
+    notice.hidden = sessionStorage.getItem(storageKey) === 'true';
+  } catch {
+    notice.hidden = false;
+  }
+  $('dismiss-open-source').addEventListener('click', () => {
+    notice.hidden = true;
+    try { sessionStorage.setItem(storageKey, 'true'); } catch { /* Browsing works without storage. */ }
+    $('library').focus({ preventScroll: true });
+  });
+}
+function initializeDisplayAd() {
+  const slot = config.ads?.displaySlot;
+  // Only request real ads on the live site, once per document, never per route.
+  if (!/^(www\.)?paperonboard\.in$/.test(location.hostname) || !/^\d+$/.test(slot || '')) return;
+  const container = $('site-ad-unit');
+  if (container.children.length) return;
+  const ad = element('ins', 'adsbygoogle');
+  ad.setAttribute('data-ad-client', 'ca-pub-2553242957639447');
+  ad.setAttribute('data-ad-slot', slot);
+  container.append(ad);
+  $('site-ad').hidden = false;
+  try { (window.adsbygoogle = window.adsbygoogle || []).push({}); }
+  catch (error) { console.warn('Display ad unavailable:', error); }
+}
 async function initialize() {
+  initializeOpenSourceNotice();
   try {
     [config, urlSources, contributorsData] = await Promise.all([readJSON('data/site.json'), readJSON('data/urls.json'), readJSON('data/contributors.json').catch(() => ({ repository: null, contributors: [], unavailable: true }))]);
     validateURLSources(urlSources);
@@ -439,6 +474,7 @@ async function initialize() {
     }
     if (config.announcement) $('announcement-text').textContent = config.announcement;
     restoreURL();
+    initializeDisplayAd();
     // Catalogs load asynchronously, so fragment targets only exist after render.
     if (location.hash) requestAnimationFrame(() => scrollToSection(location.hash, false));
     document.addEventListener('click', (event) => {
