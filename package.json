@@ -1,0 +1,13 @@
+{
+  "name": "paperonboard",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A community-maintained, static GTU question paper library",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

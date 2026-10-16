@@ -1,0 +1,43 @@
+{
+  "subjects": 917,
+  "directLinks": 2319,
+  "skipped": [
+    "automobile.html: Nothing here Yet",
+    "aeronauticals.html: INTERNSHIP",
+    "automobileengineer.html: INTERNSHIP",
+    "bio-medicalengineering.html: INTERNSHIP",
+    "bio-technology.html: INTERNSHIP",
+    "civilengineering.html: INTERNSHIP",
+    "computerengineer.html: Internship",
+    "electricalengineer.html: Subject Name",
+    "electronics&communicationengineering.html: INTERNSHIP",
+    "electronicsengineer.html: INTERNSHIP",
+    "information&technology.html: INTERNSHIP",
+    "mechanicalengineer.html: INTERNSHIP",
+    "architecture.html: Site Planning",
+    "architecture.html: Theory of Architecture"
+  ],
+  "sourcePages": [
+    "coarse/diploma/automobile.html",
+    "coarse/diploma/chemicalengineering.html",
+    "coarse/diploma/civilengineering.html",
+    "coarse/diploma/computer.html",
+    "coarse/diploma/electricalengineeriing.html",
+    "coarse/diploma/electronics&communication.html",
+    "coarse/diploma/informationtechnology.html",
+    "coarse/diploma/mechanicalengineering.html",
+    "coarse/bachelors/aeronauticals.html",
+    "coarse/bachelors/automobileengineer.html",
+    "coarse/bachelors/bio-medicalengineering.html",
+    "coarse/bachelors/bio-technology.html",
+    "coarse/bachelors/civilengineering.html",
+    "coarse/bachelors/computerengineer.html",
+    "coarse/bachelors/electricalengineer.html",
+    "coarse/bachelors/electronics&communicationengineering.html",
+    "coarse/bachelors/electronicsengineer.html",
+    "coarse/bachelors/information&technology.html",
+    "coarse/bachelors/mechanicalengineer.html",
+    "coarse/architecture/architecture.html",
+    "coarse/pharma/B-pharm.html"
+  ]
+}

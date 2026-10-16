@@ -1,0 +1,951 @@
+{
+  "id": "pharma",
+  "name": "Bachelor of Pharmacy",
+  "examTemplates": [
+    {
+      "label": "Winter 2025",
+      "url": "https://old26.gtu.ac.in/uploads/w2025/BP/{code}.pdf"
+    },
+    {
+      "label": "Summer 2025",
+      "url": "https://old26.gtu.ac.in/uploads/s2025/BP/{code}.pdf"
+    },
+    {
+      "label": "Winter 2024",
+      "url": "https://old26.gtu.ac.in/uploads/W2024/BP/{code}.pdf"
+    },
+    {
+      "label": "Summer 2024",
+      "url": "https://old26.gtu.ac.in/uploads/S2024/BP/{code}.pdf"
+    },
+    {
+      "label": "Winter 2023",
+      "url": "https://old26.gtu.ac.in/uploads/W2023/BP/{code}.pdf"
+    },
+    {
+      "label": "Summer 2023",
+      "url": "https://old26.gtu.ac.in/uploads/S2023/BP/{code}.pdf"
+    },
+    {
+      "label": "Winter 2022",
+      "url": "https://old26.gtu.ac.in/uploads/W2022/BP/{code}.pdf"
+    }
+  ],
+  "branches": [
+    {
+      "id": "b-pharm",
+      "name": "Pharmacy",
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "BP101TP",
+              "name": "Human Anatomy and Physiology-I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2019 BP101TP",
+                  "url": "https://drive.google.com/uc?export=download&id=14PMCR5-lZX-acPrejYtT2YDmQSbJHjlK",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2018 BP101TP",
+                  "url": "https://drive.google.com/uc?export=download&id=11SPusqkL1jHh3Wwx-TUR4lkYo6ntDrie",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP102TP",
+              "name": "PHARMACEUTICAL ANALYSIS I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2019 BP102TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1npX8HsDAnXsCKrFJY-iyljm8S08t0u93",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2018 BP102TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1rDMox_Whof9kFZrqybLDDOowImkkkzkP",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP104TP",
+              "name": "Pharmaceutical Inorganic Chemistry",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2019 BP104TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1pGriVXnPW91FFTaRv9oIre1ri3u1K7Pz",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2018 BP104TP",
+                  "url": "https://drive.google.com/uc?export=download&id=10XpMdBfHgYstdqiQ_y8xZwwfJz_UDhEl",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP103TP",
+              "name": "Pharmaceutics-I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2019 BP103TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1nAMxcrjuzOIeR3d4UjluqLymCe2-MizN",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2018 BP103TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1C7FNh8gPcaCCAIVBtKR51NzGqmLn3kO9",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "BP201TP",
+              "name": "Human Anatomy and Physiology II",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP201TP",
+                  "url": "https://drive.google.com/uc?export=download&id=17k8dvPZdNEdJLt5OXfzsXpZ-79R7Xy1o",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP201TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1qh-PcSISBWSF2bpKt_XOh6baom2FpFZv",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP201TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1ZYVNx2MX4tLm-9k9zG-O2wGcx4C394Sj",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP203TP",
+              "name": "PHARMACEUTICAL ENGINEERING",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2020 BP203TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1-qUHf2OsxP_M25CEBJOsIgUFYx4Jex4G",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP203TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1aVta_h48QMvftTqr95vaLcgFU1QSbaRb",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP203TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1uJSHbaFaZKeRG66pKHdlP0HUZRD3L2Eb",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP203TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1zN1VHAvJaPvaeRNlOJlIol9xws7bF3af",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP202TP",
+              "name": "Pharmaceutical Organic Chemistry I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2020 BP202TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1-2vHG2iRjl5G-4ica_8QiTkTXwgD-luc",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP202TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1uZV_IufXc5c8ImmbL7ZsW5uRjY044M8A",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP202TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1QWVEU5oSXmsfAQVADsqVqImLVQFopS0M",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP202TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1bRG5ZWv_76FKo-JKKON9FNfAZnYDjMMh",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "BP303TP",
+              "name": "Biochemistry",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP303TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1PGCBqUrsAbj1k5w_vCrb7p7iWfZ0AMRl",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP303TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1NAW4ZHMxHhERX0ZbBAWf1ktZtbH401zw",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP303TP",
+                  "url": "https://drive.google.com/uc?export=download&id=15QyIj01kLng4EaTRBCSqXPC2aYYPjhHU",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP303TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1z6VKNL4zdgVoD4Piylxi2QlLEw6bnyVm",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP304TT",
+              "name": "Pathophysiology",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP304TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1SXVvkGLQ2aGuQjdV-vs0L6LXPKIepKO6",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP304TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1jCleqQDoxweX_QubT6sH7oNRKgPqMkpI",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP304TT",
+                  "url": "https://drive.google.com/uc?export=download&id=11H5yrP7oRfOEaFDjc4i8XuP0qUJslEHA",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP304TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1Yo7drEUIVjWjYpYySpx7VDmKv4xZZx9S",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP301TP",
+              "name": "Pharmaceutical Organic Chemistry II",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP301TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1w1_n2YjRt9gbNdpa0qy75tJFNDnS8zjk",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP301TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1t6YVOG9a1vwjz6QxYqx-i0xkXFfjUOpt",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP301TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1SbXNoIJmq41XOyF8Z0bFn4HrPr1MTvmx",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP301TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1MrwhIMCj36Lb3zBV3iWwtFVYv-FG5gGP",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP305TP",
+              "name": "Pharmacognosy & Phaytochemistry- I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP305TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1su2LlmsIoeOrrCvocDPX_HLqD0ISoi_-",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP305TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1gh9pmrlUMCTrav3RHsezuhEslLTgaCNr",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP305TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1EUEDN3wZEkFm_05QJnwJnBFDZHEncHF5",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP305TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1G9zcuB3_XQer0jSTiUKY1qfl0gQtqM_Q",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP302TP",
+              "name": "Physical Pharmaceutics-I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP302TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1isoiBjPt9NtT4njWn2XXD13UNB7S1QC_",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP302TP",
+                  "url": "https://drive.google.com/uc?export=download&id=10YDLuf9Hcoq4-aD6dgTuFQchjUmKe8ua",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP302TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1l5nRuIZ0nLMBVU2usWdd3975NgEomhYC",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP302TP",
+                  "url": "https://drive.google.com/uc?export=download&id=13ghPdUhxTvCcmLO-rHnStCQgQVBzFx-E",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "BP402TP",
+              "name": "Medicinal Chemistry I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP402TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1stvrsDksqrGrQFuu9Ff_hc_gWjfvB1GL",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP402TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1RD5LYRhExuXbou8X1y95HusLbG4OKdQp",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP402TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1m3gI-HW9fjPStHsjPbIH0BZ8Az2ylGHk",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP402TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1kjPBCd04i6Eh_OwxIZAQu51tHQdVK3J2",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP405TT",
+              "name": "PHARMACEUTICAL JURISPRUDENCE",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP405TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1DOM5DWdFvwvvNFEkjJMvEOKNdAjY_wi7",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP405TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1hieSrd8UYzmfwZuT_LEgg8OUj7PcNPui",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP405TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1YaAx05M0IdldJ5vhYzsA7nywRtj-xJo1",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP405TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1Vj0EI7XHsPHGESKAqxRC0mNOblmYiTya",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP401TT",
+              "name": "Pharmaceutical Organic Chemistry III",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP401TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1d_11HAExbfIA4vx-5rrKv7mYo61v5A82",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP 401TT",
+                  "url": "https://drive.google.com/uc?export=download&id=14uYby7A6t1CpSDP8F6AAGurCILQNaja6",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP401TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1WPZWo2AgkkcoJgaPzvpyb-1f19_jF_kv",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP401TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1aFxERQ5Zk5Ljg490mBUPmWGkZFZQoJ0T",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP404TP",
+              "name": "Pharmacology-I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP404TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1rNrWFsNhK5mzkqd4TPSNf4jDaVMYLfwF",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP404TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1rvY3pso_2ZMDgeGMQFO4wOwdAGUDjhzv",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP404TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1VPoS5NM9obD_nogPbBQYyQSq1ffNqQ6R",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP404TP",
+                  "url": "https://drive.google.com/uc?export=download&id=17OpUfpPtPf_LJRtwwm-o4jbk9XFy9qpJ",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP403TP",
+              "name": "Physical Pharmaceutics-II",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "s2021 BP403TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1lMeiwoSA8rWDTVDMGa2o9P7A7iySxNyr",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP403TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1pxMv3Fb7IXTsaPH4huzp3NNl-Ya4Bkx2",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP403TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1zvJVQl-EpIaQIzzUlHVTARinzlAf70pT",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 BP403TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1XnSqiDX8TQEyxgodaRrajyS8JcEzn-BY",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "BP501TT",
+              "name": "Medicinal Chemistry-II",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP501TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1wdgaZUCdMxGWxnVN2k-LYpqhOxoNHhKc",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP501TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1nmwDfSkPhGtf4jh3HmerKRFM03Cukdvw",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP501TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1RIf8SYdXKZ9mwhW-oIxCmit8h3eyJZlc",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP501TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1fKm-BSst2-SyhmDNaAJaSVuPUK-h332_",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP505TT",
+              "name": "Pharmaceutical Biotechnology",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP505TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1ab_RyUjytRY7ExfKTGHtZsTE7lPxWk_u",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP505TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1lIP4xrTuDhvf3oElth7SAoucNA_U14xQ",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP505TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1VUHwG63TdhuEFdg3QHe4nKXUaxikTJvx",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP505TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1k4V8M871T-CytZsi-aSIOD-sFNn4gKDI",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP504TP",
+              "name": "Pharmaceutical Microbiology",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP504TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1AoTDbISvLEoVSPCplb1GGRKTzR3xbsbO",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP504TP",
+                  "url": "https://drive.google.com/uc?export=download&id=18waiDxwa-pP47sM2n9HjLWX_7H7o0yai",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP504TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1bvfo1SW_QWJFpRegD6wHBsj80065PotF",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP504TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1EaoqfI1JfpkCIaAzPRsuAnZMOt9SLp26",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP502TP",
+              "name": "Pharmacology II",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP502TP",
+                  "url": "https://drive.google.com/uc?export=download&id=126ieS-lgF8qmrLjpHSk1KRfuuBMReOf5",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP502TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1NSZBmg-w0oBiQmEf1QbqdyOpfbEQRFLz",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP502TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1_BPm69qVEg2mY679qCV4uL5-Ta0kWxHV",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP502TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1zxS752WwRAa2mbhYpFFLeOm1QM6eACAj",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP506TP",
+              "name": "Contributor Personality Development Program",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w021 BP506TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1mAJDiyWMXUgYC2WIib3u9TjUIIAekMIq",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP506TP",
+                  "url": "https://drive.google.com/uc?export=download&id=13KodXYW8MUqFr6MK6qboxSXiS935i-6T",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP507TP",
+              "name": "Integrated Personality Development Course",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP507TP",
+                  "url": "https://drive.google.com/uc?export=download&id=17wBCqD04yHVXvEjvQJ4Kxs6B6tczP90T",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP507TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1FMTf1X00opCzWCks2UnVc41VC9-OWEUP",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "BP604TT",
+              "name": "Biopharmaceutics and Pharmacokinetics",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP604TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1vSlfOA42Zs7qg83lpBWQUz0pmgoZpTWF",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP604TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1fGRP4x6HTSPgdQCrIG6qnWxjkQX9iBlG",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP604TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1IvYkUqhglSQGh04K2RpNpR9EC7RRrwTt",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP604TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1epiF9J3jjqQUUZRqWmRp_K-g3yW3CM67",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP603TP",
+              "name": "HERBAL DRUG TECHNOLOGY",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP603TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1MvpOfAlpmbZqXV7tDMGiW-HlTyKjDpzh",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP603TP",
+                  "url": "https://drive.google.com/uc?export=download&id=19wwanh9a_ArmVEM14OQdwedgYSN17aMj",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP603TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1qt08Rl5Y_Jg-UIjM3XNmZEuAbIkct0pt",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP603TP",
+                  "url": "https://drive.google.com/uc?export=download&id=19obEUap2pg0pJOUE8LoDgweTXfm2bErA",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP605TP",
+              "name": "INDUSTRIAL PHARMACY-I",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP605TP",
+                  "url": "https://drive.google.com/uc?export=download&id=19UdFmkxWRu2AnwvcAX2wXJ0HL3vWBcTS",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP605TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1vLJoRtI8WEJOfJCliUO_qHe9YG0iXlES",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP605TP",
+                  "url": "https://drive.google.com/uc?export=download&id=17uR4osbfSR6siAYPmnqTwa7Thqs6zCYF",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP605TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1-fSktRgvLVKVov6Wp80yQ4yrqPZJM8bD",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP601TP",
+              "name": "Medicinal Chemistry III",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP601TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1HaiFOD_FU0zLtfwgQ2VzDuCDxL07l5wO",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP601TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1lQRfSp9-Rr_iNshmfbS25dA4WlFx0-rv",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP601TP",
+                  "url": "https://drive.google.com/uc?export=download&id=12KDtZ2FYk0SD3iu_p440iIiGQUb9qh-I",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP601TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1wren_aOAsL2YjvqpwmKVWscKJrYc6-oU",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP602TP",
+              "name": "PHARMACOLOGY III",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP602TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1A8D2zKy2Y5Pemd2ltTyx3Tao6wr2V3em",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP602TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1N5JaxHYflbJvQsdN6eThOgQEZMHmAYCz",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2020 BP602TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1UCnnkdH6a1X7DDb7zd_JIXSfTqiqMAaC",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP602TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1NKrwn1a38ar-r3iLY4XgB3RRROHcrSth",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
+            {
+              "code": "BP702TT",
+              "name": "Industrial Pharmacy II",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP702TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1rvrskfV0vvyg5FZn1V6gtR_UFP5_P2Pv",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP702TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1bU0NH9VotO4VVzSDvDki-xSvSw1BAhQF",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP702TT",
+                  "url": "https://drive.google.com/uc?export=download&id=15uawBbVos72VWrPfNhWWOsn7flMbkPty",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP701TP",
+              "name": "Instrumental Methods of Analysis",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP701TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1YJQTwNOo8lEEX1PkXN7tTpOsFt2WSJJZ",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP701TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1mQas-DvHCHIJc2qVrmT_IpV4oZlNEEFI",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP701TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1FR7ztAd9gaVNORnv99quUyJ_DWAq_fMN",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP704TT",
+              "name": "Novel Drug Delivery System",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP704TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1qWysG6a1PN48B7SZAKjNLCaOY3fpVgLu",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP704TT",
+                  "url": "https://drive.google.com/uc?export=download&id=10VU7SpAc90fXQ8RHESjKw7VLrZXAjh5p",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP704TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1Hf7dwLZ4vtge3d-Cw-3CQxvips5BnEHx",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP703TT",
+              "name": "Pharmacy Practice",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP703TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1l07AEBe9e1tpVB7nq12seAai-RAmlkxa",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP703TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1BW3c4QtWF9bDfnSNZmIyFBdP9yxhMp7W",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP703TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1wmq4ysT-LjrfqzItn7OCiE9iUK6l2kl1",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP706TT",
+              "name": "Quality Assurance",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP706TT",
+                  "url": "https://drive.google.com/uc?export=download&id=14I2RbqwfP_bfKfpO3wzszH5KlU6WZH3-",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP706TT",
+                  "url": "https://drive.google.com/uc?export=download&id=10EaKpxAxZDN6UKTw7DAk_vbANor3IJyp",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 BP706TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1NgCnoYuFBhRyLnRnH_rVhXtXX9BsbWUR",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": [
+            {
+              "code": "BP811TT",
+              "name": "Advanced Instrumentation Techniques",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP811TT",
+                  "url": "https://drive.google.com/uc?export=download&id=11hOeeAe7V8Xz4SPosHUGKC0ylH-2FDdG",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP801TT",
+              "name": "Biostatistics and Research Methodology",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP801TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1UbXRHU6jOsXjP93i5-i5mX2N3anYzNb3",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP809TT",
+              "name": "Cosmetic Science",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP809TT",
+                  "url": "https://drive.google.com/uc?export=download&id=17VY20B8ytGz3vz3EMejjlD3rnDYBh7Q3",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP803TT",
+              "name": "Pharma marketing Management",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP803TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1yKZbzoqG5rEK7uoxuQGGxA492AuWLrHV",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP814TT",
+              "name": "Pharmaceutical Product Development",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP814TT",
+                  "url": "https://drive.google.com/uc?export=download&id=1gjO5v5eGofkao-3HIJMPaLTw86GbneaN",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

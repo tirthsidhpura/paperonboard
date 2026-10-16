@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find GTU previous year question papers by course, branch, semester, or subject code. A free community paper library.">
+  <meta name="theme-color" content="#184f44">
+  <title>PaperOnBoard · Your study head start</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library">Skip to paper library</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="PaperOnBoard home"><img src="assets/mark.svg" width="34" height="34" alt=""><span data-brand>PaperOnBoard</span><span class="brand-dot">.</span></a>
+      <div class="nav-links"><a href="#library">Paper library</a><a href="#contribute">Contribute</a><button id="search-toggle" class="nav-search" type="button" aria-expanded="false" aria-controls="search-panel"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Search papers</span><kbd>/</kbd></button></div>
+    </nav>
+    <div id="search-panel" class="search-panel" hidden><form id="search-form" class="wrap search-form" role="search"><label for="search">Find your next paper</label><div class="search-input-row"><input id="search" type="search" placeholder="Try “mathematics”, 3110014, or Winter 2020" autocomplete="off"><button class="button primary" type="submit">Search</button><button id="close-search" class="button subtle" type="button" aria-label="Close search">✕</button></div><p>Search subjects, codes, exam sessions, and study materials across every stream.</p></form></div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow"><span class="live-dot"></span> THE STUDENT’S OPEN PAPER LIBRARY</p><h1>Your next exam.<br>Your <em>head start.</em></h1><p class="hero-description" id="tagline">A little less searching. A lot more studying.</p><p class="hero-detail">Previous year question papers, all in one place.<br>Pick your course. Find your subject. Get into your flow.</p><a href="#library" class="button primary">Find my papers <span aria-hidden="true">↗</span></a><span class="hero-note">Free to access. Built to be shared.</span></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="art-star">✳</span><span class="art-label">A BETTER WAY TO PREPARE</span><div class="paper-sheet sheet-back"></div><div class="paper-sheet sheet-front"><div class="sheet-top"><span>PAPER / ON / BOARD</span><span>01 — 08</span></div><div class="sheet-rule"></div><span class="sheet-eyebrow">THE PREPARATION COLLECTION</span><strong>Small steps.<br>Big possibilities.</strong><div class="sheet-lines"><i></i><i></i><i></i><i></i></div><div class="sheet-bottom"><span>PAST PAPERS.<br>FUTURE YOU.</span><span class="sheet-check">✓</span></div></div><span class="art-sticker">You’ve got this. ↗</span></div>
+    </section>
+    <div class="trust-strip"><div class="wrap trust-content"><span><b id="subject-count">—</b> subject listings</span><span><b id="stream-count">4</b> streams, one library</span><span>↗ <b>No sign-up.</b> Just studying.</span><span class="community-tag">Made for students, by students</span></div></div>
+    <section id="library" class="library wrap" aria-labelledby="library-heading">
+      <div class="section-heading"><div><p class="eyebrow">01 / FIND YOUR PAPERS</p><h2 id="library-heading">Make yourself at home.</h2><p>Start with your course. We’ll take it from there.</p></div><button id="reset" type="button" class="text-button">Reset filters ↺</button></div>
+      <div id="load-error" role="alert" class="message error" hidden></div>
+      <div id="stream-tabs" class="stream-grid" aria-label="Select your stream"></div>
+      <div class="filter-bar"><label><span>01 &nbsp; BRANCH</span><select id="branch" disabled><option value="">Choose a stream first</option></select></label><label><span>02 &nbsp; SEMESTER</span><select id="semester" disabled><option value="">Choose a branch first</option></select></label><label><span>03 &nbsp; RESOURCE</span><select id="resource"><option value="">All resources</option><option value="paper">Question papers</option><option value="material">Study materials</option></select></label></div>
+      <div class="results-heading"><div><h3 id="results-title">Your library is loading…</h3><p id="results-description">Getting everything ready for you.</p></div><button id="clear-search" type="button" class="text-button" hidden>Clear search ✕</button></div>
+      <p id="results-status" class="sr-only" role="status" aria-live="polite"></p>
+      <div id="results" class="results"></div><button id="load-more" type="button" class="button outline load-more" hidden>Show more subjects ↓</button>
+    </section>
+    <section id="contribute" class="contribute wrap"><div class="contribute-icon" aria-hidden="true">↗</div><div><p class="eyebrow">02 / BETTER TOGETHER</p><h2>A good resource gets better<br>when everyone adds to it.</h2><p>Have a paper we’re missing? Help the next student find it.<br>This library is built for the community to keep growing.</p></div><a href="CONTRIBUTING.md" class="button outline">How to contribute <span aria-hidden="true">↗</span></a></section>
+    <section class="study-note wrap"><span aria-hidden="true">✳</span><p>Past papers are a starting point. <strong>Your understanding does the rest.</strong></p></section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#"><img src="assets/mark.svg" width="28" height="28" alt=""><span data-brand>PaperOnBoard</span><span class="brand-dot">.</span></a><p>Less friction. More learning.</p><span>Independent community resource · Not affiliated with GTU</span></footer>
+  <noscript><div class="message">Enable JavaScript to browse the library, or read the catalogs in the data folder directly.</div></noscript>
+</body>
+</html>

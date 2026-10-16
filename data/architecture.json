@@ -1,0 +1,612 @@
+{
+  "id": "architecture",
+  "name": "Bachelor of Architecture",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "2X15006",
+              "name": "Architectural Communication Skills-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X15006",
+                  "url": "https://drive.google.com/uc?export=download&id=1f9_8IlvOdVeb1VPLR6lf1Ez9yjnAvPh3",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X15006",
+                  "url": "https://drive.google.com/uc?export=download&id=1sm37frXL-xf6_rnhpFhfaxm4MQ8i-oe8",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X15006",
+                  "url": "https://drive.google.com/uc?export=download&id=1bnpksnrdg1qbTPwyAZk3mACafPbQAV0h",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15003",
+              "name": "Building Construction-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X15003",
+                  "url": "https://drive.google.com/uc?export=download&id=1CwMu9KK1kkFbjmN_0gzyUSnyutyGkDwk",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X15003",
+                  "url": "https://drive.google.com/uc?export=download&id=1X74P4G5AUTGpDOHFkzWi0fNGUKbLHV3s",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X15003",
+                  "url": "https://drive.google.com/uc?export=download&id=16mS98oLKK5Et_YmwQA8NHCPxZP0uTWKr",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15005",
+              "name": "Humanities I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X15005",
+                  "url": "https://drive.google.com/uc?export=download&id=1h4cKl2vU8DQ8cOhRSaWz0IxxRZYiMZ5C",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X15005",
+                  "url": "https://drive.google.com/uc?export=download&id=1ivHelylS4eae_mtCoIeTsM1ChoQoGkwF",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15002",
+              "name": "T.R.D.-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2019 2X15002",
+                  "url": "https://drive.google.com/uc?export=download&id=12b082T_qClSO6NkV9hVuWrJndjfbbC-J",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X15002",
+                  "url": "https://drive.google.com/uc?export=download&id=13kxGrsjxIWWZNDeyIWVJi5Itul7IDVWa",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "2X25006",
+              "name": "Architectural Communication Skills-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2019 2X25006",
+                  "url": "https://drive.google.com/uc?export=download&id=1BVAJykethQE5Qk947uw9fGotgNKoZOeL",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X25006",
+                  "url": "https://drive.google.com/uc?export=download&id=1s2FdCpilPDGMRVOvZfLLV8Tg4iecMZ0D",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25005",
+              "name": "History of Architecture - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X25005",
+                  "url": "https://drive.google.com/uc?export=download&id=1cZ--lLUBI8-iLm3OHQPhQH-bxBq_G-5M",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X25005",
+                  "url": "https://drive.google.com/uc?export=download&id=1xVL-Os77JIE2yB2jolUQ7Wxd_RS4L1VL",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X25005",
+                  "url": "https://drive.google.com/uc?export=download&id=1Coh4rUp03n03UZ6kyGw7IFgm6kTRBr1K",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25004",
+              "name": "Structure-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2019 2X25004",
+                  "url": "https://drive.google.com/uc?export=download&id=1f6E7XO_h8jhZamXAFxIiTNjRvzl_bNmr",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X25004",
+                  "url": "https://drive.google.com/uc?export=download&id=1QcqlsFmGRamNF51TopF5vRGCukutM7qp",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25002",
+              "name": "T.R.D.-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2019 2X25002",
+                  "url": "https://drive.google.com/uc?export=download&id=1R0o7d2Ao6agCc_WM1pIg-98djT91J17V",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2019 2X25002",
+                  "url": "https://drive.google.com/uc?export=download&id=1ZU96jGOIz4Ffp1eu4t9tZFX8YxYIgIR5",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "2X35002",
+              "name": "Building Construction-III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X35002",
+                  "url": "https://drive.google.com/uc?export=download&id=1IUsACmI8Rqhyrv3xvBL7nrDWJu3_idDY",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X35002",
+                  "url": "https://drive.google.com/uc?export=download&id=1CMlQSTSrLEKGBnDv_sMcevH8wiLG9hWd",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35005",
+              "name": "Climatology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X35005",
+                  "url": "https://drive.google.com/uc?export=download&id=1RJxSZKf04TOHCXsM9TS3tOt2Ur_6DcqJ",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X35005",
+                  "url": "https://drive.google.com/uc?export=download&id=1NpG5Ukt7noARQOYewbRSVtvPKbFMbA2U",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35004",
+              "name": "History of Architecture - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X35004",
+                  "url": "https://drive.google.com/uc?export=download&id=1ZndibKD31Qr3H9WZxPTal7Cy_62IY0ZE",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X35004",
+                  "url": "https://drive.google.com/uc?export=download&id=1ic8qrddg8SBCQ0mJl5aDC9W1neIY5Qgf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35003",
+              "name": "Structure-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X35003",
+                  "url": "https://drive.google.com/uc?export=download&id=1fjmFwr1UU_gSS6JnfVSfWSPVbOopiHgh",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X35003",
+                  "url": "https://drive.google.com/uc?export=download&id=1NI4DCwvV6h3Ni2jYyoF-ORHGj4kb6Q2l",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35006",
+              "name": "Surveying and Levelling",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2020 2X35006",
+                  "url": "https://drive.google.com/uc?export=download&id=1KPh9KpuEJY7xc5eoXrqA56FPyYxbuAdE",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 2X35006",
+                  "url": "https://drive.google.com/uc?export=download&id=15ImBlfVogVbsKfWGq2YoftMAUrDm1frI",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "2X45002",
+              "name": "Building Construction-IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X45002",
+                  "url": "https://drive.google.com/uc?export=download&id=1eR0hfS9UK5s7nJn7OmVc76NapMAstKhU",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X45002",
+                  "url": "https://drive.google.com/uc?export=download&id=12D7Bn3P4TNJvhqb5gkcnSzAIUZzqQ2ub",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X45002",
+                  "url": "https://drive.google.com/uc?export=download&id=1GN12frSh-GZXpngOj2YPKxtebyly1P-A",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45004",
+              "name": "History of Architecture-III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X45004",
+                  "url": "https://drive.google.com/uc?export=download&id=1bm22oYe3KHfjoJ82BAA6iGV3INmFYTRe",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X45004",
+                  "url": "https://drive.google.com/uc?export=download&id=1HCUm1M-Nd9MTzEkpJdzSabCeHIi43pPn",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X45004",
+                  "url": "https://drive.google.com/uc?export=download&id=1jDk3F-uvWTsU9xEJ0rnYjpJgekSHO_h3",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45006",
+              "name": "Landscape Architecture",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X45006",
+                  "url": "https://drive.google.com/uc?export=download&id=1LgSsLYAnifK8hrHErDqR5uKpZ92fsOU2",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X45006",
+                  "url": "https://drive.google.com/uc?export=download&id=1kr2UQdSeQnpLm1XpK1vuacW7v8LS7GY_",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X45006",
+                  "url": "https://drive.google.com/uc?export=download&id=1cHNjRV9w7Ru1wDdwYpHoyF55Uyp8VNDk",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45003",
+              "name": "Structure - III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X45003",
+                  "url": "https://drive.google.com/uc?export=download&id=18ryvIIQ5LQn_X-HbNSjByjVNo8c5e30R",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X45003",
+                  "url": "https://drive.google.com/uc?export=download&id=1N5HWoa21yFnYGR6SVOW7AHGgZ7jXUYqs",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X45003",
+                  "url": "https://drive.google.com/uc?export=download&id=1hkGcVxwkQlE37ox1KoowDdvI8M-9hYgi",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "2X55002",
+              "name": "Building Construction Drawing-V",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X55002",
+                  "url": "https://drive.google.com/uc?export=download&id=1doZ0PoO9JAZx_mbA5FBaD5-RxN0dl-jv",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X55002",
+                  "url": "https://drive.google.com/uc?export=download&id=1I1bgMsQGqaALHMX9E2hgE-U82_tBkA93",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X55002",
+                  "url": "https://drive.google.com/uc?export=download&id=1DYWQPQUAfOpcDqNNoF9LmYfsiDfAS4TV",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X55005",
+              "name": "Building Regulations",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X55005",
+                  "url": "https://drive.google.com/uc?export=download&id=1wIiZrXGfl3-6bQwlKYSVNV1j_PeYL7hh",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X55005",
+                  "url": "https://drive.google.com/uc?export=download&id=1vZd0XagFrUWTpQuM6TMw-Yp4qVkbupJL",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X55005",
+                  "url": "https://drive.google.com/uc?export=download&id=117HuGWajZk88XxKkEdvrY9BzZ4B3CmDI",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X55003",
+              "name": "History of Architecture-IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X55003",
+                  "url": "https://drive.google.com/uc?export=download&id=14QpcM75NlYlbKnsXvbjCTU_8sZZ0Na0H",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X55003",
+                  "url": "https://drive.google.com/uc?export=download&id=1Kn6Fbb9rccBX5tyRAQ_g0MX_XWKe5GkF",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X55003",
+                  "url": "https://drive.google.com/uc?export=download&id=1oZvYx5LkzrJFii3pb-jKmL6dr-Y6xCXi",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X55004",
+              "name": "Structure-IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X55004",
+                  "url": "https://drive.google.com/uc?export=download&id=1NIPLLf2hHggZ9HJXIIM29bNWTxYPQ9Qh",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 2X55004",
+                  "url": "https://drive.google.com/uc?export=download&id=1Nh9gwnbGHF81Fe9lNavBjfsJiGw_A6f-",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 2X55004",
+                  "url": "https://drive.google.com/uc?export=download&id=1tC68pWxMbMmKj-XExtlssjPrMxZMQi4j",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "2X65002",
+              "name": "Building Construction - VI",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X65002",
+                  "url": "https://drive.google.com/uc?export=download&id=1VuyU21c2R4xL0XbBNmzk1Q5HZepaSyqX",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X65005",
+              "name": "Estimation and Costing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X65005",
+                  "url": "https://drive.google.com/uc?export=download&id=1VXQmJADdjO8CtTu6WjniGNpLbY7YB5th",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X65003",
+              "name": "History of Architecture - V",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X65003",
+                  "url": "https://drive.google.com/uc?export=download&id=16Ht-MpYySDuqCz3Tn3Lr0CamGxuQgd7i",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X65004",
+              "name": "Structure - V",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 2X65004",
+                  "url": "https://drive.google.com/uc?export=download&id=1E-IIzBktIq66jfIdg3Iqk7IABclsTnrq",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": []
+        },
+        {
+          "id": "9",
+          "name": "Semester 9",
+          "subjects": [
+            {
+              "code": "1095003",
+              "name": "Architectural Research & Programming",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 1095003",
+                  "url": "https://drive.google.com/uc?export=download&id=1WuFNCG7xUK9BOmhi5SXU98bRGnku40FG",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 1095003",
+                  "url": "https://drive.google.com/uc?export=download&id=139TL6ebhPflSz_nKsEZC-cZ4KRWvKdBf",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 1095003",
+                  "url": "https://drive.google.com/uc?export=download&id=1kiLnc07DZGfL1FMblzMOzz3NckyJLERE",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 1095003",
+                  "url": "https://drive.google.com/uc?export=download&id=1O-aWxv3yrq1In54dsvwH6x-fqAapgpiR",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2018 1095003",
+                  "url": "https://drive.google.com/uc?export=download&id=1y2WVwIoDu_T5BT8hKJg_u8lT12KDc2iu",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1095002",
+              "name": "Urban Planning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "w2021 1095002",
+                  "url": "https://drive.google.com/uc?export=download&id=1Wb_1d99W3oG8-dQYdrrm94_Upl58vmzD",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 1095002",
+                  "url": "https://drive.google.com/uc?export=download&id=1DeZh6YTYC_eFpsJWcQg8jS5GrKtDE7a_",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 1095002",
+                  "url": "https://drive.google.com/uc?export=download&id=1ibhMoDNwu-iGWsmPFgJITVnLoeANMY-t",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 1095002",
+                  "url": "https://drive.google.com/uc?export=download&id=1P6Y_4J5PDNV3FYe7V6muSkcE0ND1q-8C",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2018 1095002",
+                  "url": "https://drive.google.com/uc?export=download&id=1OPK7kZQBROkT1lKUwvuEJV3c8_z_YTHS",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "name": "Semester 10",
+          "subjects": [
+            {
+              "code": "1105002",
+              "name": "PROFESSIONAL PRACTICE AND VALUATION",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "s2021 1105002",
+                  "url": "https://drive.google.com/uc?export=download&id=1A9Rb60dDoYQsUOQAr10w2_Ugbpoue7Gc",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2019 1105002",
+                  "url": "https://drive.google.com/uc?export=download&id=1f6lnXwtb5ha926kfNLmKfOzNYR6AAbCd",
+                  "type": "paper"
+                },
+                {
+                  "label": "w2020 1105002",
+                  "url": "https://drive.google.com/uc?export=download&id=1XTjkuhZ_FB-3U6CXKTPUzUygda53e58t",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
