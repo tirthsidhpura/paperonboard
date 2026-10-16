@@ -53,3 +53,11 @@ The workflow has not been connected to a live repository or FTP account yet. The
 ## DNS error (`gaierror`)
 
 If connection fails with `gaierror`, first edit the `FTP_HOST` repository secret. It must contain just the FTP hostname shown by InfinityFree, typically `ftpupload.net`. Do not include `ftp://`, `ftps://`, `https://`, `:21`, `/htdocs`, or quotes. The script trims surrounding whitespace and rejects malformed hostnames before connecting. If the hostname is correct, rerun the workflow; the failure may be temporary DNS resolution on the runner or at the provider. A DNS failure during connection occurs before username/password authentication.
+
+## Controlled ad placement
+
+The shared page has one labelled display-ad area after the main content and old-paper explanation, separated from download controls. Its space is reserved before requesting the ad: 250x250 on narrow phones, 300x250 on larger phones, and 728x90 on desktop. It stays mounted during route changes and is requested only once per page load. An empty slot ID hides the area completely.
+
+In AdSense, create a Display ad unit and copy its `data-ad-slot` value into `ads.displaySlot` in `data/site.json` as a string. The existing publisher ID is already configured. Manual ad requests run only on paperonboard.in and www.paperonboard.in. The existing AdSense loader remains present for Auto ads.
+
+For placement controlled entirely by this layout, turn off Auto ads for this site in the AdSense dashboard before enabling the manual slot. Otherwise Google can insert additional ads outside the reserved area. Check the published site on mobile and desktop after activation, including the open-source notice. Compare revenue, viewability and engagement in AdSense before increasing ad density; more ads do not guarantee more revenue.

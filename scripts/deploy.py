@@ -49,7 +49,7 @@ def deployment_files(directory):
             raise ValueError('Deployment cannot contain symlinks.')
         if file.is_file():
             relative = file.relative_to(directory)
-            if any(part.startswith('.') for part in relative.parts) or file.suffix.lower() not in {'.html', '.css', '.js', '.json', '.svg', '.gif', '.png', '.jpg', '.jpeg', '.webp', '.pdf', '.md'}:
+            if any(part.startswith('.') for part in relative.parts) or (relative.as_posix() != 'ads.txt' and file.suffix.lower() not in {'.html', '.css', '.js', '.json', '.svg', '.gif', '.png', '.jpg', '.jpeg', '.webp', '.pdf', '.md'}):
                 raise ValueError('Unexpected file type in build output.')
             files.append(file)
     # The entry page goes last so new dependencies exist before it is replaced.
