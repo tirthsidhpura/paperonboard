@@ -3,6 +3,11 @@
   "name": "Bachelor of Engineering",
   "examTemplates": [
     {
+      "label": "Summer 2026",
+      "urlVersion": "v1",
+      "path": "s2026/BE/{code}.pdf"
+    },
+    {
       "label": "Winter 2025",
       "urlVersion": "v1",
       "path": "w2025/BE/{code}.pdf"
@@ -81,6 +86,13 @@
                   "label": "Summer 2019 Mathematics - I",
                   "url": "https://drive.google.com/uc?export=download&id=1SiMRheh2eZP2PP-H2A6h1xDpuYs5L-Ez",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -103,6 +115,13 @@
                   "label": "Summer 2019 >Mathematics – 2",
                   "url": "https://drive.google.com/uc?export=download&id=1Sm1gHgMIiK05-suXUishnz2rHpvpAkmZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -130,6 +149,13 @@
                   "label": "SUMMER 2018 Physics",
                   "url": "https://drive.google.com/uc?export=download&id=1Ws80tfAqWCI2tJNhEN2IrkMfAq02h2JB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -157,6 +183,13 @@
                   "label": "WINTER 201 8asic Electrical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=16-FoHQGhkqKzyd6aCzRdP3rSCKxsG2sq",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -179,6 +212,13 @@
                   "label": "WINTER 2018 Basic Electronics",
                   "url": "https://drive.google.com/uc?export=download&id=1vqX6IexSlxcgdSMSklT3Nu2UakGs8nBf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -211,6 +251,13 @@
                   "label": "WINTER 2018 Basic Mechanical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=1rEAAz1HPLORL6Yrm8l2jeMq7OG3hnjyj",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -238,6 +285,13 @@
                   "label": "WINTER 2018 Chemistry",
                   "url": "https://drive.google.com/uc?export=download&id=1MkEwE7sE-3tr0KDKZ7u4muklu7MxZkUN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -265,6 +319,13 @@
                   "label": "WINTER 2018 Engineering Graphics & Design",
                   "url": "https://drive.google.com/uc?export=download&id=19GJ5zPUjeHycTdDFzWUQc0hMYsCQ9m5q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -292,6 +353,13 @@
                   "label": "WINTER 2018 English",
                   "url": "https://drive.google.com/uc?export=download&id=1_mGRoWhLAZdG5Sj4-bQ_rIFL47IQ4kFt",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -314,6 +382,13 @@
                   "label": "SUMMER 2019 Environmental Sciences",
                   "url": "https://drive.google.com/uc?export=download&id=1XQTAD4LjXn84PG6CW7IIL_iXvo0wG3mk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -341,6 +416,13 @@
                   "label": "WINTER 2018 Programming for Problem Solving",
                   "url": "https://drive.google.com/uc?export=download&id=1sb8DpqR7OAX58h1PxRjrb77e5Gmx4C_2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -374,6 +456,13 @@
                   "label": "w2019 3130108",
                   "url": "https://drive.google.com/uc?export=download&id=1SIQsnai9WXQtq81TZNZ33Vu_Cz5WIg3Q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -401,6 +490,13 @@
                   "label": "w2019 3130608",
                   "url": "https://drive.google.com/uc?export=download&id=1Uoev2CTfAhyfrk2gXz67G7ylHfAR_V9a",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -428,6 +524,13 @@
                   "label": "w2019 3130107",
                   "url": "https://drive.google.com/uc?export=download&id=11n2pPfpf6LCTXpnT9T8txQOGcsIyysmv",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -455,6 +558,13 @@
                   "label": "w2019 3130109",
                   "url": "https://drive.google.com/uc?export=download&id=15xe8bSqAvz77dxa5-BsbQSOPQbj8LKWx",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -482,6 +592,13 @@
                   "label": "WINTER 2019 - 3130004 - Effective Technical Communication",
                   "url": "https://drive.google.com/uc?export=download&id=1hphcRgUCouh62rSMqTW7vHKQes1__CvG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -509,6 +626,13 @@
                   "label": "WINTER 2019 3130007",
                   "url": "https://drive.google.com/uc?export=download&id=1Cr5EeI_--jYCijCXwTk8B01JxUaabOzu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -532,6 +656,13 @@
                   "label": "w2020 3140101",
                   "url": "https://drive.google.com/uc?export=download&id=1T60Q0LYdfqIdTOcNDdjMl41ua6HuJXxL",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -549,6 +680,13 @@
                   "label": "w2020 3140103",
                   "url": "https://drive.google.com/uc?export=download&id=19kL8VMhpHOpnlIN-3gBtS1XvmrO6L0o3",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -566,6 +704,13 @@
                   "label": "w2020 3140109",
                   "url": "https://drive.google.com/uc?export=download&id=1eDts3QhQaNgzZSt98PI3dSvMu8WuiUFt",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -583,6 +728,13 @@
                   "label": "w2020 3140111",
                   "url": "https://drive.google.com/uc?export=download&id=1l4PUtwn05b4xKWuT2Ok_LsLJSrzzVaRg",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -600,6 +752,13 @@
                   "label": "w2020 3140110",
                   "url": "https://drive.google.com/uc?export=download&id=1kWcPNiifFn2RmMCcllFOpwqGY8wVPjlO",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -628,6 +787,13 @@
                   "label": "w2020 3150107",
                   "url": "https://drive.google.com/uc?export=download&id=1cggIItMQR1tpZHzLggeY-v_1Pxt3L3lA",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -650,6 +816,13 @@
                   "label": "w2020 3150108",
                   "url": "https://drive.google.com/uc?export=download&id=1Di19yebqZZEZbygwQSMFqLm25AVhZGMl",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -672,6 +845,13 @@
                   "label": "w2020 3150101",
                   "url": "https://drive.google.com/uc?export=download&id=11VkTPZ5hjcjJQHadBOH2SCfuu2lZXH2q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -694,6 +874,13 @@
                   "label": "w2020 3150102",
                   "url": "https://drive.google.com/uc?export=download&id=1mN9iDrcZaciSMeepceIBL6OYXJoA7COp",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -716,6 +903,13 @@
                   "label": "w2020 3150109",
                   "url": "https://drive.google.com/uc?export=download&id=1lo-KTvdygdezOrdlj2Xql4322Z3TIaek",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -738,6 +932,13 @@
                   "label": "w2020 3151910",
                   "url": "https://drive.google.com/uc?export=download&id=1xi_dM0VF8M9zgZT0-m72B1iB1_Mh8lS6",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -760,6 +961,13 @@
                   "label": "WINTER 2020 - 3150004",
                   "url": "https://drive.google.com/uc?export=download&id=1HQRE9p_98jCqN_VQrgBujmbfdX1P_hie",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -782,6 +990,13 @@
                   "label": "WINTER 2020 - 3150005",
                   "url": "https://drive.google.com/uc?export=download&id=1PIQnY-_45cTaMfIb8m5d0-7Rz9o6NYZs",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -800,6 +1015,13 @@
                   "label": "w2021 3160113",
                   "url": "https://drive.google.com/uc?export=download&id=1mqKoC6pGJ4zqT-721pNcFHT6EmdeP5lZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -812,6 +1034,13 @@
                   "label": "w2021 3161915",
                   "url": "https://drive.google.com/uc?export=download&id=1uWUaKL9KA2_gnjqAtYY7M2NUMTGsIc2y",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -824,6 +1053,13 @@
                   "label": "w2021 3161924",
                   "url": "https://drive.google.com/uc?export=download&id=1wswHrWBuVn1kMeQOUIHnrPcivvbIBCvp",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -836,6 +1072,13 @@
                   "label": "w2021 3160102",
                   "url": "https://drive.google.com/uc?export=download&id=14cXu7C2vX6pmQzPvCJYs8txIyNPKLZP_",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -848,6 +1091,13 @@
                   "label": "w2021 3160109",
                   "url": "https://drive.google.com/uc?export=download&id=1SUfIdx3MKBwY4wc3K00Gy9of8zgueISQ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -860,6 +1110,13 @@
                   "label": "WINTER 2021 - 3160002",
                   "url": "https://drive.google.com/uc?export=download&id=1yLSfrIyyNAjzVdxgoaqNb_HOyzO9y1PU",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -872,6 +1129,13 @@
                   "label": "WINTER 2021 - 3160003",
                   "url": "https://drive.google.com/uc?export=download&id=1LsbOj-9qffCL73xcGBfZQg7LtPrfPIp8",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -890,6 +1154,13 @@
                   "label": "w2021 3170109",
                   "url": "https://drive.google.com/uc?export=download&id=15Nkx8SLIsjvYnwXwgZpguqbQWVTX_kZI",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -902,6 +1173,13 @@
                   "label": "w2021 3170108",
                   "url": "https://drive.google.com/uc?export=download&id=1SUm3eDq-A-VrfOmtCSY9HHDcWoFgm6Wc",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -914,6 +1192,13 @@
                   "label": "w2021 3170101",
                   "url": "https://drive.google.com/uc?export=download&id=1EnmcT07oHMgSdoZWNzj_pWSnGD3CB6DC",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -926,6 +1211,13 @@
                   "label": "w2021 3170111",
                   "url": "https://drive.google.com/uc?export=download&id=1EUufgpodv5EJRd34RzHPqL8a3GnXP4Jo",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -938,6 +1230,13 @@
                   "label": "w2021 3171920",
                   "url": "https://drive.google.com/uc?export=download&id=1PJsE57_ekYu5Cz_7A9FNvMZJUDt4t9kr",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -950,6 +1249,13 @@
                   "label": "w2021 3170113",
                   "url": "https://drive.google.com/uc?export=download&id=1yVaUu_0VuYW978ihKgnOsoYiKrxTdaek",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -962,6 +1268,13 @@
                   "label": "w2021 3171930",
                   "url": "https://drive.google.com/uc?export=download&id=1Q2r3uwI0xyEN1Pec4GnqYU5P9QrXGTV1",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -974,6 +1287,13 @@
                   "label": "w2021 3170115",
                   "url": "https://drive.google.com/uc?export=download&id=1D6AJcMWnTZsPbxONQirOnawDP7EBlKLH",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -986,6 +1306,13 @@
                   "label": "w2021 3170104",
                   "url": "https://drive.google.com/uc?export=download&id=1D8Vyy8DSDeE0BR_RyWEmYQjIVARkBj7x",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -998,6 +1325,13 @@
                   "label": "w2021 3170116",
                   "url": "https://drive.google.com/uc?export=download&id=1Zfp2FQHolttt7Bld_GT8Ed-IjcYQ3mac",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -1010,6 +1344,13 @@
                   "label": "w2021 3170114",
                   "url": "https://drive.google.com/uc?export=download&id=1UsFdHoB5Jzmwlqqy630-uDiA5dqyjbkp",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -1022,6 +1363,13 @@
                   "label": "w2021 3170102",
                   "url": "https://drive.google.com/uc?export=download&id=146c1sH8AiO6ZpdkVBkB5SCJO_TClYC44",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -2910,6 +3258,13 @@
                   "label": "Summer 2019 Mathematics - I",
                   "url": "https://drive.google.com/uc?export=download&id=1SiMRheh2eZP2PP-H2A6h1xDpuYs5L-Ez",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -2932,6 +3287,13 @@
                   "label": "Summer 2019 >Mathematics – 2",
                   "url": "https://drive.google.com/uc?export=download&id=1Sm1gHgMIiK05-suXUishnz2rHpvpAkmZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -2959,6 +3321,13 @@
                   "label": "SUMMER 2018 Physics",
                   "url": "https://drive.google.com/uc?export=download&id=1Ws80tfAqWCI2tJNhEN2IrkMfAq02h2JB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -2986,6 +3355,13 @@
                   "label": "WINTER 201 8asic Electrical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=16-FoHQGhkqKzyd6aCzRdP3rSCKxsG2sq",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3008,6 +3384,13 @@
                   "label": "WINTER 2018 Basic Electronics",
                   "url": "https://drive.google.com/uc?export=download&id=1vqX6IexSlxcgdSMSklT3Nu2UakGs8nBf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3040,6 +3423,13 @@
                   "label": "WINTER 2018 Basic Mechanical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=1rEAAz1HPLORL6Yrm8l2jeMq7OG3hnjyj",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3067,6 +3457,13 @@
                   "label": "WINTER 2018 Chemistry",
                   "url": "https://drive.google.com/uc?export=download&id=1MkEwE7sE-3tr0KDKZ7u4muklu7MxZkUN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3094,6 +3491,13 @@
                   "label": "WINTER 2018 Engineering Graphics & Design",
                   "url": "https://drive.google.com/uc?export=download&id=19GJ5zPUjeHycTdDFzWUQc0hMYsCQ9m5q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3121,6 +3525,13 @@
                   "label": "WINTER 2018 English",
                   "url": "https://drive.google.com/uc?export=download&id=1_mGRoWhLAZdG5Sj4-bQ_rIFL47IQ4kFt",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3143,6 +3554,13 @@
                   "label": "SUMMER 2019 Environmental Sciences",
                   "url": "https://drive.google.com/uc?export=download&id=1XQTAD4LjXn84PG6CW7IIL_iXvo0wG3mk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3170,6 +3588,13 @@
                   "label": "WINTER 2018 Programming for Problem Solving",
                   "url": "https://drive.google.com/uc?export=download&id=1sb8DpqR7OAX58h1PxRjrb77e5Gmx4C_2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -3193,6 +3618,13 @@
                   "label": "w2019 3130403",
                   "url": "https://drive.google.com/uc?export=download&id=1fKTI1S8HoO7XWd_kNEaIvqbGevrP3Vjn",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3210,6 +3642,13 @@
                   "label": "w2019 3130406",
                   "url": "https://drive.google.com/uc?export=download&id=1cwnG4KJzO3uQkkmUN8_PPeGSDl_hARAu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3227,6 +3666,13 @@
                   "label": "w2019 3130407",
                   "url": "https://drive.google.com/uc?export=download&id=1jEzToe-qK_XE9N3hSRjk79zWB2cGzwzH",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3244,6 +3690,13 @@
                   "label": "w2019 3130405",
                   "url": "https://drive.google.com/uc?export=download&id=1tFj6lI5AU86xflb5EqA9UjM4Zb1PsoeY",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3271,6 +3724,13 @@
                   "label": "WINTER 2019 3130004 Effective Technical Communication",
                   "url": "https://drive.google.com/uc?export=download&id=1hphcRgUCouh62rSMqTW7vHKQes1__CvG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3298,6 +3758,13 @@
                   "label": "WINTER 2019 3130007",
                   "url": "https://drive.google.com/uc?export=download&id=1Cr5EeI_--jYCijCXwTk8B01JxUaabOzu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -3321,6 +3788,13 @@
                   "label": "w2019 3130407",
                   "url": "https://drive.google.com/uc?export=download&id=1caMBUQuuZ_16GI5hYrBCp9UMO1zHGWz1",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -3344,6 +3818,13 @@
                   "label": "w2020 3150401",
                   "url": "https://drive.google.com/uc?export=download&id=1LreJGGKRrNO1wbf4SeCYqZS9mW0F9jpM",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3356,6 +3837,13 @@
                   "label": "w2020 3150409",
                   "url": "https://drive.google.com/uc?export=download&id=1CUKKJdeJvTBg4pJ3MNi_8hh5hbqP2IM_",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3373,6 +3861,13 @@
                   "label": "w2020 3150405",
                   "url": "https://drive.google.com/uc?export=download&id=1ISLrwHa6pfGOLmCLZmlwcnqLAaB6BvvH",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3390,6 +3885,13 @@
                   "label": "w2020 3150408",
                   "url": "https://drive.google.com/uc?export=download&id=1y4_w47mzOQUYkGZQOPk0--s2JMsNjKWm",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3407,6 +3909,13 @@
                   "label": "w2020 3150407",
                   "url": "https://drive.google.com/uc?export=download&id=1ao0Y4U5qroXyeBpdqhE8w8weI4TqhWyG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3429,6 +3938,13 @@
                   "label": "WINTER 2020 - 3150004",
                   "url": "https://drive.google.com/uc?export=download&id=1HQRE9p_98jCqN_VQrgBujmbfdX1P_hie",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3451,6 +3967,13 @@
                   "label": "WINTER 2020 - 3150005",
                   "url": "https://drive.google.com/uc?export=download&id=1PIQnY-_45cTaMfIb8m5d0-7Rz9o6NYZs",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -3469,6 +3992,13 @@
                   "label": "WINTER 2021 - 3160002",
                   "url": "https://drive.google.com/uc?export=download&id=1yLSfrIyyNAjzVdxgoaqNb_HOyzO9y1PU",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3481,6 +4011,13 @@
                   "label": "WINTER 2021 - 3160003",
                   "url": "https://drive.google.com/uc?export=download&id=1LsbOj-9qffCL73xcGBfZQg7LtPrfPIp8",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -3499,6 +4036,13 @@
                   "label": "w2021 3170407",
                   "url": "https://drive.google.com/uc?export=download&id=12VjDLVIBh9AM7bIw0PUxo148yKLCzgdm",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3511,6 +4055,13 @@
                   "label": "w2021 3170412",
                   "url": "https://drive.google.com/uc?export=download&id=1ng76xHCBxauZUeOgW_eMUovkb_aokRGI",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3523,6 +4074,13 @@
                   "label": "w2021 3170403",
                   "url": "https://drive.google.com/uc?export=download&id=1X6jGcJUpZMZfV9KuN6dsQnk4vsaVey_K",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3535,6 +4093,13 @@
                   "label": "w2021 3170411",
                   "url": "https://drive.google.com/uc?export=download&id=1WaIcMU6RNWcoWZScZcf_Hf86GauM7YPf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3547,6 +4112,13 @@
                   "label": "w2021 3170417",
                   "url": "https://drive.google.com/uc?export=download&id=1ELE-wNkRBHKyESnbeRsba0goSYkuSaBA",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3559,6 +4131,13 @@
                   "label": "w2021 3170414",
                   "url": "https://drive.google.com/uc?export=download&id=1f_rumfQQoIQLK1xrosUkPzdBOdhxfFK3",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -5867,6 +6446,13 @@
                   "label": "Summer 2019 Mathematics - I",
                   "url": "https://drive.google.com/uc?export=download&id=1SiMRheh2eZP2PP-H2A6h1xDpuYs5L-Ez",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -5889,6 +6475,13 @@
                   "label": "Summer 2019 >Mathematics – 2",
                   "url": "https://drive.google.com/uc?export=download&id=1Sm1gHgMIiK05-suXUishnz2rHpvpAkmZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -5916,6 +6509,13 @@
                   "label": "SUMMER 2018 Physics",
                   "url": "https://drive.google.com/uc?export=download&id=1Ws80tfAqWCI2tJNhEN2IrkMfAq02h2JB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -5943,6 +6543,13 @@
                   "label": "WINTER 201 8asic Electrical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=16-FoHQGhkqKzyd6aCzRdP3rSCKxsG2sq",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -5965,6 +6572,13 @@
                   "label": "WINTER 2018 Basic Electronics",
                   "url": "https://drive.google.com/uc?export=download&id=1vqX6IexSlxcgdSMSklT3Nu2UakGs8nBf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -5997,6 +6611,13 @@
                   "label": "WINTER 2018 Basic Mechanical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=1rEAAz1HPLORL6Yrm8l2jeMq7OG3hnjyj",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6024,6 +6645,13 @@
                   "label": "WINTER 2018 Chemistry",
                   "url": "https://drive.google.com/uc?export=download&id=1MkEwE7sE-3tr0KDKZ7u4muklu7MxZkUN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6051,6 +6679,13 @@
                   "label": "WINTER 2018 Engineering Graphics & Design",
                   "url": "https://drive.google.com/uc?export=download&id=19GJ5zPUjeHycTdDFzWUQc0hMYsCQ9m5q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6078,6 +6713,13 @@
                   "label": "WINTER 2018 English",
                   "url": "https://drive.google.com/uc?export=download&id=1_mGRoWhLAZdG5Sj4-bQ_rIFL47IQ4kFt",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6100,6 +6742,13 @@
                   "label": "SUMMER 2019 Environmental Sciences",
                   "url": "https://drive.google.com/uc?export=download&id=1XQTAD4LjXn84PG6CW7IIL_iXvo0wG3mk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6127,6 +6776,13 @@
                   "label": "WINTER 2018 Programming for Problem Solving",
                   "url": "https://drive.google.com/uc?export=download&id=1sb8DpqR7OAX58h1PxRjrb77e5Gmx4C_2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -6155,6 +6811,13 @@
                   "label": "w2019 3130907",
                   "url": "https://drive.google.com/uc?export=download&id=1hBtJ9C0EvXb2VXYueTAUzX1mX30EXwkG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6177,6 +6840,13 @@
                   "label": "w2019 3130908",
                   "url": "https://drive.google.com/uc?export=download&id=1OY_bkHB2ORH5R5PtDPtFJolT_4cBhiIK",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6194,6 +6864,13 @@
                   "label": "w2019 3130905",
                   "url": "https://drive.google.com/uc?export=download&id=1xEHcz5WF1g3zgFW-nj3agbbRSKu1mZyg",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6216,6 +6893,13 @@
                   "label": "w2019 3130906",
                   "url": "https://drive.google.com/uc?export=download&id=1dZKWsQJ4n3diVCfF18TIARBxfYaMRL0y",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6243,6 +6927,13 @@
                   "label": "WINTER 2019 - 3130004 - Effective Technical Communication",
                   "url": "https://drive.google.com/uc?export=download&id=1hphcRgUCouh62rSMqTW7vHKQes1__CvG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6270,6 +6961,13 @@
                   "label": "WINTER 2019 3130007",
                   "url": "https://drive.google.com/uc?export=download&id=1Cr5EeI_--jYCijCXwTk8B01JxUaabOzu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -6298,6 +6996,13 @@
                   "label": "w2020 3140911",
                   "url": "https://drive.google.com/uc?export=download&id=1zh9BZ7Z8gb5fLGlCI3szQmdDRYCbOD9a",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6320,6 +7025,13 @@
                   "label": "w2020 3140913",
                   "url": "https://drive.google.com/uc?export=download&id=1HLPW8nCbl49OaGwzJggpXxdrIJsIEqB5",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6342,6 +7054,13 @@
                   "label": "w2020 3140912",
                   "url": "https://drive.google.com/uc?export=download&id=18MCpOv1uxPR3EKyuCyfLyqxeptM8I_3R",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6364,6 +7083,13 @@
                   "label": "w2020 3140915",
                   "url": "https://drive.google.com/uc?export=download&id=1I4Or3CIGm6hKEJyhDNVXzwD6GdIpqFpL",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6386,6 +7112,13 @@
                   "label": "w2020 3140914",
                   "url": "https://drive.google.com/uc?export=download&id=1WGEsoiUtDEwONPH3ATdaLuPGytG4rGdc",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -6414,6 +7147,13 @@
                   "label": "w2020 3150913",
                   "url": "https://drive.google.com/uc?export=download&id=1TkKfLwqbIkHKTiqBtWLBHb1k7jfNrOi1",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6436,6 +7176,13 @@
                   "label": "w2020 3150910",
                   "url": "https://drive.google.com/uc?export=download&id=1E3ZsYCq0IxHzDks82jLm1yScRcCIyOLN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6458,6 +7205,13 @@
                   "label": "w2020 3151910",
                   "url": "https://drive.google.com/uc?export=download&id=1gVh-poLgg0k4bUoqsaCwAtGcY1923xyF",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6470,6 +7224,13 @@
                   "label": "w2020 3150911",
                   "url": "https://drive.google.com/uc?export=download&id=10JhWCp09cFrF08hS_DWgW9HNvn0RaYK0",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6492,6 +7253,13 @@
                   "label": "w2020 3151108",
                   "url": "https://drive.google.com/uc?export=download&id=1r3s6mFw3KRJGzEtS3rYrQFhc6W2l-R09",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6514,6 +7282,13 @@
                   "label": "w2020 3150912",
                   "url": "https://drive.google.com/uc?export=download&id=15TAqJOh2dxCf-9lQdsFpL3JQqMkTqqwd",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6536,6 +7311,13 @@
                   "label": "WINTER 2020 - 3150709",
                   "url": "https://drive.google.com/uc?export=download&id=1POAn0HBcuwYne3z5QYQk-pyskrX9XPpC",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6558,6 +7340,13 @@
                   "label": "WINTER 2020 - 3150004",
                   "url": "https://drive.google.com/uc?export=download&id=1HQRE9p_98jCqN_VQrgBujmbfdX1P_hie",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6580,6 +7369,13 @@
                   "label": "WINTER 2020 - 3150005",
                   "url": "https://drive.google.com/uc?export=download&id=1PIQnY-_45cTaMfIb8m5d0-7Rz9o6NYZs",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -6598,6 +7394,13 @@
                   "label": "w2021 3161925",
                   "url": "https://drive.google.com/uc?export=download&id=1tFrwmpzkxZ8QC8VfAK_wEBk3D5w-hdE5",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6610,6 +7413,13 @@
                   "label": "w2021 3160919",
                   "url": "https://drive.google.com/uc?export=download&id=1zgkFI0ilWI0xHw23dBuvvh7sCabA0Itr",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6622,6 +7432,13 @@
                   "label": "w2021 3160923",
                   "url": "https://drive.google.com/uc?export=download&id=1lMFZbbQLlPIMX27oFjR_qxzLeRUxyiYs",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6634,6 +7451,13 @@
                   "label": "w2021 3160915",
                   "url": "https://drive.google.com/uc?export=download&id=1X42Kz6U_EugJrNQXaC8aw7hDXzxISFRh",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6646,6 +7470,13 @@
                   "label": "w2021 3160918",
                   "url": "https://drive.google.com/uc?export=download&id=1Ux2MhiWIPevdLcREGNfdf-zcQoh3p2Eg",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6658,6 +7489,13 @@
                   "label": "w2021 3160916",
                   "url": "https://drive.google.com/uc?export=download&id=1YPkzqCoj5qbykxMWRsWluTRyb8EMhI_Z",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6670,6 +7508,13 @@
                   "label": "w2021 3160921",
                   "url": "https://drive.google.com/uc?export=download&id=1fQQ_rMZM4HAL2xMatGfOrWBZd4N8n02V",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6682,6 +7527,13 @@
                   "label": "w2021 3160920",
                   "url": "https://drive.google.com/uc?export=download&id=18tu96hfRLW_9to8jEQPBlwnjupZE17ky",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6694,6 +7546,13 @@
                   "label": "w2021 3160914",
                   "url": "https://drive.google.com/uc?export=download&id=1fDtOlJD-O1XWDo9ac0g-gBNIU3X5Eifx",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6706,6 +7565,13 @@
                   "label": "w2021 3160917",
                   "url": "https://drive.google.com/uc?export=download&id=1-L09o0nNogbcJ50ugkbn46omC8lne-vK",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6718,6 +7584,13 @@
                   "label": "WINTER 2021 - 3160002",
                   "url": "https://drive.google.com/uc?export=download&id=1yLSfrIyyNAjzVdxgoaqNb_HOyzO9y1PU",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6730,6 +7603,13 @@
                   "label": "WINTER 2021 - 3160003",
                   "url": "https://drive.google.com/uc?export=download&id=1LsbOj-9qffCL73xcGBfZQg7LtPrfPIp8",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -6743,7 +7623,15 @@
               "code": "3170909",
               "name": "AC Machine Design",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "3170916",
@@ -6754,6 +7642,13 @@
                   "label": "w2021 3170916",
                   "url": "https://drive.google.com/uc?export=download&id=1hUbWEiwl57LYKassSU9VrV6gTwLVyF7O",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6766,6 +7661,13 @@
                   "label": "w2021 3170914",
                   "url": "https://drive.google.com/uc?export=download&id=1k5HIzCHPfDW62mOXuaNA0hPCXpEfmqA1",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6778,6 +7680,13 @@
                   "label": "w2021 3170906",
                   "url": "https://drive.google.com/uc?export=download&id=1m4cvVIzS5y2YBte46YmnICo_VTufcr4j",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6790,6 +7699,13 @@
                   "label": "w2021 3170924",
                   "url": "https://drive.google.com/uc?export=download&id=1sr5Q_kO2tSK9aRSKO93SUop6haJRGsU_",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6802,6 +7718,13 @@
                   "label": "w2021 3170923",
                   "url": "https://drive.google.com/uc?export=download&id=1n5echWuFSsIU7ucf-7VFjekWBkyZgWIC",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6814,6 +7737,13 @@
                   "label": "w2021 3170917",
                   "url": "https://drive.google.com/uc?export=download&id=1KukWZ311xaNSAAY9i8WiV5NH5MAQkrRT",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6826,6 +7756,13 @@
                   "label": "w2021 3170925",
                   "url": "https://drive.google.com/uc?export=download&id=1evovxmLk3HgOBwVb1gaEQMDwUMPJdBzE",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6838,6 +7775,13 @@
                   "label": "w2021 3170920",
                   "url": "https://drive.google.com/uc?export=download&id=1dCx-twDYBaRDeLcAtf9bG3oP9In6o3h-",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6850,6 +7794,13 @@
                   "label": "w2021 3171108",
                   "url": "https://drive.google.com/uc?export=download&id=1pcC0EkX8AQ6w3rGqL3yqSP6UmNEgb3Ei",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6862,6 +7813,13 @@
                   "label": "w2021 3170921",
                   "url": "https://drive.google.com/uc?export=download&id=1tTN_hI8BFGt08Snn0dJA_hPN3poL5Z4Y",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6874,6 +7832,13 @@
                   "label": "w2021 3170915",
                   "url": "https://drive.google.com/uc?export=download&id=1bKy01oCryiHGPMqDXCMhyzB8-VysjkK8",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6886,6 +7851,13 @@
                   "label": "w2021 3170919",
                   "url": "https://drive.google.com/uc?export=download&id=1dxhNIjjFgit256Vitr3Tx7-y2VxiPBm3",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6898,6 +7870,13 @@
                   "label": "w2021 3170922",
                   "url": "https://drive.google.com/uc?export=download&id=15fAudlnerj8FfWKN2pnAGaQZf6IGjJz2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6910,6 +7889,13 @@
                   "label": "w2021 3170908",
                   "url": "https://drive.google.com/uc?export=download&id=1RlQdj9b4Ezbc1VzVy_VCHMiA7K8y8x8c",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -6949,6 +7935,13 @@
                   "label": "Summer 2019 Mathematics - I",
                   "url": "https://drive.google.com/uc?export=download&id=1SiMRheh2eZP2PP-H2A6h1xDpuYs5L-Ez",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6971,6 +7964,13 @@
                   "label": "Summer 2019 >Mathematics – 2",
                   "url": "https://drive.google.com/uc?export=download&id=1Sm1gHgMIiK05-suXUishnz2rHpvpAkmZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -6998,6 +7998,13 @@
                   "label": "SUMMER 2018 Physics",
                   "url": "https://drive.google.com/uc?export=download&id=1Ws80tfAqWCI2tJNhEN2IrkMfAq02h2JB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7025,6 +8032,13 @@
                   "label": "WINTER 201 8asic Electrical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=16-FoHQGhkqKzyd6aCzRdP3rSCKxsG2sq",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7047,6 +8061,13 @@
                   "label": "WINTER 2018 Basic Electronics",
                   "url": "https://drive.google.com/uc?export=download&id=1vqX6IexSlxcgdSMSklT3Nu2UakGs8nBf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7079,6 +8100,13 @@
                   "label": "WINTER 2018 Basic Mechanical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=1rEAAz1HPLORL6Yrm8l2jeMq7OG3hnjyj",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7106,6 +8134,13 @@
                   "label": "WINTER 2018 Chemistry",
                   "url": "https://drive.google.com/uc?export=download&id=1MkEwE7sE-3tr0KDKZ7u4muklu7MxZkUN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7133,6 +8168,13 @@
                   "label": "WINTER 2018 Engineering Graphics & Design",
                   "url": "https://drive.google.com/uc?export=download&id=19GJ5zPUjeHycTdDFzWUQc0hMYsCQ9m5q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7160,6 +8202,13 @@
                   "label": "WINTER 2018 English",
                   "url": "https://drive.google.com/uc?export=download&id=1_mGRoWhLAZdG5Sj4-bQ_rIFL47IQ4kFt",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7182,6 +8231,13 @@
                   "label": "SUMMER 2019 Environmental Sciences",
                   "url": "https://drive.google.com/uc?export=download&id=1XQTAD4LjXn84PG6CW7IIL_iXvo0wG3mk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7209,6 +8265,13 @@
                   "label": "WINTER 2018 Programming for Problem Solving",
                   "url": "https://drive.google.com/uc?export=download&id=1sb8DpqR7OAX58h1PxRjrb77e5Gmx4C_2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -7237,6 +8300,13 @@
                   "label": "w2019 3131101",
                   "url": "https://drive.google.com/uc?export=download&id=1Cq0Oxwb8gjgNMcD4IRf0s-ZK2uAMxGMF",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7259,6 +8329,13 @@
                   "label": "w2019 3131102",
                   "url": "https://drive.google.com/uc?export=download&id=1FIH99voTujtsgfEOSNlo3ooctfHjsSDf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7276,6 +8353,13 @@
                   "label": "w2019 3131103",
                   "url": "https://drive.google.com/uc?export=download&id=1ilph_RGy7jA4p_R7QjXafeFTCFY5u85n",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7303,6 +8387,13 @@
                   "label": "WINTER 2019 - 3130006",
                   "url": "https://drive.google.com/uc?export=download&id=1iykyEBZ2_ECiYMW9wO_l5hPKIZXV7Wtm",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7330,6 +8421,13 @@
                   "label": "WINTER 2019 - 3130004 - Effective Technical Communication",
                   "url": "https://drive.google.com/uc?export=download&id=1hphcRgUCouh62rSMqTW7vHKQes1__CvG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7357,6 +8455,13 @@
                   "label": "WINTER 2019 3130007",
                   "url": "https://drive.google.com/uc?export=download&id=1Cr5EeI_--jYCijCXwTk8B01JxUaabOzu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -7390,6 +8495,13 @@
                   "label": "s2020 3141002",
                   "url": "https://drive.google.com/uc?export=download&id=1ZBznyYdDmS6uRyJ2eTiobcq6WSCGDWwg0",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7417,6 +8529,13 @@
                   "label": "s2020 3141009",
                   "url": "https://drive.google.com/uc?export=download&id=1aUievcZilOEs9AUYKrWVg0TK__BqPmEL",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7444,6 +8563,13 @@
                   "label": "s2020 3141008",
                   "url": "https://drive.google.com/uc?export=download&id=1tugbYcyii5iQ28dagkB2ljD0-9cWKt-6",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7471,6 +8597,13 @@
                   "label": "s2020 3141005",
                   "url": "https://drive.google.com/uc?export=download&id=1wEIinNgmyM10CvPPOzS0pCWcIhE5QHo1",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7498,6 +8631,13 @@
                   "label": "s2020 3141007",
                   "url": "https://drive.google.com/uc?export=download&id=1vLmOAFFCqvsxRK3WZoMex7-qsPMI7sBE",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -7526,6 +8666,13 @@
                   "label": "w2020 3151107",
                   "url": "https://drive.google.com/uc?export=download&id=1SmD1Wvq49dQakSwJpYyFeHRIk2I-TsO4",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7548,6 +8695,13 @@
                   "label": "w2020 3151104",
                   "url": "https://drive.google.com/uc?export=download&id=1QP_w5ILyGk-R-0mUv0hNtOQS0tx3Ewi3",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7570,6 +8724,13 @@
                   "label": "w2020 3151109",
                   "url": "https://drive.google.com/uc?export=download&id=1w9OULKxYVRdt7JSB67dCEEUZrVW8D1G2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7587,6 +8748,13 @@
                   "label": "w2020 3151106",
                   "url": "https://drive.google.com/uc?export=download&id=1TZyASFZPUqHhQOAWgprIQ6qn9JiDCmHW",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7609,6 +8777,13 @@
                   "label": "w2020 3151103",
                   "url": "https://drive.google.com/uc?export=download&id=1eaef0S37NGQ8ZwkBd7VTbccHL4XkYDF_",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7631,6 +8806,13 @@
                   "label": "w2020 3151110",
                   "url": "https://drive.google.com/uc?export=download&id=1Pdwb8A1u5GtQ92pDCCYw51fdN1DzTr39",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7653,6 +8835,13 @@
                   "label": "w2020 3151105",
                   "url": "https://drive.google.com/uc?export=download&id=1_QlyMxERmMv6Gjl9jVCsQ9JZx2BmjGXJ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7675,6 +8864,13 @@
                   "label": "w2020 3151108",
                   "url": "https://drive.google.com/uc?export=download&id=1r3s6mFw3KRJGzEtS3rYrQFhc6W2l-R09",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -7693,6 +8889,13 @@
                   "label": "w2021 3161003",
                   "url": "https://drive.google.com/uc?export=download&id=1wXGY-oCQ-gUFyGI3UE3F3hcD4CpBBiKM",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7705,6 +8908,13 @@
                   "label": "w2021 3161007",
                   "url": "https://drive.google.com/uc?export=download&id=1jIq9YhzCDUuYrfBoDlvOwuKXUlVlXR08",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7717,6 +8927,13 @@
                   "label": "w2021 3161009",
                   "url": "https://drive.google.com/uc?export=download&id=1ficROb_MusS_QbiAyyxjWT8QyxAm2NHp",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7729,6 +8946,13 @@
                   "label": "w2021 3161005",
                   "url": "https://drive.google.com/uc?export=download&id=1GNicMKj9G85Ta0NC8XoQeN-CzQ_LdvAk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7741,6 +8965,13 @@
                   "label": "w2021 3161010",
                   "url": "https://drive.google.com/uc?export=download&id=1RsMGBaN9Y1XplVCootPN21fy9JDsvPGV",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7753,6 +8984,13 @@
                   "label": "w2021 3161013",
                   "url": "https://drive.google.com/uc?export=download&id=1KRDiuMwD97EoIdttSrXrwop5pXDj66YY",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7765,6 +9003,13 @@
                   "label": "w2021 3161012",
                   "url": "https://drive.google.com/uc?export=download&id=1_5PxKxt3ms37vZ9uVro7THf2l8_Rdesg",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7777,6 +9022,13 @@
                   "label": "WINTER 2021 - 3160002",
                   "url": "https://drive.google.com/uc?export=download&id=1yLSfrIyyNAjzVdxgoaqNb_HOyzO9y1PU",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7789,6 +9041,13 @@
                   "label": "WINTER 2021 - 3160003",
                   "url": "https://drive.google.com/uc?export=download&id=1LsbOj-9qffCL73xcGBfZQg7LtPrfPIp8",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -7807,6 +9066,13 @@
                   "label": "w2021 3171112",
                   "url": "https://drive.google.com/uc?export=download&id=1cBbhjoJcpVFjoMlHyPgxYqlORei-hb4e",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7819,6 +9085,13 @@
                   "label": "w2021 3171104",
                   "url": "https://drive.google.com/uc?export=download&id=1p_JrSgihAViwQqz0mPcsXwvpAUmilJun",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7831,6 +9104,13 @@
                   "label": "w2021 3171109",
                   "url": "https://drive.google.com/uc?export=download&id=1gne7uWrJFBDAWGXR9EGVovtidfHG_IhB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7843,6 +9123,13 @@
                   "label": "w2021 3171003",
                   "url": "https://drive.google.com/uc?export=download&id=1GeirZBfh6TINB1i6lfXxmJotU7_DpDJu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7855,6 +9142,13 @@
                   "label": "w2021 3171108",
                   "url": "https://drive.google.com/uc?export=download&id=10QlSG8La6TAzlpIjQQVq7QRrwAbvDmfZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7867,6 +9161,13 @@
                   "label": "w2021 3171105",
                   "url": "https://drive.google.com/uc?export=download&id=1-grjcK194loRa8lSmJQeZHkr5xQQBEAW",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7879,6 +9180,13 @@
                   "label": "w2021 3171114",
                   "url": "https://drive.google.com/uc?export=download&id=1elwlukmqERSXq6L4xMljaSo31fTAm7-t",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7891,6 +9199,13 @@
                   "label": "w2021 3171107",
                   "url": "https://drive.google.com/uc?export=download&id=1z6KhJ1dC8qYNk5qmpEZx_J0iTHIllRgH",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7903,6 +9218,13 @@
                   "label": "w2021 3171001",
                   "url": "https://drive.google.com/uc?export=download&id=18wTKnHVLbj6zyUahIRk4SNOJGhZiVtP4",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7915,6 +9237,13 @@
                   "label": "w2021 3171113",
                   "url": "https://drive.google.com/uc?export=download&id=1TdPYA0jMI0ixKjUETZIHkE6E4wNm67iF",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7927,6 +9256,13 @@
                   "label": "w2021 3171110",
                   "url": "https://drive.google.com/uc?export=download&id=18dfLtr3eQfIk8eolnc8L-_uO984XBbEh",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7939,6 +9275,13 @@
                   "label": "w2021 3171111",
                   "url": "https://drive.google.com/uc?export=download&id=16uDjfW_HgS5Tj98MBfmlsTtyKP1tjUX7",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7951,6 +9294,13 @@
                   "label": "w2021 3171004",
                   "url": "https://drive.google.com/uc?export=download&id=1VJKBb2QFNTEg8DWTYOq6CN2EhJ6AT1cu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -7963,6 +9313,13 @@
                   "label": "w2021 3171106",
                   "url": "https://drive.google.com/uc?export=download&id=1O6G6Zi2IAAyo5zmUbKD0rYnHaDDrB_dN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -8002,6 +9359,13 @@
                   "label": "Summer 2019 Mathematics - I",
                   "url": "https://drive.google.com/uc?export=download&id=1SiMRheh2eZP2PP-H2A6h1xDpuYs5L-Ez",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8024,6 +9388,13 @@
                   "label": "Summer 2019 >Mathematics – 2",
                   "url": "https://drive.google.com/uc?export=download&id=1Sm1gHgMIiK05-suXUishnz2rHpvpAkmZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8051,6 +9422,13 @@
                   "label": "SUMMER 2018 Physics",
                   "url": "https://drive.google.com/uc?export=download&id=1Ws80tfAqWCI2tJNhEN2IrkMfAq02h2JB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8078,6 +9456,13 @@
                   "label": "WINTER 201 8asic Electrical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=16-FoHQGhkqKzyd6aCzRdP3rSCKxsG2sq",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8100,6 +9485,13 @@
                   "label": "WINTER 2018 Basic Electronics",
                   "url": "https://drive.google.com/uc?export=download&id=1vqX6IexSlxcgdSMSklT3Nu2UakGs8nBf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8132,6 +9524,13 @@
                   "label": "WINTER 2018 Basic Mechanical Engineering",
                   "url": "https://drive.google.com/uc?export=download&id=1rEAAz1HPLORL6Yrm8l2jeMq7OG3hnjyj",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8159,6 +9558,13 @@
                   "label": "WINTER 2018 Chemistry",
                   "url": "https://drive.google.com/uc?export=download&id=1MkEwE7sE-3tr0KDKZ7u4muklu7MxZkUN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8186,6 +9592,13 @@
                   "label": "WINTER 2018 Engineering Graphics & Design",
                   "url": "https://drive.google.com/uc?export=download&id=19GJ5zPUjeHycTdDFzWUQc0hMYsCQ9m5q",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8213,6 +9626,13 @@
                   "label": "WINTER 2018 English",
                   "url": "https://drive.google.com/uc?export=download&id=1_mGRoWhLAZdG5Sj4-bQ_rIFL47IQ4kFt",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8235,6 +9655,13 @@
                   "label": "SUMMER 2019 Environmental Sciences",
                   "url": "https://drive.google.com/uc?export=download&id=1XQTAD4LjXn84PG6CW7IIL_iXvo0wG3mk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8262,6 +9689,13 @@
                   "label": "WINTER 2018 Programming for Problem Solving",
                   "url": "https://drive.google.com/uc?export=download&id=1sb8DpqR7OAX58h1PxRjrb77e5Gmx4C_2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -8290,6 +9724,13 @@
                   "label": "w2019 3131101",
                   "url": "https://drive.google.com/uc?export=download&id=1Cq0Oxwb8gjgNMcD4IRf0s-ZK2uAMxGMF",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8312,6 +9753,13 @@
                   "label": "w2019 3131102",
                   "url": "https://drive.google.com/uc?export=download&id=1FIH99voTujtsgfEOSNlo3ooctfHjsSDf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8329,6 +9777,13 @@
                   "label": "w2019 3131103",
                   "url": "https://drive.google.com/uc?export=download&id=1ilph_RGy7jA4p_R7QjXafeFTCFY5u85n",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8356,6 +9811,13 @@
                   "label": "WINTER 2019 - 3130006",
                   "url": "https://drive.google.com/uc?export=download&id=1iykyEBZ2_ECiYMW9wO_l5hPKIZXV7Wtm",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8383,6 +9845,13 @@
                   "label": "WINTER 2019 - 3130004 - Effective Technical Communication",
                   "url": "https://drive.google.com/uc?export=download&id=1hphcRgUCouh62rSMqTW7vHKQes1__CvG",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8410,6 +9879,13 @@
                   "label": "WINTER 2019 3130007",
                   "url": "https://drive.google.com/uc?export=download&id=1Cr5EeI_--jYCijCXwTk8B01JxUaabOzu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -8443,6 +9919,13 @@
                   "label": "s2020 3141002",
                   "url": "https://drive.google.com/uc?export=download&id=1ZBznyYdDmS6uRyJ2eTiobcq6WSCGDWwg0",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8470,6 +9953,13 @@
                   "label": "s2020 3141009",
                   "url": "https://drive.google.com/uc?export=download&id=1aUievcZilOEs9AUYKrWVg0TK__BqPmEL",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8497,6 +9987,13 @@
                   "label": "s2020 3141008",
                   "url": "https://drive.google.com/uc?export=download&id=1tugbYcyii5iQ28dagkB2ljD0-9cWKt-6",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8524,6 +10021,13 @@
                   "label": "s2020 3141005",
                   "url": "https://drive.google.com/uc?export=download&id=1wEIinNgmyM10CvPPOzS0pCWcIhE5QHo1",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8551,6 +10055,13 @@
                   "label": "s2020 3141007",
                   "url": "https://drive.google.com/uc?export=download&id=1vLmOAFFCqvsxRK3WZoMex7-qsPMI7sBE",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -8579,6 +10090,13 @@
                   "label": "w2020 3151107",
                   "url": "https://drive.google.com/uc?export=download&id=1SmD1Wvq49dQakSwJpYyFeHRIk2I-TsO4",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8601,6 +10119,13 @@
                   "label": "w2020 3151104",
                   "url": "https://drive.google.com/uc?export=download&id=1QP_w5ILyGk-R-0mUv0hNtOQS0tx3Ewi3",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8623,6 +10148,13 @@
                   "label": "w2020 3151109",
                   "url": "https://drive.google.com/uc?export=download&id=1w9OULKxYVRdt7JSB67dCEEUZrVW8D1G2",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8640,6 +10172,13 @@
                   "label": "w2020 3151106",
                   "url": "https://drive.google.com/uc?export=download&id=1TZyASFZPUqHhQOAWgprIQ6qn9JiDCmHW",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8662,6 +10201,13 @@
                   "label": "w2020 3151103",
                   "url": "https://drive.google.com/uc?export=download&id=1eaef0S37NGQ8ZwkBd7VTbccHL4XkYDF_",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8684,6 +10230,13 @@
                   "label": "w2020 3151110",
                   "url": "https://drive.google.com/uc?export=download&id=1Pdwb8A1u5GtQ92pDCCYw51fdN1DzTr39",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8706,6 +10259,13 @@
                   "label": "w2020 3151105",
                   "url": "https://drive.google.com/uc?export=download&id=1_QlyMxERmMv6Gjl9jVCsQ9JZx2BmjGXJ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8728,6 +10288,13 @@
                   "label": "w2020 3151108",
                   "url": "https://drive.google.com/uc?export=download&id=1r3s6mFw3KRJGzEtS3rYrQFhc6W2l-R09",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -8746,6 +10313,13 @@
                   "label": "w2021 3161003",
                   "url": "https://drive.google.com/uc?export=download&id=1wXGY-oCQ-gUFyGI3UE3F3hcD4CpBBiKM",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8758,6 +10332,13 @@
                   "label": "w2021 3161007",
                   "url": "https://drive.google.com/uc?export=download&id=1jIq9YhzCDUuYrfBoDlvOwuKXUlVlXR08",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8770,6 +10351,13 @@
                   "label": "w2021 3161009",
                   "url": "https://drive.google.com/uc?export=download&id=1ficROb_MusS_QbiAyyxjWT8QyxAm2NHp",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8782,6 +10370,13 @@
                   "label": "w2021 3161005",
                   "url": "https://drive.google.com/uc?export=download&id=1GNicMKj9G85Ta0NC8XoQeN-CzQ_LdvAk",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8794,6 +10389,13 @@
                   "label": "w2021 3161010",
                   "url": "https://drive.google.com/uc?export=download&id=1RsMGBaN9Y1XplVCootPN21fy9JDsvPGV",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8806,6 +10408,13 @@
                   "label": "w2021 3161013",
                   "url": "https://drive.google.com/uc?export=download&id=1KRDiuMwD97EoIdttSrXrwop5pXDj66YY",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8818,6 +10427,13 @@
                   "label": "w2021 3161012",
                   "url": "https://drive.google.com/uc?export=download&id=1_5PxKxt3ms37vZ9uVro7THf2l8_Rdesg",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8830,6 +10446,13 @@
                   "label": "WINTER 2021 - 3160002",
                   "url": "https://drive.google.com/uc?export=download&id=1yLSfrIyyNAjzVdxgoaqNb_HOyzO9y1PU",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8842,6 +10465,13 @@
                   "label": "WINTER 2021 - 3160003",
                   "url": "https://drive.google.com/uc?export=download&id=1LsbOj-9qffCL73xcGBfZQg7LtPrfPIp8",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }
@@ -8860,6 +10490,13 @@
                   "label": "w2021 3171112",
                   "url": "https://drive.google.com/uc?export=download&id=1cBbhjoJcpVFjoMlHyPgxYqlORei-hb4e",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8872,6 +10509,13 @@
                   "label": "w2021 3171104",
                   "url": "https://drive.google.com/uc?export=download&id=1p_JrSgihAViwQqz0mPcsXwvpAUmilJun",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8884,6 +10528,13 @@
                   "label": "w2021 3171109",
                   "url": "https://drive.google.com/uc?export=download&id=1gne7uWrJFBDAWGXR9EGVovtidfHG_IhB",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8896,6 +10547,13 @@
                   "label": "w2021 3171003",
                   "url": "https://drive.google.com/uc?export=download&id=1GeirZBfh6TINB1i6lfXxmJotU7_DpDJu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8908,6 +10566,13 @@
                   "label": "w2021 3171108",
                   "url": "https://drive.google.com/uc?export=download&id=10QlSG8La6TAzlpIjQQVq7QRrwAbvDmfZ",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8920,6 +10585,13 @@
                   "label": "w2021 3171105",
                   "url": "https://drive.google.com/uc?export=download&id=1-grjcK194loRa8lSmJQeZHkr5xQQBEAW",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8932,6 +10604,13 @@
                   "label": "w2021 3171114",
                   "url": "https://drive.google.com/uc?export=download&id=1elwlukmqERSXq6L4xMljaSo31fTAm7-t",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8944,6 +10623,13 @@
                   "label": "w2021 3171107",
                   "url": "https://drive.google.com/uc?export=download&id=1z6KhJ1dC8qYNk5qmpEZx_J0iTHIllRgH",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8956,6 +10642,13 @@
                   "label": "w2021 3171001",
                   "url": "https://drive.google.com/uc?export=download&id=18wTKnHVLbj6zyUahIRk4SNOJGhZiVtP4",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8968,6 +10661,13 @@
                   "label": "w2021 3171113",
                   "url": "https://drive.google.com/uc?export=download&id=1TdPYA0jMI0ixKjUETZIHkE6E4wNm67iF",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8980,6 +10680,13 @@
                   "label": "w2021 3171110",
                   "url": "https://drive.google.com/uc?export=download&id=18dfLtr3eQfIk8eolnc8L-_uO984XBbEh",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -8992,6 +10699,13 @@
                   "label": "w2021 3171111",
                   "url": "https://drive.google.com/uc?export=download&id=16uDjfW_HgS5Tj98MBfmlsTtyKP1tjUX7",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -9004,6 +10718,13 @@
                   "label": "w2021 3171004",
                   "url": "https://drive.google.com/uc?export=download&id=1VJKBb2QFNTEg8DWTYOq6CN2EhJ6AT1cu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -9016,6 +10737,13 @@
                   "label": "w2021 3171106",
                   "url": "https://drive.google.com/uc?export=download&id=1O6G6Zi2IAAyo5zmUbKD0rYnHaDDrB_dN",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BE/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             }

@@ -108,6 +108,7 @@ function entryRoute(entry) {
 function banner(title, className = 'headerimg') {
   const header = element('div', className);
   header.append(element('h1', '', title));
+  if (config.latestSession) header.append(element('p', 'session-banner', `${config.latestSession} archive links added · Availability varies by subject`));
   return header;
 }
 function resourceLink(paper, label = paper.label) {
@@ -160,7 +161,7 @@ function home() {
   hero.id = 'container1';
   const both = element('div', 'both');
   const heading = element('div', 'heading');
-  heading.append(element('p', 'hero-kicker', 'GTU QUESTION PAPER LIBRARY'), element('h1', '', 'Your next exam.\nA better starting point.'), element('p', 'shared-hero-description', 'Find previous-year papers by course, branch and semester. Free to access. Built together by students.'));
+  heading.append(element('p', 'hero-kicker', `${config.latestSession || 'Latest'} papers now available` ), element('h1', '', 'Your next exam.\nA better starting point.'), element('p', 'shared-hero-description', 'Find previous-year papers by course, branch and semester. Free to access. Built together by students.'));
   const subjects = element('div', 'subjects');
   const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id))
     .map((stream) => routeLink(stream.name, { stream: stream.id }));
@@ -391,7 +392,7 @@ function render() {
     const courses = element('section');
     courses.id = 'coarsenames';
     const label = element('div', 'coarsename');
-    const heading = element('h1', '', 'UPDATED SYLLABUS!!');
+    const heading = element('h1', '', `${config.latestSession || 'Latest'} papers available`);
     heading.style.backgroundColor = '#1D8471';
     label.append(heading);
     const boxes = element('div', 'coarsename');

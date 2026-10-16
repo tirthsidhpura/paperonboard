@@ -1,14 +1,41 @@
 {
   "name": "PaperOnBoard",
-  "ads": { "displaySlot": "7937969612" },
+  "ads": {
+    "displaySlot": "7937969612"
+  },
   "tagline": "Download GTU previous year question papers",
-  "announcement": "Summer 2023 Papers are Added",
+  "announcement": "Summer 2026 papers now available for B.E., Diploma, B.Arch and B.Pharm",
   "description": "Your next exam starts here.",
   "university": "Gujarat Technological University",
   "streams": [
-    { "id": "diploma", "name": "Diploma", "shortName": "DIP", "description": "Build your foundation", "file": "data/diploma.json" },
-    { "id": "bachelors", "name": "Bachelor of Engineering", "shortName": "BE", "description": "Engineering, every semester", "file": "data/bachelors.json" },
-    { "id": "architecture", "name": "Bachelor of Architecture", "shortName": "B.Arch", "description": "Make room for better preparation", "file": "data/architecture.json" },
-    { "id": "pharma", "name": "Bachelor of Pharmacy", "shortName": "B.Pharm", "description": "A healthy dose of preparation", "file": "data/pharma.json" }
-  ]
+    {
+      "id": "diploma",
+      "name": "Diploma",
+      "shortName": "DIP",
+      "description": "Build your foundation",
+      "file": "data/diploma.json"
+    },
+    {
+      "id": "bachelors",
+      "name": "Bachelor of Engineering",
+      "shortName": "BE",
+      "description": "Engineering, every semester",
+      "file": "data/bachelors.json"
+    },
+    {
+      "id": "architecture",
+      "name": "Bachelor of Architecture",
+      "shortName": "B.Arch",
+      "description": "Make room for better preparation",
+      "file": "data/architecture.json"
+    },
+    {
+      "id": "pharma",
+      "name": "Bachelor of Pharmacy",
+      "shortName": "B.Pharm",
+      "description": "A healthy dose of preparation",
+      "file": "data/pharma.json"
+    }
+  ],
+  "latestSession": "Summer 2026"
 }
