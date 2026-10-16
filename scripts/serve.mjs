@@ -5,7 +5,7 @@ import { root } from './validate.mjs';
 
 const directory = path.join(root, 'dist');
 if (!fs.existsSync(path.join(directory, 'index.html'))) throw new Error('Run npm run build first.');
-const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.pdf': 'application/pdf', '.md': 'text/plain' };
+const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.xml': 'application/xml', '.txt': 'text/plain', '.svg': 'image/svg+xml', '.gif': 'image/gif', '.png': 'image/png', '.pdf': 'application/pdf', '.md': 'text/plain' };
 const server = http.createServer((request, response) => {
   try {
     const url = new URL(request.url, 'http://localhost');

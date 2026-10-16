@@ -44,6 +44,24 @@ test('study material filtering excludes question papers', () => {
   assert.equal(vm.runInContext('matchingResources(entry)[0].type', context), 'material');
 });
 
+test('rendered course routes and legacy query URLs restore the same state', () => {
+  const runtime = vm.createContext({ URL, URLSearchParams, resolvePaperURL, validateURLSources,
+    document: { getElementById: () => ({ value: '' }) }, location: { pathname: '/catalog-diploma--computer.html', search: '' } });
+  vm.runInContext(script, runtime);
+  vm.runInContext('render = () => {}; restoreURL()', runtime);
+  assert.equal(vm.runInContext('state.stream', runtime), 'diploma');
+  assert.equal(vm.runInContext('state.branch', runtime), 'computer');
+  runtime.location.pathname = '/index.html';
+  runtime.location.search = '?stream=diploma&branch=computer';
+  vm.runInContext('restoreURL()', runtime);
+  assert.equal(vm.runInContext('state.stream', runtime), 'diploma');
+  assert.equal(vm.runInContext('state.branch', runtime), 'computer');
+  runtime.location.pathname = '/courses.html'; runtime.location.search = '';
+  vm.runInContext('restoreURL()', runtime);
+  assert.equal(vm.runInContext('state.view', runtime), 'courses');
+  assert.equal(vm.runInContext('state.stream', runtime), '');
+});
+
 test('paper cards sort oldest to newest with summer before winter and undated resources last', () => {
   const labels = ['Winter 2025', 'Notes', 'WINTER 201 8asic Electrical Engineering', 'Summer 2025', 'SUMMMER 2019 Chemistry', 'Winter 2019', 'Other notes'];
   context.entry = { resources: labels.map((label) => ({ label, type: 'paper' })) };
@@ -58,7 +76,8 @@ test('migration retains catalog scope and the recovered architecture paper', () 
   const subjects = architecture.branches.flatMap((b) => b.semesters.flatMap((s) => s.subjects));
   const recovered = subjects.find((s) => s.code === '2X35002');
   assert.equal(recovered.name, 'Building Construction-III');
-  assert.equal(recovered.papers.length, 2);
+  assert.equal(recovered.papers.filter((paper) => paper.url).length, 2);
+  assert.ok(recovered.papers.length >= 2);
 });
 
 test('published build excludes backend, private source, original uploads and secrets', () => {
@@ -119,12 +138,17 @@ test('single-page routes preserve the original course, semester, dropdown and do
   vm.runInContext('contributorsData = people; restoreURL()', runtime);
   assert.ok(all().some((node) => node.className === 'contributor-card'));
   assert.ok(all().some((node) => node.href === 'https://github.com/student'));
+  runtime.location.search = '?stream=diploma';
+  vm.runInContext('restoreURL()', runtime);
+  assert.ok(all().some((node) => node.textContent === 'Select your course'));
+  assert.ok(all().some((node) => node.href === 'catalog-diploma--electricalengineeriing.html'));
   runtime.location.search = '?stream=diploma&branch=computer';
   vm.runInContext('restoreURL()', runtime);
   assert.equal(modern, false);
   assert.ok(all().some((node) => node.id === 'selectsemester'));
   assert.ok(all().some((node) => node.id === 'sem-1'));
   assert.ok(all().some((node) => node.className === 'sub' && node.textContent.includes('4300001')));
+  assert.ok(!all().some((node) => node.className === 'bigcard'));
   runtime.location.search = '?stream=diploma&branch=computer&semester=1&subject=4300001';
   vm.runInContext('restoreURL()', runtime);
   assert.ok(all().some((node) => node.className === 'bigcard'));

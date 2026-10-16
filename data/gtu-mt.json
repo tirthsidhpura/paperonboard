@@ -1,0 +1,109 @@
+{
+  "id": "gtu-mt",
+  "name": "GTU course MT",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "gtu-course-mt",
+      "name": "GTU course MT",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "10",
+          "name": "Semester 10",
+          "subjects": [
+            {
+              "code": "4210104",
+              "name": "International Business",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2018/MT/4210104.pdf"
+            },
+            {
+              "code": "4210105",
+              "name": "Legal Aspects Business",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210105.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2018/MT/4210105.pdf"
+            },
+            {
+              "code": "4210101",
+              "name": "Materials Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2018/MT/4210101.pdf"
+            },
+            {
+              "code": "4210108",
+              "name": "Organizational Dynamics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210108.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2018/MT/4210108.pdf"
+            },
+            {
+              "code": "4210102",
+              "name": "Production Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2018/MT/4210102.pdf"
+            },
+            {
+              "code": "4210103",
+              "name": "PROJECT MANAGEMENT",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2018/MT/4210103.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MT",
+  "checkedOn": "2026-10-16"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gtu-bl",
+  "name": "Bachelor of Planning",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "bachelor-of-planning",
+      "name": "Bachelor of Planning",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
+            {
+              "code": "1075507",
+              "name": "Disaster Risk Mitigation and Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BL/1075507.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2020/BL/1075507.pdf"
+            },
+            {
+              "code": "1075511",
+              "name": "Metropolitan Planning, Development & Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BL/1075511.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2020/BL/1075511.pdf"
+            },
+            {
+              "code": "1075502",
+              "name": "Urban and Rural Governance",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BL/1075502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2020/BL/1075502.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BL",
+  "checkedOn": "2026-10-16"
+}

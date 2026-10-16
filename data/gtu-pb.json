@@ -1,0 +1,231 @@
+{
+  "id": "gtu-pb",
+  "name": "Pharm.D. (Post Baccalaureate)",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "pharm-d-post-baccalaureate",
+      "name": "Pharm.D. (Post Baccalaureate)",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "year-1",
+          "name": "Year 1",
+          "subjects": [
+            {
+              "code": "818905",
+              "name": "BIOPHARMACEUTICS & PHARMACOKINETICS",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818905.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818905.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818905.pdf"
+            },
+            {
+              "code": "818904",
+              "name": "BIOSTATISTICS & RESEARCH METHODOLOGY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818904.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818904.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818904.pdf"
+            },
+            {
+              "code": "818903",
+              "name": "CLINICAL PHARMACY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818903.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818903.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818903.pdf"
+            },
+            {
+              "code": "818906",
+              "name": "CLINICAL TOXICOLOGY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818906.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818906.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818906.pdf"
+            },
+            {
+              "code": "818902",
+              "name": "HOSPITAL PHARMACY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818902.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818902.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818902.pdf"
+            },
+            {
+              "code": "818907",
+              "name": "Pharmacotherapeutics I & II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818907.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818907.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818907.pdf"
+            },
+            {
+              "code": "818901",
+              "name": "PHARMACOTHERAPEUTICS-III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/818901.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/818901.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/818901.pdf"
+            }
+          ]
+        },
+        {
+          "id": "year-5",
+          "name": "Year 5",
+          "subjects": [
+            {
+              "code": "828903",
+              "name": "Clinical Pharmacokinetics & Pharmacotherapeutic Drug Monitoring",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/828903.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/828903.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/828903.pdf"
+            },
+            {
+              "code": "828901",
+              "name": "Clinical Research",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/828901.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/828901.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/828901.pdf"
+            },
+            {
+              "code": "828902",
+              "name": "Pharmacoepidemiology and Pharmacoeconomics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/PB/828902.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/PB/828902.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/PB/828902.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "PB",
+  "checkedOn": "2026-10-16"
+}

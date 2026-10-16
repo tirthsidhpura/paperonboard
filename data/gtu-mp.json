@@ -1,0 +1,601 @@
+{
+  "id": "gtu-mp",
+  "name": "Master of Pharmacy",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "phytopharmacy-and-phytomedicine",
+      "name": "Phytopharmacy and Phytomedicine",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "MPM203T",
+              "name": "Biological Evaluation of phytomedicines",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPM203T.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM203T.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "31"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MP",
+  "checkedOn": "2026-10-16",
+  "pendingSubjects": [
+    {
+      "code": "MAT101T",
+      "name": "Modern Pharmaceutical Analytical Techniques",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MAT101T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MAT101T.pdf"
+    },
+    {
+      "code": "MPC102T",
+      "name": "Advanced Organic Chemistry -I",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPC102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC102T.pdf"
+    },
+    {
+      "code": "MPC103T",
+      "name": "Advanced Medicinal Chemistry",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPC103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC103T.pdf"
+    },
+    {
+      "code": "MPC104T",
+      "name": "Chemistry of Natural Products",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPC104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC104T.pdf"
+    },
+    {
+      "code": "MPC202T",
+      "name": "Advanced Organic Chemistry -II",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPC202T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC202T.pdf"
+    },
+    {
+      "code": "MPC203T",
+      "name": "Computer Aided Drug Design",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPC203T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC203T.pdf"
+    },
+    {
+      "code": "MPH102T",
+      "name": "Drug Delivery System",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH102T.pdf"
+    },
+    {
+      "code": "MPH103T",
+      "name": "Modern Pharmaceutics",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH103T.pdf"
+    },
+    {
+      "code": "MPH104T",
+      "name": "Regulatory Affairs",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH104T.pdf"
+    },
+    {
+      "code": "MPH201T",
+      "name": "Molecular Pharmaceutics(Nano Tech and Targeted DDS)",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH201T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH201T.pdf"
+    },
+    {
+      "code": "MPH202T",
+      "name": "Advanced Biopharmaceutics & Pharmacokinetics",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH202T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH202T.pdf"
+    },
+    {
+      "code": "MPH203T",
+      "name": "Computer Aided Drug Delivery System",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH203T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH203T.pdf"
+    },
+    {
+      "code": "MPH204T",
+      "name": "Cosmetic and Cosmeceuticals",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPH204T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH204T.pdf"
+    },
+    {
+      "code": "MPL102T",
+      "name": "Advanced Pharmacology-I",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL102T.pdf"
+    },
+    {
+      "code": "MPL103T",
+      "name": "Pharmacological and Toxicological Screening Methods -I",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL103T.pdf"
+    },
+    {
+      "code": "MPL104T",
+      "name": "Cellular and Molecular Pharmacology",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL104T.pdf"
+    },
+    {
+      "code": "MPL201T",
+      "name": "Advanced Pharmacology II",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL201T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL201T.pdf"
+    },
+    {
+      "code": "MPL202T",
+      "name": "Pharmacological and Toxicological Screening Methods -II",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL202T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL202T.pdf"
+    },
+    {
+      "code": "MPL203T",
+      "name": "Principles of Drug Discovery",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL203T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL203T.pdf"
+    },
+    {
+      "code": "MPL204T",
+      "name": "Clinical Research and Pharmcovigilance",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPL204T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL204T.pdf"
+    },
+    {
+      "code": "MPM102T",
+      "name": "Natural Products Chemistry",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPM102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM102T.pdf"
+    },
+    {
+      "code": "MPM103T",
+      "name": "Phytochemical Investigation Techniques",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPM103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM103T.pdf"
+    },
+    {
+      "code": "MPM104T",
+      "name": "Traditional Medicines",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPM104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM104T.pdf"
+    },
+    {
+      "code": "MPM204T",
+      "name": "Biotechnology and Regulatory aspects of Phytomedicines",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPM204T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM204T.pdf"
+    },
+    {
+      "code": "MPP101T",
+      "name": "Clinical Pharmacy Practice",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPP101T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP101T.pdf"
+    },
+    {
+      "code": "MPP102T",
+      "name": "Pharmacotherapeutics - I",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPP102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP102T.pdf"
+    },
+    {
+      "code": "MPP103T",
+      "name": "Hospital & Community Pharmacy",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPP103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP103T.pdf"
+    },
+    {
+      "code": "MPP104T",
+      "name": "Clinical Research",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPP104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP104T.pdf"
+    },
+    {
+      "code": "MPT104T",
+      "name": "Good manufacturing practice and process validation",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MPT104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPT104T.pdf"
+    },
+    {
+      "code": "MQA102T",
+      "name": "Quality Management System",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA102T.pdf"
+    },
+    {
+      "code": "MQA103T",
+      "name": "Quality Control & Quality Assurance",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA103T.pdf"
+    },
+    {
+      "code": "MQA104T",
+      "name": "Product Development And Technology Transfer",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA104T.pdf"
+    },
+    {
+      "code": "MQA201T",
+      "name": "Hazards and Safety Management",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA201T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA201T.pdf"
+    },
+    {
+      "code": "MQA202T",
+      "name": "Pharmaceutical Validation",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA202T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA202T.pdf"
+    },
+    {
+      "code": "MQA203T",
+      "name": "Audits and Regulatory Compliance",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA203T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA203T.pdf"
+    },
+    {
+      "code": "MQA204T",
+      "name": "Pharmaceutical Manufacturing Technology",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MQA204T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA204T.pdf"
+    },
+    {
+      "code": "MRA101T",
+      "name": "Good Regulatory Practices",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MRA101T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA101T.pdf"
+    },
+    {
+      "code": "MRA102T",
+      "name": "Documentation and Regulatory Writing",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MRA102T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA102T.pdf"
+    },
+    {
+      "code": "MRA103T",
+      "name": "Clinical Research Regulations",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MRA103T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA103T.pdf"
+    },
+    {
+      "code": "MRA104T",
+      "name": "Regulations and Legislation for Drugs & Cosmetics, Medical Devices, Biologicals & Herbals, and Food & Nutraceuticals In India and Intellectual Property Rights",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/MP/MRA104T.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA104T.pdf"
+    }
+  ]
+}

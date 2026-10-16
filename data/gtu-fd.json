@@ -1,0 +1,413 @@
+{
+  "id": "gtu-fd",
+  "name": "Pharm.D.",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "pharm-d",
+      "name": "Pharm.D.",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "year-1",
+          "name": "Year 1",
+          "subjects": [
+            {
+              "code": "818801",
+              "name": "Human Anatomy and Phsiology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818801.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/818801.pdf"
+            },
+            {
+              "code": "818803",
+              "name": "Medicinal Biochemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818803.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/818803.pdf"
+            },
+            {
+              "code": "818805",
+              "name": "Pharmaceutical Inorganic Chemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818805.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/818805.pdf"
+            },
+            {
+              "code": "818804",
+              "name": "Pharmaceutical organic chemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818804.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/818804.pdf"
+            },
+            {
+              "code": "818802",
+              "name": "Pharmaceutics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818802.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/818802.pdf"
+            }
+          ]
+        },
+        {
+          "id": "year-2",
+          "name": "Year 2",
+          "subjects": [
+            {
+              "code": "828805",
+              "name": "Community Pharmacy",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828805.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/828805.pdf"
+            },
+            {
+              "code": "828801",
+              "name": "Pathophysiology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828801.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/828801.pdf"
+            },
+            {
+              "code": "828802",
+              "name": "Pharmaceutical Microbiology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828802.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/828802.pdf"
+            },
+            {
+              "code": "828803",
+              "name": "Pharmacognosy & Phtopharmaceuticals",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828803.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/828803.pdf"
+            },
+            {
+              "code": "828804",
+              "name": "Pharmacology-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828804.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/828804.pdf"
+            },
+            {
+              "code": "828806",
+              "name": "Pharmacotherapeutics-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828806.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/828806.pdf"
+            }
+          ]
+        },
+        {
+          "id": "year-3",
+          "name": "Year 3",
+          "subjects": [
+            {
+              "code": "838805",
+              "name": "Medicinal Chemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838805.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/838805.pdf"
+            },
+            {
+              "code": "838802",
+              "name": "Pharmaceutical Analysis",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838802.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/838802.pdf"
+            },
+            {
+              "code": "838806",
+              "name": "Pharmaceutical Formulations",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838806.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/838806.pdf"
+            },
+            {
+              "code": "838804",
+              "name": "Pharmaceutical Jurisprudence",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838804.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/838804.pdf"
+            },
+            {
+              "code": "838801",
+              "name": "Pharmacology-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838801.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/838801.pdf"
+            },
+            {
+              "code": "838803",
+              "name": "Pharmacotherapeutics-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838803.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/838803.pdf"
+            }
+          ]
+        },
+        {
+          "id": "year-4",
+          "name": "Year 4",
+          "subjects": [
+            {
+              "code": "848805",
+              "name": "Biopharmaceutics & Pharmacokinetics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848805.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/848805.pdf"
+            },
+            {
+              "code": "848804",
+              "name": "Biostatistics & Research Methodology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848804.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/848804.pdf"
+            },
+            {
+              "code": "848803",
+              "name": "Clinical Pharmacy",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848803.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/848803.pdf"
+            },
+            {
+              "code": "848806",
+              "name": "Clinical Toxicology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848806.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/848806.pdf"
+            },
+            {
+              "code": "848802",
+              "name": "Hospital Pharmacy",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848802.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/848802.pdf"
+            },
+            {
+              "code": "848801",
+              "name": "Pharmacotherapeutics-III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848801.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/848801.pdf"
+            }
+          ]
+        },
+        {
+          "id": "year-5",
+          "name": "Year 5",
+          "subjects": [
+            {
+              "code": "858803",
+              "name": "Clinical Pharmacokinetics & Pharmacotherapeutic Drug Monitoring",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/858803.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/858803.pdf"
+            },
+            {
+              "code": "858801",
+              "name": "Clinical Research",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/858801.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/858801.pdf"
+            },
+            {
+              "code": "858802",
+              "name": "Pharmacoepidemiology and Pharmacoeconomics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/858802.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/FD/858802.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "FD",
+  "checkedOn": "2026-10-16"
+}

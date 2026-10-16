@@ -1,0 +1,16 @@
+{
+  "MH/1440103": {
+    "name": "Bharatiya Sthapatya",
+    "periodType": "semester",
+    "period": 4,
+    "source": "https://old26.gtu.ac.in/uploads/S2025/MH/1440103.pdf",
+    "verification": "visually read from official PDF header"
+  },
+  "MH/1440104": {
+    "name": "Elements of Indian History",
+    "periodType": "semester",
+    "period": 4,
+    "source": "https://old26.gtu.ac.in/uploads/S2025/MH/1440104.pdf",
+    "verification": "visually read from official PDF header"
+  }
+}

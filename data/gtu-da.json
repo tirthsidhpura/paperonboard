@@ -1,0 +1,611 @@
+{
+  "id": "gtu-da",
+  "name": "Diploma in Architecture",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "diploma-in-architecture",
+      "name": "Diploma in Architecture",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "DA01063021",
+              "name": "Architectural Drawing-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA01063021.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/DA01063021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA01063021.pdf"
+            },
+            {
+              "code": "1016302",
+              "name": "Basic Architectural Drawing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1016302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1016302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1016302.pdf"
+            },
+            {
+              "code": "1016304",
+              "name": "Basic Design",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1016304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DA/1016304.pdf"
+            },
+            {
+              "code": "DA01063041",
+              "name": "Basic Design",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA01063041.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/DA01063041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA01063041.pdf"
+            },
+            {
+              "code": "1016303",
+              "name": "Building Materials",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1016303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1016303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1016303.pdf"
+            },
+            {
+              "code": "DA01063031",
+              "name": "BUILDING MATERIALS-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA01063031.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/DA01063031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA01063031.pdf"
+            },
+            {
+              "code": "DA01063051",
+              "name": "Communication Skills",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA01063051.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/DA01063051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA01063051.pdf"
+            },
+            {
+              "code": "4300002",
+              "name": "Communication Skills in English",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/4300002.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/4300002.pdf"
+            },
+            {
+              "code": "4300001",
+              "name": "Mathematics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/4300001.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/4300001.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "1026303",
+              "name": "Advanced Building Materials",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1026303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1026303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1026303.pdf"
+            },
+            {
+              "code": "1026302",
+              "name": "Architectural Drawing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1026302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1026302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1026302.pdf"
+            },
+            {
+              "code": "DA02063061",
+              "name": "ARCHITECTURAL DRAWING-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063061.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063061.pdf"
+            },
+            {
+              "code": "DA02063071",
+              "name": "BUILDING MATERIALS-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063071.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063071.pdf"
+            },
+            {
+              "code": "DA02063011",
+              "name": "Contributor Personality Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063011.pdf"
+            },
+            {
+              "code": "DA02063081",
+              "name": "ENVIRONMENTAL SUSTAINABILITY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063081.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063081.pdf"
+            },
+            {
+              "code": "DA02063031",
+              "name": "ESSENCE OF INDIAN KNOWLEDGE AND TRADITION",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063031.pdf"
+            },
+            {
+              "code": "1026304",
+              "name": "History of Indian Architecture",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1026304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1026304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1026304.pdf"
+            },
+            {
+              "code": "DA02063021",
+              "name": "Integrated Personality Development Course",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063021.pdf"
+            },
+            {
+              "code": "DA02063041",
+              "name": "MATHEMATICS",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/DA02063041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/DA02063041.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "1036302",
+              "name": "Building Construction",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1036302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1036302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1036302.pdf"
+            },
+            {
+              "code": "1036303",
+              "name": "History of Architecture(World & Modern)",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1036303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1036303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1036303.pdf"
+            },
+            {
+              "code": "1036304",
+              "name": "Surveying and Levelling",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/1036304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/1036304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/1036304.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "41046304",
+              "name": "Building Services",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41046304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/41046304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41046304.pdf"
+            },
+            {
+              "code": "41046306",
+              "name": "Essence of Indian Knowledge and Tradition",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41046306.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41046306.pdf"
+            },
+            {
+              "code": "41046307",
+              "name": "Integrated Personality Development Course",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41046307.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41046307.pdf"
+            },
+            {
+              "code": "41046308",
+              "name": "Integrated Personality Development Course",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41046308.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41046308.pdf"
+            },
+            {
+              "code": "41046305",
+              "name": "Structure",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41046305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/41046305.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41046305.pdf"
+            },
+            {
+              "code": "41046303",
+              "name": "Town Planning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41046303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/41046303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41046303.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "41056302",
+              "name": "Architectural Practice & Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41056302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/41056302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41056302.pdf"
+            },
+            {
+              "code": "41056308",
+              "name": "Entrepreneurship and Start-ups",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41056308.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/41056308.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41056308.pdf"
+            },
+            {
+              "code": "41056303",
+              "name": "Estimating & Costing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/41056303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DA/41056303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/41056303.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "C300001",
+              "name": "Mathematics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/DA/C300001.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DA/C300001.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DA",
+  "checkedOn": "2026-10-16"
+}

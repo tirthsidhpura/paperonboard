@@ -1,0 +1,81 @@
+{
+  "id": "gtu-ds",
+  "name": "Post Graduate Diploma in Data Science",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "post-graduate-diploma-in-data-science",
+      "name": "Post Graduate Diploma in Data Science",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "DS01080011",
+              "name": "Data Structures and Algorithm",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DS/DS01080011.pdf"
+            },
+            {
+              "code": "DS01080031",
+              "name": "Fundamentals of Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DS/DS01080031.pdf"
+            },
+            {
+              "code": "DS01080041",
+              "name": "Python for Data Science",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DS/DS01080041.pdf"
+            },
+            {
+              "code": "DS01080021",
+              "name": "Statistics and Exploratory Data Analysis",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DS/DS01080021.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DS",
+  "checkedOn": "2026-10-16"
+}

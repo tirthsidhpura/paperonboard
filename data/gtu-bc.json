@@ -1,0 +1,199 @@
+{
+  "id": "gtu-bc",
+  "name": "Bachelor of Computer Applications (Honours/Honours with Research)",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "bachelor-of-computer-applications-honours-honours-with-research",
+      "name": "Bachelor of Computer Applications (Honours/Honours with Research)",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "BC01001071",
+              "name": "Communication Skills",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC01001071.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001071.pdf"
+            },
+            {
+              "code": "BC01001011",
+              "name": "Fundamental of Computer Organization",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC01001011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001011.pdf"
+            },
+            {
+              "code": "BC01001021",
+              "name": "Fundamental of Programming",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC01001021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001021.pdf"
+            },
+            {
+              "code": "BC01001031",
+              "name": "Fundamentals of Web Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC01001031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001031.pdf"
+            },
+            {
+              "code": "BC01001081",
+              "name": "Indian Knowledge System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC01001081.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001081.pdf"
+            },
+            {
+              "code": "BC01001051",
+              "name": "Mathematics-1",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC01001051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001051.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "BC02001031",
+              "name": "Advanced Web Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC02001031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001031.pdf"
+            },
+            {
+              "code": "BC02001011",
+              "name": "Data Structure",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC02001011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001011.pdf"
+            },
+            {
+              "code": "BC02001021",
+              "name": "Database Management System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC02001021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001021.pdf"
+            },
+            {
+              "code": "BC02001051",
+              "name": "Mathematics-2",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC02001051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001051.pdf"
+            },
+            {
+              "code": "BC02001081",
+              "name": "Professional Ethics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC02001081.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001081.pdf"
+            },
+            {
+              "code": "BC02001071",
+              "name": "Technical Writing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BC/BC02001071.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001071.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BC",
+  "checkedOn": "2026-10-16"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "gtu-bn",
+  "name": "Bachelor of Design",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "bachelor-of-design",
+      "name": "Bachelor of Design",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "1110004",
+              "name": "History of Design",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/1110004.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/1110004.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "1120005",
+              "name": "History of Design- II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/1120005.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/1120005.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "10130302",
+              "name": "Ergonomics of Products and Interface",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/10130302.pdf"
+            },
+            {
+              "code": "10130201",
+              "name": "Fiber to Fabric",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/10130201.pdf"
+            },
+            {
+              "code": "10130401",
+              "name": "Fiber to Fabric",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130401.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/10130401.pdf"
+            },
+            {
+              "code": "10130106",
+              "name": "History Of Visual Communication",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130106.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/10130106.pdf"
+            },
+            {
+              "code": "10130203",
+              "name": "Traditional Indian Textile",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/10130203.pdf"
+            },
+            {
+              "code": "10130403",
+              "name": "Traditional Indian Textile",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130403.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/BN/10130403.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BN",
+  "checkedOn": "2026-10-16"
+}

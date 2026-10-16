@@ -1,0 +1,659 @@
+{
+  "id": "gtu-mc",
+  "name": "Master of Computer Applications",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "master-of-computer-applications",
+      "name": "Master of Computer Applications",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "619406",
+              "name": "Basic Computer Concepts",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619406.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/619406.pdf"
+            },
+            {
+              "code": "619403",
+              "name": "Basic Mathematics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619403.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/619403.pdf"
+            },
+            {
+              "code": "MC01094021",
+              "name": "Fundamental of Computer Organization",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC01094021.pdf"
+            },
+            {
+              "code": "619402",
+              "name": "Object Oriented Programming in Java",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619402.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/619402.pdf"
+            },
+            {
+              "code": "MC01094041",
+              "name": "Object Oriented Programming using JAVA",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC01094041.pdf"
+            },
+            {
+              "code": "MC01094011",
+              "name": "Programming with C",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC01094011.pdf"
+            },
+            {
+              "code": "619404",
+              "name": "Relational Database Management Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619404.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/619404.pdf"
+            },
+            {
+              "code": "MC01094031",
+              "name": "Relational Database Management Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC01094031.pdf"
+            },
+            {
+              "code": "MC01094051",
+              "name": "Web Technology Project",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC01094051.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "629407",
+              "name": "Big Data Tools",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629407.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629407.pdf"
+            },
+            {
+              "code": "629404",
+              "name": "Computer Networking",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629404.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629404.pdf"
+            },
+            {
+              "code": "MC02094031",
+              "name": "Computer Networking",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC02094031.pdf"
+            },
+            {
+              "code": "MC02094011",
+              "name": "Data Structure using C",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC02094011.pdf"
+            },
+            {
+              "code": "629401",
+              "name": "Data Structures",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629401.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629401.pdf"
+            },
+            {
+              "code": "MC02094041",
+              "name": "Full Stack Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC02094041.pdf"
+            },
+            {
+              "code": "MC02094061",
+              "name": "Indian Knowladge System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094061.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC02094061.pdf"
+            },
+            {
+              "code": "629408",
+              "name": "Java Web Technologies",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629408.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629408.pdf"
+            },
+            {
+              "code": "MC02094021",
+              "name": "Operating System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC02094021.pdf"
+            },
+            {
+              "code": "629403",
+              "name": "Programming in Python",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629403.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629403.pdf"
+            },
+            {
+              "code": "MC02094051",
+              "name": "Programming with Python",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC02094051.pdf"
+            },
+            {
+              "code": "629406",
+              "name": "Software Testing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629406.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629406.pdf"
+            },
+            {
+              "code": "629409",
+              "name": "Statistical Methods",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629409.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/629409.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "MC03094051",
+              "name": "Artificial Intelligence",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094051.pdf"
+            },
+            {
+              "code": "MC03094081",
+              "name": "Big Data Tools",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094081.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094081.pdf"
+            },
+            {
+              "code": "MC03094091",
+              "name": "Business Analytics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094091.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094091.pdf"
+            },
+            {
+              "code": "639407",
+              "name": "Cloud Computing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639407.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/639407.pdf"
+            },
+            {
+              "code": "MC03094131",
+              "name": "Cloud Computing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094131.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094131.pdf"
+            },
+            {
+              "code": "MC03094071",
+              "name": "Containerization",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094071.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094071.pdf"
+            },
+            {
+              "code": "MC03094161",
+              "name": "Cyber Security and Forensic",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094161.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094161.pdf"
+            },
+            {
+              "code": "4639303",
+              "name": "Database Management Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/4639303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/4639303.pdf"
+            },
+            {
+              "code": "639401",
+              "name": "Design and Analysis of Algorithms",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639401.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/639401.pdf"
+            },
+            {
+              "code": "MC03094011",
+              "name": "Design and Analysis of Algorithms",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094011.pdf"
+            },
+            {
+              "code": "MC03094111",
+              "name": "DevOps Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094111.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094111.pdf"
+            },
+            {
+              "code": "MC03094101",
+              "name": "Information and Network Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094101.pdf"
+            },
+            {
+              "code": "639409",
+              "name": "Internet of Things",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639409.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/639409.pdf"
+            },
+            {
+              "code": "MC03094151",
+              "name": "Internet of Things",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094151.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094151.pdf"
+            },
+            {
+              "code": "639402",
+              "name": "Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639402.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/639402.pdf"
+            },
+            {
+              "code": "MC03094121",
+              "name": "Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094121.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094121.pdf"
+            },
+            {
+              "code": "MC03094031",
+              "name": "Mobile Application Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094031.pdf"
+            },
+            {
+              "code": "639410",
+              "name": "Network and Cyber Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639410.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/639410.pdf"
+            },
+            {
+              "code": "639403",
+              "name": "Software Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639403.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/639403.pdf"
+            },
+            {
+              "code": "MC03094021",
+              "name": "Software Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094021.pdf"
+            },
+            {
+              "code": "MC03094141",
+              "name": "Software Testing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094141.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/MC03094141.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "4659302",
+              "name": "Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/4659302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MC/4659302.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MC",
+  "checkedOn": "2026-10-16"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "gtu-ci",
+  "name": "GTU course CI",
+  "examTemplates": [],
+  "branches": [],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "CI",
+  "checkedOn": "2026-10-16"
+}

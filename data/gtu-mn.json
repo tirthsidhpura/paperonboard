@@ -1,0 +1,709 @@
+{
+  "id": "gtu-mn",
+  "name": "Master of Planning",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "master-of-planning",
+      "name": "Master of Planning",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "114AV01",
+              "name": "Basics of Planning - Software Applications",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AV01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AV01.pdf"
+            },
+            {
+              "code": "N114AV01",
+              "name": "Basics of Planning - Software Applications",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AV01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AV01.pdf"
+            },
+            {
+              "code": "N114AU02",
+              "name": "Construction Failures",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AU02.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AU02.pdf"
+            },
+            {
+              "code": "114AC01",
+              "name": "Contemporary Materials for Construction",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AC01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AC01.pdf"
+            },
+            {
+              "code": "N114AC01",
+              "name": "Contemporary Materials for Construction",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AC01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AC01.pdf"
+            },
+            {
+              "code": "N114AP01",
+              "name": "Energy Resources, Economics and Environment",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AP01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AP01.pdf"
+            },
+            {
+              "code": "N114AU01",
+              "name": "Forensic Science & Law",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AU01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AU01.pdf"
+            },
+            {
+              "code": "114AA01",
+              "name": "Fundamental of Fire Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AA01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AA01.pdf"
+            },
+            {
+              "code": "N114AA01",
+              "name": "Fundamental of Fire Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AA01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AA01.pdf"
+            },
+            {
+              "code": "114AL01",
+              "name": "Fundamentals of Electrical Vehicles",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AL01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AL01.pdf"
+            },
+            {
+              "code": "N114Al01",
+              "name": "Fundamentals of Electrical Vehicles",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114Al01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114Al01.pdf"
+            },
+            {
+              "code": "N114AF01",
+              "name": "Fundamentals of Smart City Planning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AF01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AF01.pdf"
+            },
+            {
+              "code": "114AB01",
+              "name": "Hazardous Waste Management Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AB01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AB01.pdf"
+            },
+            {
+              "code": "N114AB01",
+              "name": "Hazardous Waste Management Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AB01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AB01.pdf"
+            },
+            {
+              "code": "114AH01",
+              "name": "Information Theory for Cyber Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AH01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AH01.pdf"
+            },
+            {
+              "code": "N114AH01",
+              "name": "Information Theory for Cyber Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AH01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AH01.pdf"
+            },
+            {
+              "code": "114AN01",
+              "name": "Introduction to Additive Manufacturing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AN01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AN01.pdf"
+            },
+            {
+              "code": "N114AN01",
+              "name": "Introduction to Additive Manufacturing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AN01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AN01.pdf"
+            },
+            {
+              "code": "114AG01",
+              "name": "Introduction to AI and Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AG01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AG01.pdf"
+            },
+            {
+              "code": "N114AG01",
+              "name": "Introduction to AI and Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AG01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AG01.pdf"
+            },
+            {
+              "code": "114AT01",
+              "name": "Introduction to Data Science",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AT01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AT01.pdf"
+            },
+            {
+              "code": "N114AT01",
+              "name": "Introduction to Data Science",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AT01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AT01.pdf"
+            },
+            {
+              "code": "114AS01",
+              "name": "Introduction to Green Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AS01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AS01.pdf"
+            },
+            {
+              "code": "N114AS01",
+              "name": "Introduction to Green Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AS01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AS01.pdf"
+            },
+            {
+              "code": "114AI01",
+              "name": "Introduction to Internet of Things (IoT)",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AI01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AI01.pdf"
+            },
+            {
+              "code": "N114AI01",
+              "name": "Introduction to Internet of Things (IoT)",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AI01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AI01.pdf"
+            },
+            {
+              "code": "114AO01",
+              "name": "Introduction to Robotics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AO01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/114AO01.pdf"
+            },
+            {
+              "code": "N114AO01",
+              "name": "Introduction to Robotics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AO01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AO01.pdf"
+            },
+            {
+              "code": "N114AR01",
+              "name": "NDT Techniques - I (VI, LPT, MPT)",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AR01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AR01.pdf"
+            },
+            {
+              "code": "N114AK01",
+              "name": "Numerical Methods for Engineers using C",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AK01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AK01.pdf"
+            },
+            {
+              "code": "N114AJ01",
+              "name": "Solar Energy System-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AJ01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/N114AJ01.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "115AH01",
+              "name": "Data Encryption",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AH01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AH01.pdf"
+            },
+            {
+              "code": "115AS01",
+              "name": "Environmental Engineering and Pollution Prevention for Sustainability",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AS01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AS01.pdf"
+            },
+            {
+              "code": "115AC02",
+              "name": "Green Building Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AC02.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AC02.pdf"
+            },
+            {
+              "code": "115AA01",
+              "name": "Industrial Hygiene and Occupational Health",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AA01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AA01.pdf"
+            },
+            {
+              "code": "115AG01",
+              "name": "Introduction to Data Analytics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AG01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AG01.pdf"
+            },
+            {
+              "code": "115AI01",
+              "name": "IoT Embedded Hardware",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AI01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AI01.pdf"
+            },
+            {
+              "code": "115AN01",
+              "name": "Materials Science for Additive Manufacturing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AN01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AN01.pdf"
+            },
+            {
+              "code": "115AO02",
+              "name": "Microprocessor and Embedded System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AO02.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AO02.pdf"
+            },
+            {
+              "code": "115AL01",
+              "name": "Power Electronics for Electrical Vehicles",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AL01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AL01.pdf"
+            },
+            {
+              "code": "115AD01",
+              "name": "Smart Village Surveys",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AD01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AD01.pdf"
+            },
+            {
+              "code": "115AN02",
+              "name": "Solid Modelling",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AN02.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AN02.pdf"
+            },
+            {
+              "code": "115AF01",
+              "name": "Sustainable Smart City",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AF01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AF01.pdf"
+            },
+            {
+              "code": "115AB02",
+              "name": "Waste Heat and Energy Recovery",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AB02.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/115AB02.pdf"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
+            {
+              "code": "117AG01",
+              "name": "Applications of AI",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AG01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/117AG01.pdf"
+            },
+            {
+              "code": "117AH01",
+              "name": "Database Security and Access Control",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AH01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/117AH01.pdf"
+            },
+            {
+              "code": "117AJ01",
+              "name": "Solar System Integration Challenges",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AJ01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/117AJ01.pdf"
+            },
+            {
+              "code": "117AL01",
+              "name": "Vehicle Dynamics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AL01.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/MN/117AL01.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MN",
+  "checkedOn": "2026-10-16"
+}

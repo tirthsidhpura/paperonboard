@@ -94,6 +94,11 @@ function examOrder(resource) {
 function routeURL(values) {
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(values)) if (value) params.set(key, value);
+  if (values.stream && !values.subject && !values.q && !values.semester) {
+    return `catalog-${encodeURIComponent(values.stream)}${values.branch ? '--' + encodeURIComponent(values.branch) : ''}.html`;
+  }
+  if (values.view === 'courses' && !values.q) return 'courses.html';
+  if (values.view === 'contributors' && !values.q) return 'contributors.html';
   return `index.html${params.size ? `?${params}` : ''}`;
 }
 function routeLink(label, values) {
@@ -163,10 +168,10 @@ function home() {
   const heading = element('div', 'heading');
   heading.append(element('p', 'hero-kicker', `${config.latestSession || 'Latest'} papers now available` ), element('h1', '', 'Your next exam.\nA better starting point.'), element('p', 'shared-hero-description', 'Find previous-year papers by course, branch and semester. Free to access. Built together by students.'));
   const subjects = element('div', 'subjects');
-  const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id))
+  const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id)).slice(0, 8)
     .map((stream) => routeLink(stream.name, { stream: stream.id }));
   links.push(routeLink('VIEW MORE', { view: 'courses' }));
-  subjects.append(dropdown('Select your course', links, true));
+  subjects.append(dropdown('Select your stream', links, true));
   both.append(heading, subjects);
   hero.append(both);
   page.append(hero);
@@ -182,16 +187,16 @@ function home() {
   courses.id = 'choose-course';
   courses.append(sectionIntro('THE PAPER LIBRARY', 'Your course. Your next step.', 'Choose your stream, then find your branch and semester.'));
   const grid = element('div', 'premium-course-grid');
-  for (const stream of config.streams.filter((s) => catalogs.some((c) => c.id === s.id))) {
+  for (const stream of config.streams.filter((s) => catalogs.some((c) => c.id === s.id)).slice(0, 8)) {
     const catalog = catalogs.find((c) => c.id === stream.id);
     const link = routeLink('', { stream: stream.id });
     link.className = 'premium-course';
     const top = element('div', 'course-top');
     top.append(element('span', 'course-mark', stream.shortName), element('span', 'course-arrow', '↗'));
-    link.append(top, element('h3', '', stream.name), element('p', '', stream.description), element('span', 'course-count', `${catalog.branches.length} ${catalog.branches.length === 1 ? 'branch' : 'branches'} · Explore papers`));
+    link.append(top, element('h3', '', stream.name), element('p', '', stream.description), element('span', 'course-count', catalog.imported ? 'Browse official subject codes' : `${catalog.branches.length} ${catalog.branches.length === 1 ? 'branch' : 'branches'} · Explore papers`));
     grid.append(link);
   }
-  courses.append(grid);
+  courses.append(grid, controls([routeLink('Browse all GTU courses →', { view: 'courses' })]));
   page.append(courses);
   const how = element('section', 'how-section');
   const inner = element('div', 'premium-wrap how-layout');
@@ -292,11 +297,11 @@ function controls(items) {
 }
 function renderBranch(catalog, branch, content) {
   content.append(banner(`${branch.name} Question Paper`, 'headerimg1'));
-  content.append(controls([routeLink('← Select course', {}), routeLink('← Select branch', { stream: catalog.id })]));
+  content.append(controls([routeLink('← Select stream', { view: 'courses' }), routeLink('← Select course', { stream: catalog.id })]));
   const chooser = element('section');
   chooser.id = 'selectsemester';
   const title = element('div', 'semhead');
-  title.append(element('h1', '', 'Select The Semester'));
+  title.append(element('h1', '', branch.semesters.every((semester) => semester.id.startsWith('year-')) ? 'Select The Year' : 'Select The Semester'));
   const sequence = element('div', 'semseq');
   for (const semester of branch.semesters) {
     const heading = element('h1');
@@ -370,7 +375,7 @@ function render() {
   $('oldpaper').hidden = isContributors;
   $('announcement').hidden = !isHome;
   document.querySelector('.about').hidden = !isHome;
-  document.title = entry ? `${entry.subject.name} Question Paper | ${config.name}` : branch ? `${branch.name} Question Paper | ${config.name}` : config.name;
+  document.title = entry ? `${entry.subject.name} (${entry.subject.code}) Question Papers | ${config.name}` : branch ? `${catalog.name} ${branch.name} Question Papers | ${config.name}` : catalog ? `${catalog.name} Question Papers | ${config.name}` : `${config.name} | GTU Question Papers`;
   if (state.q) {
     content.append(banner(`Search question papers: ${state.q}`));
     content.append(controls([routeLink('Clear search', {}), routeLink('Select course', { view: 'courses' })]));
@@ -389,10 +394,16 @@ function render() {
   else if (branch) renderBranch(catalog, branch, content);
   else if (catalog) {
     content.append(banner(`GTU ${catalog.name} Question Paper`));
+    if (catalog.source) {
+      const source = element('a', 'repository-link', 'Source: GTU official question-paper repository ↗');
+      source.href = catalog.source; source.target = '_blank'; source.rel = 'noopener noreferrer';
+      content.append(controls([source]));
+    }
+    if (catalog.imported && !catalog.branches.length) content.append(element('p', 'catalog-message', catalog.pendingSubjects?.length ? 'Course and semester details are being verified against GTU records. Please check the official repository for additional papers.' : 'This stream is listed by GTU, but no papers could be retrieved from the checked sessions. Please check the official repository.'));
     const courses = element('section');
     courses.id = 'coarsenames';
     const label = element('div', 'coarsename');
-    const heading = element('h1', '', `${config.latestSession || 'Latest'} papers available`);
+    const heading = element('h1', '', 'Select your course');
     heading.style.backgroundColor = '#1D8471';
     label.append(heading);
     const boxes = element('div', 'coarsename');
@@ -403,12 +414,50 @@ function render() {
     }
     courses.append(label, boxes);
     content.append(courses, controls([routeLink('← Select course', {})]));
-  } else if (state.view === 'courses') content.append(banner('Select your course'), courseBoxes());
+  } else if (state.view === 'courses') {
+    document.title = `All GTU Courses and Question Papers | ${config.name}`;
+    content.append(banner('Select your stream'), courseBoxes());
+  }
   else content.append(home());
+  updatePageMetadata(catalog, branch, entry);
+}
+function updatePageMetadata(catalog, branch, entry) {
+  const canonical = $('page-canonical');
+  if (!canonical) return;
+  const origin = 'https://paperonboard.in/';
+  const values = entry ? entryRoute(entry) : branch ? { stream: catalog.id, branch: branch.id } : catalog ? { stream: catalog.id } : state.view ? { view: state.view } : {};
+  const relative = routeURL(values);
+  const url = relative === 'index.html' ? origin : new URL(relative, origin).href;
+  const unavailable = (state.stream && !catalog) || (state.branch && !branch) || (state.subject && !entry) || (catalog && !catalog.branches.length);
+  const description = entry ? `Find GTU ${entry.subject.name} (${entry.subject.code}) papers for ${catalog.name}. Browse available exam sessions and download from linked sources.` : branch ? `Browse GTU ${catalog.name} ${branch.name} question papers by subject code and exam session.` : catalog ? `Browse GTU ${catalog.name} previous-year question papers and available official archive links.` : 'Find GTU question papers by course, branch, semester and subject code. Independent, free, community-maintained paper directory.';
+  canonical.href = url;
+  $('page-description').setAttribute('content', description);
+  $('page-robots').setAttribute('content', state.q || state.resource || unavailable ? 'noindex,follow' : 'index,follow,max-image-preview:large');
+  $('page-og-title').setAttribute('content', document.title);
+  $('page-og-description').setAttribute('content', description);
+  $('page-og-url').setAttribute('content', url);
+  $('page-schema').textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: document.title, description, url, isPartOf: { '@type': 'WebSite', name: config.name, url: origin } });
 }
 function restoreURL() {
   const params = new URLSearchParams(location.search);
+  const file = (location.pathname || '').split('/').pop();
+  if (file?.startsWith('catalog-') && file.endsWith('.html')) {
+    const [stream, branch] = file.slice(8, -5).split('--').map(decodeURIComponent);
+    params.set('stream', stream);
+    if (branch) params.set('branch', branch);
+  } else if (file === 'courses.html') params.set('view', 'courses');
+  else if (file === 'contributors.html') params.set('view', 'contributors');
   for (const key of Object.keys(state)) state[key] = params.get(key) || '';
+  const catalog = catalogs.find((catalog) => catalog.id === state.stream);
+  if (['official-papers', 'additional-papers', 'course'].includes(state.branch) && catalog && !catalog.branches.some((branch) => branch.id === state.branch)) {
+    const entry = state.subject ? entries.find((entry) => entry.catalog.id === state.stream && entry.subject.code === state.subject) : null;
+    state.branch = entry?.branch.id || '';
+    if (entry) state.semester = entry.semester.id;
+  }
+  if (state.semester === 'unclassified' && state.subject) {
+    const entry = entries.find((entry) => entry.catalog.id === state.stream && entry.branch.id === state.branch && entry.subject.code === state.subject);
+    if (entry) state.semester = entry.semester.id;
+  }
   if (!['', 'paper', 'material'].includes(state.resource)) state.resource = '';
   $('search').value = state.q;
   render();
@@ -482,7 +531,7 @@ async function initialize() {
     if (!catalogs.length) throw new Error('No catalogs available');
     for (const catalog of catalogs) for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
       const resources = resourcesFor(catalog, subject);
-      entries.push({ catalog, branch, semester, subject, resources, searchText: [catalog.name, branch.name, semester.name, subject.name, subject.code, ...resources.map((p) => p.label)].join(' ').toLocaleLowerCase() });
+      entries.push({ catalog, branch, semester, subject, resources, searchText: [catalog.name, catalog.gtuCourseCode || '', branch.name, semester.name, subject.name, subject.code, ...resources.map((p) => p.label)].join(' ').toLocaleLowerCase() });
     }
     if (config.announcement) $('announcement-text').textContent = config.announcement;
     restoreURL();

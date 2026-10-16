@@ -1,0 +1,10 @@
+{
+  "id": "gtu-besp",
+  "name": "GTU course BESP",
+  "examTemplates": [],
+  "branches": [],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BESP",
+  "checkedOn": "2026-10-16"
+}

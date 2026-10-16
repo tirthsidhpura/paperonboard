@@ -1,0 +1,689 @@
+{
+  "id": "gtu-ic",
+  "name": "Master of Computer Applications (Integrated)",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "master-of-computer-applications-integrated",
+      "name": "Master of Computer Applications (Integrated)",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "2618604",
+              "name": "Basic Mathematics for IT",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2618604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2618604.pdf"
+            },
+            {
+              "code": "2618601",
+              "name": "Fundamental of Computer Organization",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2618601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2618601.pdf"
+            },
+            {
+              "code": "2618603",
+              "name": "Fundamental of Programming-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2618603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2618603.pdf"
+            },
+            {
+              "code": "2618602",
+              "name": "Fundamental of Web",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2618602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2618602.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "2628602",
+              "name": "Advanced C Programming",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2628602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2628602.pdf"
+            },
+            {
+              "code": "2628601",
+              "name": "Data Structures",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2628601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2628601.pdf"
+            },
+            {
+              "code": "2628603",
+              "name": "Fundamentals of Database Management Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2628603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2628603.pdf"
+            },
+            {
+              "code": "2628604",
+              "name": "Operational Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2628604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2628604.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "2638602",
+              "name": "Basic Statistics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2638602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2638602.pdf"
+            },
+            {
+              "code": "2638601",
+              "name": "Object Oriented Programming in JAVA",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2638601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2638601.pdf"
+            },
+            {
+              "code": "2638603",
+              "name": "Structured and Object Oriented Analysis and Design Methodology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2638603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2638603.pdf"
+            },
+            {
+              "code": "2638604",
+              "name": "Web Design Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2638604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2638604.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "2648604",
+              "name": "Application Development using LARAVEL",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2648604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2648604.pdf"
+            },
+            {
+              "code": "2648603",
+              "name": "Computer Networking",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2648603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2648603.pdf"
+            },
+            {
+              "code": "2648602",
+              "name": "Operations Research",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2648602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2648602.pdf"
+            },
+            {
+              "code": "2648601",
+              "name": "Python",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2648601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2648601.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "2658601",
+              "name": "Advanced JAVA",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2658601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2658601.pdf"
+            },
+            {
+              "code": "2658604",
+              "name": "E-Commerce",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2658604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2658604.pdf"
+            },
+            {
+              "code": "2658602",
+              "name": "Mobile Computing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2658602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2658602.pdf"
+            },
+            {
+              "code": "2658603",
+              "name": "Software Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2658603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2658603.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "2668603",
+              "name": "Data Mining",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2668603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2668603.pdf"
+            },
+            {
+              "code": "2668604",
+              "name": "Environmental Studies",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2668604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2668604.pdf"
+            },
+            {
+              "code": "2668601",
+              "name": "Management Information System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2668601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2668601.pdf"
+            },
+            {
+              "code": "2668602",
+              "name": "Software Testing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2668602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2668602.pdf"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
+            {
+              "code": "2678605",
+              "name": "Block Chain Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2678605.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2678605.pdf"
+            },
+            {
+              "code": "2678603",
+              "name": "Cyber Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2678603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2678603.pdf"
+            },
+            {
+              "code": "2678601",
+              "name": "Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2678601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2678601.pdf"
+            },
+            {
+              "code": "4470601",
+              "name": "Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4470601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4470601.pdf"
+            },
+            {
+              "code": "4470611",
+              "name": "Mobile Programming",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4470611.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4470611.pdf"
+            },
+            {
+              "code": "4470631",
+              "name": "Software Testing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4470631.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4470631.pdf"
+            },
+            {
+              "code": "2678606",
+              "name": "Web User Interface Design",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2678606.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2678606.pdf"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": [
+            {
+              "code": "2688602",
+              "name": "Advance Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2688602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2688602.pdf"
+            },
+            {
+              "code": "4480606",
+              "name": "Advanced Python",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4480606.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4480606.pdf"
+            },
+            {
+              "code": "2688603",
+              "name": "Analysis and Design of Algorithms",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2688603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2688603.pdf"
+            },
+            {
+              "code": "2688601",
+              "name": "Big Data Analytics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2688601.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2688601.pdf"
+            },
+            {
+              "code": "2688607",
+              "name": "Cyber Forensic",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2688607.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2688607.pdf"
+            },
+            {
+              "code": "4480602",
+              "name": "Data Analytics with R",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4480602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4480602.pdf"
+            },
+            {
+              "code": "4480603",
+              "name": "Network Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4480603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4480603.pdf"
+            },
+            {
+              "code": "2688604",
+              "name": "Technical Writing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2688604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2688604.pdf"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Semester 9",
+          "subjects": [
+            {
+              "code": "2698603",
+              "name": "Ethics in Computing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2698603.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2698603.pdf"
+            },
+            {
+              "code": "2698606",
+              "name": "Flutter Application Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2698606.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2698606.pdf"
+            },
+            {
+              "code": "2698607",
+              "name": "Internet of Things",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2698607.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2698607.pdf"
+            },
+            {
+              "code": "4490602",
+              "name": "Java Web Technologies",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/4490602.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/4490602.pdf"
+            },
+            {
+              "code": "2698604",
+              "name": "Project Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IC/2698604.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/IC/2698604.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "IC",
+  "checkedOn": "2026-10-16"
+}

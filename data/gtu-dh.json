@@ -1,0 +1,109 @@
+{
+  "id": "gtu-dh",
+  "name": "Post Graduate Diploma in Hospital Management",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "post-graduate-diploma-in-hospital-management",
+      "name": "Post Graduate Diploma in Hospital Management",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "DH01077021",
+              "name": "Basics of Accounting & Financial Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/DH/DH01077021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077021.pdf"
+            },
+            {
+              "code": "DH01077041",
+              "name": "Hospital Administration-1",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/DH/DH01077041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077041.pdf"
+            },
+            {
+              "code": "DH01077031",
+              "name": "Human Resource Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/DH/DH01077031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077031.pdf"
+            },
+            {
+              "code": "DH01077051",
+              "name": "Material Management & Inventory Control",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/DH/DH01077051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077051.pdf"
+            },
+            {
+              "code": "1517701",
+              "name": "Principles and Practices of Management & Organisational Behaviour",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/DH/1517701.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/1517701.pdf"
+            },
+            {
+              "code": "DH01077011",
+              "name": "Principles and Practices of Management & Organisational Behaviour",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/DH/DH01077011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077011.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DH",
+  "checkedOn": "2026-10-16"
+}

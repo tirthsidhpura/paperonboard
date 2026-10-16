@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { root, validate } from './validate.mjs';
+import { prerender } from './prerender.mjs';
 
 const site = validate();
 const destination = path.join(root, 'dist');
@@ -15,6 +16,11 @@ const copy = (file) => {
   fs.copyFileSync(path.join(root, file), target);
 };
 copy('ads.txt');
+copy('data/gtu-source.json');
+copy('data/gtu-program-names.json');
+copy('data/gtu-subjects.json');
+copy('data/gtu-subject-overrides.json');
+copy('data/gtu-course-map.json');
 for (const file of ['index.html', 'index.js', 'paper-urls.js', 'style.css', 'inside.css', 'catalog.css', 'landing.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'img/pob_logo.png', 'CONTRIBUTING.md', 'data/site.json', 'data/urls.json', 'data/contributors.json', ...site.streams.map((s) => s.file)]) copy(file);
 for (const stream of site.streams) {
   const catalog = JSON.parse(fs.readFileSync(path.join(root, stream.file), 'utf8'));
@@ -48,4 +54,5 @@ const html = fs.readFileSync(htmlPath, 'utf8').replace(/(href|src)="([^"?]+\.(?:
   return `${attribute}="${file}?v=${version}"`;
 });
 fs.writeFileSync(htmlPath, html);
+prerender(root, destination, site);
 console.log('Static site ready in dist/. Publish only this folder.');
