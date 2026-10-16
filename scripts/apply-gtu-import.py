@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXISTING = {'BE': 'bachelors', 'DI': 'diploma', 'BA': 'architecture', 'BP': 'pharma'}
 NAMES = json.loads((ROOT / 'data/gtu-program-names.json').read_text(encoding='utf-8'))['names']
 
-def apply(snapshot):
+def apply(snapshot, existing_only=False):
     site_path = ROOT / 'data/site.json'
     site = json.loads(site_path.read_text(encoding='utf-8'))
     summary = {'source': snapshot['source'], 'checkedOn': snapshot['checkedOn'], 'courses': []}
@@ -37,6 +37,7 @@ def apply(snapshot):
                     raise ValueError(f'Unexpected official paper path: {link}')
                 subject_code = Path(parts[3]).stem
                 if subject_code not in subjects:
+                    if existing_only: continue
                     subject = {'code': subject_code, 'name': f'Subject {subject_code}', 'useExamTemplates': False, 'papers': []}
                     missing.append(subject)
                     subjects[subject_code] = [subject]
@@ -48,17 +49,29 @@ def apply(snapshot):
         if missing:
             # A paper is published in the semester flow only after its header is verified.
             catalog.setdefault('pendingSubjects', []).extend(sorted(missing, key=lambda s: s['code']))
+        if snapshot.get('scope') == 'all-listed-sessions':
+            catalog['archivePolicy'] = 'listed-only'
+            for records in subjects.values():
+                for subject in records: subject['useExamTemplates'] = False
         if not any(s['id'] == stream_id for s in site['streams']):
             site['streams'].append({'id': stream_id, 'name': catalog['name'], 'shortName': code,
                                     'description': f'GTU official repository · Course {code}', 'file': f'data/{stream_id}.json'})
         file.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
         summary['courses'].append({'code': code, 'id': stream_id, 'papersListed': sum(map(len, sessions.values())),
                                    'sessionsWithListings': [s for s, links in sessions.items() if links],
-                                   'sessionsChecked': list(sessions)})
-    summary['limitations'] = 'GTU sometimes returns server errors for session/course searches. Zero retrieved listings does not establish that a course has no papers. Subject names, branches and semesters were not inferred from codes. Existing curated catalogs are preserved.'
+                                   'sessionsChecked': list(sessions),
+                                   'sessionErrors': snapshot.get('errors',{}).get(code,[])})
+    summary['scope'] = snapshot.get('scope','recent')
+    summary['subjectScope'] = 'existing-subjects' if existing_only else 'all-listings'
+    summary['limitations'] = 'GTU sometimes returns errors for session/course searches. Empty or failed searches do not establish that no paper exists. Only returned links are imported; historical URLs are never generated for new subjects. Existing curated direct links are preserved. Historical enrichment is limited to catalogued subjects when existing-only mode is selected.'
     (ROOT / 'data/gtu-source.json').write_text(json.dumps(summary, indent=2) + '\n', encoding='utf-8')
     site_path.write_text(json.dumps(site, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     print(f'Registered {len(site["streams"])} courses; merged {added} resource records.')
 
 if __name__ == '__main__':
-    apply(json.loads(Path(sys.argv[1]).read_text(encoding='utf-8')))
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('snapshot',type=Path)
+    parser.add_argument('--existing-only',action='store_true',help='Add past sessions to known subjects without importing unrelated historical curricula')
+    args=parser.parse_args()
+    apply(json.loads(args.snapshot.read_text(encoding='utf-8')), existing_only=args.existing_only)

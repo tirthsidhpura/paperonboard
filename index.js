@@ -66,7 +66,7 @@ async function readJSON(path) {
 }
 function resourcesFor(catalog, subject) {
   const resources = (subject.papers || []).map((paper) => ({ ...paper, url: resolvePaperURL(paper, urlSources, subject.code) }));
-  if (subject.useExamTemplates) for (const exam of catalog.examTemplates || []) {
+  if (subject.useExamTemplates && catalog.archivePolicy !== 'listed-only') for (const exam of catalog.examTemplates || []) {
     resources.push({ label: exam.label, url: resolvePaperURL(exam, urlSources, subject.code), type: 'paper', archive: true });
   }
   const seen = new Set();
@@ -145,7 +145,7 @@ function dropdown(label, items, home = false) {
   return wrapper;
 }
 function subjectDropdown(entry, includeContext = false) {
-  const links = [routeLink('click here for latest question paper', entryRoute(entry))];
+  const links = [routeLink('View all question papers', entryRoute(entry))];
   for (const paper of matchingResources(entry).filter((p) => !p.archive)) links.push(resourceLink(paper));
   const wrapper = dropdown(`${entry.subject.name} - ${entry.subject.code}`, links);
   if (includeContext) wrapper.prepend(element('p', 'catalog-meta', `${entry.catalog.name} · ${entry.branch.name} · ${entry.semester.name}`));
@@ -339,6 +339,7 @@ function renderSubject(entry, content) {
   select.value = state.resource;
   select.addEventListener('change', () => navigate(routeURL({ ...entryRoute(entry), resource: select.value }), { preserveScroll: true }));
   content.append(controls([routeLink('← Back to subjects', { stream: entry.catalog.id, branch: entry.branch.id }), select]));
+  if (entry.catalog.archivePolicy === 'listed-only') content.append(element('p', 'catalog-message', 'Only recorded paper links are shown. New courses and revised subjects may not have papers from earlier years.'));
   const cards = element('div', 'bigcard');
   const resources = matchingResources(entry);
   for (const paper of resources) {

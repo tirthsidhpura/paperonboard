@@ -22,6 +22,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001081.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001081.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001081.pdf"
@@ -35,6 +41,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001011.pdf",
                   "type": "paper"
                 }
               ],
@@ -50,6 +62,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001051.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001051.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001051.pdf"
@@ -63,6 +81,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001061.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001061.pdf",
                   "type": "paper"
                 }
               ],
@@ -78,6 +102,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001021.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001021.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001021.pdf"
@@ -92,6 +122,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001041.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001041.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001041.pdf"
@@ -105,6 +141,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS01001071.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BS/BS01001071.pdf",
                   "type": "paper"
                 }
               ],
@@ -125,6 +167,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BS/BS02001031.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BS/BS02001031.pdf",
                   "type": "paper"
                 }
               ],
@@ -201,5 +249,6 @@
   "imported": true,
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "BS",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "archivePolicy": "listed-only"
 }

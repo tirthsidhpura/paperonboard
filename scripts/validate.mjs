@@ -48,6 +48,7 @@ export function validate() {
     assert(catalog.id === stream.id, `ID mismatch in ${stream.file}`);
     list(catalog.branches, 'Branches');
     list(catalog.examTemplates, 'Exam templates');
+    assert(catalog.archivePolicy === undefined || catalog.archivePolicy === 'listed-only', 'Unknown archive policy');
     for (const exam of catalog.examTemplates) {
       text(exam.label, 'Exam label');
       const template = exam.path ?? exam.url;
@@ -66,6 +67,7 @@ export function validate() {
           subjects++;
           text(subject.code, 'Subject code'); text(subject.name, 'Subject name'); list(subject.papers, 'Papers');
           assert(typeof subject.useExamTemplates === 'boolean', 'useExamTemplates must be true or false');
+          assert(catalog.archivePolicy !== 'listed-only' || !subject.useExamTemplates, 'Listed-only catalogs must use explicit paper links');
           for (const paper of subject.papers) {
             text(paper.label, 'Paper label'); validateURL(resolvePaperURL(paper, sources, subject.code));
             assert(['paper', 'material'].includes(paper.type), `Unknown resource type: ${paper.type}`);

@@ -50,7 +50,7 @@
             {
               "code": "2X15006",
               "name": "Architectural Communication Skills-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X15006",
@@ -72,13 +72,55 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X15006.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X15006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X15006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X15006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X15006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X15006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X15006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BA/2X15006.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X15003",
               "name": "Building Construction-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X15003",
@@ -100,13 +142,61 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X15003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X15003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BA/2X15003.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X15005",
               "name": "Humanities I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X15005",
@@ -123,13 +213,61 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X15005.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X15005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BA/2X15005.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X15002",
               "name": "T.R.D.-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 2X15002",
@@ -146,6 +284,48 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X15002.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X15002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X15002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X15002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X15002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X15002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X15002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X15002.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -158,7 +338,7 @@
             {
               "code": "2X25006",
               "name": "Architectural Communication Skills-II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 2X25006",
@@ -175,13 +355,43 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X25006.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X25006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X25006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X25006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X25006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X25006.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X25005",
               "name": "History of Architecture - I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X25005",
@@ -203,13 +413,49 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X25005.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X25005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X25005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X25005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X25005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X25005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X25005.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X25004",
               "name": "Structure-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 2X25004",
@@ -226,13 +472,49 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X25004.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X25004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X25004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X25004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X25004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X25004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X25004.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X25002",
               "name": "T.R.D.-II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 2X25002",
@@ -249,6 +531,42 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X25002.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X25002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X25002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X25002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X25002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X25002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X25002.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -261,7 +579,7 @@
             {
               "code": "2X35002",
               "name": "Building Construction-III",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X35002",
@@ -278,13 +596,43 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X35002.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X35002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X35002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X35002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X35002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X35002.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X35005",
               "name": "Climatology",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X35005",
@@ -295,13 +643,49 @@
                   "label": "w2019 2X35005",
                   "url": "https://drive.google.com/uc?export=download&id=1NpG5Ukt7noARQOYewbRSVtvPKbFMbA2U",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X35005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X35005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X35005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X35005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X35005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X35005.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X35004",
               "name": "History of Architecture - II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X35004",
@@ -318,13 +702,49 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X35004.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X35004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X35004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X35004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X35004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X35004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X35004.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X35003",
               "name": "Structure-II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X35003",
@@ -341,13 +761,49 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X35003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X35003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X35003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X35003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X35003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X35003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X35003.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X35006",
               "name": "Surveying and Levelling",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2020 2X35006",
@@ -364,6 +820,42 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X35006.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X35006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X35006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X35006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X35006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X35006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X35006.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -376,7 +868,7 @@
             {
               "code": "2X45002",
               "name": "Building Construction-IV",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X45002",
@@ -398,13 +890,43 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X45002.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X45002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X45002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X45002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X45002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X45002.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X45004",
               "name": "History of Architecture-III",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X45004",
@@ -426,13 +948,43 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X45004.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X45004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X45004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X45004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X45004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X45004.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X45006",
               "name": "Landscape Architecture",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X45006",
@@ -454,13 +1006,43 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X45006.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X45006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X45006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X45006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X45006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X45006.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X45003",
               "name": "Structure - III",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X45003",
@@ -482,6 +1064,36 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X45003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X45003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X45003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X45003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X45003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X45003.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -494,7 +1106,7 @@
             {
               "code": "2X55002",
               "name": "Building Construction Drawing-V",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X55002",
@@ -510,13 +1122,43 @@
                   "label": "w2020 2X55002",
                   "url": "https://drive.google.com/uc?export=download&id=1DYWQPQUAfOpcDqNNoF9LmYfsiDfAS4TV",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X55002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X55002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X55002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X55002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X55002.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X55005",
               "name": "Building Regulations",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X55005",
@@ -532,13 +1174,37 @@
                   "label": "w2020 2X55005",
                   "url": "https://drive.google.com/uc?export=download&id=117HuGWajZk88XxKkEdvrY9BzZ4B3CmDI",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X55005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X55005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X55005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X55005.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X55003",
               "name": "History of Architecture-IV",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X55003",
@@ -560,13 +1226,37 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X55003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X55003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X55003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X55003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X55003.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X55004",
               "name": "Structure-IV",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X55004",
@@ -588,6 +1278,36 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X55004.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X55004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X55004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X55004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X55004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X55004.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -600,7 +1320,7 @@
             {
               "code": "2X65002",
               "name": "Building Construction - VI",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X65002",
@@ -612,13 +1332,31 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X65002.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X65002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X65002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X65002.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X65005",
               "name": "Estimation and Costing",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X65005",
@@ -630,13 +1368,37 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X65005.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X65005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X65005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X65005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X65005.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X65003",
               "name": "History of Architecture - V",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X65003",
@@ -648,13 +1410,37 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X65003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X65003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X65003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X65003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X65003.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "2X65004",
               "name": "Structure - V",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 2X65004",
@@ -665,6 +1451,24 @@
                   "label": "Summer 2024",
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X65004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X65004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X65004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/2X65004.pdf",
                   "type": "paper"
                 }
               ]
@@ -683,7 +1487,7 @@
             {
               "code": "1095003",
               "name": "Architectural Research & Programming",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 1095003",
@@ -709,13 +1513,55 @@
                   "label": "w2018 1095003",
                   "url": "https://drive.google.com/uc?export=download&id=1y2WVwIoDu_T5BT8hKJg_u8lT12KDc2iu",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/1095003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/1095003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/1095003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/1095003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/1095003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BA/1095003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BA/1095003.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "1095002",
               "name": "Urban Planning",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 1095002",
@@ -741,6 +1587,42 @@
                   "label": "w2018 1095002",
                   "url": "https://drive.google.com/uc?export=download&id=1OPK7kZQBROkT1lKUwvuEJV3c8_z_YTHS",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/1095002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BA/1095002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/1095002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/1095002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/1095002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BA/1095002.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -753,7 +1635,7 @@
             {
               "code": "1105002",
               "name": "PROFESSIONAL PRACTICE AND VALUATION",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 1105002",
@@ -768,6 +1650,42 @@
                 {
                   "label": "w2020 1105002",
                   "url": "https://drive.google.com/uc?export=download&id=1XTjkuhZ_FB-3U6CXKTPUzUygda53e58t",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/1105002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/1105002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/1105002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/1105002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/1105002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BA/1105002.pdf",
                   "type": "paper"
                 }
               ]
@@ -795,6 +1713,42 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X25003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X25003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X25003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X25003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BA/2X25003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BA/2X25003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BA/2X25003.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X25003.pdf"
@@ -814,6 +1768,24 @@
                   "label": "Summer 2024",
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X85003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X85003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X85003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BA/2X85003.pdf",
                   "type": "paper"
                 }
               ],
@@ -835,6 +1807,18 @@
                   "urlVersion": "v1",
                   "path": "S2024/BA/2X105002.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/BA/2X105002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BA/2X105002.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X105002.pdf"
@@ -847,5 +1831,6 @@
   ],
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "BA",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "archivePolicy": "listed-only"
 }
