@@ -1,13 +1,10 @@
 'use strict';
 
-// Every option and paper comes from data/. No framework or backend is needed.
 const $ = (id) => document.getElementById(id);
-const state = { stream: '', branch: '', semester: '', resource: '', q: '' };
-const PAGE_SIZE = 24;
+const state = { stream: '', branch: '', semester: '', subject: '', resource: '', q: '', view: '' };
 let config;
 let catalogs = [];
 let entries = [];
-let visibleCount = PAGE_SIZE;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -15,7 +12,6 @@ function element(tag, className, text) {
   if (text !== undefined) node.textContent = text;
   return node;
 }
-
 function safeURL(value) {
   if (typeof value !== 'string' || !value.trim()) return null;
   try {
@@ -23,19 +19,15 @@ function safeURL(value) {
     return ['https:', 'http:'].includes(url.protocol) ? url.href : null;
   } catch { return null; }
 }
-
 async function readJSON(path) {
   const response = await fetch(path);
   if (!response.ok) throw new Error(`Could not load ${path} (${response.status}).`);
   return response.json();
 }
-
 function resourcesFor(catalog, subject) {
   const resources = [...(subject.papers || [])];
-  if (subject.useExamTemplates) {
-    for (const exam of catalog.examTemplates || []) {
-      resources.push({ label: exam.label, url: exam.url.replaceAll('{code}', encodeURIComponent(subject.code)), type: 'paper', archive: true });
-    }
+  if (subject.useExamTemplates) for (const exam of catalog.examTemplates || []) {
+    resources.push({ label: exam.label, url: exam.url.replaceAll('{code}', encodeURIComponent(subject.code)), type: 'paper', archive: true });
   }
   const seen = new Set();
   return resources.filter((paper) => {
@@ -45,207 +37,276 @@ function resourcesFor(catalog, subject) {
     return true;
   });
 }
-
-function updateURL() {
-  const params = new URLSearchParams();
-  for (const [key, value] of Object.entries(state)) if (value) params.set(key, value);
-  const query = params.toString();
-  const url = `${location.pathname}${query ? `?${query}` : ''}${location.hash}`;
-  if (url !== `${location.pathname}${location.search}${location.hash}`) history.pushState(null, '', url);
-}
-
-function restoreURL() {
-  const params = new URLSearchParams(location.search);
-  for (const key of Object.keys(state)) state[key] = params.get(key) || '';
-  if (!catalogs.some((c) => c.id === state.stream)) state.stream = '';
-  const catalog = catalogs.find((c) => c.id === state.stream);
-  const branch = catalog?.branches.find((b) => b.id === state.branch);
-  if (!branch) state.branch = '';
-  if (!branch?.semesters.some((s) => s.id === state.semester)) state.semester = '';
-  if (!['', 'paper', 'material'].includes(state.resource)) state.resource = '';
-  $('search').value = state.q;
-  $('resource').value = state.resource;
-  if (state.q) setSearchOpen(true, false);
-  visibleCount = PAGE_SIZE;
-  render();
-}
-
-function fillSelect(select, placeholder, options, value, disabled) {
-  select.replaceChildren();
-  const first = element('option', '', placeholder);
-  first.value = '';
-  select.append(first);
-  for (const option of options) {
-    const node = element('option', '', option.name);
-    node.value = option.id;
-    select.append(node);
-  }
-  select.value = value;
-  select.disabled = disabled;
-}
-
-function renderFilters() {
-  for (const button of $('stream-tabs').children) button.setAttribute('aria-pressed', String(button.dataset.stream === state.stream));
-  const catalog = catalogs.find((c) => c.id === state.stream);
-  const branch = catalog?.branches.find((b) => b.id === state.branch);
-  fillSelect($('branch'), catalog ? 'All branches' : 'Choose a stream first', catalog?.branches || [], state.branch, !catalog);
-  fillSelect($('semester'), branch ? 'All semesters' : 'Choose a branch first', branch?.semesters || [], state.semester, !branch);
-  $('resource').value = state.resource;
-}
-
 function matchesQuery(entry) {
-  const tokens = state.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
-  return tokens.every((token) => entry.searchText.includes(token));
+  return state.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean).every((token) => entry.searchText.includes(token));
 }
-
 function matchingResources(entry) {
   return entry.resources.filter((r) => !state.resource || (r.type || 'paper') === state.resource);
 }
-
-function subjectCard(entry) {
-  const card = element('details', 'subject-card');
-  const summary = element('summary');
-  const top = element('div', 'subject-top');
-  top.append(element('span', 'subject-code', entry.subject.code), element('span', '', entry.semester.name));
-  summary.append(top, element('h4', '', entry.subject.name), element('p', 'subject-meta', `${entry.catalog.name} · ${entry.branch.name}`));
-  const resources = matchingResources(entry);
-  const bottom = element('div', 'subject-bottom');
-  bottom.append(element('span', '', `${resources.length} resource${resources.length === 1 ? '' : 's'}`), element('span', 'expand-arrow', '↓'));
-  summary.append(bottom);
-  card.append(summary);
-  // Build resource links only when expanded, keeping large catalogs responsive.
-  card.addEventListener('toggle', () => {
-    if (!card.open || card.childElementCount > 1) return;
-    const list = element('div', 'paper-list');
-    if (!resources.length) list.append(element('p', 'archive-note', 'No papers added yet. You can help by contributing a link.'));
-    for (const paper of resources) {
-      const link = element('a', 'paper-link');
-      link.href = safeURL(paper.url);
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      const label = element('span', '', paper.label);
-      label.append(element('small', '', (paper.type || 'paper') === 'material' ? 'Study material · Opens in a new tab' : 'Question paper · Opens in a new tab'));
-      link.append(label, element('span', '', '↗'));
-      list.append(link);
-    }
-    if (resources.some((r) => r.archive)) list.append(element('p', 'archive-note', 'GTU archive links are carried over from the original site. Availability depends on GTU; some sessions may not have a paper for this subject.'));
-    card.append(list);
+function routeURL(values) {
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(values)) if (value) params.set(key, value);
+  return `index.html${params.size ? `?${params}` : ''}`;
+}
+function routeLink(label, values) {
+  const link = element('a', '', label);
+  link.href = routeURL(values);
+  link.dataset.route = '';
+  return link;
+}
+function entryRoute(entry) {
+  return { stream: entry.catalog.id, branch: entry.branch.id, semester: entry.semester.id, subject: entry.subject.code };
+}
+function banner(title, className = 'headerimg') {
+  const header = element('div', className);
+  header.append(element('h1', '', title));
+  return header;
+}
+function resourceLink(paper, label = paper.label) {
+  const link = element('a', '', label);
+  link.href = safeURL(paper.url);
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  return link;
+}
+function dropdown(label, items, home = false) {
+  const wrapper = element('div', 'subject');
+  const button = element('button', home ? 'sub12' : 'sub', label);
+  button.type = 'button';
+  button.setAttribute('aria-expanded', 'false');
+  const menu = element('div', 'paper');
+  menu.append(...items);
+  button.addEventListener('click', () => {
+    const open = wrapper.classList.toggle('is-open');
+    button.setAttribute('aria-expanded', String(open));
   });
-  return card;
+  wrapper.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      wrapper.classList.remove('is-open');
+      button.setAttribute('aria-expanded', 'false');
+      button.blur();
+    }
+  });
+  wrapper.append(button, menu);
+  return wrapper;
 }
-
-function empty(title, description) {
-  const box = element('div', 'empty-state');
-  box.append(element('span', 'empty-symbol', '⌑'), element('strong', '', title), element('p', '', description));
-  return box;
+function subjectDropdown(entry, includeContext = false) {
+  const links = [routeLink('click here for latest question paper', entryRoute(entry))];
+  for (const paper of matchingResources(entry).filter((p) => !p.archive)) links.push(resourceLink(paper));
+  const wrapper = dropdown(`${entry.subject.name} - ${entry.subject.code}`, links);
+  if (includeContext) wrapper.prepend(element('p', 'catalog-meta', `${entry.catalog.name} · ${entry.branch.name} · ${entry.semester.name}`));
+  return wrapper;
 }
-
+function courseBoxes() {
+  const boxes = element('div', 'coarsename');
+  for (const stream of config.streams.filter((s) => catalogs.some((c) => c.id === s.id))) {
+    const heading = element('h1');
+    heading.append(routeLink(stream.name, { stream: stream.id }));
+    boxes.append(heading);
+  }
+  return boxes;
+}
+function home() {
+  const hero = element('div', 'bg');
+  hero.id = 'container1';
+  const both = element('div', 'both');
+  const heading = element('div', 'heading');
+  for (const line of ['More than', '3000+', 'Papers']) heading.append(element('h1', '', line));
+  const subjects = element('div', 'subjects');
+  const links = config.streams.filter((s) => catalogs.some((c) => c.id === s.id)).map((s) => routeLink(s.name, { stream: s.id }));
+  links.push(routeLink('VIEW MORE', { view: 'courses' }));
+  subjects.append(dropdown('Select your course', links, true));
+  both.append(heading, subjects);
+  hero.append(both);
+  return hero;
+}
+function controls(items) {
+  const row = element('div', 'catalog-controls');
+  row.append(...items);
+  return row;
+}
+function renderBranch(catalog, branch, content) {
+  content.append(banner(`${branch.name} Question Paper`, 'headerimg1'));
+  content.append(controls([routeLink('← Select course', {}), routeLink('← Select branch', { stream: catalog.id })]));
+  const chooser = element('section');
+  chooser.id = 'selectsemester';
+  const title = element('div', 'semhead');
+  title.append(element('h1', '', 'Select The Semester'));
+  const sequence = element('div', 'semseq');
+  for (const semester of branch.semesters) {
+    const heading = element('h1');
+    const link = element('a', '', semester.name);
+    link.href = `#sem-${semester.id}`;
+    heading.append(link);
+    sequence.append(heading);
+  }
+  chooser.append(title, sequence);
+  content.append(chooser, element('hr'));
+  // As in the original pages, all semesters remain available on the branch view.
+  for (const semester of branch.semesters) {
+    const section = element('section', 'sem');
+    section.id = `sem-${semester.id}`;
+    const title = element('div', 'semhead');
+    title.append(element('h1', '', semester.name));
+    section.append(title);
+    const subjects = element('div', 'subjects');
+    const found = entries.filter((e) => e.catalog.id === catalog.id && e.branch.id === branch.id && e.semester.id === semester.id);
+    for (const entry of found) subjects.append(subjectDropdown(entry));
+    if (!found.length) subjects.append(element('p', 'catalog-message', 'Nothing here yet. Papers will be added soon.'));
+    section.append(subjects);
+    content.append(section, element('hr'));
+  }
+}
+function renderSubject(entry, content) {
+  content.append(banner(`${entry.subject.name} - ${entry.subject.code}`, 'headerimg1'));
+  const select = element('select');
+  select.setAttribute('aria-label', 'Resource type');
+  for (const [value, label] of [['', 'All resources'], ['paper', 'Question papers'], ['material', 'Study material']]) {
+    const option = element('option', '', label);
+    option.value = value;
+    select.append(option);
+  }
+  select.value = state.resource;
+  select.addEventListener('change', () => navigate(routeURL({ ...entryRoute(entry), resource: select.value })));
+  content.append(controls([routeLink('← Back to subjects', { stream: entry.catalog.id, branch: entry.branch.id }), select]));
+  const wrapper = element('div', 'table-wrap');
+  const table = element('table');
+  table.id = 'qp';
+  const head = element('thead');
+  const row = element('tr');
+  for (const label of ['Subject Name', 'Subject Code', 'Examination / Material', 'Download Link']) {
+    const cell = element('th', '', label); cell.scope = 'col'; row.append(cell);
+  }
+  head.append(row);
+  const body = element('tbody');
+  const resources = matchingResources(entry);
+  for (const paper of resources) {
+    const row = element('tr');
+    row.append(element('td', '', entry.subject.name), element('td', '', entry.subject.code), element('td', '', paper.label));
+    const download = element('td');
+    download.append(resourceLink(paper, 'Download'));
+    row.append(download);
+    body.append(row);
+  }
+  table.append(head, body);
+  wrapper.append(table);
+  content.append(wrapper);
+  if (!resources.length) content.append(element('p', 'catalog-message', 'No resources have been added yet.'));
+  if (resources.some((p) => p.archive)) content.append(element('p', 'catalog-message', 'Some GTU archive sessions may not have a paper for this subject.'));
+}
 function render() {
-  renderFilters();
-  const active = state.stream || state.q || state.resource;
-  const filtered = active ? entries.filter((entry) =>
-    (!state.stream || entry.catalog.id === state.stream) &&
-    (!state.branch || entry.branch.id === state.branch) &&
-    (!state.semester || entry.semester.id === state.semester) &&
-    matchesQuery(entry) && (!state.resource || matchingResources(entry).length)
-  ) : [];
+  const content = $('content');
+  content.replaceChildren();
   const catalog = catalogs.find((c) => c.id === state.stream);
   const branch = catalog?.branches.find((b) => b.id === state.branch);
-  const semester = branch?.semesters.find((s) => s.id === state.semester);
-  $('results-title').textContent = state.q ? `Results for “${state.q}”` : semester ? `${branch.name} · ${semester.name}` : branch?.name || catalog?.name || (active ? 'Your resources' : 'A whole semester of possibilities.');
-  $('results-description').textContent = active ? `${filtered.length} subject${filtered.length === 1 ? '' : 's'} found · Select a subject to see its papers.` : 'Choose a stream above, or search for a subject in the navigation.';
-  $('clear-search').hidden = !state.q;
-  const container = $('results');
-  container.replaceChildren();
-  if (!active) container.append(empty('Your next step starts with a stream.', 'Diploma, engineering, architecture, or pharmacy — pick yours above.'));
-  else if (!filtered.length) container.append(empty('No matching subjects yet.', 'Try a shorter search, a subject code, or reset your filters.'));
-  else {
-    const fragment = document.createDocumentFragment();
-    for (const entry of filtered.slice(0, visibleCount)) fragment.append(subjectCard(entry));
-    container.append(fragment);
-  }
-  $('load-more').hidden = filtered.length <= visibleCount;
-  $('results-status').textContent = active ? `${filtered.length} matching subjects. Showing ${Math.min(filtered.length, visibleCount)}.` : 'Choose a stream to browse papers.';
+  const entry = entries.find((e) => e.catalog.id === state.stream && e.branch.id === state.branch && e.semester.id === state.semester && e.subject.code === state.subject);
+  const isHome = !state.q && !catalog && state.view !== 'courses';
+  $('announcement').hidden = !isHome;
+  document.querySelector('.about').hidden = !isHome;
+  document.title = entry ? `${entry.subject.name} Question Paper | ${config.name}` : branch ? `${branch.name} Question Paper | ${config.name}` : config.name;
+  if (state.q) {
+    content.append(banner(`Search question papers: ${state.q}`));
+    content.append(controls([routeLink('Clear search', {}), routeLink('Select course', { view: 'courses' })]));
+    const found = entries.filter(matchesQuery);
+    const status = element('p', 'catalog-message', `${found.length} subjects found`);
+    status.setAttribute('role', 'status');
+    content.append(status);
+    const results = element('div', 'subjects');
+    for (const entry of found) results.append(subjectDropdown(entry, true));
+    content.append(results);
+    if (!found.length) content.append(element('p', 'catalog-message', 'No papers found. Try a subject name or code.'));
+  } else if (entry) renderSubject(entry, content);
+  else if (branch) renderBranch(catalog, branch, content);
+  else if (catalog) {
+    content.append(banner(`GTU ${catalog.name} Question Paper`));
+    const courses = element('section');
+    courses.id = 'coarsenames';
+    const label = element('div', 'coarsename');
+    const heading = element('h1', '', 'UPDATED SYLLABUS!!');
+    heading.style.backgroundColor = '#1D8471';
+    label.append(heading);
+    const boxes = element('div', 'coarsename');
+    for (const branch of catalog.branches) {
+      const heading = element('h1');
+      heading.append(routeLink(branch.name, { stream: catalog.id, branch: branch.id }));
+      boxes.append(heading);
+    }
+    courses.append(label, boxes);
+    content.append(courses, controls([routeLink('← Select course', {})]));
+  } else if (state.view === 'courses') content.append(banner('Select your course'), courseBoxes());
+  else content.append(home());
 }
-
-function change(values) {
-  Object.assign(state, values);
-  visibleCount = PAGE_SIZE;
-  updateURL();
+function restoreURL() {
+  const params = new URLSearchParams(location.search);
+  for (const key of Object.keys(state)) state[key] = params.get(key) || '';
+  if (!['', 'paper', 'material'].includes(state.resource)) state.resource = '';
+  $('search').value = state.q;
   render();
 }
-
-function setSearchOpen(open, focus = true) {
+function navigate(url) {
+  history.pushState(null, '', url);
+  restoreURL();
+  setMenuOpen(false);
+  window.scrollTo(0, 0);
+}
+function setMenuOpen(open) {
+  $('nav-list').classList.toggle('menu-open', open);
+  $('open-nav').setAttribute('aria-expanded', String(open));
+}
+function setSearchOpen(open) {
   $('search-panel').hidden = !open;
   $('search-toggle').setAttribute('aria-expanded', String(open));
-  if (focus) (open ? $('search') : $('search-toggle')).focus();
+  (open ? $('search') : $('search-toggle')).focus();
 }
-
-function search() {
-  change({ q: $('search').value.trim(), stream: '', branch: '', semester: '' });
-  $('library').scrollIntoView({ behavior: 'smooth' });
-}
-
 async function initialize() {
   try {
     config = await readJSON('data/site.json');
-    if (!Array.isArray(config.streams) || !config.streams.length) throw new Error('The stream registry is empty.');
-    document.title = `${config.name} · Your study head start`;
-    document.querySelectorAll('[data-brand]').forEach((node) => { node.textContent = config.name; });
-    document.querySelector('.brand').setAttribute('aria-label', `${config.name} home`);
-    $('tagline').textContent = config.tagline;
     const loaded = await Promise.allSettled(config.streams.map(async (stream) => {
       const catalog = await readJSON(stream.file);
-      if (catalog.id !== stream.id || !Array.isArray(catalog.branches)) throw new Error(`Invalid catalog: ${stream.file}`);
+      if (catalog.id !== stream.id || !Array.isArray(catalog.branches)) throw new Error(`Invalid catalog ${stream.file}`);
       return catalog;
     }));
     catalogs = loaded.filter((r) => r.status === 'fulfilled').map((r) => r.value);
-    const failures = loaded.map((result, i) => result.status === 'rejected' ? config.streams[i].name : null).filter(Boolean);
-    if (failures.length) {
+    const failed = loaded.map((r, i) => r.status === 'rejected' ? config.streams[i].name : null).filter(Boolean);
+    if (failed.length) {
       $('load-error').hidden = false;
-      $('load-error').textContent = `Could not load: ${failures.join(', ')}. Other streams are available. Reload to try again.`;
+      $('load-error').textContent = `Could not load ${failed.join(', ')}. Reload to try again.`;
     }
-    if (!catalogs.length) throw new Error('No catalogs could be loaded.');
-    for (const stream of config.streams) {
-      const catalog = catalogs.find((c) => c.id === stream.id);
-      if (!catalog) continue;
-      const button = element('button', 'stream-card');
-      button.type = 'button';
-      button.dataset.stream = stream.id;
-      button.setAttribute('aria-pressed', 'false');
-      button.append(element('span', 'stream-short', stream.shortName), element('span', 'stream-arrow', '↗'), element('strong', '', stream.name), element('small', '', stream.description));
-      button.addEventListener('click', () => change({ stream: stream.id, branch: '', semester: '' }));
-      $('stream-tabs').append(button);
-      for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
-        const resources = resourcesFor(catalog, subject);
-        entries.push({ catalog, branch, semester, subject, resources, searchText: [catalog.name, branch.name, semester.name, subject.code, subject.name, ...resources.map((p) => `${p.label} ${p.type || 'paper'}`)].join(' ').toLocaleLowerCase() });
-      }
+    if (!catalogs.length) throw new Error('No catalogs available');
+    for (const catalog of catalogs) for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
+      const resources = resourcesFor(catalog, subject);
+      entries.push({ catalog, branch, semester, subject, resources, searchText: [catalog.name, branch.name, semester.name, subject.name, subject.code, ...resources.map((p) => p.label)].join(' ').toLocaleLowerCase() });
     }
-    $('subject-count').textContent = entries.length.toLocaleString();
-    $('stream-count').textContent = catalogs.length;
+    if (config.announcement) $('announcement-text').textContent = config.announcement;
     restoreURL();
-    $('branch').addEventListener('change', (e) => change({ branch: e.target.value, semester: '' }));
-    $('semester').addEventListener('change', (e) => change({ semester: e.target.value }));
-    $('resource').addEventListener('change', (e) => change({ resource: e.target.value }));
-    $('reset').addEventListener('click', () => { $('search').value = ''; change({ stream: '', branch: '', semester: '', resource: '', q: '' }); });
-    $('clear-search').addEventListener('click', () => { $('search').value = ''; change({ q: '' }); });
-    $('load-more').addEventListener('click', () => { const oldCount = visibleCount; visibleCount += PAGE_SIZE; render(); $('results').children[oldCount]?.querySelector('summary')?.focus(); });
+    document.addEventListener('click', (event) => {
+      const link = event.target.closest('a[data-route]');
+      if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      navigate(link.href);
+    });
+    $('open-nav').addEventListener('click', () => setMenuOpen(true));
+    $('close-nav').addEventListener('click', () => setMenuOpen(false));
     $('search-toggle').addEventListener('click', () => setSearchOpen($('search-panel').hidden));
     $('close-search').addEventListener('click', () => setSearchOpen(false));
-    $('search-form').addEventListener('submit', (event) => { event.preventDefault(); search(); });
-    $('search').addEventListener('input', () => { if (!$('search').value) change({ q: '' }); });
+    $('search-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const query = $('search').value.trim();
+      if (!query) return;
+      navigate(routeURL({ q: query }));
+      setSearchOpen(false);
+      $('library').focus();
+    });
     document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') { setMenuOpen(false); if (!$('search-panel').hidden) setSearchOpen(false); }
       if (event.key === '/' && !['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) { event.preventDefault(); setSearchOpen(true); }
-      if (event.key === 'Escape' && !$('search-panel').hidden) setSearchOpen(false);
     });
     window.addEventListener('popstate', restoreURL);
   } catch (error) {
     console.error('Library loading failed:', error);
     $('load-error').hidden = false;
-    $('load-error').textContent = 'The library could not load. Serve this folder with a static HTTP server (see README), check the data files, then reload.';
-    $('results-title').textContent = 'The library is temporarily unavailable.';
-    $('results-description').textContent = 'Please reload to try again.';
+    $('load-error').textContent = 'The paper catalog could not load. Use a static HTTP server (see README), check the data files, and reload.';
+    $('content').replaceChildren(element('p', 'catalog-message', 'Question papers are temporarily unavailable.'));
   }
 }
-
 initialize();

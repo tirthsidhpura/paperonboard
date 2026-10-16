@@ -10,7 +10,7 @@ test('all registered catalogs, resource types and local file references are vali
 });
 
 const script = fs.readFileSync(path.join(root, 'index.js'), 'utf8').replace(/initialize\(\);\s*$/, '');
-const context = vm.createContext({ URL, document: { baseURI: 'https://example.test/project/index.html' } });
+const context = vm.createContext({ URL, URLSearchParams, document: { baseURI: 'https://example.test/project/index.html' } });
 vm.runInContext(script, context);
 
 test('resources reject executable URLs and duplicate links, and preserve local subpaths', () => {
@@ -58,4 +58,49 @@ test('published build excludes backend, private source, original uploads and sec
   assert.ok(!files.some((file) => /legacy-private|connect\.php|\.env|\.php$|migration-report|migrate\.py/.test(file)));
   assert.ok(files.includes(path.join('data', 'diploma.json')));
   assert.ok(files.includes(path.join('coarse', 'bachelors', 'computerengineer.html')));
+  for (const file of ['inside.css', 'catalog.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png']) {
+    assert.ok(fs.existsSync(path.join(directory, file)), `Missing original design asset: ${file}`);
+  }
+});
+
+test('single-page routes preserve the original course, semester, dropdown and download views', () => {
+  class Node {
+    constructor(tag) { this.tagName = tag; this.children = []; this.dataset = {}; this.style = {}; this.attributes = {}; }
+    append(...children) { this.children.push(...children); }
+    prepend(...children) { this.children.unshift(...children); }
+    replaceChildren(...children) { this.children = children; }
+    setAttribute(key, value) { this.attributes[key] = value; }
+    addEventListener() {}
+  }
+  const nodes = new Map(['content', 'announcement', 'search', 'about'].map((id) => [id, new Node('div')]));
+  const doc = {
+    baseURI: 'https://example.test/project/index.html',
+    createElement: (tag) => new Node(tag),
+    getElementById: (id) => nodes.get(id),
+    querySelector: () => nodes.get('about'),
+  };
+  const runtime = vm.createContext({ URL, URLSearchParams, document: doc, location: { search: '' } });
+  vm.runInContext(script, runtime);
+  runtime.fixture = JSON.parse(fs.readFileSync(path.join(root, 'data/diploma.json'), 'utf8'));
+  vm.runInContext(`
+    config = { name: 'PAPERONBOARD', streams: [{ id: 'diploma', name: 'Diploma' }] };
+    catalogs = [fixture];
+    for (const branch of fixture.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
+      entries.push({ catalog: fixture, branch, semester, subject, resources: resourcesFor(fixture, subject) });
+    }
+    restoreURL();
+  `, runtime);
+  const walk = (node) => [node, ...node.children.flatMap(walk)];
+  const all = () => walk(nodes.get('content'));
+  assert.ok(all().some((node) => node.id === 'container1'));
+  assert.ok(all().some((node) => node.className === 'sub12'));
+  runtime.location.search = '?stream=diploma&branch=computer';
+  vm.runInContext('restoreURL()', runtime);
+  assert.ok(all().some((node) => node.id === 'selectsemester'));
+  assert.ok(all().some((node) => node.id === 'sem-1'));
+  assert.ok(all().some((node) => node.className === 'sub' && node.textContent.includes('4300001')));
+  runtime.location.search = '?stream=diploma&branch=computer&semester=1&subject=4300001';
+  vm.runInContext('restoreURL()', runtime);
+  assert.ok(all().some((node) => node.id === 'qp'));
+  assert.ok(all().some((node) => node.tagName === 'a' && node.textContent === 'Download' && node.href.startsWith('https://')));
 });

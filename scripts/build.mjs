@@ -13,7 +13,7 @@ const copy = (file) => {
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(path.join(root, file), target);
 };
-for (const file of ['index.html', 'index.js', 'style.css', 'assets/mark.svg', 'CONTRIBUTING.md', 'data/site.json', ...site.streams.map((s) => s.file)]) copy(file);
+for (const file of ['index.html', 'index.js', 'style.css', 'inside.css', 'catalog.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'img/pob_logo.png', 'CONTRIBUTING.md', 'data/site.json', ...site.streams.map((s) => s.file)]) copy(file);
 for (const stream of site.streams) {
   const catalog = JSON.parse(fs.readFileSync(path.join(root, stream.file), 'utf8'));
   for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) for (const paper of subject.papers) {

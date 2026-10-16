@@ -1,8 +1,8 @@
 # PaperOnBoard
 
-A free, community-maintained GTU question paper library. One HTML interface, plain CSS and JavaScript, and one JSON catalog per stream. No framework, database, accounts, API keys, or build dependencies.
+A free, community-maintained GTU question paper library. The original PaperOnBoard design is preserved: Poppins typography, animated backgrounds, blue accents, course boxes, semester buttons, subject dropdowns, and download tables. One HTML interface loads its content from one JSON catalog per stream. No framework, database, accounts, API keys, or build dependencies.
 
-Students can browse **stream → branch → semester → subject → paper**, or use **Search papers** in the navbar to search all streams by subject name, code, or examination. Search also covers study materials. Filters and searches have shareable URLs and support browser back/forward.
+Students can browse **stream → branch → semester → subject → paper**, or use **Search** in the navbar to search all streams by subject name, code, or examination. Branch views show all semesters as before. Each subject dropdown keeps the existing direct links and opens its latest papers in the same single-page interface. Subject views and searches have shareable URLs and support browser back/forward. Projects, IELTS, and the privacy policy retain links to their original public site destinations.
 
 ## Run locally
 
@@ -20,12 +20,13 @@ Open http://127.0.0.1:4173. Node is only a development tool; the published site 
 
 | File | What to change |
 | --- | --- |
-| `data/site.json` | Brand name, tagline, stream cards, and catalog registry |
+| `data/site.json` | Page title, announcement, course labels, and catalog registry |
 | `data/diploma.json` | Diploma branches, semesters, subjects, and papers |
 | `data/bachelors.json` | Bachelor of Engineering catalog |
 | `data/architecture.json` | Architecture catalog |
 | `data/pharma.json` | Pharmacy catalog |
-| `style.css` | Colors, typography, and responsive layout |
+| `style.css`, `inside.css` | Original site styles, preserved unchanged |
+| `catalog.css` | Small additions for search, keyboard/touch access, and the paper table |
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for copy-and-paste examples for papers, semesters, branches, streams, and materials. Adding catalog content requires no HTML or JavaScript edits. After edits, run validation and rebuild.
 
