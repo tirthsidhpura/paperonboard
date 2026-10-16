@@ -1,7 +1,43 @@
 {
   "id": "architecture",
   "name": "Bachelor of Architecture",
-  "examTemplates": [],
+  "examTemplates": [
+    {
+      "label": "Summer 2026",
+      "urlVersion": "v1",
+      "path": "s2026/BA/{code}.pdf"
+    },
+    {
+      "label": "Winter 2025",
+      "urlVersion": "v1",
+      "path": "w2025/BA/{code}.pdf"
+    },
+    {
+      "label": "Winter 2024",
+      "urlVersion": "v1",
+      "path": "w2024/BA/{code}.pdf"
+    },
+    {
+      "label": "Summer 2024",
+      "urlVersion": "v1",
+      "path": "s2024/BA/{code}.pdf"
+    },
+    {
+      "label": "Winter 2023",
+      "urlVersion": "v1",
+      "path": "w2023/BA/{code}.pdf"
+    },
+    {
+      "label": "Summer 2023",
+      "urlVersion": "v1",
+      "path": "s2023/BA/{code}.pdf"
+    },
+    {
+      "label": "Winter 2022",
+      "urlVersion": "v1",
+      "path": "w2022/BA/{code}.pdf"
+    }
+  ],
   "branches": [
     {
       "id": "architecture",
@@ -14,7 +50,7 @@
             {
               "code": "2X15006",
               "name": "Architectural Communication Skills-I",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X15006",
@@ -36,7 +72,7 @@
             {
               "code": "2X15003",
               "name": "Building Construction-I",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X15003",
@@ -58,7 +94,7 @@
             {
               "code": "2X15005",
               "name": "Humanities I",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X15005",
@@ -75,7 +111,7 @@
             {
               "code": "2X15002",
               "name": "T.R.D.-I",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2019 2X15002",
@@ -98,7 +134,7 @@
             {
               "code": "2X25006",
               "name": "Architectural Communication Skills-II",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2019 2X25006",
@@ -115,7 +151,7 @@
             {
               "code": "2X25005",
               "name": "History of Architecture - I",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X25005",
@@ -137,7 +173,7 @@
             {
               "code": "2X25004",
               "name": "Structure-I",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2019 2X25004",
@@ -154,7 +190,7 @@
             {
               "code": "2X25002",
               "name": "T.R.D.-II",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2019 2X25002",
@@ -177,7 +213,7 @@
             {
               "code": "2X35002",
               "name": "Building Construction-III",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X35002",
@@ -194,7 +230,7 @@
             {
               "code": "2X35005",
               "name": "Climatology",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X35005",
@@ -211,7 +247,7 @@
             {
               "code": "2X35004",
               "name": "History of Architecture - II",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X35004",
@@ -228,7 +264,7 @@
             {
               "code": "2X35003",
               "name": "Structure-II",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X35003",
@@ -245,7 +281,7 @@
             {
               "code": "2X35006",
               "name": "Surveying and Levelling",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2020 2X35006",
@@ -268,7 +304,7 @@
             {
               "code": "2X45002",
               "name": "Building Construction-IV",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X45002",
@@ -290,7 +326,7 @@
             {
               "code": "2X45004",
               "name": "History of Architecture-III",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X45004",
@@ -312,7 +348,7 @@
             {
               "code": "2X45006",
               "name": "Landscape Architecture",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X45006",
@@ -334,7 +370,7 @@
             {
               "code": "2X45003",
               "name": "Structure - III",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X45003",
@@ -362,7 +398,7 @@
             {
               "code": "2X55002",
               "name": "Building Construction Drawing-V",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X55002",
@@ -384,7 +420,7 @@
             {
               "code": "2X55005",
               "name": "Building Regulations",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X55005",
@@ -406,7 +442,7 @@
             {
               "code": "2X55003",
               "name": "History of Architecture-IV",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X55003",
@@ -428,7 +464,7 @@
             {
               "code": "2X55004",
               "name": "Structure-IV",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X55004",
@@ -456,7 +492,7 @@
             {
               "code": "2X65002",
               "name": "Building Construction - VI",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X65002",
@@ -468,7 +504,7 @@
             {
               "code": "2X65005",
               "name": "Estimation and Costing",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X65005",
@@ -480,7 +516,7 @@
             {
               "code": "2X65003",
               "name": "History of Architecture - V",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X65003",
@@ -492,7 +528,7 @@
             {
               "code": "2X65004",
               "name": "Structure - V",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 2X65004",
@@ -515,7 +551,7 @@
             {
               "code": "1095003",
               "name": "Architectural Research & Programming",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 1095003",
@@ -547,7 +583,7 @@
             {
               "code": "1095002",
               "name": "Urban Planning",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "w2021 1095002",
@@ -585,7 +621,7 @@
             {
               "code": "1105002",
               "name": "PROFESSIONAL PRACTICE AND VALUATION",
-              "useExamTemplates": false,
+              "useExamTemplates": true,
               "papers": [
                 {
                   "label": "s2021 1105002",

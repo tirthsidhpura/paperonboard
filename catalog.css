@@ -1,4 +1,5 @@
 /* Additions for the JSON interface; original styles remain unchanged. */
+.session-banner { display: inline-block; background: #0059ff; color: white; padding: 10px 16px; margin: 16px auto; font-size: 14px; }
 .site-ad { margin: 64px auto; padding: 24px 0; width: calc(100% - 32px); text-align: center; background: #fafafa; border-block: 1px solid #ddd; }
 .site-ad-label { color: #666; font-size: 12px; margin-bottom: 12px; }
 .site-ad .adsbygoogle { display: inline-block; width: 250px; height: 250px; }

@@ -3,6 +3,11 @@
   "name": "Bachelor of Pharmacy",
   "examTemplates": [
     {
+      "label": "Summer 2026",
+      "urlVersion": "v1",
+      "path": "s2026/BP/{code}.pdf"
+    },
+    {
       "label": "Winter 2025",
       "urlVersion": "v1",
       "path": "w2025/BP/{code}.pdf"

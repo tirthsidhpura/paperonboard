@@ -3,6 +3,11 @@
   "name": "Diploma",
   "examTemplates": [
     {
+      "label": "Summer 2026",
+      "urlVersion": "v1",
+      "path": "s2026/DI/{code}.pdf"
+    },
+    {
       "label": "Winter 2025",
       "urlVersion": "v1",
       "path": "w2025/DI/{code}.pdf"
@@ -2953,6 +2958,13 @@
                   "label": "s2019 3330901",
                   "url": "https://drive.google.com/uc?export=download&id=1n4TXADlJ1FkIgfeEwdCnMdOXqmNeyxRD",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
                 }
               ]
             },
@@ -3605,43 +3617,99 @@
               "code": "4300001",
               "name": "Mathematics",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4300002",
               "name": "Communication Skills in English",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4300005",
               "name": "Physics",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4300015",
               "name": "Sports and Yoga",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4300010",
               "name": "Basics of Information and Communication Technology",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4311101",
               "name": "Fundamentals of Electrical Engineering",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4311102",
               "name": "Fundamentals of Electronics",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             }
           ]
         },
@@ -3653,37 +3721,85 @@
               "code": "4300003",
               "name": "Environment and Sustainability",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4300012",
               "name": "Engineering Drawing and Computer Aided Design",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4320002",
               "name": "Engineering Mathematics",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4321102",
               "name": "Electronic Networks",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4321103",
               "name": "Digital Electronics",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             },
             {
               "code": "4321104",
               "name": "Electronic Circuits & Applications",
               "useExamTemplates": false,
-              "papers": []
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "s2026/DI/{code}.pdf",
+                  "type": "paper",
+                  "archive": true
+                }
+              ]
             }
           ]
         },
