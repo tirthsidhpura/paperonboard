@@ -4,16 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "post-graduate-diploma-in-ipr",
+      "name": "Post Graduate Diploma in IPR",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
               "code": "PR01095011",
-              "name": "Subject PR01095011",
+              "name": "Introduction to IPR",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -22,11 +23,12 @@
                   "path": "W2025/PR/PR01095011.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/PR/PR01095011.pdf"
             },
             {
               "code": "PR01095021",
-              "name": "Subject PR01095021",
+              "name": "Patent Prosecution in India",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -35,11 +37,13 @@
                   "path": "W2025/PR/PR01095021.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/PR/PR01095021.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

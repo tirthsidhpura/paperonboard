@@ -4,16 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "master-of-science-integrated",
+      "name": "Master of Science (Integrated)",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
               "code": "1310501",
-              "name": "Subject 1310501",
+              "name": "Communication Skills",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -28,30 +29,12 @@
                   "path": "W2025/CS/1310501.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1310502",
-              "name": "Subject 1310502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1310502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1310502.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1310501.pdf"
             },
             {
               "code": "1310503",
-              "name": "Subject 1310503",
+              "name": "Fundamentals of Computer and Basics of Programming",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -66,30 +49,12 @@
                   "path": "W2025/CS/1310503.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1310504",
-              "name": "Subject 1310504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1310504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1310504.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1310503.pdf"
             },
             {
               "code": "1310505",
-              "name": "Subject 1310505",
+              "name": "Internet and Web Technology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -104,49 +69,58 @@
                   "path": "W2025/CS/1310505.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1310505.pdf"
             },
             {
-              "code": "1320501",
-              "name": "Subject 1320501",
+              "code": "1310504",
+              "name": "Introduction to PC package & Operating system",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1320501.pdf",
+                  "path": "S2026/CS/1310504.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1320501.pdf",
+                  "path": "W2025/CS/1310504.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1310504.pdf"
             },
             {
-              "code": "1320502",
-              "name": "Subject 1320502",
+              "code": "1310502",
+              "name": "Mathematics-I",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1320502.pdf",
+                  "path": "S2026/CS/1310502.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1320502.pdf",
+                  "path": "W2025/CS/1310502.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1310502.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
             {
               "code": "1320503",
-              "name": "Subject 1320503",
+              "name": "Data structure",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -161,30 +135,32 @@
                   "path": "W2025/CS/1320503.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1320503.pdf"
             },
             {
-              "code": "1320504",
-              "name": "Subject 1320504",
+              "code": "1320502",
+              "name": "Database Management System",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1320504.pdf",
+                  "path": "S2026/CS/1320502.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1320504.pdf",
+                  "path": "W2025/CS/1320502.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1320502.pdf"
             },
             {
               "code": "1320505",
-              "name": "Subject 1320505",
+              "name": "Introduction of Computer Hardware & Peripherals",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -199,30 +175,58 @@
                   "path": "W2025/CS/1320505.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1320505.pdf"
             },
             {
-              "code": "1330501",
-              "name": "Subject 1330501",
+              "code": "1320501",
+              "name": "Mathematics-II",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1330501.pdf",
+                  "path": "S2026/CS/1320501.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1330501.pdf",
+                  "path": "W2025/CS/1320501.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1320501.pdf"
             },
             {
+              "code": "1320504",
+              "name": "Object oriented Programming in C++",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1320504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1320504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1320504.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
               "code": "1330502",
-              "name": "Subject 1330502",
+              "name": "Computer Oriented Numerical Methods",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -237,30 +241,12 @@
                   "path": "W2025/CS/1330502.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1330503",
-              "name": "Subject 1330503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1330503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1330503.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1330502.pdf"
             },
             {
               "code": "1330504",
-              "name": "Subject 1330504",
+              "name": "Digital Electronics",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -275,11 +261,12 @@
                   "path": "W2025/CS/1330504.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1330504.pdf"
             },
             {
               "code": "1330505",
-              "name": "Subject 1330505",
+              "name": "Object Oriented Programming with JAVA",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -294,49 +281,58 @@
                   "path": "W2025/CS/1330505.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1330505.pdf"
             },
             {
-              "code": "1340501",
-              "name": "Subject 1340501",
+              "code": "1330503",
+              "name": "Operating System",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1340501.pdf",
+                  "path": "S2026/CS/1330503.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1340501.pdf",
+                  "path": "W2025/CS/1330503.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1330503.pdf"
             },
             {
-              "code": "1340502",
-              "name": "Subject 1340502",
+              "code": "1330501",
+              "name": "Soft Skills and Professional Communication",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1340502.pdf",
+                  "path": "S2026/CS/1330501.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1340502.pdf",
+                  "path": "W2025/CS/1330501.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1330501.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
             {
               "code": "1340503",
-              "name": "Subject 1340503",
+              "name": "Computer Network",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -351,30 +347,12 @@
                   "path": "W2025/CS/1340503.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1340504",
-              "name": "Subject 1340504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1340504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1340504.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1340503.pdf"
             },
             {
               "code": "1340505",
-              "name": "Subject 1340505",
+              "name": "Dot Net Technology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -389,49 +367,78 @@
                   "path": "W2025/CS/1340505.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1340505.pdf"
             },
             {
-              "code": "1350501",
-              "name": "Subject 1350501",
+              "code": "1340504",
+              "name": "Information Security",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1350501.pdf",
+                  "path": "S2026/CS/1340504.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1350501.pdf",
+                  "path": "W2025/CS/1340504.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1340504.pdf"
             },
             {
-              "code": "1350502",
-              "name": "Subject 1350502",
+              "code": "1340502",
+              "name": "Statistical Methods and probabilities",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1350502.pdf",
+                  "path": "S2026/CS/1340502.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1350502.pdf",
+                  "path": "W2025/CS/1340502.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1340502.pdf"
             },
+            {
+              "code": "1340501",
+              "name": "System Analysis and Design",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1340501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1340501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1340501.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
             {
               "code": "1350503",
-              "name": "Subject 1350503",
+              "name": "Data Warehouse and Mining",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -446,30 +453,32 @@
                   "path": "W2025/CS/1350503.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1350503.pdf"
             },
             {
-              "code": "1350504",
-              "name": "Subject 1350504",
+              "code": "1350502",
+              "name": "Mobile Application Development",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1350504.pdf",
+                  "path": "S2026/CS/1350502.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1350504.pdf",
+                  "path": "W2025/CS/1350502.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1350502.pdf"
             },
             {
               "code": "1350505",
-              "name": "Subject 1350505",
+              "name": "Python Programming-1",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -484,30 +493,72 @@
                   "path": "W2025/CS/1350505.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1350505.pdf"
             },
             {
-              "code": "1360501",
-              "name": "Subject 1360501",
+              "code": "1350501",
+              "name": "Software Engineering",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1360501.pdf",
+                  "path": "S2026/CS/1350501.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/CS/1360501.pdf",
+                  "path": "W2025/CS/1350501.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1350501.pdf"
+            },
+            {
+              "code": "1350504",
+              "name": "Web Development with PHP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1350504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1350504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1350504.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "1360504",
+              "name": "COMPILER DESIGN",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1360504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1360504.pdf"
             },
             {
               "code": "1360502",
-              "name": "Subject 1360502",
+              "name": "COMPUTER GRAPHICS",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -522,11 +573,32 @@
                   "path": "W2025/CS/1360502.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1360502.pdf"
+            },
+            {
+              "code": "1360501",
+              "name": "DESIGN AND ANALYSIS OF ALGORITHM",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1360501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1360501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1360501.pdf"
             },
             {
               "code": "1360503",
-              "name": "Subject 1360503",
+              "name": "E-BUSINESS AND CYBER LAW",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -535,94 +607,18 @@
                   "path": "S2026/CS/1360503.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1360504",
-              "name": "Subject 1360504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1360504.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1370501",
-              "name": "Subject 1370501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1370501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1370502",
-              "name": "Subject 1370502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1370502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1370502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1370503",
-              "name": "Subject 1370503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1370503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1370503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1370505",
-              "name": "Subject 1370505",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/CS/1370505.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1370505.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1360503.pdf"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
             {
               "code": "1370506",
-              "name": "Subject 1370506",
+              "name": "ADVANCE WEB DEVELOPMENT (LARAVEL)",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -637,37 +633,92 @@
                   "path": "W2025/CS/1370506.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1370506.pdf"
             },
             {
-              "code": "1380501",
-              "name": "Subject 1380501",
+              "code": "1370505",
+              "name": "CYBER SECURITY",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1380501.pdf",
+                  "path": "S2026/CS/1370505.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1370505.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1370505.pdf"
             },
             {
-              "code": "1380502",
-              "name": "Subject 1380502",
+              "code": "1370501",
+              "name": "Introduction to Artificial Intelligence and Data Science",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1370501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/CS/1370501.pdf"
+            },
+            {
+              "code": "1370503",
+              "name": "PYTHON PROGRAMMING-2",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/CS/1380502.pdf",
+                  "path": "S2026/CS/1370503.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1370503.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1370503.pdf"
             },
+            {
+              "code": "1370502",
+              "name": "SOFTWARE QUALITY ASSURANCE",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1370502.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1370502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1370502.pdf"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": [
             {
               "code": "1380503",
-              "name": "Subject 1380503",
+              "name": "Advanced Computer Network System",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -676,11 +727,26 @@
                   "path": "S2026/CS/1380503.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1380503.pdf"
+            },
+            {
+              "code": "1380502",
+              "name": "Advanced Database Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1380502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1380502.pdf"
             },
             {
               "code": "1380504",
-              "name": "Subject 1380504",
+              "name": "Full Stack Development",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -689,11 +755,26 @@
                   "path": "S2026/CS/1380504.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1380504.pdf"
+            },
+            {
+              "code": "1380501",
+              "name": "Machine Learning",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/CS/1380501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1380501.pdf"
             },
             {
               "code": "1380507",
-              "name": "Subject 1380507",
+              "name": "Natural Language Processing",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -702,11 +783,18 @@
                   "path": "S2026/CS/1380507.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/CS/1380507.pdf"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Semester 9",
+          "subjects": [
             {
               "code": "1390301",
-              "name": "Subject 1390301",
+              "name": "Advanced Cloud Computing",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -715,24 +803,12 @@
                   "path": "W2025/CS/1390301.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1390302",
-              "name": "Subject 1390302",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/CS/1390302.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/CS/1390301.pdf"
             },
             {
               "code": "1390303",
-              "name": "Subject 1390303",
+              "name": "Embedded System",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -741,11 +817,12 @@
                   "path": "W2025/CS/1390303.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/CS/1390303.pdf"
             },
             {
               "code": "1390306",
-              "name": "Subject 1390306",
+              "name": "Ethical Hacking",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -754,11 +831,26 @@
                   "path": "W2025/CS/1390306.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/CS/1390306.pdf"
+            },
+            {
+              "code": "1390302",
+              "name": "Project Management Practices and Evaluation",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/CS/1390302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/CS/1390302.pdf"
             },
             {
               "code": "1390309",
-              "name": "Subject 1390309",
+              "name": "Web and Database Security",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -767,11 +859,13 @@
                   "path": "W2025/CS/1390309.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/CS/1390309.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

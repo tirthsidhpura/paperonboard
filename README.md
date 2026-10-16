@@ -66,22 +66,25 @@ Publishing a GitHub repository, choosing its owner/name, and selecting a code li
 
 The registry includes all 58 course codes listed in the official [GTU question-paper repository](https://old26.gtu.ac.in/Download1.aspx), checked on 16 October 2026. Recent paper listings were retrieved for 39 codes; the remaining codes are kept with an explicit unavailable-listings message and official source link. Some GTU session searches return HTTP 500, so zero retrieved results does not establish that no papers exist. This is not an exhaustive import of every historical paper.
 
-The [GTU syllabus program table](https://old26.gtu.ac.in/Syllabus/default.aspx) supplies expanded names for 42 codes. Other codes keep GTU's exact abbreviation instead of a guessed program name. Unknown subject names, branches and semesters are not inferred from filenames. Those papers appear under **Papers by official subject code**, while existing curated subject names and branches remain intact. `data/gtu-source.json` records coverage and `data/gtu-program-names.json` records the program-name source.
+The [GTU syllabus program table](https://old26.gtu.ac.in/Syllabus/default.aspx) supplies expanded names for 42 codes. Other codes keep GTU's exact abbreviation instead of a guessed program name. Imported subject names and semester/year assignments are read from the headers of official GTU PDFs. Every stream follows stream → course/branch → semester → subject → paper cards. Students select a subject before seeing its paper cards, ordered oldest to newest. Course memberships come from official syllabus headers and timetable tables; legacy numeric codes are matched to the official branch registry. Existing curated streams keep their course links and semester scrolling. Year-based courses use their printed academic year rather than an invented semester. Records without a readable header or a verified course membership remain pending and are not published as an unclassified semester. Existing curated subject names and branches remain intact. `data/gtu-subjects.json` records the metadata and its official PDF source. Visually verified labels from scanned headers are kept in `data/gtu-subject-overrides.json` so refreshes retain them. `data/gtu-course-map.json` contains official branch names and timetable memberships. `data/gtu-source.json` records coverage and `data/gtu-program-names.json` records the program-name source.
 
 To collect an updated snapshot and merge it after review:
 
 ```sh
 python3 scripts/import-gtu.py
 python3 scripts/apply-gtu-import.py .local/gtu-listings.json
+python3 scripts/read-gtu-headers.py
+python3 scripts/read-gtu-courses.py
+python3 scripts/organize-gtu-subjects.py
 npm run build
 npm test
 ```
 
-The importer only reads GTU's public search form and PDF links; it does not download or republish PDFs. It tries the two most recent sessions and continues backward for dormant courses until it finds listings. It preserves curated catalogs and adds missing entries. Snapshot files stay in ignored `.local/`. Review coverage and any errors before applying a new snapshot.
+The listing importer reads GTU's public search form and paper links. The PDF header and course-membership readers require the optional development package `pypdf` (`python3 -m pip install pypdf`) and reads official PDFs to extract subject names and semesters; PDFs are not republished. Verified metadata is cached locally and seeded from the checked-in source registry on a fresh checkout. It tries the two most recent sessions and continues backward for dormant courses until it finds listings. It preserves curated catalogs and adds missing entries. Snapshot files stay in ignored `.local/`. Review coverage and any errors before applying a new snapshot.
 
 ## Search and AI discovery
 
-The build generates 121 HTML pages with visible catalog content, source links, unique titles/descriptions, canonical URLs, Open Graph tags and WebSite/WebPage/Breadcrumb structured data. A sitemap lists pages with substantive content; empty course directories are marked `noindex,follow`. The browser uses the same renderer and updates page metadata during navigation. Old query-string links continue to work. Search results and resource filters are marked `noindex,follow` and point to the unfiltered canonical page.
+The build generates HTML pages with visible catalog content, source links, unique titles/descriptions, canonical URLs, Open Graph tags and WebSite/WebPage/Breadcrumb structured data. A sitemap lists pages with substantive content; empty course directories are marked `noindex,follow`. The browser uses the same renderer and updates page metadata during navigation. Old query-string links continue to work. Search results and resource filters are marked `noindex,follow` and point to the unfiltered canonical page.
 
 `robots.txt` permits crawling. `llms.txt` is a plain-text navigation aid, not a ranking mechanism or an indexing guarantee. [Google's AI guidance](https://developers.google.com/search/docs/appearance/ai-features) says normal SEO practices apply; no special AI schema or text file is required. No implementation can promise a #1 ranking or citations from an LLM.
 

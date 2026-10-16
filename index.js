@@ -171,7 +171,7 @@ function home() {
   const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id)).slice(0, 8)
     .map((stream) => routeLink(stream.name, { stream: stream.id }));
   links.push(routeLink('VIEW MORE', { view: 'courses' }));
-  subjects.append(dropdown('Select your course', links, true));
+  subjects.append(dropdown('Select your stream', links, true));
   both.append(heading, subjects);
   hero.append(both);
   page.append(hero);
@@ -297,11 +297,11 @@ function controls(items) {
 }
 function renderBranch(catalog, branch, content) {
   content.append(banner(`${branch.name} Question Paper`, 'headerimg1'));
-  content.append(controls([routeLink('← Select course', {}), routeLink('← Select branch', { stream: catalog.id })]));
+  content.append(controls([routeLink('← Select stream', { view: 'courses' }), routeLink('← Select course', { stream: catalog.id })]));
   const chooser = element('section');
   chooser.id = 'selectsemester';
   const title = element('div', 'semhead');
-  title.append(element('h1', '', 'Select The Semester'));
+  title.append(element('h1', '', branch.semesters.every((semester) => semester.id.startsWith('year-')) ? 'Select The Year' : 'Select The Semester'));
   const sequence = element('div', 'semseq');
   for (const semester of branch.semesters) {
     const heading = element('h1');
@@ -399,11 +399,11 @@ function render() {
       source.href = catalog.source; source.target = '_blank'; source.rel = 'noopener noreferrer';
       content.append(controls([source]));
     }
-    if (catalog.imported) content.append(element('p', 'catalog-message', catalog.branches.length ? 'GTU lists these papers by subject code. Branch, semester and subject names have not been inferred.' : 'This course is listed by GTU, but no papers could be retrieved from the checked sessions. Please check the official repository.'));
+    if (catalog.imported && !catalog.branches.length) content.append(element('p', 'catalog-message', catalog.pendingSubjects?.length ? 'Course and semester details are being verified against GTU records. Please check the official repository for additional papers.' : 'This stream is listed by GTU, but no papers could be retrieved from the checked sessions. Please check the official repository.'));
     const courses = element('section');
     courses.id = 'coarsenames';
     const label = element('div', 'coarsename');
-    const heading = element('h1', '', catalog.imported ? 'Official GTU paper listings' : `${config.latestSession || 'Latest'} papers available`);
+    const heading = element('h1', '', 'Select your course');
     heading.style.backgroundColor = '#1D8471';
     label.append(heading);
     const boxes = element('div', 'coarsename');
@@ -416,7 +416,7 @@ function render() {
     content.append(courses, controls([routeLink('← Select course', {})]));
   } else if (state.view === 'courses') {
     document.title = `All GTU Courses and Question Papers | ${config.name}`;
-    content.append(banner('Select your course'), courseBoxes());
+    content.append(banner('Select your stream'), courseBoxes());
   }
   else content.append(home());
   updatePageMetadata(catalog, branch, entry);
@@ -448,6 +448,16 @@ function restoreURL() {
   } else if (file === 'courses.html') params.set('view', 'courses');
   else if (file === 'contributors.html') params.set('view', 'contributors');
   for (const key of Object.keys(state)) state[key] = params.get(key) || '';
+  const catalog = catalogs.find((catalog) => catalog.id === state.stream);
+  if (['official-papers', 'additional-papers', 'course'].includes(state.branch) && catalog && !catalog.branches.some((branch) => branch.id === state.branch)) {
+    const entry = state.subject ? entries.find((entry) => entry.catalog.id === state.stream && entry.subject.code === state.subject) : null;
+    state.branch = entry?.branch.id || '';
+    if (entry) state.semester = entry.semester.id;
+  }
+  if (state.semester === 'unclassified' && state.subject) {
+    const entry = entries.find((entry) => entry.catalog.id === state.stream && entry.branch.id === state.branch && entry.subject.code === state.subject);
+    if (entry) state.semester = entry.semester.id;
+  }
   if (!['', 'paper', 'material'].includes(state.resource)) state.resource = '';
   $('search').value = state.q;
   render();

@@ -4,16 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-interior-design",
+      "name": "Bachelor of Interior Design",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
               "code": "2X15103",
-              "name": "Subject 2X15103",
+              "name": "Basic Structures-I",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -28,68 +29,12 @@
                   "path": "W2025/BI/2X15103.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "2X15104",
-              "name": "Subject 2X15104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X15104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BI/2X15104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2X15106",
-              "name": "Subject 2X15106",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X15106.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BI/2X15106.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2X15107",
-              "name": "Subject 2X15107",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X15107.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BI/2X15107.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X15103.pdf"
             },
             {
               "code": "2X15108",
-              "name": "Subject 2X15108",
+              "name": "Communication Skills",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -104,11 +49,78 @@
                   "path": "W2025/BI/2X15108.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X15108.pdf"
             },
             {
+              "code": "2X15107",
+              "name": "History-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15107.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15107.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X15107.pdf"
+            },
+            {
+              "code": "2X15104",
+              "name": "Interior Material & Technology-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X15104.pdf"
+            },
+            {
+              "code": "2X15106",
+              "name": "Technical Representation of Drawing (TRD)-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15106.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15106.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X15106.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
               "code": "2X25102",
-              "name": "Subject 2X25102",
+              "name": "Basic Structure-II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -117,49 +129,12 @@
                   "path": "S2026/BI/2X25102.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "2X25103",
-              "name": "Subject 2X25103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X25103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BI/2X25103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2X25105",
-              "name": "Subject 2X25105",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X25105.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BI/2X25105.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X25102.pdf"
             },
             {
               "code": "2X25106",
-              "name": "Subject 2X25106",
+              "name": "History-II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -174,11 +149,32 @@
                   "path": "W2025/BI/2X25106.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X25106.pdf"
+            },
+            {
+              "code": "2X25103",
+              "name": "Interior Material & Technology-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X25103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X25103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X25103.pdf"
             },
             {
               "code": "2X25108",
-              "name": "Subject 2X25108",
+              "name": "Surface Finishes",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -193,49 +189,38 @@
                   "path": "W2025/BI/2X25108.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X25108.pdf"
             },
             {
-              "code": "2X35103",
-              "name": "Subject 2X35103",
+              "code": "2X25105",
+              "name": "Technical Representation Drawing-II",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BI/2X35103.pdf",
+                  "path": "S2026/BI/2X25105.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BI/2X35103.pdf",
+                  "path": "W2025/BI/2X25105.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "2X35105",
-              "name": "Subject 2X35105",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X35105.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BI/2X35105.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X25105.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "2X35106",
-              "name": "Subject 2X35106",
+              "name": "History-III",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -250,11 +235,52 @@
                   "path": "W2025/BI/2X35106.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X35106.pdf"
+            },
+            {
+              "code": "2X35103",
+              "name": "Interior Material & Technology-III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X35103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X35103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X35103.pdf"
+            },
+            {
+              "code": "2X35105",
+              "name": "Interior Services - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X35105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X35105.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X35105.pdf"
             },
             {
               "code": "2X35108",
-              "name": "Subject 2X35108",
+              "name": "Structure-III",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -263,37 +289,18 @@
                   "path": "W2025/BI/2X35108.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "2X45102",
-              "name": "Subject 2X45102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X45102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2X45103",
-              "name": "Subject 2X45103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BI/2X45103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BI/2X35108.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
             {
               "code": "2X45105",
-              "name": "Subject 2X45105",
+              "name": "History-IV",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -308,11 +315,26 @@
                   "path": "W2025/BI/2X45105.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X45105.pdf"
+            },
+            {
+              "code": "2X45103",
+              "name": "Interior Material & Technology-IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X45103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X45103.pdf"
             },
             {
               "code": "2X45106",
-              "name": "Subject 2X45106",
+              "name": "Interior Services-II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -327,11 +349,32 @@
                   "path": "W2025/BI/2X45106.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X45106.pdf"
             },
             {
+              "code": "2X45102",
+              "name": "Structure-IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X45102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X45102.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
               "code": "2X55102",
-              "name": "Subject 2X55102",
+              "name": "Interor Services-III",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -340,11 +383,12 @@
                   "path": "W2025/BI/2X55102.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BI/2X55102.pdf"
             },
             {
               "code": "2X55107",
-              "name": "Subject 2X55107",
+              "name": "Lighting and Lighting Design",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -353,11 +397,18 @@
                   "path": "W2025/BI/2X55107.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BI/2X55107.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
             {
               "code": "2X65102",
-              "name": "Subject 2X65102",
+              "name": "RESEARCH METHODOLOGY",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -366,11 +417,13 @@
                   "path": "S2026/BI/2X65102.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BI/2X65102.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

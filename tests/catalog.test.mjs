@@ -138,12 +138,17 @@ test('single-page routes preserve the original course, semester, dropdown and do
   vm.runInContext('contributorsData = people; restoreURL()', runtime);
   assert.ok(all().some((node) => node.className === 'contributor-card'));
   assert.ok(all().some((node) => node.href === 'https://github.com/student'));
+  runtime.location.search = '?stream=diploma';
+  vm.runInContext('restoreURL()', runtime);
+  assert.ok(all().some((node) => node.textContent === 'Select your course'));
+  assert.ok(all().some((node) => node.href === 'catalog-diploma--electricalengineeriing.html'));
   runtime.location.search = '?stream=diploma&branch=computer';
   vm.runInContext('restoreURL()', runtime);
   assert.equal(modern, false);
   assert.ok(all().some((node) => node.id === 'selectsemester'));
   assert.ok(all().some((node) => node.id === 'sem-1'));
   assert.ok(all().some((node) => node.className === 'sub' && node.textContent.includes('4300001')));
+  assert.ok(!all().some((node) => node.className === 'bigcard'));
   runtime.location.search = '?stream=diploma&branch=computer&semester=1&subject=4300001';
   vm.runInContext('restoreURL()', runtime);
   assert.ok(all().some((node) => node.className === 'bigcard'));

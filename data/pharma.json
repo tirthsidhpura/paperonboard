@@ -695,6 +695,52 @@
           "name": "Semester 5",
           "subjects": [
             {
+              "code": "BP506TP",
+              "name": "Contributor Personality Development Program",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w021 BP506TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1mAJDiyWMXUgYC2WIib3u9TjUIIAekMIq",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP506TP",
+                  "url": "https://drive.google.com/uc?export=download&id=13KodXYW8MUqFr6MK6qboxSXiS935i-6T",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/BP506TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "BP507TP",
+              "name": "Integrated Personality Development Course",
+              "useExamTemplates": true,
+              "papers": [
+                {
+                  "label": "w2021 BP507TP",
+                  "url": "https://drive.google.com/uc?export=download&id=17wBCqD04yHVXvEjvQJ4Kxs6B6tczP90T",
+                  "type": "paper"
+                },
+                {
+                  "label": "s2021 BP507TP",
+                  "url": "https://drive.google.com/uc?export=download&id=1FMTf1X00opCzWCks2UnVc41VC9-OWEUP",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/BP507TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
               "code": "BP501TT",
               "name": "Medicinal Chemistry-II",
               "useExamTemplates": true,
@@ -846,52 +892,6 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP502TP.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BP506TP",
-              "name": "Contributor Personality Development Program",
-              "useExamTemplates": true,
-              "papers": [
-                {
-                  "label": "w021 BP506TP",
-                  "url": "https://drive.google.com/uc?export=download&id=1mAJDiyWMXUgYC2WIib3u9TjUIIAekMIq",
-                  "type": "paper"
-                },
-                {
-                  "label": "s2021 BP506TP",
-                  "url": "https://drive.google.com/uc?export=download&id=13KodXYW8MUqFr6MK6qboxSXiS935i-6T",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/BP506TP.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BP507TP",
-              "name": "Integrated Personality Development Course",
-              "useExamTemplates": true,
-              "papers": [
-                {
-                  "label": "w2021 BP507TP",
-                  "url": "https://drive.google.com/uc?export=download&id=17wBCqD04yHVXvEjvQJ4Kxs6B6tczP90T",
-                  "type": "paper"
-                },
-                {
-                  "label": "s2021 BP507TP",
-                  "url": "https://drive.google.com/uc?export=download&id=1FMTf1X00opCzWCks2UnVc41VC9-OWEUP",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/BP507TP.pdf",
                   "type": "paper"
                 }
               ]
@@ -1404,184 +1404,17 @@
       ]
     },
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-pharmacy",
+      "name": "Bachelor of Pharmacy",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "5",
+          "name": "Semester 5",
           "subjects": [
             {
-              "code": "2250006",
-              "name": "Subject 2250006",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/2250006.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2250006.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2260003",
-              "name": "Subject 2260003",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/2260003.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2260005",
-              "name": "Subject 2260005",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/2260005.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2260005.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2270001",
-              "name": "Subject 2270001",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2270001.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2270002",
-              "name": "Subject 2270002",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2270002.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2270003",
-              "name": "Subject 2270003",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/2270003.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2270004",
-              "name": "Subject 2270004",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2270004.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2270005",
-              "name": "Subject 2270005",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2270005.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2270016",
-              "name": "Subject 2270016",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2270016.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2280003",
-              "name": "Subject 2280003",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/2280003.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2280004",
-              "name": "Subject 2280004",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/2280004.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "2280005",
-              "name": "Subject 2280005",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/2280005.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "BP503TP",
-              "name": "Subject BP503TP",
+              "name": "Pharmacognosy and Phytochemistry II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1596,87 +1429,168 @@
                   "path": "S2025/BP/BP503TP.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP503TP.pdf"
             },
             {
-              "code": "BP802TT",
-              "name": "Subject BP802TT",
+              "code": "2250006",
+              "name": "Pharmacognosy-III",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BP/BP802TT.pdf",
+                  "path": "S2026/BP/2250006.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BP/BP802TT.pdf",
+                  "path": "S2025/BP/2250006.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2250006.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
             {
-              "code": "BP804TT",
-              "name": "Subject BP804TT",
+              "code": "2260003",
+              "name": "Pharmaceutical Analysis IV",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BP/BP804TT.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/BP804TT.pdf",
+                  "path": "S2026/BP/2260003.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2260003.pdf"
             },
             {
-              "code": "BP805TT",
-              "name": "Subject BP805TT",
+              "code": "2260005",
+              "name": "Pharmacology and Pharmacotherapeutics-II",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BP/BP805TT.pdf",
+                  "path": "S2026/BP/2260005.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BP/BP805TT.pdf",
+                  "path": "S2025/BP/2260005.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2260005.pdf"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
+            {
+              "code": "2270001",
+              "name": "Dosage form Design I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/2270001.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270001.pdf"
             },
             {
-              "code": "BP806TT",
-              "name": "Subject BP806TT",
+              "code": "2270016",
+              "name": "Innovations in Conventional Drug Delivery System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/2270016.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270016.pdf"
+            },
+            {
+              "code": "2270003",
+              "name": "Pharmaceutical Chemistry-IX (Medicinal Chemistry-III)",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BP/BP806TT.pdf",
+                  "path": "S2026/BP/2270003.pdf",
                   "type": "paper"
-                },
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2270003.pdf"
+            },
+            {
+              "code": "2270002",
+              "name": "Pharmaceutical Technology I",
+              "useExamTemplates": false,
+              "papers": [
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BP/BP806TT.pdf",
+                  "path": "S2025/BP/2270002.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270002.pdf"
             },
+            {
+              "code": "2270005",
+              "name": "Pharmacognosy-V",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/2270005.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270005.pdf"
+            },
+            {
+              "code": "2270004",
+              "name": "Pharmacology and Pharmacotherapeutics- III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/2270004.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270004.pdf"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": [
             {
               "code": "BP807TT",
-              "name": "Subject BP807TT",
+              "name": "Computer Aided Drug Design",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1691,30 +1605,12 @@
                   "path": "S2025/BP/BP807TT.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BP810TT",
-              "name": "Subject BP810TT",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BP/BP810TT.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BP/BP810TT.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP807TT.pdf"
             },
             {
               "code": "BP812TT",
-              "name": "Subject BP812TT",
+              "name": "Dietary Supplements and Nutraceuticals",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1729,11 +1625,155 @@
                   "path": "S2025/BP/BP812TT.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP812TT.pdf"
+            },
+            {
+              "code": "BP810TT",
+              "name": "Experimental Pharmacology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/BP810TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/BP810TT.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP810TT.pdf"
+            },
+            {
+              "code": "2280003",
+              "name": "Pharmaceutical Chemistry - X (Medicinal Chemistry- III)",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/2280003.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2280003.pdf"
+            },
+            {
+              "code": "BP804TT",
+              "name": "Pharmaceutical Regulatory science",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/BP804TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/BP804TT.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP804TT.pdf"
+            },
+            {
+              "code": "2280005",
+              "name": "Pharmacognosy-VI",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/2280005.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2280005.pdf"
+            },
+            {
+              "code": "2280004",
+              "name": "Pharmacology and Pharmacotherapeutics - IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/2280004.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2280004.pdf"
+            },
+            {
+              "code": "BP805TT",
+              "name": "Pharmacovigilance",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/BP805TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/BP805TT.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP805TT.pdf"
+            },
+            {
+              "code": "BP806TT",
+              "name": "Quality Control and standardization of Herbals",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/BP806TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/BP806TT.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP806TT.pdf"
+            },
+            {
+              "code": "BP802TT",
+              "name": "Social and Preventive Pharmacy",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BP/BP802TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BP/BP802TT.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP802TT.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "source": "https://old26.gtu.ac.in/Download1.aspx",

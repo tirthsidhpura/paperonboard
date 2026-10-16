@@ -22,7 +22,7 @@ test('all official course codes have catalogs and reachable rendered pages', () 
     assert.ok(!html.includes('Loading question papers'));
     if (!catalog.branches.length) assert.match(html, /noindex,follow/);
     for (const branch of catalog.branches) {
-      const branchHTML = read(`catalog-${course.id}--${branch.id}.html`);
+      const branchHTML = read(catalog.directSemesters ? `catalog-${course.id}.html` : `catalog-${course.id}--${branch.id}.html`);
       for (const semester of branch.semesters) {
         for (const subject of semester.subjects) assert.ok(branchHTML.includes(subject.code.replaceAll('&', '&amp;')), `Missing rendered subject ${subject.code}`);
       }
@@ -61,4 +61,45 @@ test('rendered internal route links resolve to files included in the build', () 
       assert.ok(fs.existsSync(path.join(root, 'dist', target.pathname.slice(1))), `Broken route ${match[1]} in ${file}`);
     }
   }
+});
+
+test('imported programs use verified semester navigation and named subjects', () => {
+  const metadata = JSON.parse(read('data/gtu-subjects.json')).subjects;
+  for (const stream of site.streams) {
+    const catalog = JSON.parse(read(stream.file));
+    for (const branch of catalog.branches) {
+      assert.notEqual(branch.id, 'official-papers');
+      for (const semester of branch.semesters) {
+        assert.notEqual(semester.id, 'unclassified');
+        for (const subject of semester.subjects) {
+          if (!subject.verificationSource) continue;
+          const verified = metadata[`${catalog.gtuCourseCode}/${subject.code}`];
+          assert.ok(verified, `Unverified subject ${subject.code}`);
+          assert.equal(subject.name, verified.name);
+          assert.equal(semester.id, verified.periodType === 'semester' ? String(verified.period) : `year-${verified.period}`);
+          assert.equal(subject.verificationSource, verified.source);
+        }
+      }
+    }
+    if (catalog.imported && catalog.branches.length) {
+      assert.ok(!catalog.directSemesters);
+      assert.ok(catalog.branches.every((branch) => branch.name && branch.id !== 'additional-papers'));
+    }
+  }
+  const mca = read('catalog-gtu-mc.html');
+  assert.match(mca, /Select your course/);
+  const catalog = JSON.parse(read('data/gtu-mc.json'));
+  const course = read(`catalog-gtu-mc--${catalog.branches[0].id}.html`);
+  assert.match(course, /Select The Semester/);
+  assert.match(course, /Semester 3/);
+  assert.match(course, /Database Management Systems/);
+  assert.match(course, /subject=4639303/);
+  assert.ok(!mca.includes('Subjects by official code'));
+  assert.match(read('catalog-gtu-mc--official-papers.html'), /url=catalog-gtu-mc.html/);
+  assert.match(read('courses.html'), /Select your stream/);
+  assert.match(read('catalog-diploma.html'), /catalog-diploma--electricalengineeriing.html/);
+  const electrical = read('catalog-diploma--electricalengineeriing.html');
+  assert.match(electrical, /Select The Semester/);
+  assert.match(electrical, /class="sub"/);
+  assert.ok(!electrical.includes('class="bigcard"'), 'Paper cards should open after choosing a subject');
 });

@@ -91,9 +91,15 @@ export function prerender(root, destination, site) {
     html = html.replace(/href="\?stream=([a-z0-9-]+)"/g, 'href="catalog-$1.html"').replaceAll('href="?view=courses"', 'href="courses.html"').replaceAll('href="?view=contributors"', 'href="contributors.html"');
     fs.writeFileSync(path.join(destination, route.file), html);
   }
+  // Keep links shared from the original import working after semester organization.
+  for (const catalog of runtime.fixtures) {
+    const file = `catalog-${catalog.id}--official-papers.html`;
+    const target = `catalog-${catalog.id}.html`;
+    fs.writeFileSync(path.join(destination, file), `<!doctype html><html lang="en"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=${escape(target)}"><link rel="canonical" href="${origin}${escape(target)}"><title>Choose a course | PaperOnBoard</title><a href="${escape(target)}">Choose a course and browse papers</a></html>`);
+  }
   const indexable = routes.filter((r) => !r.noindex);
   fs.writeFileSync(path.join(destination, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${indexable.map((r) => `<url><loc>${escape(origin + (r.file === 'index.html' ? '' : r.file))}</loc></url>`).join('')}</urlset>\n`);
   fs.writeFileSync(path.join(destination, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${origin}sitemap.xml\n`);
-  fs.writeFileSync(path.join(destination, 'llms.txt'), `# PaperOnBoard\n\n> Independent, community-maintained GTU question-paper directory. Not affiliated with Gujarat Technological University.\n\nPaper links point to third-party GTU and Google Drive resources. Availability varies by subject and session. Unknown subject names and semesters are not inferred from codes.\n\n## Course directories\n${routes.filter((r) => r.file.startsWith('catalog-') && !r.file.includes('--') && !r.noindex).map((r) => `- [${r.title}](${origin}${r.file}): ${r.description}`).join('\n')}\n\n## Sources\n- [Official GTU question-paper repository](https://old26.gtu.ac.in/Download1.aspx)\n- [Contribute](https://github.com/tirthsidhpura/paperonboard)\n\nThis file is a navigation aid, not a guarantee of AI indexing or citation.\n`);
+  fs.writeFileSync(path.join(destination, 'llms.txt'), `# PaperOnBoard\n\n> Independent, community-maintained GTU question-paper directory. Not affiliated with Gujarat Technological University.\n\nPaper links point to third-party GTU and Google Drive resources. Availability varies by subject and session. Imported subject names and semester/year assignments are verified from official paper headers.\n\n## Course directories\n${routes.filter((r) => r.file.startsWith('catalog-') && !r.file.includes('--') && !r.noindex).map((r) => `- [${r.title}](${origin}${r.file}): ${r.description}`).join('\n')}\n\n## Sources\n- [Official GTU question-paper repository](https://old26.gtu.ac.in/Download1.aspx)\n- [Contribute](https://github.com/tirthsidhpura/paperonboard)\n\nThis file is a navigation aid, not a guarantee of AI indexing or citation.\n`);
   console.log(`Rendered ${routes.length} HTML pages and ${indexable.length} sitemap URLs from the shared interface.`);
 }

@@ -4,185 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-business-administration-honours-honours-with-research",
+      "name": "Bachelor of Business Administration (Honours/Honours with Research)",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
-              "code": "1530101",
-              "name": "Subject 1530101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1530101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1540103",
-              "name": "Subject 1540103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1540103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1540104",
-              "name": "Subject 1540104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1540104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550101",
-              "name": "Subject 1550101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550102",
-              "name": "Subject 1550102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550103",
-              "name": "Subject 1550103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550104",
-              "name": "Subject 1550104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550105",
-              "name": "Subject 1550105",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550105.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550106",
-              "name": "Subject 1550106",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550106.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550107",
-              "name": "Subject 1550107",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550107.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1550108",
-              "name": "Subject 1550108",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/1550108.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BB01001011",
-              "name": "Subject BB01001011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/BB01001011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BB01001021_updated",
-              "name": "Subject BB01001021_updated",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/BB01001021_updated.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "BB01001031",
-              "name": "Subject BB01001031",
+              "name": "Business Statistics and Logic",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -191,37 +23,26 @@
                   "path": "W2025/BB/BB01001031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB01001031.pdf"
             },
             {
-              "code": "BB01001041",
-              "name": "Subject BB01001041",
+              "code": "BB01001021_updated",
+              "name": "Financial Accounting",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BB/BB01001041.pdf",
+                  "path": "W2025/BB/BB01001021_updated.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BB01001051",
-              "name": "Subject BB01001051",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/BB01001051.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB01001021_updated.pdf"
             },
             {
               "code": "BB01001061",
-              "name": "Subject BB01001061",
+              "name": "Fundamentals of ESG for Sustainability",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -230,50 +51,60 @@
                   "path": "W2025/BB/BB01001061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB01001061.pdf"
             },
             {
-              "code": "BB02001011",
-              "name": "Subject BB02001011",
+              "code": "BB01001041",
+              "name": "General and Communicative English",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BB/BB02001011.pdf",
+                  "path": "W2025/BB/BB01001041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB01001041.pdf"
             },
             {
-              "code": "BB02001021",
-              "name": "Subject BB02001021",
+              "code": "BB01001051",
+              "name": "Indian Knowledge Systems",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BB/BB02001021.pdf",
+                  "path": "W2025/BB/BB01001051.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB01001051.pdf"
             },
             {
-              "code": "BB02001031",
-              "name": "Subject BB02001031",
+              "code": "BB01001011",
+              "name": "Principles and Practices of Management",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BB/BB02001031.pdf",
+                  "path": "W2025/BB/BB01001011.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB01001011.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
             {
               "code": "BB02001041",
-              "name": "Subject BB02001041",
+              "name": "Business Communication",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -282,11 +113,40 @@
                   "path": "W2025/BB/BB02001041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB02001041.pdf"
+            },
+            {
+              "code": "BB02001011",
+              "name": "Business Economics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/BB02001011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB02001011.pdf"
+            },
+            {
+              "code": "BB02001021",
+              "name": "Cost Accounting",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/BB02001021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB02001021.pdf"
             },
             {
               "code": "BB02001061",
-              "name": "Subject BB02001061",
+              "name": "Design Thinking and Innovation",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -295,63 +155,46 @@
                   "path": "W2025/BB/BB02001061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB02001061.pdf"
             },
             {
-              "code": "BB03001011",
-              "name": "Subject BB03001011",
+              "code": "BB02001031",
+              "name": "Human Behaviour in Organisations",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BB/BB03001011.pdf",
+                  "path": "W2025/BB/BB02001031.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB02001031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
-              "code": "BB03001021",
-              "name": "Subject BB03001021",
+              "code": "1530101",
+              "name": "Cost Accounting",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BB/BB03001021.pdf",
+                  "path": "W2025/BB/1530101.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BB03001031",
-              "name": "Subject BB03001031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/BB03001031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BB03001041",
-              "name": "Subject BB03001041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BB/BB03001041.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1530101.pdf"
             },
             {
               "code": "BB03001051",
-              "name": "Subject BB03001051",
+              "name": "Health and Wellness",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -360,11 +203,26 @@
                   "path": "W2025/BB/BB03001051.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB03001051.pdf"
+            },
+            {
+              "code": "BB03001021",
+              "name": "Human Resource Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/BB03001021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB03001021.pdf"
             },
             {
               "code": "BB03001061",
-              "name": "Subject BB03001061",
+              "name": "Legal and Ethical Issues in Business",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -373,11 +231,207 @@
                   "path": "W2025/BB/BB03001061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB03001061.pdf"
+            },
+            {
+              "code": "BB03001011",
+              "name": "Management Accounting",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/BB03001011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB03001011.pdf"
+            },
+            {
+              "code": "BB03001031",
+              "name": "Management Information System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/BB03001031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB03001031.pdf"
+            },
+            {
+              "code": "BB03001041",
+              "name": "Marketing Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/BB03001041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/BB03001041.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "1540103",
+              "name": "Fundamentals of Financial Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1540103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1540103.pdf"
+            },
+            {
+              "code": "1540104",
+              "name": "Introduction of Human Resource Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1540104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1540104.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "1550102",
+              "name": "Advance Marketing Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550102.pdf"
+            },
+            {
+              "code": "1550105",
+              "name": "Advance Production and Operation Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550105.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550105.pdf"
+            },
+            {
+              "code": "1550103",
+              "name": "Corporate Finance",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550103.pdf"
+            },
+            {
+              "code": "1550104",
+              "name": "Human Resource Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550104.pdf"
+            },
+            {
+              "code": "1550106",
+              "name": "Indian Financial System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550106.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550106.pdf"
+            },
+            {
+              "code": "1550108",
+              "name": "Performance Management and Compensation",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550108.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550108.pdf"
+            },
+            {
+              "code": "1550101",
+              "name": "Research Methodology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550101.pdf"
+            },
+            {
+              "code": "1550107",
+              "name": "Sales Management and CRM",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BB/1550107.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BB/1550107.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

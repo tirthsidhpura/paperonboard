@@ -4,42 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "integrated-m-sc-biotechnology",
+      "name": "Integrated M.Sc. (Biotechnology)",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "3",
+          "name": "Semester 3",
           "subjects": [
             {
-              "code": "1330401",
-              "name": "Subject 1330401",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/IM/1330401.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1330402",
-              "name": "Subject 1330402",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/IM/1330402.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "1330403",
-              "name": "Subject 1330403",
+              "name": "Enzyme Technology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -48,11 +23,40 @@
                   "path": "W2025/IM/1330403.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1330403.pdf"
+            },
+            {
+              "code": "1330402",
+              "name": "Genetic Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IM/1330402.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1330402.pdf"
+            },
+            {
+              "code": "1330401",
+              "name": "Genetics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IM/1330401.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1330401.pdf"
             },
             {
               "code": "1330405",
-              "name": "Subject 1330405",
+              "name": "Synthetic Biology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -61,37 +65,18 @@
                   "path": "W2025/IM/1330405.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1350401",
-              "name": "Subject 1350401",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/IM/1350401.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1350402",
-              "name": "Subject 1350402",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/IM/1350402.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1330405.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
             {
               "code": "1350403",
-              "name": "Subject 1350403",
+              "name": "Bioprocess Technology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -100,11 +85,26 @@
                   "path": "W2025/IM/1350403.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1350403.pdf"
+            },
+            {
+              "code": "1350402",
+              "name": "Environmental Biotechnology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IM/1350402.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1350402.pdf"
             },
             {
               "code": "1350405",
-              "name": "Subject 1350405",
+              "name": "Forensic Biotechnology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -113,24 +113,32 @@
                   "path": "W2025/IM/1350405.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1350405.pdf"
             },
             {
-              "code": "1360402",
-              "name": "Subject 1360402",
+              "code": "1350401",
+              "name": "Medical Biotechnology",
               "useExamTemplates": false,
               "papers": [
                 {
-                  "label": "Summer 2026",
+                  "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "S2026/IM/1360402.pdf",
+                  "path": "W2025/IM/1350401.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IM/1350401.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
             {
               "code": "1360405",
-              "name": "Subject 1360405",
+              "name": "COMPUTER AIDED DRUG DESIGNING",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -139,30 +147,32 @@
                   "path": "S2026/IM/1360405.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1360405.pdf"
             },
             {
-              "code": "1370406",
-              "name": "Subject 1370406",
+              "code": "1360402",
+              "name": "ENTREPRENEURSHIP & INTELLECTUAL PROPERTY RIGHTS",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/IM/1370406.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/IM/1370406.pdf",
+                  "path": "S2026/IM/1360402.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1360402.pdf"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
             {
               "code": "1370407",
-              "name": "Subject 1370407",
+              "name": "ADVANCED TECHNIQUES IN MEDICAL BIOTECHNOLOGY",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -177,11 +187,12 @@
                   "path": "W2025/IM/1370407.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1370407.pdf"
             },
             {
               "code": "1370408",
-              "name": "Subject 1370408",
+              "name": "ARTIFICIAL INTELLIGENCE AND BIG DATA IN HEALTHCARE",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -196,24 +207,38 @@
                   "path": "W2025/IM/1370408.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1370408.pdf"
             },
             {
-              "code": "1380406",
-              "name": "Subject 1380406",
+              "code": "1370406",
+              "name": "MEDICAL MICROBIOLOGY AND INFECTIOUS DISEASES",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/IM/1380406.pdf",
+                  "path": "S2026/IM/1370406.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IM/1370406.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1370406.pdf"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": [
             {
               "code": "1380407",
-              "name": "Subject 1380407",
+              "name": "Advance Vaccinology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -222,11 +247,12 @@
                   "path": "S2026/IM/1380407.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1380407.pdf"
             },
             {
               "code": "1380408",
-              "name": "Subject 1380408",
+              "name": "Advanced Therapeutics",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -235,11 +261,27 @@
                   "path": "S2026/IM/1380408.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1380408.pdf"
+            },
+            {
+              "code": "1380406",
+              "name": "Medical Biochemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IM/1380406.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IM/1380406.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

@@ -4,443 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-hotel-management-and-catering-technology",
+      "name": "Bachelor of Hotel Management and Catering Technology",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
-              "code": "123305",
-              "name": "Subject 123305",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/123305.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/123305.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "123306",
-              "name": "Subject 123306",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/123306.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/123306.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "143301",
-              "name": "Subject 143301",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/143301.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "143302",
-              "name": "Subject 143302",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/143302.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/143302.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "153301",
-              "name": "Subject 153301",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/153301.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/153301.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "153302",
-              "name": "Subject 153302",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/153302.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "153303",
-              "name": "Subject 153303",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/153303.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/153303.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "153304",
-              "name": "Subject 153304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/153304.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/153304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "153305",
-              "name": "Subject 153305",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/153305.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/153305.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "153306",
-              "name": "Subject 153306",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/153306.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "163301",
-              "name": "Subject 163301",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/163301.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/163301.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "163302",
-              "name": "Subject 163302",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/163302.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "163303",
-              "name": "Subject 163303",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/163303.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/163303.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "163304",
-              "name": "Subject 163304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/163304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "163305",
-              "name": "Subject 163305",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/163305.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "163306",
-              "name": "Subject 163306",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/163306.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "173301",
-              "name": "Subject 173301",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/173301.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/173301.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "173302",
-              "name": "Subject 173302",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/173302.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "173303",
-              "name": "Subject 173303",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/173303.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/173303.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "173304",
-              "name": "Subject 173304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/173304.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/173304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "173305",
-              "name": "Subject 173305",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/173305.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/173305.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "173306",
-              "name": "Subject 173306",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/173306.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/173306.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BH01000011",
-              "name": "Subject BH01000011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/BH01000011.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/BH01000011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BH01000021",
-              "name": "Subject BH01000021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/BH01000021.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/BH01000021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BH01000031",
-              "name": "Subject BH01000031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/BH01000031.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/BH01000031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "BH01000041",
-              "name": "Subject BH01000041",
+              "name": "Business Communication",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -455,11 +29,12 @@
                   "path": "W2025/BH/BH01000041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000041.pdf"
             },
             {
               "code": "BH01000051",
-              "name": "Subject BH01000051",
+              "name": "Fundamentals of Computer Application",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -474,11 +49,12 @@
                   "path": "W2025/BH/BH01000051.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000051.pdf"
             },
             {
               "code": "BH01000061",
-              "name": "Subject BH01000061",
+              "name": "Fundamentals of ESG for Sustainability",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -493,49 +69,98 @@
                   "path": "W2025/BH/BH01000061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000061.pdf"
             },
             {
-              "code": "BH02000011",
-              "name": "Subject BH02000011",
+              "code": "BH01000031",
+              "name": "Fundamentals of Food & Beverage Management-1",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH02000011.pdf",
+                  "path": "S2026/BH/BH01000031.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BH/BH02000011.pdf",
+                  "path": "W2025/BH/BH01000031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000031.pdf"
             },
             {
-              "code": "BH02000021",
-              "name": "Subject BH02000021",
+              "code": "BH01000021",
+              "name": "Fundamentals of Rooms Division Management-1",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH02000021.pdf",
+                  "path": "S2026/BH/BH01000021.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BH/BH02000021.pdf",
+                  "path": "W2025/BH/BH01000021.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000021.pdf"
+            },
+            {
+              "code": "BH01000011",
+              "name": "Introduction to Hospitality and Tourism Industry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH01000011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH01000011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000011.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "123305",
+              "name": "Basic Accounts",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/123305.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/123305.pdf"
             },
             {
               "code": "BH02000031",
-              "name": "Subject BH02000031",
+              "name": "Fundamentals of Food & Beverage Management-2",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -550,11 +175,52 @@
                   "path": "W2025/BH/BH02000031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH02000031.pdf"
+            },
+            {
+              "code": "BH02000011",
+              "name": "Fundamentals of Food Production",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH02000011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH02000011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH02000011.pdf"
+            },
+            {
+              "code": "BH02000021",
+              "name": "Fundamentals of Rooms Division Management-2",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH02000021.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH02000021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH02000021.pdf"
             },
             {
               "code": "BH02000041",
-              "name": "Subject BH02000041",
+              "name": "Fundamentals of Travel and Tourism",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -569,30 +235,32 @@
                   "path": "W2025/BH/BH02000041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH02000041.pdf"
             },
             {
-              "code": "BH02000051",
-              "name": "Subject BH02000051",
+              "code": "123306",
+              "name": "Hospitality Communication II",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH02000051.pdf",
+                  "path": "S2026/BH/123306.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BH/BH02000051.pdf",
+                  "path": "W2025/BH/123306.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/123306.pdf"
             },
             {
               "code": "BH02000061",
-              "name": "Subject BH02000061",
+              "name": "Indian Knowledge System",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -607,87 +275,38 @@
                   "path": "W2025/BH/BH02000061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH02000061.pdf"
             },
             {
-              "code": "BH03000011",
-              "name": "Subject BH03000011",
+              "code": "BH02000051",
+              "name": "Personality Skills for Hospitality Industry",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH03000011.pdf",
+                  "path": "S2026/BH/BH02000051.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/BH/BH03000011.pdf",
+                  "path": "W2025/BH/BH02000051.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BH03000021",
-              "name": "Subject BH03000021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/BH03000021.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/BH03000021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BH03000031",
-              "name": "Subject BH03000031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/BH03000031.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/BH03000031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BH03000041",
-              "name": "Subject BH03000041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BH/BH03000041.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BH/BH03000041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH02000051.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "BH03000051",
-              "name": "Subject BH03000051",
+              "name": "BASIC HOTEL ACCOUNTING",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -702,11 +321,12 @@
                   "path": "W2025/BH/BH03000051.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH03000051.pdf"
             },
             {
               "code": "BH03000061",
-              "name": "Subject BH03000061",
+              "name": "HEALTH AND WELLNESS",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -721,37 +341,98 @@
                   "path": "W2025/BH/BH03000061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH03000061.pdf"
             },
             {
-              "code": "BH04000011",
-              "name": "Subject BH04000011",
+              "code": "BH03000041",
+              "name": "HOSPITALITY FRENCH",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH04000011.pdf",
+                  "path": "S2026/BH/BH03000041.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH03000041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH03000041.pdf"
             },
             {
-              "code": "BH04000021",
-              "name": "Subject BH04000021",
+              "code": "BH03000021",
+              "name": "INTERMEDIATE OF FOOD AND BEVERAGE SERVICE",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH04000021.pdf",
+                  "path": "S2026/BH/BH03000021.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH03000021.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH03000021.pdf"
             },
+            {
+              "code": "BH03000011",
+              "name": "INTERMEDIATE OF FOOD PRODUCTION",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH03000011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH03000011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH03000011.pdf"
+            },
+            {
+              "code": "BH03000031",
+              "name": "INTERMEDIATE OF ROOMS DIVISION MANAGEMENT",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH03000031.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/BH03000031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH03000031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
             {
               "code": "BH04000031",
-              "name": "Subject BH04000031",
+              "name": "ADVANCED ROOMS DIVISION MANAGEMENT",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -760,24 +441,74 @@
                   "path": "S2026/BH/BH04000031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH04000031.pdf"
             },
             {
-              "code": "BH04000041",
-              "name": "Subject BH04000041",
+              "code": "143302",
+              "name": "Bar and Beverage Management",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BH/BH04000041.pdf",
+                  "path": "S2026/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/143302.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/143302.pdf"
+            },
+            {
+              "code": "BH04000021",
+              "name": "BAR AND BEVERAGES",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH04000021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH04000021.pdf"
+            },
+            {
+              "code": "BH04000011",
+              "name": "BASICS OF BAKERY AND CONFECTIONERY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH04000011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH04000011.pdf"
+            },
+            {
+              "code": "143301",
+              "name": "Cuisines Of India",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/143301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BH/143301.pdf"
             },
             {
               "code": "BH04000051",
-              "name": "Subject BH04000051",
+              "name": "FOOD AND BEVERAGE CONTROL",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -786,11 +517,26 @@
                   "path": "S2026/BH/BH04000051.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH04000051.pdf"
+            },
+            {
+              "code": "BH04000041",
+              "name": "FOOD SAFETY AND HYGIENE",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/BH04000041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH04000041.pdf"
             },
             {
               "code": "BH04000061",
-              "name": "Subject BH04000061",
+              "name": "HOSPITALITY AND TOURISM LAW",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -799,11 +545,349 @@
                   "path": "S2026/BH/BH04000061.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH04000061.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "153302",
+              "name": "Food & Beverage Operation",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/153302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BH/153302.pdf"
+            },
+            {
+              "code": "153303",
+              "name": "Front Office Administration & Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/153303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153303.pdf"
+            },
+            {
+              "code": "153306",
+              "name": "Hotel Engineering & Maintenance",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/153306.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BH/153306.pdf"
+            },
+            {
+              "code": "153304",
+              "name": "Human Resource Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/153304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153304.pdf"
+            },
+            {
+              "code": "153301",
+              "name": "International Cuisine",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/153301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153301.pdf"
+            },
+            {
+              "code": "153305",
+              "name": "Marketing Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/153305.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153305.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "163306",
+              "name": "Event & Disaster Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/163306.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163306.pdf"
+            },
+            {
+              "code": "163301",
+              "name": "Food & Beverage Control - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/163301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163301.pdf"
+            },
+            {
+              "code": "163305",
+              "name": "Hospitality & Tourism Law",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/163305.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163305.pdf"
+            },
+            {
+              "code": "163303",
+              "name": "Hospitality French",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/163303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163303.pdf"
+            },
+            {
+              "code": "163304",
+              "name": "Resort Designing, development & Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/163304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163304.pdf"
+            },
+            {
+              "code": "163302",
+              "name": "Room Division Management - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/163302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163302.pdf"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Semester 7",
+          "subjects": [
+            {
+              "code": "173306",
+              "name": "Architecture and Interior Designing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/173306.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173306.pdf"
+            },
+            {
+              "code": "173304",
+              "name": "Aviation and Cruise Line Operation",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/173304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173304.pdf"
+            },
+            {
+              "code": "173301",
+              "name": "Bakery & Patisserie",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/173301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/173301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173301.pdf"
+            },
+            {
+              "code": "173302",
+              "name": "Food & Beverage Control - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/173302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BH/173302.pdf"
+            },
+            {
+              "code": "173305",
+              "name": "Retail Operation & Entrepreneurship Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/173305.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173305.pdf"
+            },
+            {
+              "code": "173303",
+              "name": "Room Division Management - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BH/173303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BH/173303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173303.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

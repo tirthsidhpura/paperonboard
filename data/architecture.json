@@ -777,29 +777,17 @@
       ]
     },
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-architecture",
+      "name": "Bachelor of Architecture",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "2",
+          "name": "Semester 2",
           "subjects": [
             {
-              "code": "2X105002",
-              "name": "Subject 2X105002",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2024",
-                  "urlVersion": "v1",
-                  "path": "S2024/BA/2X105002.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "2X25003",
-              "name": "Subject 2X25003",
+              "name": "Building Construction-II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -808,11 +796,18 @@
                   "path": "S2024/BA/2X25003.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X25003.pdf"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Semester 8",
+          "subjects": [
             {
               "code": "2X85003",
-              "name": "Subject 2X85003",
+              "name": "Site Planning",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -821,11 +816,33 @@
                   "path": "S2024/BA/2X85003.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X85003.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "name": "Semester 10",
+          "subjects": [
+            {
+              "code": "2X105002",
+              "name": "Professional Practice and Valuation",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BA/2X105002.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X105002.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "source": "https://old26.gtu.ac.in/Download1.aspx",

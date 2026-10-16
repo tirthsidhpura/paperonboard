@@ -4,1595 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "software-development",
+      "name": "Software Development",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
-              "code": "1110501",
-              "name": "Subject 1110501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1110501.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1110502",
-              "name": "Subject 1110502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1110502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1110503",
-              "name": "Subject 1110503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1110503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1110504",
-              "name": "Subject 1110504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1110504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110504.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1110701",
-              "name": "Subject 1110701",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1110701.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110701.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1110702",
-              "name": "Subject 1110702",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1110702.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110702.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1110703",
-              "name": "Subject 1110703",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1110703.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112101",
-              "name": "Subject 1112101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112101.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112102",
-              "name": "Subject 1112102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112102.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112103",
-              "name": "Subject 1112103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112104",
-              "name": "Subject 1112104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112201",
-              "name": "Subject 1112201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112202",
-              "name": "Subject 1112202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112203",
-              "name": "Subject 1112203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1112204",
-              "name": "Subject 1112204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1112204.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1112204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120501",
-              "name": "Subject 1120501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1120501.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120502",
-              "name": "Subject 1120502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1120502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120503",
-              "name": "Subject 1120503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1120503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120504",
-              "name": "Subject 1120504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1120504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120504.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120701",
-              "name": "Subject 1120701",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120701.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120702",
-              "name": "Subject 1120702",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120702.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1120703",
-              "name": "Subject 1120703",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1120703.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122101",
-              "name": "Subject 1122101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122101.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122102",
-              "name": "Subject 1122102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122102.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122103",
-              "name": "Subject 1122103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122104",
-              "name": "Subject 1122104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122201",
-              "name": "Subject 1122201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122202",
-              "name": "Subject 1122202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122203",
-              "name": "Subject 1122203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1122204",
-              "name": "Subject 1122204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1122204.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1122204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1130501",
-              "name": "Subject 1130501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1130501.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1130501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1130502",
-              "name": "Subject 1130502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1130502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1130502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1130503",
-              "name": "Subject 1130503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1130503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1130503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1130504",
-              "name": "Subject 1130504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1130504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1130504.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1130701",
-              "name": "Subject 1130701",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1130701.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1130704",
-              "name": "Subject 1130704",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1130704.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132101",
-              "name": "Subject 1132101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132101.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132102",
-              "name": "Subject 1132102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132102.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132103",
-              "name": "Subject 1132103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132104",
-              "name": "Subject 1132104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132201",
-              "name": "Subject 1132201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132202",
-              "name": "Subject 1132202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132203",
-              "name": "Subject 1132203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1132204",
-              "name": "Subject 1132204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1132204.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1132204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140501",
-              "name": "Subject 1140501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1140501.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140502",
-              "name": "Subject 1140502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1140502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140503",
-              "name": "Subject 1140503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1140503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140504",
-              "name": "Subject 1140504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1140504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140504.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140701",
-              "name": "Subject 1140701",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140701.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140702",
-              "name": "Subject 1140702",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140702.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140703",
-              "name": "Subject 1140703",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140703.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1140704",
-              "name": "Subject 1140704",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1140704.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142101",
-              "name": "Subject 1142101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142101.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142102",
-              "name": "Subject 1142102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142102.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142103",
-              "name": "Subject 1142103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142104",
-              "name": "Subject 1142104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142201",
-              "name": "Subject 1142201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142202",
-              "name": "Subject 1142202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142203",
-              "name": "Subject 1142203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1142204",
-              "name": "Subject 1142204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1142204.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1142204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150501",
-              "name": "Subject 1150501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150502",
-              "name": "Subject 1150502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150503",
-              "name": "Subject 1150503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150701",
-              "name": "Subject 1150701",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150701.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150702",
-              "name": "Subject 1150702",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150702.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150703",
-              "name": "Subject 1150703",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150703.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1150704",
-              "name": "Subject 1150704",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1150704.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152101",
-              "name": "Subject 1152101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152101.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1152101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152102",
-              "name": "Subject 1152102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152102.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1152102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152103",
-              "name": "Subject 1152103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1152103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152104",
-              "name": "Subject 1152104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1152104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152201",
-              "name": "Subject 1152201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152202",
-              "name": "Subject 1152202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152203",
-              "name": "Subject 1152203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1152204",
-              "name": "Subject 1152204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1152204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160501",
-              "name": "Subject 1160501",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160501.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1160501.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160502",
-              "name": "Subject 1160502",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160502.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1160502.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160503",
-              "name": "Subject 1160503",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160503.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1160503.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160504",
-              "name": "Subject 1160504",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160504.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1160504.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160701",
-              "name": "Subject 1160701",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160701.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160702",
-              "name": "Subject 1160702",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160702.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160703",
-              "name": "Subject 1160703",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160703.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1160704",
-              "name": "Subject 1160704",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1160704.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162101",
-              "name": "Subject 1162101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162101.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162102",
-              "name": "Subject 1162102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162102.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162103",
-              "name": "Subject 1162103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162103.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162104",
-              "name": "Subject 1162104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162104.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162201",
-              "name": "Subject 1162201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162202",
-              "name": "Subject 1162202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162203",
-              "name": "Subject 1162203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1162204",
-              "name": "Subject 1162204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/1162204.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/1162204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "21110201",
-              "name": "Subject 21110201",
+              "name": "Database Management System",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1607,49 +29,12 @@
                   "path": "S2025/BV/21110201.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "21110202",
-              "name": "Subject 21110202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21110202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21110202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21110203",
-              "name": "Subject 21110203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21110203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21110203.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110201.pdf"
             },
             {
               "code": "21110204",
-              "name": "Subject 21110204",
+              "name": "Operating System",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1664,144 +49,58 @@
                   "path": "S2025/BV/21110204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110204.pdf"
             },
             {
-              "code": "21110301",
-              "name": "Subject 21110301",
+              "code": "21110203",
+              "name": "Programming in C",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21110301.pdf",
+                  "path": "S2026/BV/21110203.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21110301.pdf",
+                  "path": "S2025/BV/21110203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110203.pdf"
             },
             {
-              "code": "21110302",
-              "name": "Subject 21110302",
+              "code": "21110202",
+              "name": "Web Designing",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21110302.pdf",
+                  "path": "S2026/BV/21110202.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21110302.pdf",
+                  "path": "S2025/BV/21110202.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "21110303",
-              "name": "Subject 21110303",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21110303.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21110303.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21110304",
-              "name": "Subject 21110304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21110304.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21110304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21120201",
-              "name": "Subject 21120201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21120201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21120201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21120202",
-              "name": "Subject 21120202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21120202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21120202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21120203",
-              "name": "Subject 21120203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21120203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21120203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110202.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
             {
               "code": "21120204",
-              "name": "Subject 21120204",
+              "name": "Basic Mathematics",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1816,144 +115,78 @@
                   "path": "S2025/BV/21120204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120204.pdf"
             },
             {
-              "code": "21120301",
-              "name": "Subject 21120301",
+              "code": "21120201",
+              "name": "Data Structures",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21120301.pdf",
+                  "path": "S2026/BV/21120201.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21120301.pdf",
+                  "path": "S2025/BV/21120201.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120201.pdf"
             },
             {
-              "code": "21120302",
-              "name": "Subject 21120302",
+              "code": "21120203",
+              "name": "OOPs with Java",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21120302.pdf",
+                  "path": "S2026/BV/21120203.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21120302.pdf",
+                  "path": "S2025/BV/21120203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120203.pdf"
             },
             {
-              "code": "21120303",
-              "name": "Subject 21120303",
+              "code": "21120202",
+              "name": "Software Engineering",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21120303.pdf",
+                  "path": "S2026/BV/21120202.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21120303.pdf",
+                  "path": "S2025/BV/21120202.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "21120304",
-              "name": "Subject 21120304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21120304.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21120304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21130201",
-              "name": "Subject 21130201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21130201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21130202",
-              "name": "Subject 21130202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21130202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21130203",
-              "name": "Subject 21130203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21130203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120202.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "21130204",
-              "name": "Subject 21130204",
+              "name": "Advanced Java",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -1968,82 +201,78 @@
                   "path": "S2025/BV/21130204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21130204.pdf"
             },
             {
-              "code": "21130301",
-              "name": "Subject 21130301",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130301.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21130302",
-              "name": "Subject 21130302",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130302.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21130303",
-              "name": "Subject 21130303",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130303.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21130304",
-              "name": "Subject 21130304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21130304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21140201",
-              "name": "Subject 21140201",
+              "code": "21130202",
+              "name": "Computer Organization and Architecture",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21140201.pdf",
+                  "path": "S2026/BV/21130202.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21140201.pdf",
+                  "path": "S2025/BV/21130202.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21130202.pdf"
             },
             {
+              "code": "21130201",
+              "name": "Linux Operating System-Operations and Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21130201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21130201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21130201.pdf"
+            },
+            {
+              "code": "21130203",
+              "name": "Web Development using PHP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21130203.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21130203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21130203.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
               "code": "21140202",
-              "name": "Subject 21140202",
+              "name": "Mobile Application Development-I",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2058,30 +287,12 @@
                   "path": "S2025/BV/21140202.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "21140203",
-              "name": "Subject 21140203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21140203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21140203.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140202.pdf"
             },
             {
               "code": "21140204",
-              "name": "Subject 21140204",
+              "name": "Python Programming",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2096,144 +307,58 @@
                   "path": "S2025/BV/21140204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140204.pdf"
             },
             {
-              "code": "21140301",
-              "name": "Subject 21140301",
+              "code": "21140201",
+              "name": "Software Testing and Project Management",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21140301.pdf",
+                  "path": "S2026/BV/21140201.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21140301.pdf",
+                  "path": "S2025/BV/21140201.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140201.pdf"
             },
             {
-              "code": "21140302",
-              "name": "Subject 21140302",
+              "code": "21140203",
+              "name": "Window Configuration and Server Administration",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21140302.pdf",
+                  "path": "S2026/BV/21140203.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21140302.pdf",
+                  "path": "S2025/BV/21140203.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "21140303",
-              "name": "Subject 21140303",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21140303.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21140303.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21140304",
-              "name": "Subject 21140304",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21140304.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21140304.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21150201",
-              "name": "Subject 21150201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21150201.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21150201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21150202",
-              "name": "Subject 21150202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21150202.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21150202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "21150203",
-              "name": "Subject 21150203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/21150203.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/21150203.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140203.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
             {
               "code": "21150204",
-              "name": "Subject 21150204",
+              "name": "Digital Marketing",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2248,49 +373,78 @@
                   "path": "S2025/BV/21150204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21150204.pdf"
             },
             {
-              "code": "21160201",
-              "name": "Subject 21160201",
+              "code": "21150203",
+              "name": "Internet of Things",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21160201.pdf",
+                  "path": "S2026/BV/21150203.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21160201.pdf",
+                  "path": "S2025/BV/21150203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21150203.pdf"
             },
             {
-              "code": "21160202",
-              "name": "Subject 21160202",
+              "code": "21150202",
+              "name": "Mobile Application Development-II",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/21160202.pdf",
+                  "path": "S2026/BV/21150202.pdf",
                   "type": "paper"
                 },
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21160202.pdf",
+                  "path": "S2025/BV/21150202.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21150202.pdf"
             },
+            {
+              "code": "21150201",
+              "name": "Technology Trends in IT",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21150201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21150201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21150201.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
             {
               "code": "21160203",
-              "name": "Subject 21160203",
+              "name": "Computer Network Security",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2305,11 +459,52 @@
                   "path": "S2025/BV/21160203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21160203.pdf"
+            },
+            {
+              "code": "21160201",
+              "name": "Introduction to AI & ML",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21160201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21160201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21160201.pdf"
+            },
+            {
+              "code": "21160202",
+              "name": "IT in Supply Chain Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21160202.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21160202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21160202.pdf"
             },
             {
               "code": "21160204",
-              "name": "Subject 21160204",
+              "name": "Python for Data Science",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2324,11 +519,1684 @@
                   "path": "S2025/BV/21160204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21160204.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "02"
+    },
+    {
+      "id": "information-technology",
+      "name": "Information Technology",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "1110501",
+              "name": "Database Management System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1110501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1110501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1110501.pdf"
             },
             {
+              "code": "1110504",
+              "name": "Operating System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1110504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1110504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1110504.pdf"
+            },
+            {
+              "code": "1110503",
+              "name": "Programming in C",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1110503.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1110503.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1110503.pdf"
+            },
+            {
+              "code": "1110502",
+              "name": "Web Designing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1110502.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1110502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1110502.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "1120504",
+              "name": "Basic Mathematics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1120504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1120504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1120504.pdf"
+            },
+            {
+              "code": "1120501",
+              "name": "Data Structures",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1120501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1120501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1120501.pdf"
+            },
+            {
+              "code": "1120503",
+              "name": "OOPs with Java",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1120503.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1120503.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1120503.pdf"
+            },
+            {
+              "code": "1120502",
+              "name": "Software Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1120502.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1120502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1120502.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "1130501",
+              "name": "Advanced Java",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1130501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1130501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1130501.pdf"
+            },
+            {
+              "code": "1130503",
+              "name": "Object Oriented Analysis & Design",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1130503.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1130503.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1130503.pdf"
+            },
+            {
+              "code": "1130504",
+              "name": "Peripherals & Basic of IT",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1130504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1130504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1130504.pdf"
+            },
+            {
+              "code": "1130502",
+              "name": "Programming With PHP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1130502.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1130502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1130502.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "1140501",
+              "name": "Advanced Database Management System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1140501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1140501.pdf"
+            },
+            {
+              "code": "1140502",
+              "name": "Computer Network and Security",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1140502.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1140502.pdf"
+            },
+            {
+              "code": "1140503",
+              "name": "Python Programming",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1140503.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140503.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1140503.pdf"
+            },
+            {
+              "code": "1140504",
+              "name": "Search Engine Optimization",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1140504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1140504.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "1150501",
+              "name": "Entrepreneurship & Start-ups",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150501.pdf"
+            },
+            {
+              "code": "1150502",
+              "name": "Mobile Application Development using Android",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150502.pdf"
+            },
+            {
+              "code": "1150503",
+              "name": "Web Development using ASP.NET",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150503.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150503.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "1160504",
+              "name": "CLOUD COMPUTING",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160504.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1160504.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160504.pdf"
+            },
+            {
+              "code": "1160503",
+              "name": "CYBER SECURITY",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160503.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1160503.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160503.pdf"
+            },
+            {
+              "code": "1160501",
+              "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160501.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1160501.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160501.pdf"
+            },
+            {
+              "code": "1160502",
+              "name": "INTRODUCTION TO NOSQL",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160502.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1160502.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160502.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "05"
+    },
+    {
+      "id": "banking-financial-services-and-insurance",
+      "name": "Banking Financial Services And Insurance",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "1112101",
+              "name": "Banking & Micro Finance-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112101.pdf"
+            },
+            {
+              "code": "1112102",
+              "name": "Indian Securities Market-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112102.pdf"
+            },
+            {
+              "code": "1112103",
+              "name": "Micro Finance Operations-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112103.pdf"
+            },
+            {
+              "code": "1112104",
+              "name": "Mutual Fund Operations-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112104.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "1122101",
+              "name": "Banking & Micro Finance-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122101.pdf"
+            },
+            {
+              "code": "1122102",
+              "name": "Indian Securities Markets-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122102.pdf"
+            },
+            {
+              "code": "1122103",
+              "name": "Micro Finance Operations-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122103.pdf"
+            },
+            {
+              "code": "1122104",
+              "name": "Mutual Fund Operations-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122104.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "1132101",
+              "name": "Computational Skills - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132101.pdf"
+            },
+            {
+              "code": "1132103",
+              "name": "Depository Operations - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132103.pdf"
+            },
+            {
+              "code": "1132104",
+              "name": "Management - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132104.pdf"
+            },
+            {
+              "code": "1132102",
+              "name": "Retail Banking & Operations -I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132102.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "1142101",
+              "name": "Computational Skills - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142101.pdf"
+            },
+            {
+              "code": "1142103",
+              "name": "Depository Operations - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142103.pdf"
+            },
+            {
+              "code": "1142104",
+              "name": "Management - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142104.pdf"
+            },
+            {
+              "code": "1142102",
+              "name": "Retail Banking & Operations -II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142102.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "1152101",
+              "name": "Business Banking &Operations",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1152101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152101.pdf"
+            },
+            {
+              "code": "1152103",
+              "name": "Finishing School - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1152103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152103.pdf"
+            },
+            {
+              "code": "1152104",
+              "name": "Livelihood Management-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1152104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152104.pdf"
+            },
+            {
+              "code": "1152102",
+              "name": "Securities Operations",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1152102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152102.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "1162103",
+              "name": "Finishing School - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162103.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162103.pdf"
+            },
+            {
+              "code": "1162102",
+              "name": "General Insurance & Operations",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162102.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162102.pdf"
+            },
+            {
+              "code": "1162101",
+              "name": "Life Insurance & Operations",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162101.pdf"
+            },
+            {
+              "code": "1162104",
+              "name": "Livelihood Management - II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162104.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162104.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "21"
+    },
+    {
+      "id": "sales-marketing-management",
+      "name": "Sales & Marketing Management",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "1132201",
+              "name": "Advanced Marketing Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132201.pdf"
+            },
+            {
+              "code": "1132202",
+              "name": "Fundamentals of Information Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132202.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132202.pdf"
+            },
+            {
+              "code": "1132203",
+              "name": "Retail Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132203.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132203.pdf"
+            },
+            {
+              "code": "1132204",
+              "name": "Sales Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1132204.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1132204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1132204.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "1142201",
+              "name": "Integrated Marketing Communication",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142201.pdf"
+            },
+            {
+              "code": "1142202",
+              "name": "Rural Marketing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142202.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142202.pdf"
+            },
+            {
+              "code": "1142203",
+              "name": "Sales & Distribution Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142203.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142203.pdf"
+            },
+            {
+              "code": "1142204",
+              "name": "Strategic Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1142204.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1142204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1142204.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "1152201",
+              "name": "Consumer Behaviour",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152201.pdf"
+            },
+            {
+              "code": "1152202",
+              "name": "Digital & Social Media Marketing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152202.pdf"
+            },
+            {
+              "code": "1152203",
+              "name": "Entrepreneurship",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152203.pdf"
+            },
+            {
+              "code": "1152204",
+              "name": "International Marketing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1152204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1152204.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "1162202",
+              "name": "Management Control System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162202.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162202.pdf"
+            },
+            {
+              "code": "1162201",
+              "name": "Marketing Research",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162201.pdf"
+            },
+            {
+              "code": "1162203",
+              "name": "Product & Brand Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162203.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162203.pdf"
+            },
+            {
+              "code": "1162204",
+              "name": "Service Marketing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1162204.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1162204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1162204.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "22"
+    },
+    {
+      "id": "production-technology",
+      "name": "Production Technology",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "21110303",
+              "name": "Engineering Drawing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21110303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21110303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110303.pdf"
+            },
+            {
+              "code": "21110302",
+              "name": "General Mechanical Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21110302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21110302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110302.pdf"
+            },
+            {
+              "code": "21110301",
+              "name": "Machine Tool Technology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21110301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21110301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110301.pdf"
+            },
+            {
+              "code": "21110304",
+              "name": "Mechanical Metrology-I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21110304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21110304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21110304.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "21120303",
+              "name": "Communication Skill",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21120303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21120303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120303.pdf"
+            },
+            {
+              "code": "21120302",
+              "name": "Maintenance & Safety Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21120302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21120302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120302.pdf"
+            },
+            {
+              "code": "21120301",
+              "name": "Manufacturing Processes",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21120301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21120301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120301.pdf"
+            },
+            {
+              "code": "21120304",
+              "name": "Material Science and Metallurgy",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21120304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21120304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21120304.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "21130301",
+              "name": "CAD-CAM",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21130301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/21130301.pdf"
+            },
+            {
+              "code": "21130303",
+              "name": "Fundamentals of Mechatronics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21130303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/21130303.pdf"
+            },
+            {
+              "code": "21130304",
+              "name": "Machining and Machine Tools",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21130304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/21130304.pdf"
+            },
+            {
+              "code": "21130302",
+              "name": "Total Quality Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21130302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/21130302.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "21140302",
+              "name": "Agile and Lean Manufacturing Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21140302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21140302.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140302.pdf"
+            },
+            {
+              "code": "21140303",
+              "name": "Hydraulics and Pneumatics Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21140303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21140303.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140303.pdf"
+            },
+            {
+              "code": "21140304",
+              "name": "Machining and Machine Tools-II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21140304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21140304.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140304.pdf"
+            },
+            {
+              "code": "21140301",
+              "name": "Production Automation & Computer Integrated Manufacturing",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/21140301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/21140301.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21140301.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
               "code": "21160301",
-              "name": "Subject 21160301",
+              "name": "Estimating Costing and Economics",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2343,11 +2211,12 @@
                   "path": "S2025/BV/21160301.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21160301.pdf"
             },
             {
               "code": "21160302",
-              "name": "Subject 21160302",
+              "name": "Production Planning & Control",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2362,37 +2231,542 @@
                   "path": "S2025/BV/21160302.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/21160302.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "03"
+    },
+    {
+      "id": "solar-and-renewable-energy",
+      "name": "Solar And Renewable Energy",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "1110701",
+              "name": "Basic Mathematics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1110701.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1110701.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1110701.pdf"
             },
             {
-              "code": "21160401",
-              "name": "Subject 21160401",
+              "code": "1110702",
+              "name": "Fundamental of Analog Electronics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1110702.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1110702.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1110702.pdf"
+            },
+            {
+              "code": "1110703",
+              "name": "Fundamental of Electrical Engineering-1",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21160401.pdf",
+                  "path": "S2025/BV/1110703.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1110703.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
             {
-              "code": "21160402",
-              "name": "Subject 21160402",
+              "code": "1120701",
+              "name": "Communication Skill",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2025",
                   "urlVersion": "v1",
-                  "path": "S2025/BV/21160402.pdf",
+                  "path": "S2025/BV/1120701.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1120701.pdf"
             },
+            {
+              "code": "1120702",
+              "name": "Fundamental of Digital Electronics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1120702.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1120702.pdf"
+            },
+            {
+              "code": "1120703",
+              "name": "Fundamental of Electrical Engineering-2",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1120703.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1120703.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
+            {
+              "code": "1130704",
+              "name": "Entrepreneurship Development",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1130704.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1130704.pdf"
+            },
+            {
+              "code": "1130701",
+              "name": "Power Electronics for Solar PV System",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1130701.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1130701.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "1140702",
+              "name": "Electrical Component for Wind and Solar",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140702.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1140702.pdf"
+            },
+            {
+              "code": "1140704",
+              "name": "Energy Conservation and Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140704.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1140704.pdf"
+            },
+            {
+              "code": "1140703",
+              "name": "Industrial Safety",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140703.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1140703.pdf"
+            },
+            {
+              "code": "1140701",
+              "name": "Introduction to Wind Energy Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1140701.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/1140701.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
+            {
+              "code": "1150701",
+              "name": "DECENTRALISE POWER GENERATION",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150701.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150701.pdf"
+            },
+            {
+              "code": "1150702",
+              "name": "INTRODUCTION TO INDUSTRIAL AUTOMATION",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150702.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150702.pdf"
+            },
+            {
+              "code": "1150703",
+              "name": "POWER TRANSMISSION AND DISTRUBUTION",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150703.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150703.pdf"
+            },
+            {
+              "code": "1150704",
+              "name": "SOLAR AND WIND POLICIES",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1150704.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1150704.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
+            {
+              "code": "1160701",
+              "name": "Green & Energy Efficient Building",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160701.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160701.pdf"
+            },
+            {
+              "code": "1160704",
+              "name": "Industrial Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160704.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160704.pdf"
+            },
+            {
+              "code": "1160702",
+              "name": "Solar radiation and Thermal Conversion",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160702.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160702.pdf"
+            },
+            {
+              "code": "1160703",
+              "name": "Testing and Commissioning of Solar & Wind Power Plant",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1160703.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1160703.pdf"
+            }
+          ]
+        }
+      ],
+      "gtuBranchCode": "07"
+    },
+    {
+      "id": "sales-and-marketing",
+      "name": "Sales and Marketing",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "1112203",
+              "name": "Business Communication",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112203.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112203.pdf"
+            },
+            {
+              "code": "1112201",
+              "name": "Fundamentals of Accounts",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112201.pdf"
+            },
+            {
+              "code": "1112202",
+              "name": "Principles of Management - 1",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112202.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112202.pdf"
+            },
+            {
+              "code": "1112204",
+              "name": "Skills for effective sales",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1112204.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1112204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1112204.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "1122203",
+              "name": "Business Environment",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122203.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122203.pdf"
+            },
+            {
+              "code": "1122201",
+              "name": "Business Statistics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122201.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122201.pdf"
+            },
+            {
+              "code": "1122204",
+              "name": "Marketing Management",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122204.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122204.pdf"
+            },
+            {
+              "code": "1122202",
+              "name": "Priciples of Management - 2",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/1122202.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/1122202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/1122202.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/1112201.pdf"
+    },
+    {
+      "id": "entrepreneurship-development",
+      "name": "Entrepreneurship Development",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
             {
               "code": "BV01006011",
-              "name": "Subject BV01006011",
+              "name": "BASICS OF ENTREPRENEURSHIP",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2401,11 +2775,26 @@
                   "path": "S2026/BV/BV01006011.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV01006011.pdf"
+            },
+            {
+              "code": "BV01006041",
+              "name": "English Grammar",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/BV01006041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV01006041.pdf"
             },
             {
               "code": "BV01006031",
-              "name": "Subject BV01006031",
+              "name": "FORMS OF BUSINESS ORGANIZATION",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2420,165 +2809,18 @@
                   "path": "S2025/BV/BV01006031.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BV01006041",
-              "name": "Subject BV01006041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV01006041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV01008031",
-              "name": "Subject BV01008031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV01008031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV01009011",
-              "name": "Subject BV01009011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV01009011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV01009021",
-              "name": "Subject BV01009021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV01009021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV01009031",
-              "name": "Subject BV01009031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV01009031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV01009041",
-              "name": "Subject BV01009041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV01009041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02000011",
-              "name": "Subject BV02000011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV02000011.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02000011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02000021",
-              "name": "Subject BV02000021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV02000021.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02000021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02006011",
-              "name": "Subject BV02006011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV02006011.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02006011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02006021",
-              "name": "Subject BV02006021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV02006021.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02006021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV01006031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
             {
               "code": "BV02006031",
-              "name": "Subject BV02006031",
+              "name": "BUSINESS ECONOMICS FOR ENTREPRENEURS-2",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2593,11 +2835,86 @@
                   "path": "S2025/BV/BV02006031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02006031.pdf"
             },
             {
+              "code": "BV02006021",
+              "name": "BUSINESS MODEL",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV02006021.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/BV02006021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02006021.pdf"
+            },
+            {
+              "code": "BV02006011",
+              "name": "STARTUP AND INCUBATORS",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV02006011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/BV/BV02006011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02006011.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BV01006011.pdf"
+    },
+    {
+      "id": "practical-accounting-and-tax-dpatp-tally",
+      "name": "Practical Accounting and Tax (DPATP) & TALLY",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "1",
+          "name": "Semester 1",
+          "subjects": [
+            {
+              "code": "BV01008031",
+              "name": "DIRECT TAXATION-1",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV01008031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV01008031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
               "code": "BV02008011",
-              "name": "Subject BV02008011",
+              "name": "ACCOUNTING AND INVENTORIES",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2612,11 +2929,12 @@
                   "path": "S2025/BV/BV02008011.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02008011.pdf"
             },
             {
               "code": "BV02008021",
-              "name": "Subject BV02008021",
+              "name": "INCOME TAX",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2631,11 +2949,12 @@
                   "path": "S2025/BV/BV02008021.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02008021.pdf"
             },
             {
               "code": "BV02008031",
-              "name": "Subject BV02008031",
+              "name": "INTRODUCTION TO GST",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2650,69 +2969,18 @@
                   "path": "S2025/BV/BV02008031.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BV02009011",
-              "name": "Subject BV02009011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02009011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02009021",
-              "name": "Subject BV02009021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV02009021.pdf",
-                  "type": "paper"
-                },
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02009021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02009031",
-              "name": "Subject BV02009031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02009031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV02009041",
-              "name": "Subject BV02009041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2025",
-                  "urlVersion": "v1",
-                  "path": "S2025/BV/BV02009041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02008031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "BV03008021",
-              "name": "Subject BV03008021",
+              "name": "CAPITAL GAINS AND INCOME FROM OTHER SOURCES",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2721,11 +2989,12 @@
                   "path": "S2026/BV/BV03008021.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV03008021.pdf"
             },
             {
               "code": "BV03008031",
-              "name": "Subject BV03008031",
+              "name": "INTRODUCTION TO GST PROCEDURES",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2734,154 +3003,18 @@
                   "path": "S2026/BV/BV03008031.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BV03009011",
-              "name": "Subject BV03009011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV03009011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV03009021",
-              "name": "Subject BV03009021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV03009021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV03009031",
-              "name": "Subject BV03009031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV03009031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV03009041",
-              "name": "Subject BV03009041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV03009041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04006011",
-              "name": "Subject BV04006011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04006011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04006021",
-              "name": "Subject BV04006021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04006021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04006031",
-              "name": "Subject BV04006031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04006031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04006041",
-              "name": "Subject BV04006041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04006041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04008011",
-              "name": "Subject BV04008011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04008011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04008021",
-              "name": "Subject BV04008021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04008021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BV04008031",
-              "name": "Subject BV04008031",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04008031.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV03008031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
             {
               "code": "BV04008041",
-              "name": "Subject BV04008041",
+              "name": "Business Communication",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -2890,67 +3023,429 @@
                   "path": "S2026/BV/BV04008041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04008041.pdf"
             },
             {
-              "code": "BV04009011",
-              "name": "Subject BV04009011",
+              "code": "BV04008031",
+              "name": "Exemptions under GST",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/BV04009011.pdf",
+                  "path": "S2026/BV/BV04008031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04008031.pdf"
             },
             {
-              "code": "BV04009021",
-              "name": "Subject BV04009021",
+              "code": "BV04008011",
+              "name": "Final Accounts of Partnerships Firms and Companies",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/BV04009021.pdf",
+                  "path": "S2026/BV/BV04008011.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04008011.pdf"
             },
             {
-              "code": "BV04009031",
-              "name": "Subject BV04009031",
+              "code": "BV04008021",
+              "name": "Preparation & Filing of Income Tax Returns",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "S2026/BV/BV04009031.pdf",
+                  "path": "S2026/BV/BV04008021.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BV04009041",
-              "name": "Subject BV04009041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/BV/BV04009041.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04008021.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BV01008031.pdf"
+    },
+    {
+      "id": "entrepreneurs-development",
+      "name": "Entrepreneurs Development",
+      "generatedCourse": true,
+      "semesters": [
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
+            {
+              "code": "BV04006011",
+              "name": "Accounting for Entrepreneurs",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV04006011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04006011.pdf"
+            },
+            {
+              "code": "BV04006021",
+              "name": "Costing and Decision Making",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV04006021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04006021.pdf"
+            },
+            {
+              "code": "BV04006041",
+              "name": "Intitutions for Entrepreneurs",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV04006041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04006041.pdf"
+            },
+            {
+              "code": "BV04006031",
+              "name": "Product Development for Startups",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BV/BV04006031.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04006031.pdf"
+            }
+          ]
+        }
+      ],
+      "source": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BV04006011.pdf"
     }
   ],
   "imported": true,
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "BV",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "pendingSubjects": [
+    {
+      "code": "21160401",
+      "name": "RAC Safety",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/21160401.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/21160401.pdf"
+    },
+    {
+      "code": "21160402",
+      "name": "Process Planning and Cost Estimation",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/21160402.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/21160402.pdf"
+    },
+    {
+      "code": "BV01009011",
+      "name": "Introduction to Food Processing and Quality Control",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV01009011.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV01009011.pdf"
+    },
+    {
+      "code": "BV01009021",
+      "name": "Food Chemistry",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV01009021.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV01009021.pdf"
+    },
+    {
+      "code": "BV01009031",
+      "name": "Basic Microbiology",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV01009031.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV01009031.pdf"
+    },
+    {
+      "code": "BV01009041",
+      "name": "Communication Skill in English",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV01009041.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV01009041.pdf"
+    },
+    {
+      "code": "BV02000011",
+      "name": "INDIAN CONSTITUTION",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV02000011.pdf",
+          "type": "paper"
+        },
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV02000011.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02000011.pdf"
+    },
+    {
+      "code": "BV02000021",
+      "name": "BUSINESS STATISTICS",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV02000021.pdf",
+          "type": "paper"
+        },
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV02000021.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02000021.pdf"
+    },
+    {
+      "code": "BV02009011",
+      "name": "Processing of Fruits and Vegetables",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV02009011.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV02009011.pdf"
+    },
+    {
+      "code": "BV02009021",
+      "name": "MATHEMATICS",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV02009021.pdf",
+          "type": "paper"
+        },
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV02009021.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV02009021.pdf"
+    },
+    {
+      "code": "BV02009031",
+      "name": "Food Processing Technology",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV02009031.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV02009031.pdf"
+    },
+    {
+      "code": "BV02009041",
+      "name": "Dairy Technology",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2025",
+          "urlVersion": "v1",
+          "path": "S2025/BV/BV02009041.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BV/BV02009041.pdf"
+    },
+    {
+      "code": "BV03009011",
+      "name": "FOOD MICROBIOLOGY",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV03009011.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV03009011.pdf"
+    },
+    {
+      "code": "BV03009021",
+      "name": "FOOD DRYING AND DEHYDRATION",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV03009021.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV03009021.pdf"
+    },
+    {
+      "code": "BV03009031",
+      "name": "FOOD SCIENCE & NUTRITION",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV03009031.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV03009031.pdf"
+    },
+    {
+      "code": "BV03009041",
+      "name": "ENGINEERING PROPERTIES OF FOOD MATERIALS",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV03009041.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV03009041.pdf"
+    },
+    {
+      "code": "BV04009011",
+      "name": "Food Packaging",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV04009011.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04009011.pdf"
+    },
+    {
+      "code": "BV04009021",
+      "name": "Milling of Cereals",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV04009021.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04009021.pdf"
+    },
+    {
+      "code": "BV04009031",
+      "name": "Recent Advances in Fruits and Vegetable Processing",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV04009031.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04009031.pdf"
+    },
+    {
+      "code": "BV04009041",
+      "name": "Food Analytical techniques",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Summer 2026",
+          "urlVersion": "v1",
+          "path": "S2026/BV/BV04009041.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BV/BV04009041.pdf"
+    }
+  ]
 }

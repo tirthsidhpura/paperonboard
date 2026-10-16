@@ -26,6 +26,8 @@ def apply(snapshot):
             for semester in branch['semesters']:
                 for subject in semester['subjects']:
                     subjects.setdefault(subject['code'], []).append(subject)
+        for subject in catalog.get('pendingSubjects', []):
+            subjects.setdefault(subject['code'], []).append(subject)
         missing = []
         for session, links in sessions.items():
             label = ('Summer ' if session.startswith('S') else 'Winter ') + session[1:]
@@ -44,13 +46,8 @@ def apply(snapshot):
                         subject['papers'].append({'label': label, 'urlVersion': 'v1', 'path': relative, 'type': 'paper'})
                         added += 1
         if missing:
-            branch = next((b for b in catalog['branches'] if b['id'] == 'official-papers'), None)
-            if branch is None:
-                branch = {'id': 'official-papers', 'name': 'Papers by official subject code', 'semesters': [
-                    {'id': 'unclassified', 'name': 'Subjects by official code', 'subjects': []}
-                ]}
-                catalog['branches'].append(branch)
-            branch['semesters'][0]['subjects'].extend(sorted(missing, key=lambda s: s['code']))
+            # A paper is published in the semester flow only after its header is verified.
+            catalog.setdefault('pendingSubjects', []).extend(sorted(missing, key=lambda s: s['code']))
         if not any(s['id'] == stream_id for s in site['streams']):
             site['streams'].append({'id': stream_id, 'name': catalog['name'], 'shortName': code,
                                     'description': f'GTU official repository · Course {code}', 'file': f'data/{stream_id}.json'})

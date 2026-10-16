@@ -4,107 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "software-development",
+      "name": "Software Development",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "2",
+          "name": "Semester 2",
           "subjects": [
             {
-              "code": "1210101",
-              "name": "Subject 1210101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1210101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1210102",
-              "name": "Subject 1210102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1210102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1210103",
-              "name": "Subject 1210103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1210103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1210104",
-              "name": "Subject 1210104",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1210104.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1220101",
-              "name": "Subject 1220101",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1220101.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1220102",
-              "name": "Subject 1220102",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1220102.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1220103",
-              "name": "Subject 1220103",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1220103.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "1220104",
-              "name": "Subject 1220104",
+              "name": "Applied Mathematics-II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -113,37 +23,60 @@
                   "path": "W2025/DV/1220104.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1220104.pdf"
             },
             {
-              "code": "1230102",
-              "name": "Subject 1230102",
+              "code": "1220102",
+              "name": "Basic Electricity",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/DV/1230102.pdf",
+                  "path": "W2025/DV/1220102.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1220102.pdf"
             },
             {
-              "code": "1230104",
-              "name": "Subject 1230104",
+              "code": "1220103",
+              "name": "Basic Electronics",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/DV/1230104.pdf",
+                  "path": "W2025/DV/1220103.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1220103.pdf"
             },
+            {
+              "code": "1220101",
+              "name": "General Foundation Course - I",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1220101.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1220101.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "1230201",
-              "name": "Subject 1230201",
+              "name": "General Foundation Course",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -152,11 +85,12 @@
                   "path": "W2025/DV/1230201.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1230201.pdf"
             },
             {
               "code": "1230202",
-              "name": "Subject 1230202",
+              "name": "Web Applications",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -165,37 +99,18 @@
                   "path": "W2025/DV/1230202.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1240201",
-              "name": "Subject 1240201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1240201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1240202",
-              "name": "Subject 1240202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1240202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1230202.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
             {
               "code": "1240203",
-              "name": "Subject 1240203",
+              "name": "Computer Networks",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -204,11 +119,40 @@
                   "path": "W2025/DV/1240203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1240203.pdf"
+            },
+            {
+              "code": "1240201",
+              "name": "Database Management Systems",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1240201.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1240201.pdf"
+            },
+            {
+              "code": "1240202",
+              "name": "Digital Electronics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1240202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1240202.pdf"
             },
             {
               "code": "1240204",
-              "name": "Subject 1240204",
+              "name": "Maintenance of Computer Systems",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -217,11 +161,18 @@
                   "path": "W2025/DV/1240204.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1240204.pdf"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Semester 5",
+          "subjects": [
             {
               "code": "1250201",
-              "name": "Subject 1250201",
+              "name": "IT Foundation and Programming Concepts",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -230,37 +181,12 @@
                   "path": "W2025/DV/1250201.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1250202",
-              "name": "Subject 1250202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1250202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "1250203",
-              "name": "Subject 1250203",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1250203.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1250201.pdf"
             },
             {
               "code": "1250204",
-              "name": "Subject 1250204",
+              "name": "Operating System",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -269,50 +195,46 @@
                   "path": "W2025/DV/1250204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1250204.pdf"
             },
             {
-              "code": "1260102",
-              "name": "Subject 1260102",
+              "code": "1250203",
+              "name": "Programming in C",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/DV/1260102.pdf",
+                  "path": "W2025/DV/1250203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1250203.pdf"
             },
             {
-              "code": "1260103",
-              "name": "Subject 1260103",
+              "code": "1250202",
+              "name": "Web Designing",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/DV/1260103.pdf",
+                  "path": "W2025/DV/1250202.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "1260201",
-              "name": "Subject 1260201",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/DV/1260201.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1250202.pdf"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Semester 6",
+          "subjects": [
             {
               "code": "1260202",
-              "name": "Subject 1260202",
+              "name": "Concepts of Data Mining",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -321,24 +243,26 @@
                   "path": "W2025/DV/1260202.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1260202.pdf"
             },
             {
-              "code": "1260203",
-              "name": "Subject 1260203",
+              "code": "1260201",
+              "name": "Data Structures",
               "useExamTemplates": false,
               "papers": [
                 {
                   "label": "Winter 2025",
                   "urlVersion": "v1",
-                  "path": "W2025/DV/1260203.pdf",
+                  "path": "W2025/DV/1260201.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1260201.pdf"
             },
             {
               "code": "1260204",
-              "name": "Subject 1260204",
+              "name": "Multimedia Tools & Applications",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -347,15 +271,145 @@
                   "path": "W2025/DV/1260204.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1260204.pdf"
+            },
+            {
+              "code": "1260203",
+              "name": "OOPs with Java",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260203.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1260203.pdf"
             }
           ]
         }
-      ]
+      ],
+      "gtuBranchCode": "02"
     }
   ],
   "imported": true,
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "DV",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "pendingSubjects": [
+    {
+      "code": "1210101",
+      "name": "Language-I",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1210101.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1210101.pdf"
+    },
+    {
+      "code": "1210102",
+      "name": "Applied Chemistry",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1210102.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1210102.pdf"
+    },
+    {
+      "code": "1210103",
+      "name": "Applied Physics",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1210103.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1210103.pdf"
+    },
+    {
+      "code": "1210104",
+      "name": "Applied Mathematics-I",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1210104.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1210104.pdf"
+    },
+    {
+      "code": "1230102",
+      "name": "IT Tools",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1230102.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1230102.pdf"
+    },
+    {
+      "code": "1230104",
+      "name": "Language-II",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1230104.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1230104.pdf"
+    },
+    {
+      "code": "1260102",
+      "name": "Total Quality Management",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1260102.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1260102.pdf"
+    },
+    {
+      "code": "1260103",
+      "name": "Entrepreneurship",
+      "useExamTemplates": false,
+      "papers": [
+        {
+          "label": "Winter 2025",
+          "urlVersion": "v1",
+          "path": "W2025/DV/1260103.pdf",
+          "type": "paper"
+        }
+      ],
+      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/DV/1260103.pdf"
+    }
+  ]
 }

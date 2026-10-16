@@ -4,16 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-pharmacy-practice",
+      "name": "Bachelor of Pharmacy (Practice)",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "year-1",
+          "name": "Year 1",
           "subjects": [
             {
               "code": "PP101TP",
-              "name": "Subject PP101TP",
+              "name": "Pathophysiology and Pharmacotherapeutics I",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -22,11 +23,12 @@
                   "path": "S2019/PP/PP101TP.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP101TP.pdf"
             },
             {
               "code": "PP102TP",
-              "name": "Subject PP102TP",
+              "name": "Pathophysiology and Pharmacotherapeutics II",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -35,11 +37,18 @@
                   "path": "S2019/PP/PP102TP.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP102TP.pdf"
+            }
+          ]
+        },
+        {
+          "id": "year-2",
+          "name": "Year 2",
+          "subjects": [
             {
               "code": "PP201TP",
-              "name": "Subject PP201TP",
+              "name": "Pathophysiology and Pharmacotherapeutics III",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -48,11 +57,12 @@
                   "path": "S2019/PP/PP201TP.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP201TP.pdf"
             },
             {
               "code": "PP202TP",
-              "name": "Subject PP202TP",
+              "name": "Pathophysiology and Pharmacotherapeutics IV",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -61,50 +71,12 @@
                   "path": "S2019/PP/PP202TP.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "PP203TP",
-              "name": "Subject PP203TP",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2019",
-                  "urlVersion": "v1",
-                  "path": "S2019/PP/PP203TP.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "PP204TP",
-              "name": "Subject PP204TP",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2019",
-                  "urlVersion": "v1",
-                  "path": "S2019/PP/PP204TP.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "PP205TP",
-              "name": "Subject PP205TP",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2019",
-                  "urlVersion": "v1",
-                  "path": "S2019/PP/PP205TP.pdf",
-                  "type": "paper"
-                }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP202TP.pdf"
             },
             {
               "code": "PP206TP",
-              "name": "Subject PP206TP",
+              "name": "PHARMACEUTICAL JURISPRUDENCE",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -113,11 +85,55 @@
                   "path": "S2019/PP/PP206TP.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP206TP.pdf"
+            },
+            {
+              "code": "PP203TP",
+              "name": "Pharmacy Practice III",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP203TP.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP203TP.pdf"
+            },
+            {
+              "code": "PP204TP",
+              "name": "Pharmacy Practice IV",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP204TP.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP204TP.pdf"
+            },
+            {
+              "code": "PP205TP",
+              "name": "Social Pharmacy -II",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP205TP.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2019/PP/PP205TP.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

@@ -4,29 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "master-of-architecture",
+      "name": "Master of Architecture",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
-              "code": "X16202",
-              "name": "Subject X16202",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/MR/X16202.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "X16203",
-              "name": "Subject X16203",
+              "name": "Interior Design Survey",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -35,11 +23,46 @@
                   "path": "W2025/MR/X16203.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X16203.pdf"
+            },
+            {
+              "code": "X16202",
+              "name": "Materials & Performances",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MR/X16202.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X16202.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
+              "code": "X26204",
+              "name": "History of Interior Architecture",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/MR/X26204.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X26204.pdf"
             },
             {
               "code": "X26202",
-              "name": "Subject X26202",
+              "name": "Interior construction and technologies",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -54,11 +77,12 @@
                   "path": "W2025/MR/X26202.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X26202.pdf"
             },
             {
               "code": "X26203",
-              "name": "Subject X26203",
+              "name": "Interior Design & Services",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -73,24 +97,18 @@
                   "path": "W2025/MR/X26203.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "X26204",
-              "name": "Subject X26204",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Summer 2026",
-                  "urlVersion": "v1",
-                  "path": "S2026/MR/X26204.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X26203.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "X36202",
-              "name": "Subject X36202",
+              "name": "ADVANCED TECHNOLOGIES",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -99,11 +117,12 @@
                   "path": "W2025/MR/X36202.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X36202.pdf"
             },
             {
               "code": "X36203",
-              "name": "Subject X36203",
+              "name": "INTERIOR DESIGN AND SERVICES - LIGHTING AND INTERIOR BUILDING SERVICES",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -112,11 +131,18 @@
                   "path": "W2025/MR/X36203.pdf",
                   "type": "paper"
                 }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X36203.pdf"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Semester 4",
+          "subjects": [
             {
               "code": "X46202",
-              "name": "Subject X46202",
+              "name": "Professional Practice in Interior Architecture",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -125,11 +151,13 @@
                   "path": "S2026/MR/X46202.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X46202.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,

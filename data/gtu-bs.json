@@ -4,94 +4,17 @@
   "examTemplates": [],
   "branches": [
     {
-      "id": "official-papers",
-      "name": "Papers by official subject code",
+      "id": "bachelor-of-science-honours-honours-with-research",
+      "name": "Bachelor of Science (Honours/Honours with Research)",
+      "generatedCourse": true,
       "semesters": [
         {
-          "id": "unclassified",
-          "name": "Subjects by official code",
+          "id": "1",
+          "name": "Semester 1",
           "subjects": [
             {
-              "code": "BS01001011",
-              "name": "Subject BS01001011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS01001011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BS01001021",
-              "name": "Subject BS01001021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS01001021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BS01001041",
-              "name": "Subject BS01001041",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS01001041.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BS01001051",
-              "name": "Subject BS01001051",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS01001051.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BS01001061",
-              "name": "Subject BS01001061",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS01001061.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BS01001071",
-              "name": "Subject BS01001071",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS01001071.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
               "code": "BS01001081",
-              "name": "Subject BS01001081",
+              "name": "Bhagvad-Gita and Life Management",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -100,11 +23,102 @@
                   "path": "W2025/BS/BS01001081.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001081.pdf"
             },
             {
+              "code": "BS01001011",
+              "name": "Biochemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS01001011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001011.pdf"
+            },
+            {
+              "code": "BS01001051",
+              "name": "Chemistry",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS01001051.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001051.pdf"
+            },
+            {
+              "code": "BS01001061",
+              "name": "Computer Fundamentals",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS01001061.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001061.pdf"
+            },
+            {
+              "code": "BS01001021",
+              "name": "Concepts in Microbiology",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS01001021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001021.pdf"
+            },
+            {
+              "code": "BS01001041",
+              "name": "Human Microbial Diseases",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS01001041.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001041.pdf"
+            },
+            {
+              "code": "BS01001071",
+              "name": "Mental Health and Wellness",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS01001071.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS01001071.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Semester 2",
+          "subjects": [
+            {
               "code": "BS02001031",
-              "name": "Subject BS02001031",
+              "name": "Biophysical Techniques",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -113,37 +127,18 @@
                   "path": "W2025/BS/BS02001031.pdf",
                   "type": "paper"
                 }
-              ]
-            },
-            {
-              "code": "BS03001011",
-              "name": "Subject BS03001011",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS03001011.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
-            {
-              "code": "BS03001021",
-              "name": "Subject BS03001021",
-              "useExamTemplates": false,
-              "papers": [
-                {
-                  "label": "Winter 2025",
-                  "urlVersion": "v1",
-                  "path": "W2025/BS/BS03001021.pdf",
-                  "type": "paper"
-                }
-              ]
-            },
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS02001031.pdf"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Semester 3",
+          "subjects": [
             {
               "code": "BS03001031",
-              "name": "Subject BS03001031",
+              "name": "Enzyme Technology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -152,11 +147,40 @@
                   "path": "W2025/BS/BS03001031.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS03001031.pdf"
+            },
+            {
+              "code": "BS03001021",
+              "name": "Genetic Engineering",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS03001021.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS03001021.pdf"
+            },
+            {
+              "code": "BS03001011",
+              "name": "Genetics",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BS/BS03001011.pdf",
+                  "type": "paper"
+                }
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS03001011.pdf"
             },
             {
               "code": "BS03001041",
-              "name": "Subject BS03001041",
+              "name": "Nanotechnology",
               "useExamTemplates": false,
               "papers": [
                 {
@@ -165,11 +189,13 @@
                   "path": "W2025/BS/BS03001041.pdf",
                   "type": "paper"
                 }
-              ]
+              ],
+              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BS/BS03001041.pdf"
             }
           ]
         }
-      ]
+      ],
+      "source": "https://old26.gtu.ac.in/Download1.aspx"
     }
   ],
   "imported": true,
