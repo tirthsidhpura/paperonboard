@@ -42,17 +42,13 @@
 .open-source-notice p { font-size: 14px; line-height: 1.7; margin: 12px 0 18px; }
 #dismiss-open-source { position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; border: 0; background: white; color: black; font-size: 26px; cursor: pointer; }
 .open-source-notice a:focus-visible, #dismiss-open-source:focus-visible { outline: 3px solid #0059ff; outline-offset: 2px; }
-.contributors-hero { padding: 90px 20px 40px; text-align: center; background: url('./img/headimg1.gif') center / cover; }
-.contributors-hero h1 { display: table; margin: 0 auto 20px; padding: 10px; background: white; color: black; font-size: 30px; white-space: pre-line; }
-.contributors-hero .premium-eyebrow, .contributors-hero .hero-lead { display: table; margin: 0 auto 20px; padding: 10px; background: white; color: black; }
-.hero-lead { max-width: 700px; font-size: 16px; line-height: 1.8; }
 .contributors-list, .contribute-how { width: min(1100px, calc(100% - 40px)); margin-inline: auto; padding-block: 40px; }
 .contributors-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-.contributor-card { border: 2px solid black; border-radius: 4px; box-shadow: 2px 2px 6px #0005; text-align: center; padding: 20px; overflow-wrap: anywhere; }
-.contributor-avatar { display: grid; place-items: center; width: 60px; height: 60px; background: black; color: white; font-size: 22px; font-weight: bold; margin: 0 auto 15px; }
+.contributor-card { border: 2px solid black; border-radius: 4px; box-shadow: 2px 2px 6px #0005; text-align: center; padding: 0 0 20px; overflow: hidden; overflow-wrap: anywhere; }
+.contributor-avatar { display: grid; place-items: center; width: 60px; height: 60px; background: black; color: white; font-size: 22px; font-weight: bold; margin: 0; }
 .contributor-card h3 { font-size: 18px; }
 .contributor-card p { margin-block: 12px; font-size: 14px; }
-.contributor-card a, .repository-link { color: #0059ff; font-size: 14px; }
+.repository-link { color: #0059ff; font-size: 14px; }
 .repository-link { display: inline-block; margin-top: 20px; }
 .community-empty { border: 2px solid black; text-align: center; padding: 30px 20px; background: #f1f1f1; }
 .empty-contribution-mark { color: #0059ff; font-size: 36px; }
@@ -76,4 +72,26 @@
   .premium-stats span { font-size: 11px; }
   .contributors-hero h1 { font-size: 24px; }
   .community-cta { padding: 25px 18px; }
+}
+
+/* One hero treatment for the landing and community pages. */
+.shared-hero.bg { height: auto; min-height: 560px; padding: 120px 24px 80px; display: flex; align-items: center; }
+.landing .shared-hero.bg { min-height: 100vh; min-height: 100svh; }
+.shared-hero .both { width: min(1100px, 100%); margin: auto; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 48px; align-items: center; }
+.shared-hero .heading { width: auto; text-align: left; }
+.shared-hero .heading h1 { font-size: clamp(32px, 4.5vw, 58px); line-height: 1.15; white-space: pre-line; color: white; margin: 16px 0 24px; }
+.hero-kicker { color: white; font-size: 13px; letter-spacing: 2px; font-weight: bold; }
+.shared-hero-description { color: white; max-width: 580px; font-size: 17px; line-height: 1.8; }
+.shared-hero .subjects, .hero-actions { margin: 0; padding: 0; display: flex; justify-content: center; }
+.shared-hero .sub12 { padding: 18px 24px; max-width: 100%; }
+.contributor-card .course-top { justify-content: flex-start; gap: 12px; text-align: left; }
+.contributor-card .contributor-avatar { width: 40px; height: 40px; flex-shrink: 0; font-size: 16px; background: #0059ff; }
+.contributor-card>p { padding: 8px 14px; }
+#show-open-source { display: block; border: 0; background: none; color: #c0c0c0; font-size: 18px; text-align: left; padding-top: 10px; text-decoration: underline; }
+#show-open-source:focus-visible { outline: 2px solid white; }
+@media (max-width: 760px) {
+  .shared-hero.bg { min-height: 0; padding: 110px 24px 60px; }
+  .shared-hero .both { grid-template-columns: 1fr; gap: 32px; }
+  .shared-hero .heading { text-align: center; }
+  .shared-hero-description { margin: auto; }
 }

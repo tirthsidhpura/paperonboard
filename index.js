@@ -156,11 +156,11 @@ function courseBoxes() {
 }
 function home() {
   const page = element('div', 'landing');
-  const hero = element('div', 'bg');
+  const hero = element('div', 'bg shared-hero');
   hero.id = 'container1';
   const both = element('div', 'both');
   const heading = element('div', 'heading');
-  for (const line of ['More than', '3000+', 'Papers']) heading.append(element('h1', '', line));
+  heading.append(element('p', 'hero-kicker', 'GTU QUESTION PAPER LIBRARY'), element('h1', '', 'Your next exam.\nA better starting point.'), element('p', 'shared-hero-description', 'Find previous-year papers by course, branch and semester. Free to access. Built together by students.'));
   const subjects = element('div', 'subjects');
   const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id))
     .map((stream) => routeLink(stream.name, { stream: stream.id }));
@@ -231,11 +231,16 @@ function communityCTA() {
 
 function contributorsPage() {
   const page = element('div', 'contributors-page');
-  const hero = element('section', 'contributors-hero');
-  hero.append(element('p', 'premium-eyebrow', 'THE PEOPLE BEHIND THE PAPERS'), element('h1', '', 'A shared effort.\nA better starting point.'), element('p', 'hero-lead', 'For every student who finds the right paper, someone helped put it here. This is where we celebrate those contributions.'));
-  const guide = element('a', 'premium-button', 'Make your first contribution ↗');
+  const hero = element('section', 'bg shared-hero');
+  const both = element('div', 'both');
+  const heading = element('div', 'heading');
+  heading.append(element('p', 'hero-kicker', 'THE PEOPLE BEHIND THE PAPERS'), element('h1', '', 'Built by students.\nFor every student.'), element('p', 'shared-hero-description', 'Meet the people adding papers, fixing links and making exam preparation easier for everyone.'));
+  const guide = element('a', 'premium-button light-button', 'Start contributing ↗');
   guide.href = '#how-to-contribute';
-  hero.append(guide);
+  const actions = element('div', 'hero-actions');
+  actions.append(guide);
+  both.append(heading, actions);
+  hero.append(both);
   page.append(hero);
   const list = element('section', 'contributors-list');
   list.append(sectionIntro('OUR CONTRIBUTORS', 'Small contributions. Lasting impact.', 'Authors of merged pull requests are added here automatically when the site deploys.'));
@@ -244,8 +249,10 @@ function contributorsPage() {
     for (const person of contributorsData.contributors) {
       const card = element('article', 'contributor-card');
       const avatar = element('span', 'contributor-avatar', person.login.slice(0, 2).toUpperCase());
-      card.append(avatar, element('h3', '', person.login), element('p', '', `${person.mergedPRs} merged ${person.mergedPRs === 1 ? 'pull request' : 'pull requests'}`));
-      const profile = element('a', '', 'GitHub profile ↗');
+      const top = element('div', 'course-top');
+      top.append(avatar, element('h3', '', person.login));
+      card.append(top, element('p', '', `${person.mergedPRs} merged ${person.mergedPRs === 1 ? 'pull request' : 'pull requests'}`));
+      const profile = element('a', 'premium-button', 'GitHub profile ↗');
       profile.href = `https://github.com/${encodeURIComponent(person.login)}`;
       profile.target = '_blank'; profile.rel = 'noopener noreferrer';
       card.append(profile);
@@ -431,6 +438,10 @@ function initializeOpenSourceNotice() {
   } catch {
     notice.hidden = false;
   }
+  $('show-open-source').addEventListener('click', () => {
+    notice.hidden = false;
+    $('dismiss-open-source').focus({ preventScroll: true });
+  });
   $('dismiss-open-source').addEventListener('click', () => {
     notice.hidden = true;
     try { sessionStorage.setItem(storageKey, 'true'); } catch { /* Browsing works without storage. */ }

@@ -13,7 +13,7 @@ const server = http.createServer((request, response) => {
     const file = path.resolve(directory, filename);
     if (!file.startsWith(directory + path.sep)) { response.writeHead(403).end(); return; }
     if (!fs.existsSync(file) || !fs.statSync(file).isFile()) { response.writeHead(404).end('Not found'); return; }
-    response.writeHead(200, { 'Content-Type': `${types[path.extname(file)] || 'application/octet-stream'}; charset=utf-8`, 'X-Content-Type-Options': 'nosniff' });
+    response.writeHead(200, { 'Content-Type': `${types[path.extname(file)] || 'application/octet-stream'}; charset=utf-8`, 'X-Content-Type-Options': 'nosniff', 'Cache-Control': 'no-store' });
     fs.createReadStream(file).pipe(response);
   } catch { response.writeHead(400).end('Bad request'); }
 });

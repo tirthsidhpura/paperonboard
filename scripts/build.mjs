@@ -1,6 +1,7 @@
 // A strict allowlist keeps the original PHP site and private files out of hosting.
 import fs from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { root, validate } from './validate.mjs';
 
 const site = validate();
@@ -38,4 +39,13 @@ if (fs.existsSync(reportPath)) {
 for (const [file, id] of [['diploma.html', 'diploma'], ['bachelor.html', 'bachelors']]) {
   fs.writeFileSync(path.join(destination, file), `<!doctype html><html lang="en"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=index.html?stream=${id}"><title>PaperOnBoard</title><a href="index.html?stream=${id}">Open the paper library</a></html>`);
 }
+// Give each release fresh asset URLs while keeping the source simple to edit.
+const htmlPath = path.join(destination, 'index.html');
+const html = fs.readFileSync(htmlPath, 'utf8').replace(/(href|src)="([^"?]+\.(?:css|js))"/g, (match, attribute, file) => {
+  const asset = path.join(destination, file);
+  if (!fs.existsSync(asset)) return match;
+  const version = createHash('sha256').update(fs.readFileSync(asset)).digest('hex').slice(0, 12);
+  return `${attribute}="${file}?v=${version}"`;
+});
+fs.writeFileSync(htmlPath, html);
 console.log('Static site ready in dist/. Publish only this folder.');
