@@ -104,7 +104,7 @@ test('imported programs use verified semester navigation and named subjects', ()
   assert.ok(!electrical.includes('class="bigcard"'), 'Paper cards should open after choosing a subject');
 });
 
-test('historical papers are explicit records and appear in the subject navigation', () => {
+test('historical papers remain in subject records behind subject-page navigation', () => {
   for (const stream of site.streams) {
     const catalog = JSON.parse(read(stream.file));
     assert.equal(catalog.archivePolicy, 'listed-only');
@@ -116,5 +116,7 @@ test('historical papers are explicit records and appear in the subject navigatio
   const branch = catalog.branches.find((b) => b.semesters.some((s) => s.subjects.some((subject) => subject.code === '4639303')));
   const subject = branch.semesters.flatMap((s) => s.subjects).find((s) => s.code === '4639303');
   assert.ok(subject.papers.some((p) => p.label === 'Winter 2018' && p.path === 'W2018/MC/4639303.pdf'));
-  assert.match(read(`catalog-gtu-mc--${branch.id}.html`), /W2018\/MC\/4639303.pdf/);
+  const html = read(`catalog-gtu-mc--${branch.id}.html`);
+  assert.match(html, /subject=4639303/);
+  assert.ok(!html.includes('W2018/MC/4639303.pdf'));
 });

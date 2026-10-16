@@ -146,7 +146,6 @@ function dropdown(label, items, home = false) {
 }
 function subjectDropdown(entry, includeContext = false) {
   const links = [routeLink('View all question papers', entryRoute(entry))];
-  for (const paper of matchingResources(entry).filter((p) => !p.archive)) links.push(resourceLink(paper));
   const wrapper = dropdown(`${entry.subject.name} - ${entry.subject.code}`, links);
   if (includeContext) wrapper.prepend(element('p', 'catalog-meta', `${entry.catalog.name} · ${entry.branch.name} · ${entry.semester.name}`));
   return wrapper;
