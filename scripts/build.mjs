@@ -13,11 +13,11 @@ const copy = (file) => {
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(path.join(root, file), target);
 };
-for (const file of ['index.html', 'index.js', 'style.css', 'inside.css', 'catalog.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'img/pob_logo.png', 'CONTRIBUTING.md', 'data/site.json', ...site.streams.map((s) => s.file)]) copy(file);
+for (const file of ['index.html', 'index.js', 'paper-urls.js', 'style.css', 'inside.css', 'catalog.css', 'landing.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'img/pob_logo.png', 'CONTRIBUTING.md', 'data/site.json', 'data/urls.json', 'data/contributors.json', ...site.streams.map((s) => s.file)]) copy(file);
 for (const stream of site.streams) {
   const catalog = JSON.parse(fs.readFileSync(path.join(root, stream.file), 'utf8'));
   for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) for (const paper of subject.papers) {
-    if (paper.url.startsWith('uploads/')) copy(decodeURIComponent(paper.url));
+    if (paper.url?.startsWith('uploads/')) copy(decodeURIComponent(paper.url));
   }
 }
 // Old shared branch URLs continue to work on static hosting, including subpaths.

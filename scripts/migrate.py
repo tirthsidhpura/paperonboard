@@ -38,7 +38,7 @@ for stream, title, folder in streams:
                     ('Summer 2023', 'S2023' if folder != 'DI' else 's2023'), ('Winter 2022', 'W2022' if folder != 'DI' else 'w2022')]
         if folder != 'BP':
             sessions += [('Summer 2022', 'S2022'), ('Winter 2021', 'W2021')]
-        catalog['examTemplates'] = [{'label': label, 'url': f'https://old26.gtu.ac.in/uploads/{session}/{folder}/{{code}}.pdf'} for label, session in sessions]
+        catalog['examTemplates'] = [{'label': label, 'urlVersion': 'v1', 'path': f'{session}/{folder}/{{code}}.pdf'} for label, session in sessions]
     for path in sorted((SOURCE / 'coarse' / stream).glob('*.html')):
         text = path.read_text(encoding='utf-8', errors='replace')
         branch = {'id': re.sub('[^a-z0-9]+', '-', path.stem.lower()).strip('-'), 'name': labels.get(path.stem, path.stem), 'semesters': []}

@@ -1,6 +1,5 @@
 /* Additions for the JSON interface; original styles remain unchanged. */
 [hidden] { display: none !important; }
-html { scroll-padding-top: 80px; }
 button, input, select { font-family: inherit; }
 button { cursor: pointer; }
 nav { min-height: 56px; }
@@ -22,19 +21,18 @@ nav { min-height: 56px; }
 .subject { position: relative; max-width: calc(100vw - 30px); }
 .subject .sub { max-width: 100%; }
 .subject:focus-within .paper, .subject.is-open .paper { display: block; }
-.paper { text-align: left; max-width: min(480px, calc(100vw - 30px)); max-height: 55vh; overflow: auto; left: 0; width: max-content; }
+.paper { text-align: left; max-width: min(480px, calc(100vw - 30px)); left: 0; width: max-content; }
 .paper a { overflow-wrap: anywhere; }
 .paper a:focus-visible { outline: 3px solid #0059ff; outline-offset: -3px; }
 .sem { padding-bottom: 20px; }
 .semhead h2 { color: black; }
 .catalog-meta { font-size: 13px; padding: 8px; }
-.table-wrap { overflow-x: auto; padding: 10px; }
-#qp { border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; }
-#qp td, #qp th { border: 1px solid #ddd; padding: 8px; text-align: left; }
-#qp tr:nth-child(even) { background: #f2f2f2; }
-#qp tr:hover { background: #ddd; }
-#qp th { background: #0059ff; color: white; padding-block: 12px; }
-#qp a { color: #0059ff; }
+.bigcard { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; padding: 10px 20px 30px; }
+.bigcard .card { flex: 1 1 280px; max-width: 420px; min-width: 0; border: 2px solid black; border-radius: 4px; box-shadow: 2px 2px 6px #0005; overflow: hidden; display: flex; flex-direction: column; }
+.bigcard .card-header { background: black; color: white; border-bottom: 1px solid #ccc; padding: 10px; margin: 0; font-size: 22px; overflow-wrap: anywhere; }
+.bigcard .card-body { padding: 15px 10px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 12px; flex: 1; overflow-wrap: anywhere; }
+.bigcard .btn { display: inline-block; background: #007bff; color: white; border-radius: 4px; padding: 8px 16px; text-decoration: none; margin-top: auto; }
+.bigcard .btn:hover { background: #0069d9; }
 .skip-link { position: absolute; left: -10000px; }
 .skip-link:focus { position: fixed; left: 10px; top: 10px; background: white; padding: 10px; z-index: 20; }
 @media (max-width: 1020px) {

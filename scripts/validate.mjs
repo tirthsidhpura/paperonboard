@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { resolvePaperURL, validateURLSources } from '../paper-urls.js';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
@@ -24,6 +25,16 @@ function validateURL(value, template = false) {
 
 export function validate() {
   const site = read('data/site.json');
+  const sources = validateURLSources(read('data/urls.json'));
+  const community = read('data/contributors.json');
+  assert(community.repository === null || /^[a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+$/.test(community.repository), 'Invalid contributor repository');
+  assert(community.updatedAt === null || Number.isFinite(Date.parse(community.updatedAt)), 'Invalid contributor update date');
+  list(community.contributors, 'Contributors');
+  unique(community.contributors.map((person) => person.login?.toLowerCase()), 'Contributors');
+  for (const person of community.contributors) {
+    assert(typeof person.login === 'string' && /^[a-zA-Z0-9-]+$/.test(person.login), 'Invalid GitHub login');
+    assert(Number.isInteger(person.mergedPRs) && person.mergedPRs > 0, 'Contributor mergedPRs must be a positive integer');
+  }
   text(site.name, 'Site name');
   text(site.tagline, 'Tagline');
   list(site.streams, 'Streams');
@@ -37,7 +48,13 @@ export function validate() {
     assert(catalog.id === stream.id, `ID mismatch in ${stream.file}`);
     list(catalog.branches, 'Branches');
     list(catalog.examTemplates, 'Exam templates');
-    for (const exam of catalog.examTemplates) { text(exam.label, 'Exam label'); validateURL(exam.url, true); }
+    for (const exam of catalog.examTemplates) {
+      text(exam.label, 'Exam label');
+      const template = exam.path ?? exam.url;
+      text(template, 'Exam URL template');
+      assert(template.includes('{code}'), `Missing {code} in template: ${template}`);
+      validateURL(resolvePaperURL(exam, sources, '1234567'));
+    }
     unique(catalog.branches.map((b) => b.id), `${stream.id} branches`);
     for (const branch of catalog.branches) {
       text(branch.id, 'Branch ID'); text(branch.name, 'Branch name'); list(branch.semesters, 'Semesters');
@@ -50,7 +67,7 @@ export function validate() {
           text(subject.code, 'Subject code'); text(subject.name, 'Subject name'); list(subject.papers, 'Papers');
           assert(typeof subject.useExamTemplates === 'boolean', 'useExamTemplates must be true or false');
           for (const paper of subject.papers) {
-            text(paper.label, 'Paper label'); validateURL(paper.url);
+            text(paper.label, 'Paper label'); validateURL(resolvePaperURL(paper, sources, subject.code));
             assert(['paper', 'material'].includes(paper.type), `Unknown resource type: ${paper.type}`);
             links++;
           }

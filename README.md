@@ -1,6 +1,6 @@
 # PaperOnBoard
 
-A free, community-maintained GTU question paper library. The original PaperOnBoard design is preserved: Poppins typography, animated backgrounds, blue accents, course boxes, semester buttons, subject dropdowns, and download tables. One HTML interface loads its content from one JSON catalog per stream. No framework, database, accounts, API keys, or build dependencies.
+A free, community-maintained GTU question paper library. The landing and contributors pages have a modern presentation; paper-browsing pages retain the original styling, semester scrolling, subject dropdowns, and download cards. One HTML interface loads its content from one JSON catalog per stream. No frontend framework, database, accounts, or build dependencies.
 
 Students can browse **stream → branch → semester → subject → paper**, or use **Search** in the navbar to search all streams by subject name, code, or examination. Branch views show all semesters as before. Each subject dropdown keeps the existing direct links and opens its latest papers in the same single-page interface. Subject views and searches have shareable URLs and support browser back/forward. Projects, IELTS, and the privacy policy retain links to their original public site destinations.
 
@@ -21,16 +21,23 @@ Open http://127.0.0.1:4173. Node is only a development tool; the published site 
 | File | What to change |
 | --- | --- |
 | `data/site.json` | Page title, announcement, course labels, and catalog registry |
+| `data/urls.json` | Shared, versioned base URLs for paper hosts |
+| `data/contributors.json` | Public contributor list, generated from merged GitHub PRs during deployment |
 | `data/diploma.json` | Diploma branches, semesters, subjects, and papers |
 | `data/bachelors.json` | Bachelor of Engineering catalog |
 | `data/architecture.json` | Architecture catalog |
 | `data/pharma.json` | Pharmacy catalog |
 | `style.css`, `inside.css` | Original site styles, preserved unchanged |
-| `catalog.css` | Small additions for search, keyboard/touch access, and the paper table |
+| `catalog.css` | Small additions for search, keyboard/touch access, and paper cards |
+| `landing.css` | Landing and contributors page styles, scoped away from paper-browsing pages |
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for copy-and-paste examples for papers, semesters, branches, streams, and materials. Adding catalog content requires no HTML or JavaScript edits. After edits, run validation and rebuild.
 
+Exam templates reference a `urlVersion` in `data/urls.json` and a relative `path`. Update the version's base URL once when its host moves. Add a new version when new papers use a different host and older papers should keep their existing host. `paper-urls.js` exports the shared resolver for reuse by other pages.
+
 ## Deploy
+
+For automatic updates after a merged PR, see [DEPLOYMENT.md](DEPLOYMENT.md). The included GitHub Actions workflow updates contributors, builds, tests, and deploys over FTPS to InfinityFree once configured with repository secrets. It is disabled for live uploads until `DEPLOY_ENABLED=true` is set.
 
 Run `npm run build` and publish **only `dist/`** on any static host (GitHub Pages, Cloudflare Pages, Netlify, or a basic web server). There are no server functions. All asset paths are relative, including when hosted under a GitHub Pages repository subpath. Build output includes small redirect pages for the old course and branch HTML URLs; the actual interface is always `index.html`.
 

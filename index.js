@@ -1,10 +1,50 @@
 'use strict';
 
+import { resolvePaperURL, validateURLSources } from './paper-urls.js';
+
 const $ = (id) => document.getElementById(id);
 const state = { stream: '', branch: '', semester: '', subject: '', resource: '', q: '', view: '' };
 let config;
+let urlSources;
 let catalogs = [];
 let entries = [];
+let contributorsData = { repository: null, updatedAt: null, contributors: [] };
+let renderedRoute = '';
+let scrollFrame = null;
+
+function cancelScrollAnimation() {
+  if (scrollFrame !== null) cancelAnimationFrame(scrollFrame);
+  scrollFrame = null;
+}
+
+function scrollToSection(hash, animate = true, updateHistory = false) {
+  let target;
+  try { target = document.getElementById(decodeURIComponent(hash.slice(1))); } catch { return false; }
+  if (!hash || !target) return false;
+  cancelScrollAnimation();
+  const start = window.scrollY;
+  const end = target.getBoundingClientRect().top + start;
+  const finish = () => {
+    scrollFrame = null;
+    if (updateHistory && location.hash !== hash) history.pushState(null, '', hash);
+  };
+  if (!animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    window.scrollTo(0, end);
+    finish();
+    return true;
+  }
+  const started = performance.now();
+  const step = (now) => {
+    const progress = Math.min((now - started) / 800, 1);
+    // Match the original jQuery 800 ms animation and its default "swing" easing.
+    const eased = (1 - Math.cos(Math.PI * progress)) / 2;
+    window.scrollTo(0, start + (end - start) * eased);
+    if (progress < 1) scrollFrame = requestAnimationFrame(step);
+    else finish();
+  };
+  scrollFrame = requestAnimationFrame(step);
+  return true;
+}
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -25,9 +65,9 @@ async function readJSON(path) {
   return response.json();
 }
 function resourcesFor(catalog, subject) {
-  const resources = [...(subject.papers || [])];
+  const resources = (subject.papers || []).map((paper) => ({ ...paper, url: resolvePaperURL(paper, urlSources, subject.code) }));
   if (subject.useExamTemplates) for (const exam of catalog.examTemplates || []) {
-    resources.push({ label: exam.label, url: exam.url.replaceAll('{code}', encodeURIComponent(subject.code)), type: 'paper', archive: true });
+    resources.push({ label: exam.label, url: resolvePaperURL(exam, urlSources, subject.code), type: 'paper', archive: true });
   }
   const seen = new Set();
   return resources.filter((paper) => {
@@ -107,18 +147,129 @@ function courseBoxes() {
   return boxes;
 }
 function home() {
-  const hero = element('div', 'bg');
-  hero.id = 'container1';
-  const both = element('div', 'both');
-  const heading = element('div', 'heading');
-  for (const line of ['More than', '3000+', 'Papers']) heading.append(element('h1', '', line));
-  const subjects = element('div', 'subjects');
-  const links = config.streams.filter((s) => catalogs.some((c) => c.id === s.id)).map((s) => routeLink(s.name, { stream: s.id }));
-  links.push(routeLink('VIEW MORE', { view: 'courses' }));
-  subjects.append(dropdown('Select your course', links, true));
-  both.append(heading, subjects);
-  hero.append(both);
-  return hero;
+  const page = element('div', 'landing');
+  page.id = 'container1';
+  const hero = element('section', 'landing-hero premium-wrap');
+  const copy = element('div', 'hero-copy');
+  copy.append(element('p', 'premium-eyebrow', 'FOR THE NEXT CHAPTER'));
+  const title = element('h1');
+  title.append(element('span', '', 'Less searching.'), element('span', 'hero-accent', 'More prepared.'));
+  copy.append(title, element('p', 'hero-lead', 'Your next exam deserves a better starting point. Find GTU question papers, revisit the essentials, and make your study time count.'));
+  const actions = element('div', 'premium-actions');
+  const browse = element('a', 'premium-button', 'Find my papers ↗');
+  browse.href = '#choose-course';
+  const search = element('button', 'premium-button secondary', 'Search a subject');
+  search.type = 'button';
+  search.addEventListener('click', () => setSearchOpen(true));
+  actions.append(browse, search);
+  copy.append(actions, element('p', 'hero-footnote', 'Free to access. No account needed.'));
+  const art = element('div', 'study-art');
+  art.setAttribute('aria-hidden', 'true');
+  // Decorative paper composition; all catalog data is rendered separately as text.
+  art.innerHTML = '<div class="art-grid"></div><span class="art-caption">A LITTLE PREPARATION GOES A LONG WAY</span><div class="study-sheet back-sheet"></div><div class="study-sheet front-sheet"><div class="sheet-masthead"><span>PAPERONBOARD</span><span>STUDY / 01</span></div><div class="sheet-divider"></div><p>YOUR NEXT CHAPTER</p><strong>Start here.<br>Go further.</strong><div class="sheet-line"></div><div class="sheet-line short"></div><div class="sheet-question"><span>01</span><i></i></div><div class="sheet-question"><span>02</span><i></i></div><div class="sheet-question"><span>03</span><i></i></div><div class="sheet-footer">PAST PAPERS. NEW POSSIBILITIES. <b>↗</b></div></div><div class="study-note-chip"><span>✓</span> One step closer.</div><span class="art-spark">✳</span>';
+  hero.append(copy, art);
+  page.append(hero);
+  const stats = element('div', 'premium-stats premium-wrap');
+  const uniqueSubjects = new Set(entries.map((e) => `${e.catalog.id}/${e.subject.code}`)).size;
+  for (const [value, label] of [[String(catalogs.length).padStart(2, '0'), 'streams to explore'], [uniqueSubjects.toLocaleString(), 'subjects in the library'], ['100%', 'free to access']]) {
+    const item = element('div');
+    item.append(element('strong', '', value), element('span', '', label));
+    stats.append(item);
+  }
+  page.append(stats);
+  const courses = element('section', 'premium-section premium-wrap');
+  courses.id = 'choose-course';
+  courses.append(sectionIntro('THE PAPER LIBRARY', 'Your course. Your next step.', 'Choose your stream, then find your branch and semester.'));
+  const grid = element('div', 'premium-course-grid');
+  for (const stream of config.streams.filter((s) => catalogs.some((c) => c.id === s.id))) {
+    const catalog = catalogs.find((c) => c.id === stream.id);
+    const link = routeLink('', { stream: stream.id });
+    link.className = 'premium-course';
+    const top = element('div', 'course-top');
+    top.append(element('span', 'course-mark', stream.shortName), element('span', 'course-arrow', '↗'));
+    link.append(top, element('h3', '', stream.name), element('p', '', stream.description), element('span', 'course-count', `${catalog.branches.length} ${catalog.branches.length === 1 ? 'branch' : 'branches'} · Explore papers`));
+    grid.append(link);
+  }
+  courses.append(grid);
+  page.append(courses);
+  const how = element('section', 'how-section');
+  const inner = element('div', 'premium-wrap how-layout');
+  inner.append(sectionIntro('LESS FRICTION, MORE FOCUS', 'From finding to studying.\nIn three simple steps.', 'Spend your time on what matters: understanding the subject.'));
+  const steps = element('ol', 'premium-steps');
+  for (const [title, description] of [['Find your subject', 'Choose your course and semester, or search by subject name or code.'], ['Pick a paper', 'Open a subject to browse its available exam sessions and resources.'], ['Make it a practice run', 'Set a timer, work through the questions, and revisit what needs attention.']]) {
+    const item = element('li');
+    item.append(element('h3', '', title), element('p', '', description));
+    steps.append(item);
+  }
+  inner.append(steps);
+  how.append(inner);
+  page.append(how, communityCTA());
+  return page;
+}
+
+function sectionIntro(eyebrow, title, description) {
+  const intro = element('div', 'premium-intro');
+  intro.append(element('p', 'premium-eyebrow', eyebrow), element('h2', '', title), element('p', '', description));
+  return intro;
+}
+
+function communityCTA() {
+  const section = element('section', 'community-cta premium-wrap');
+  const copy = element('div');
+  copy.append(element('p', 'premium-eyebrow', 'BUILT TOGETHER'), element('h2', '', 'The next student\nstarts with you.'), element('p', '', 'A missing paper. A corrected link. A better experience. Every contribution helps someone move forward.'));
+  const link = routeLink('Meet the community ↗', { view: 'contributors' });
+  link.className = 'premium-button light-button';
+  section.append(copy, link);
+  return section;
+}
+
+function contributorsPage() {
+  const page = element('div', 'contributors-page premium-wrap');
+  const hero = element('section', 'contributors-hero');
+  hero.append(element('p', 'premium-eyebrow', 'THE PEOPLE BEHIND THE PAPERS'), element('h1', '', 'A shared effort.\nA better starting point.'), element('p', 'hero-lead', 'For every student who finds the right paper, someone helped put it here. This is where we celebrate those contributions.'));
+  const guide = element('a', 'premium-button', 'Make your first contribution ↗');
+  guide.href = '#how-to-contribute';
+  hero.append(guide);
+  page.append(hero);
+  const list = element('section', 'contributors-list');
+  list.append(sectionIntro('OUR CONTRIBUTORS', 'Small contributions. Lasting impact.', 'Authors of merged pull requests are added here automatically when the site deploys.'));
+  if (contributorsData.contributors.length) {
+    const grid = element('div', 'contributors-grid');
+    for (const person of contributorsData.contributors) {
+      const card = element('article', 'contributor-card');
+      const avatar = element('span', 'contributor-avatar', person.login.slice(0, 2).toUpperCase());
+      card.append(avatar, element('h3', '', person.login), element('p', '', `${person.mergedPRs} merged ${person.mergedPRs === 1 ? 'pull request' : 'pull requests'}`));
+      const profile = element('a', '', 'GitHub profile ↗');
+      profile.href = `https://github.com/${encodeURIComponent(person.login)}`;
+      profile.target = '_blank'; profile.rel = 'noopener noreferrer';
+      card.append(profile);
+      grid.append(card);
+    }
+    list.append(grid);
+  } else {
+    const empty = element('div', 'community-empty');
+    empty.append(element('span', 'empty-contribution-mark', '+'), element('h3', '', contributorsData.unavailable ? 'The contributor list is taking a moment.' : 'There’s a place here for you.'), element('p', '', contributorsData.unavailable ? 'Please reload to try again. You can still follow the contribution guide below.' : 'Our community is just getting started. Merged contributions will appear here as the project grows.'));
+    list.append(empty);
+  }
+  if (contributorsData.repository) {
+    const repo = element('a', 'repository-link', 'Explore the project on GitHub ↗');
+    repo.href = `https://github.com/${contributorsData.repository}`;
+    repo.target = '_blank'; repo.rel = 'noopener noreferrer';
+    list.append(repo);
+  }
+  page.append(list);
+  const how = element('section', 'contribute-how');
+  how.id = 'how-to-contribute';
+  how.append(sectionIntro('YOUR FIRST CONTRIBUTION', 'You don’t have to be a developer.', 'A useful paper or a working link is a great place to start.'));
+  const steps = element('ol', 'premium-steps');
+  for (const [title, text] of [['Find something worth sharing', 'Check the subject code, semester, and exam session. Use a public link to a paper you have permission to share.'], ['Add it to the catalog', 'Follow the examples in our contribution guide to add the paper to the JSON file for your stream.'], ['Open a pull request', 'Once your change is reviewed and merged, the site updates and your GitHub profile joins this page.']]) {
+    const li = element('li'); li.append(element('h3', '', title), element('p', '', text)); steps.append(li);
+  }
+  const docs = element('a', 'premium-button', 'Read the contribution guide ↗');
+  docs.href = 'CONTRIBUTING.md';
+  how.append(steps, docs);
+  page.append(how);
+  return page;
 }
 function controls(items) {
   const row = element('div', 'catalog-controls');
@@ -167,30 +318,29 @@ function renderSubject(entry, content) {
     select.append(option);
   }
   select.value = state.resource;
-  select.addEventListener('change', () => navigate(routeURL({ ...entryRoute(entry), resource: select.value })));
+  select.addEventListener('change', () => navigate(routeURL({ ...entryRoute(entry), resource: select.value }), { preserveScroll: true }));
   content.append(controls([routeLink('← Back to subjects', { stream: entry.catalog.id, branch: entry.branch.id }), select]));
-  const wrapper = element('div', 'table-wrap');
-  const table = element('table');
-  table.id = 'qp';
-  const head = element('thead');
-  const row = element('tr');
-  for (const label of ['Subject Name', 'Subject Code', 'Examination / Material', 'Download Link']) {
-    const cell = element('th', '', label); cell.scope = 'col'; row.append(cell);
-  }
-  head.append(row);
-  const body = element('tbody');
+  const cards = element('div', 'bigcard');
   const resources = matchingResources(entry);
   for (const paper of resources) {
-    const row = element('tr');
-    row.append(element('td', '', entry.subject.name), element('td', '', entry.subject.code), element('td', '', paper.label));
-    const download = element('td');
-    download.append(resourceLink(paper, 'Download'));
-    row.append(download);
-    body.append(row);
+    const card = element('article', 'card');
+    card.append(element('h2', 'card-header', entry.subject.name));
+    const body = element('div', 'card-body');
+    for (const [label, value] of [
+      ['Subject Code: ', entry.subject.code],
+      [(paper.type || 'paper') === 'material' ? 'Study Material: ' : 'Examination: ', paper.label],
+    ]) {
+      const detail = element('p');
+      detail.append(element('strong', '', label), element('span', '', value));
+      body.append(detail);
+    }
+    const download = resourceLink(paper, 'Download');
+    download.className = 'btn';
+    body.append(download);
+    card.append(body);
+    cards.append(card);
   }
-  table.append(head, body);
-  wrapper.append(table);
-  content.append(wrapper);
+  content.append(cards);
   if (!resources.length) content.append(element('p', 'catalog-message', 'No resources have been added yet.'));
   if (resources.some((p) => p.archive)) content.append(element('p', 'catalog-message', 'Some GTU archive sessions may not have a paper for this subject.'));
 }
@@ -200,9 +350,12 @@ function render() {
   const catalog = catalogs.find((c) => c.id === state.stream);
   const branch = catalog?.branches.find((b) => b.id === state.branch);
   const entry = entries.find((e) => e.catalog.id === state.stream && e.branch.id === state.branch && e.semester.id === state.semester && e.subject.code === state.subject);
-  const isHome = !state.q && !catalog && state.view !== 'courses';
-  $('announcement').hidden = !isHome;
-  document.querySelector('.about').hidden = !isHome;
+  const isContributors = !state.q && !catalog && state.view === 'contributors';
+  const isHome = !state.q && !catalog && !['courses', 'contributors'].includes(state.view);
+  document.body.classList.toggle('modern-page', isHome || isContributors);
+  $('oldpaper').hidden = isHome || isContributors;
+  $('announcement').hidden = true;
+  document.querySelector('.about').hidden = true;
   document.title = entry ? `${entry.subject.name} Question Paper | ${config.name}` : branch ? `${branch.name} Question Paper | ${config.name}` : config.name;
   if (state.q) {
     content.append(banner(`Search question papers: ${state.q}`));
@@ -215,6 +368,9 @@ function render() {
     for (const entry of found) results.append(subjectDropdown(entry, true));
     content.append(results);
     if (!found.length) content.append(element('p', 'catalog-message', 'No papers found. Try a subject name or code.'));
+  } else if (isContributors) {
+    document.title = `Contributors | ${config.name}`;
+    content.append(contributorsPage());
   } else if (entry) renderSubject(entry, content);
   else if (branch) renderBranch(catalog, branch, content);
   else if (catalog) {
@@ -242,12 +398,15 @@ function restoreURL() {
   if (!['', 'paper', 'material'].includes(state.resource)) state.resource = '';
   $('search').value = state.q;
   render();
+  renderedRoute = `${location.pathname}${location.search}`;
 }
-function navigate(url) {
+function navigate(url, { preserveScroll = false } = {}) {
+  cancelScrollAnimation();
+  const previousY = window.scrollY;
   history.pushState(null, '', url);
   restoreURL();
   setMenuOpen(false);
-  window.scrollTo(0, 0);
+  if (!scrollToSection(location.hash, false)) window.scrollTo(0, preserveScroll ? previousY : 0);
 }
 function setMenuOpen(open) {
   $('nav-list').classList.toggle('menu-open', open);
@@ -256,11 +415,12 @@ function setMenuOpen(open) {
 function setSearchOpen(open) {
   $('search-panel').hidden = !open;
   $('search-toggle').setAttribute('aria-expanded', String(open));
-  (open ? $('search') : $('search-toggle')).focus();
+  (open ? $('search') : $('search-toggle')).focus({ preventScroll: true });
 }
 async function initialize() {
   try {
-    config = await readJSON('data/site.json');
+    [config, urlSources, contributorsData] = await Promise.all([readJSON('data/site.json'), readJSON('data/urls.json'), readJSON('data/contributors.json').catch(() => ({ repository: null, contributors: [], unavailable: true }))]);
+    validateURLSources(urlSources);
     const loaded = await Promise.allSettled(config.streams.map(async (stream) => {
       const catalog = await readJSON(stream.file);
       if (catalog.id !== stream.id || !Array.isArray(catalog.branches)) throw new Error(`Invalid catalog ${stream.file}`);
@@ -279,11 +439,20 @@ async function initialize() {
     }
     if (config.announcement) $('announcement-text').textContent = config.announcement;
     restoreURL();
+    // Catalogs load asynchronously, so fragment targets only exist after render.
+    if (location.hash) requestAnimationFrame(() => scrollToSection(location.hash, false));
     document.addEventListener('click', (event) => {
-      const link = event.target.closest('a[data-route]');
+      const link = event.target.closest('a');
       if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-      event.preventDefault();
-      navigate(link.href);
+      if (link.hasAttribute('data-route')) {
+        event.preventDefault();
+        navigate(link.href);
+      } else {
+        const destination = new URL(link.href, document.baseURI);
+        if (destination.origin === location.origin && destination.pathname === location.pathname && destination.search === location.search && destination.hash && scrollToSection(destination.hash, true, true)) {
+          event.preventDefault();
+        }
+      }
     });
     $('open-nav').addEventListener('click', () => setMenuOpen(true));
     $('close-nav').addEventListener('click', () => setMenuOpen(false));
@@ -295,13 +464,19 @@ async function initialize() {
       if (!query) return;
       navigate(routeURL({ q: query }));
       setSearchOpen(false);
-      $('library').focus();
+      $('library').focus({ preventScroll: true });
     });
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') { setMenuOpen(false); if (!$('search-panel').hidden) setSearchOpen(false); }
       if (event.key === '/' && !['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) { event.preventDefault(); setSearchOpen(true); }
     });
-    window.addEventListener('popstate', restoreURL);
+    window.addEventListener('popstate', () => {
+      cancelScrollAnimation();
+      // Let native history restore scroll; hash-only history must not rebuild the page.
+      if (renderedRoute !== `${location.pathname}${location.search}`) restoreURL();
+    });
+    window.addEventListener('wheel', cancelScrollAnimation, { passive: true });
+    window.addEventListener('touchstart', cancelScrollAnimation, { passive: true });
   } catch (error) {
     console.error('Library loading failed:', error);
     $('load-error').hidden = false;

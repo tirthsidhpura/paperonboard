@@ -4,39 +4,48 @@
   "examTemplates": [
     {
       "label": "Winter 2025",
-      "url": "https://old26.gtu.ac.in/uploads/w2025/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "w2025/BE/{code}.pdf"
     },
     {
       "label": "Summer 2025",
-      "url": "https://old26.gtu.ac.in/uploads/s2025/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "s2025/BE/{code}.pdf"
     },
     {
       "label": "Winter 2024",
-      "url": "https://old26.gtu.ac.in/uploads/W2024/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "W2024/BE/{code}.pdf"
     },
     {
       "label": "Summer 2024",
-      "url": "https://old26.gtu.ac.in/uploads/S2024/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "S2024/BE/{code}.pdf"
     },
     {
       "label": "Winter 2023",
-      "url": "https://old26.gtu.ac.in/uploads/W2023/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "W2023/BE/{code}.pdf"
     },
     {
       "label": "Summer 2023",
-      "url": "https://old26.gtu.ac.in/uploads/S2023/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "S2023/BE/{code}.pdf"
     },
     {
       "label": "Winter 2022",
-      "url": "https://old26.gtu.ac.in/uploads/W2022/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "W2022/BE/{code}.pdf"
     },
     {
       "label": "Summer 2022",
-      "url": "https://old26.gtu.ac.in/uploads/S2022/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "S2022/BE/{code}.pdf"
     },
     {
       "label": "Winter 2021",
-      "url": "https://old26.gtu.ac.in/uploads/W2021/BE/{code}.pdf"
+      "urlVersion": "v1",
+      "path": "W2021/BE/{code}.pdf"
     }
   ],
   "branches": [
