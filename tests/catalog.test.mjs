@@ -160,6 +160,11 @@ test('single-page routes preserve the original course, semester, dropdown and do
   assert.ok(all().some((node) => node.id === 'selectsemester'));
   assert.ok(all().some((node) => node.id === 'sem-1'));
   assert.ok(all().some((node) => node.className === 'sub' && node.textContent.includes('4300001')));
+  for (const menu of all().filter((node) => node.className === 'paper')) {
+    assert.equal(menu.children.length, 1);
+    assert.equal(menu.children[0].textContent, 'View all question papers');
+    assert.ok(menu.children[0].href.includes('subject='));
+  }
   assert.ok(!all().some((node) => node.className === 'bigcard'));
   runtime.location.search = '?stream=diploma&branch=computer&semester=1&subject=4300001';
   vm.runInContext('restoreURL()', runtime);

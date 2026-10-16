@@ -95,3 +95,23 @@
   .shared-hero .heading { text-align: center; }
   .shared-hero-description { margin: auto; }
 }
+
+/* Match the paper library's borders, controls and restrained shadows. */
+.premium-course, .contributor-card, .community-empty, .open-source-notice {
+  border-radius: var(--pob-radius);
+  box-shadow: var(--pob-shadow);
+}
+.premium-course:hover { box-shadow: 0 6px 20px rgb(16 21 23 / 15%); }
+.premium-course p, .contributor-card>p { line-height: 1.7; color: var(--pob-muted); }
+.premium-button { min-height: 44px; border-radius: var(--pob-radius); background: var(--pob-blue); line-height: 1.5; }
+.premium-button:hover { background: var(--pob-blue-hover); }
+.light-button { background: #fff; color: var(--pob-ink); }
+.light-button:hover { background: #eef4ff; }
+.community-cta { border-radius: var(--pob-radius); }
+.contributor-card .course-top { align-items: center; }
+.contributor-card .contributor-avatar { border-radius: var(--pob-radius); }
+.contributor-card .course-top h3 { min-width: 0; overflow-wrap: anywhere; }
+.open-source-notice { box-shadow: 0 8px 28px rgb(16 21 23 / 18%); }
+#dismiss-open-source { border-radius: var(--pob-radius); }
+#dismiss-open-source:hover { background: #eef4ff; }
+#show-open-source { text-underline-offset: 4px; }
