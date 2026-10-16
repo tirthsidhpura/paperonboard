@@ -1,8 +1,6 @@
 name: Check and deploy site
 
 on:
-  pull_request:
-    branches: [main]
   push:
     branches: [main]
   workflow_dispatch:
@@ -29,7 +27,7 @@ jobs:
       - name: Check public repository files
         run: node scripts/check-public.mjs
       - name: Refresh merged-PR contributors
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/contributors.mjs
@@ -40,7 +38,7 @@ jobs:
       - name: Test deployment path checks
         run: python3 -m unittest discover -s tests -p '*_test.py'
       - name: Deploy to InfinityFree
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.DEPLOY_ENABLED == 'true'
+        if: github.ref == 'refs/heads/main' && vars.DEPLOY_ENABLED == 'true'
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
