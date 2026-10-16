@@ -55,7 +55,7 @@
             {
               "code": "BP101TP",
               "name": "Human Anatomy and Physiology-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 BP101TP",
@@ -78,13 +78,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP101TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP101TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP101TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP102TP",
               "name": "PHARMACEUTICAL ANALYSIS I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 BP102TP",
@@ -107,13 +155,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP102TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP102TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP102TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP104TP",
               "name": "Pharmaceutical Inorganic Chemistry",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 BP104TP",
@@ -136,13 +232,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP104TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP104TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP104TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP103TP",
               "name": "Pharmaceutics-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2019 BP103TP",
@@ -165,6 +309,54 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP103TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP103TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP103TP.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -177,7 +369,7 @@
             {
               "code": "BP201TP",
               "name": "Human Anatomy and Physiology II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP201TP",
@@ -205,13 +397,85 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP201TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP201TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP201TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP203TP",
               "name": "PHARMACEUTICAL ENGINEERING",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2020 BP203TP",
@@ -244,13 +508,85 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP203TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP203TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP203TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP202TP",
               "name": "Pharmaceutical Organic Chemistry I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2020 BP202TP",
@@ -283,6 +619,72 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP202TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP202TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/BP202TP.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -295,7 +697,7 @@
             {
               "code": "BP303TP",
               "name": "Biochemistry",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP303TP",
@@ -328,13 +730,79 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP303TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP303TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP303TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP304TT",
               "name": "Pathophysiology",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP304TT",
@@ -367,13 +835,79 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP304TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP304TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP304TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP301TP",
               "name": "Pharmaceutical Organic Chemistry II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP301TP",
@@ -406,13 +940,79 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP301TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP301TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP301TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP305TP",
               "name": "Pharmacognosy & Phaytochemistry- I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP305TP",
@@ -445,13 +1045,79 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP305TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP305TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP305TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP302TP",
               "name": "Physical Pharmaceutics-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP302TP",
@@ -484,6 +1150,72 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP302TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP302TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/BP302TP.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -496,7 +1228,7 @@
             {
               "code": "BP402TP",
               "name": "Medicinal Chemistry I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP402TP",
@@ -529,13 +1261,73 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP402TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP402TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP402TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP405TT",
               "name": "PHARMACEUTICAL JURISPRUDENCE",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP405TT",
@@ -568,13 +1360,73 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP405TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP405TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP405TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP401TT",
               "name": "Pharmaceutical Organic Chemistry III",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP401TT",
@@ -607,13 +1459,73 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP401TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP401TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP401TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP404TP",
               "name": "Pharmacology-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP404TP",
@@ -646,13 +1558,73 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP404TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP404TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP404TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP403TP",
               "name": "Physical Pharmaceutics-II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "s2021 BP403TP",
@@ -685,6 +1657,66 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP403TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP403TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/BP403TP.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -697,7 +1729,7 @@
             {
               "code": "BP506TP",
               "name": "Contributor Personality Development Program",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w021 BP506TP",
@@ -714,13 +1746,49 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP506TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP506TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP506TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP506TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP506TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP506TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP506TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP507TP",
               "name": "Integrated Personality Development Course",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP507TP",
@@ -737,13 +1805,49 @@
                   "urlVersion": "v1",
                   "path": "S2026/BP/BP507TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP507TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP507TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP507TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP507TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP507TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP507TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP501TT",
               "name": "Medicinal Chemistry-II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP501TT",
@@ -776,13 +1880,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP501TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP501TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP501TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP505TT",
               "name": "Pharmaceutical Biotechnology",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP505TT",
@@ -815,13 +1967,67 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP505TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP505TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP505TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP504TP",
               "name": "Pharmaceutical Microbiology",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP504TP",
@@ -854,13 +2060,67 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP504TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP504TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP504TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP502TP",
               "name": "Pharmacology II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP502TP",
@@ -893,6 +2153,60 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP502TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP502TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP502TP.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -905,7 +2219,7 @@
             {
               "code": "BP604TT",
               "name": "Biopharmaceutics and Pharmacokinetics",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP604TT",
@@ -938,13 +2252,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP604TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP604TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP604TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP603TP",
               "name": "HERBAL DRUG TECHNOLOGY",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP603TP",
@@ -977,13 +2339,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP603TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP603TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP603TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP605TP",
               "name": "INDUSTRIAL PHARMACY-I",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP605TP",
@@ -1016,13 +2426,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP605TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP605TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP605TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP601TP",
               "name": "Medicinal Chemistry III",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP601TP",
@@ -1055,13 +2513,61 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP601TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP601TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP601TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP602TP",
               "name": "PHARMACOLOGY III",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP602TP",
@@ -1094,6 +2600,54 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP602TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP602TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP602TP.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -1106,7 +2660,7 @@
             {
               "code": "BP702TT",
               "name": "Industrial Pharmacy II",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP702TT",
@@ -1134,13 +2688,55 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP702TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP702TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP702TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP702TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP702TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP702TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP702TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP702TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP701TP",
               "name": "Instrumental Methods of Analysis",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP701TP",
@@ -1168,13 +2764,55 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP701TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP701TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP701TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP701TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP701TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP701TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP701TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP701TP.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP704TT",
               "name": "Novel Drug Delivery System",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP704TT",
@@ -1202,13 +2840,55 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP704TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP704TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP704TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP704TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP704TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP704TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP704TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP704TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP703TT",
               "name": "Pharmacy Practice",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP703TT",
@@ -1236,13 +2916,55 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP703TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP703TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP703TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP703TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP703TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP703TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP703TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP703TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP706TT",
               "name": "Quality Assurance",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP706TT",
@@ -1270,6 +2992,48 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP706TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP706TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP706TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP706TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP706TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP706TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP706TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP706TT.pdf",
+                  "type": "paper"
                 }
               ]
             }
@@ -1282,7 +3046,7 @@
             {
               "code": "BP811TT",
               "name": "Advanced Instrumentation Techniques",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP811TT",
@@ -1300,13 +3064,43 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP811TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP811TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP811TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP811TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP811TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP811TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP801TT",
               "name": "Biostatistics and Research Methodology",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP801TT",
@@ -1324,13 +3118,43 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP801TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP801TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP801TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP801TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP801TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP801TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP809TT",
               "name": "Cosmetic Science",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP809TT",
@@ -1348,13 +3172,43 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP809TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP809TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP809TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP809TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP809TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP809TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP803TT",
               "name": "Pharma marketing Management",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP803TT",
@@ -1372,13 +3226,43 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP803TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP803TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP803TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP803TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP803TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP803TT.pdf",
+                  "type": "paper"
                 }
               ]
             },
             {
               "code": "BP814TT",
               "name": "Pharmaceutical Product Development",
-              "useExamTemplates": true,
+              "useExamTemplates": false,
               "papers": [
                 {
                   "label": "w2021 BP814TT",
@@ -1395,6 +3279,36 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP814TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP814TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP814TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP814TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP814TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP814TT.pdf",
                   "type": "paper"
                 }
               ]
@@ -1428,6 +3342,60 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP503TP.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/BP503TP.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/BP503TP.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP503TP.pdf"
@@ -1447,6 +3415,72 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2250006.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2250006.pdf",
                   "type": "paper"
                 }
               ],
@@ -1468,6 +3502,72 @@
                   "urlVersion": "v1",
                   "path": "S2026/BP/2260003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2260003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2260003.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2260003.pdf"
@@ -1487,6 +3587,78 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2260005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2260005.pdf",
                   "type": "paper"
                 }
               ],
@@ -1508,6 +3680,78 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/2270001.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2270001.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2270001.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270001.pdf"
@@ -1521,6 +3765,66 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2270016.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2270016.pdf",
                   "type": "paper"
                 }
               ],
@@ -1536,6 +3840,78 @@
                   "urlVersion": "v1",
                   "path": "S2026/BP/2270003.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2270003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2270003.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2270003.pdf"
@@ -1549,6 +3925,78 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2270002.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2270002.pdf",
                   "type": "paper"
                 }
               ],
@@ -1564,6 +4012,78 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/2270005.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2270005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2270005.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270005.pdf"
@@ -1577,6 +4097,78 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2270004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2270004.pdf",
                   "type": "paper"
                 }
               ],
@@ -1604,6 +4196,24 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP807TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP807TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP807TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP807TT.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP807TT.pdf"
@@ -1623,6 +4233,24 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP812TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP812TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP812TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP812TT.pdf",
                   "type": "paper"
                 }
               ],
@@ -1644,6 +4272,24 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP810TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP810TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP810TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP810TT.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP810TT.pdf"
@@ -1657,6 +4303,78 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2020",
+                  "urlVersion": "v1",
+                  "path": "S2020/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2280003.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2280003.pdf",
                   "type": "paper"
                 }
               ],
@@ -1678,6 +4396,30 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP804TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP804TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP804TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP804TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP804TT.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP804TT.pdf"
@@ -1692,6 +4434,66 @@
                   "urlVersion": "v1",
                   "path": "S2026/BP/2280005.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2280005.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2280005.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2280005.pdf"
@@ -1705,6 +4507,72 @@
                   "label": "Summer 2026",
                   "urlVersion": "v1",
                   "path": "S2026/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2021",
+                  "urlVersion": "v1",
+                  "path": "S2021/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BP/2280004.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BP/2280004.pdf",
                   "type": "paper"
                 }
               ],
@@ -1726,6 +4594,30 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP805TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP805TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP805TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP805TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP805TT.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP805TT.pdf"
@@ -1745,6 +4637,30 @@
                   "label": "Summer 2025",
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP806TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP806TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP806TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP806TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP806TT.pdf",
                   "type": "paper"
                 }
               ],
@@ -1766,6 +4682,30 @@
                   "urlVersion": "v1",
                   "path": "S2025/BP/BP802TT.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BP/BP802TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BP/BP802TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BP/BP802TT.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2022",
+                  "urlVersion": "v1",
+                  "path": "S2022/BP/BP802TT.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP802TT.pdf"
@@ -1778,5 +4718,6 @@
   ],
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "BP",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "archivePolicy": "listed-only"
 }

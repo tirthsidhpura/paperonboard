@@ -49,7 +49,7 @@ Do not serve the repository root. The included preview server serves only `dist/
 
 The original local site is retained in **`legacy-private/`**, which is ignored by Git. It includes the original backend configuration, old pages, and original uploads. Never upload that folder or remove its ignore rule. Do not publish original database dumps, credentials, contributor details, admin code, or unreviewed uploads.
 
-The new catalogs preserve subject records and direct paper links from the old course pages. `data/migration-report.json` records the source pages and skipped incomplete placeholders. Repeated entries for the same subject code in a semester were merged. Existing GTU archive URL templates are preserved separately from direct paper links: a generated session link is **not a claim that a paper exists**. External GTU and Google Drive availability has not been verified. Some original subject names/codes may need community correction.
+The new catalogs preserve subject records and direct paper links from the old course pages. `data/migration-report.json` records the source pages and skipped incomplete placeholders. Repeated entries for the same subject code in a semester were merged. GTU catalogs use `archivePolicy: "listed-only"`: paper cards come from explicit catalog entries, never a generated link for every year. Historical sessions are added only when the official listing contains that subject code. New courses and revised subject codes therefore do not inherit papers from before they existed. Original manually curated direct links are retained. External GTU and Google Drive availability has not been verified. Some original subject names/codes may need community correction.
 
 Database-only study material, upload records, and course records cannot be recovered from these files. Export and review them before adding them to the public JSON catalogs. The five original uploaded PDFs remain in the ignored archive for review; they are not automatically redistributed.
 
@@ -64,7 +64,7 @@ Publishing a GitHub repository, choosing its owner/name, and selecting a code li
 
 ## Official course coverage
 
-The registry includes all 58 course codes listed in the official [GTU question-paper repository](https://old26.gtu.ac.in/Download1.aspx), checked on 16 October 2026. Recent paper listings were retrieved for 39 codes; the remaining codes are kept with an explicit unavailable-listings message and official source link. Some GTU session searches return HTTP 500, so zero retrieved results does not establish that no papers exist. This is not an exhaustive import of every historical paper.
+The registry includes all 58 course codes listed in the official [GTU question-paper repository](https://old26.gtu.ac.in/Download1.aspx), checked on 16 October 2026. Paper listings were retrieved for 39 codes; the remaining codes are kept with an explicit unavailable-listings message and official source link. Some GTU session searches return HTTP 500, so zero retrieved results does not establish that no papers exist. The archive refresh checks every exam session offered by the official search form. Historical enrichment adds papers to known subject codes; unrelated retired curricula are not automatically added. This is not an exhaustive import of every historical paper.
 
 The [GTU syllabus program table](https://old26.gtu.ac.in/Syllabus/default.aspx) supplies expanded names for 42 codes. Other codes keep GTU's exact abbreviation instead of a guessed program name. Imported subject names and semester/year assignments are read from the headers of official GTU PDFs. Every stream follows stream → course/branch → semester → subject → paper cards. Students select a subject before seeing its paper cards, ordered oldest to newest. Course memberships come from official syllabus headers and timetable tables; legacy numeric codes are matched to the official branch registry. Existing curated streams keep their course links and semester scrolling. Year-based courses use their printed academic year rather than an invented semester. Records without a readable header or a verified course membership remain pending and are not published as an unclassified semester. Existing curated subject names and branches remain intact. `data/gtu-subjects.json` records the metadata and its official PDF source. Visually verified labels from scanned headers are kept in `data/gtu-subject-overrides.json` so refreshes retain them. `data/gtu-course-map.json` contains official branch names and timetable memberships. `data/gtu-source.json` records coverage and `data/gtu-program-names.json` records the program-name source.
 
@@ -80,7 +80,18 @@ npm run build
 npm test
 ```
 
-The listing importer reads GTU's public search form and paper links. The PDF header and course-membership readers require the optional development package `pypdf` (`python3 -m pip install pypdf`) and reads official PDFs to extract subject names and semesters; PDFs are not republished. Verified metadata is cached locally and seeded from the checked-in source registry on a fresh checkout. It tries the two most recent sessions and continues backward for dormant courses until it finds listings. It preserves curated catalogs and adds missing entries. Snapshot files stay in ignored `.local/`. Review coverage and any errors before applying a new snapshot.
+The listing importer reads GTU's public search form and paper links. The PDF header and course-membership readers require the optional development package `pypdf` (`python3 -m pip install pypdf`) and reads official PDFs to extract subject names and semesters; PDFs are not republished. Verified metadata is cached locally and seeded from the checked-in source registry on a fresh checkout. By default the listing importer checks every official session. Use `--recent` for a quick recent-session snapshot or `--resume .local/gtu-listings.json --output .local/gtu-history.json` to extend a saved snapshot. Failed sessions are recorded separately from empty successful searches; a missing result does not establish that no paper exists. It preserves curated catalogs and adds missing entries. Snapshot files stay in ignored `.local/`. Review coverage and any errors before applying a new snapshot.
+
+To enrich existing subjects with past papers without importing unrelated retired curricula:
+
+```sh
+python3 scripts/import-gtu.py --resume .local/gtu-listings.json --output .local/gtu-history.json
+python3 scripts/apply-gtu-import.py .local/gtu-history.json --existing-only
+npm run build
+npm test
+```
+
+The full-session merge switches catalogs to explicit links and disables inherited exam templates. It preserves manually added resources. Shared subjects receive the same verified session links in each course. New courses need no guessed introduction date: absent sessions simply produce no card. Review `sessionErrors` in `data/gtu-source.json` before claiming archive completeness.
 
 ## Search and AI discovery
 

@@ -105,5 +105,6 @@
   "imported": true,
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "MT",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "archivePolicy": "listed-only"
 }

@@ -28,6 +28,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/BH01000041.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/BH01000041.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000041.pdf"
@@ -47,6 +53,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/BH01000051.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/BH01000051.pdf",
                   "type": "paper"
                 }
               ],
@@ -68,6 +80,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/BH01000061.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/BH01000061.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000061.pdf"
@@ -87,6 +105,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/BH01000031.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/BH01000031.pdf",
                   "type": "paper"
                 }
               ],
@@ -108,6 +132,12 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/BH01000021.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/BH01000021.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/BH01000021.pdf"
@@ -127,6 +157,12 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/BH01000011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/BH01000011.pdf",
                   "type": "paper"
                 }
               ],
@@ -153,6 +189,54 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/123305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/123305.pdf",
                   "type": "paper"
                 }
               ],
@@ -253,6 +337,42 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/123306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/123306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/123306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/123306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/123306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/123306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/123306.pdf",
                   "type": "paper"
                 }
               ],
@@ -460,6 +580,54 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/143302.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/143302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/143302.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/143302.pdf"
@@ -501,6 +669,42 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/143301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/143301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/143301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/143301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/143301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/143301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/143301.pdf",
                   "type": "paper"
                 }
               ],
@@ -564,6 +768,54 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/153302.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/153302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/153302.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/BH/153302.pdf"
@@ -584,6 +836,54 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/153303.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/153303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/153303.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153303.pdf"
@@ -597,6 +897,60 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/153306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/153306.pdf",
                   "type": "paper"
                 }
               ],
@@ -618,6 +972,54 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/153304.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/153304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/153304.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153304.pdf"
@@ -637,6 +1039,48 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/153301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/153301.pdf",
                   "type": "paper"
                 }
               ],
@@ -658,6 +1102,54 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/153305.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/153305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/153305.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/153305.pdf"
@@ -677,6 +1169,42 @@
                   "label": "Summer 2026",
                   "urlVersion": "v1",
                   "path": "S2026/BH/163306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/163306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/163306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/163306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/163306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/163306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/163306.pdf",
                   "type": "paper"
                 }
               ],
@@ -698,6 +1226,48 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/163301.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/163301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/163301.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163301.pdf"
@@ -711,6 +1281,48 @@
                   "label": "Summer 2026",
                   "urlVersion": "v1",
                   "path": "S2026/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/163305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/163305.pdf",
                   "type": "paper"
                 }
               ],
@@ -732,6 +1344,48 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/163303.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/163303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/163303.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163303.pdf"
@@ -746,6 +1400,42 @@
                   "urlVersion": "v1",
                   "path": "S2026/BH/163304.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/163304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/163304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/163304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/163304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/163304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/163304.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/163304.pdf"
@@ -759,6 +1449,42 @@
                   "label": "Summer 2026",
                   "urlVersion": "v1",
                   "path": "S2026/BH/163302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/163302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/163302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/163302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/163302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/BH/163302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/163302.pdf",
                   "type": "paper"
                 }
               ],
@@ -786,6 +1512,54 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/173306.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/173306.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/173306.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173306.pdf"
@@ -805,6 +1579,42 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/173304.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/173304.pdf",
                   "type": "paper"
                 }
               ],
@@ -826,6 +1636,42 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/173301.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/173301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/173301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/173301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/173301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/173301.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/BH/173301.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173301.pdf"
@@ -839,6 +1685,54 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/173302.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/173302.pdf",
                   "type": "paper"
                 }
               ],
@@ -860,6 +1754,48 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/173305.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/173305.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2018",
+                  "urlVersion": "v1",
+                  "path": "W2018/BH/173305.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173305.pdf"
@@ -880,6 +1816,36 @@
                   "urlVersion": "v1",
                   "path": "W2025/BH/173303.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BH/173303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/BH/173303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2021",
+                  "urlVersion": "v1",
+                  "path": "W2021/BH/173303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BH/173303.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2019",
+                  "urlVersion": "v1",
+                  "path": "W2019/BH/173303.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BH/173303.pdf"
@@ -893,5 +1859,6 @@
   "imported": true,
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "BH",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "archivePolicy": "listed-only"
 }

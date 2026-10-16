@@ -96,6 +96,36 @@
                   "urlVersion": "v1",
                   "path": "W2025/IB/1310105.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/IB/1310105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2024",
+                  "urlVersion": "v1",
+                  "path": "S2024/IB/1310105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/IB/1310105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Summer 2023",
+                  "urlVersion": "v1",
+                  "path": "S2023/IB/1310105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2022",
+                  "urlVersion": "v1",
+                  "path": "W2022/IB/1310105.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/IB/1310105.pdf"
@@ -240,6 +270,24 @@
                   "urlVersion": "v1",
                   "path": "W2025/IB/1330101.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/IB/1330101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/IB/1330101.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2022",
+                  "urlVersion": "v1",
+                  "path": "W2022/IB/1330101.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IB/1330101.pdf"
@@ -253,6 +301,24 @@
                   "label": "Winter 2025",
                   "urlVersion": "v1",
                   "path": "W2025/IB/1330103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/IB/1330103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/IB/1330103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2022",
+                  "urlVersion": "v1",
+                  "path": "W2022/IB/1330103.pdf",
                   "type": "paper"
                 }
               ],
@@ -268,6 +334,24 @@
                   "urlVersion": "v1",
                   "path": "W2025/IB/1330102.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/IB/1330102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/IB/1330102.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2022",
+                  "urlVersion": "v1",
+                  "path": "W2022/IB/1330102.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IB/1330102.pdf"
@@ -282,6 +366,24 @@
                   "urlVersion": "v1",
                   "path": "W2025/IB/1330104.pdf",
                   "type": "paper"
+                },
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/IB/1330104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2023",
+                  "urlVersion": "v1",
+                  "path": "W2023/IB/1330104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2022",
+                  "urlVersion": "v1",
+                  "path": "W2022/IB/1330104.pdf",
+                  "type": "paper"
                 }
               ],
               "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/IB/1330104.pdf"
@@ -295,5 +397,6 @@
   "imported": true,
   "source": "https://old26.gtu.ac.in/Download1.aspx",
   "gtuCourseCode": "IB",
-  "checkedOn": "2026-10-16"
+  "checkedOn": "2026-10-16",
+  "archivePolicy": "listed-only"
 }

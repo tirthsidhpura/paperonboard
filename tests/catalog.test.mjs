@@ -37,6 +37,18 @@ test('search matches every token regardless of case and can match exam sessions'
   assert.equal(vm.runInContext('matchesQuery(entry)', context), false);
 });
 
+test('new subjects in listed-only catalogs never inherit older exam sessions', () => {
+  context.catalog = { archivePolicy: 'listed-only', examTemplates: [
+    { label: 'Summer 2018', url: 'https://example.test/2018/{code}.pdf' },
+    { label: 'Winter 2025', url: 'https://example.test/2025/{code}.pdf' },
+  ] };
+  context.subject = { code: 'NEW2026', useExamTemplates: true, papers: [
+    { label: 'Summer 2026', url: 'https://example.test/2026/NEW2026.pdf', type: 'paper' },
+  ] };
+  const papers = vm.runInContext('resourcesFor(catalog, subject)', context);
+  assert.deepEqual(Array.from(papers, (p) => p.label), ['Summer 2026']);
+});
+
 test('study material filtering excludes question papers', () => {
   context.entry = { resources: [{ type: 'paper' }, { type: 'material' }] };
   vm.runInContext("state.resource = 'material'", context);

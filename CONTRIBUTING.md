@@ -44,7 +44,7 @@ Add this object to a semester's `subjects` array:
 }
 ```
 
-Use `useExamTemplates: false` for newly verified, explicit paper links. Existing migrated subjects may use `true`: this adds every stream-level `examTemplates` session using the subject's code. These inherited archive templates may point to unavailable sessions. Adding a template affects **all** subjects that opt in; add a direct link to one subject when only its paper is known to exist.
+Use `useExamTemplates: false` and add only sessions with a real paper for that subject code. GTU catalogs use `archivePolicy: "listed-only"`, which prevents year templates from generating unavailable papers. A course or subject introduced recently may have no older papers; leave those sessions absent. Do not reuse an older subject code just because its name resembles the new subject. Adding a past paper uses the same `papers` array; cards sort by year and Summer/Winter automatically.
 
 ## Manage shared URL versions
 
