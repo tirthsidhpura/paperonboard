@@ -1,0 +1,1245 @@
+{
+  "id": "gtu-ep",
+  "name": "Bachelor of Engineering (Part Time)",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "2910002",
+              "name": "Subject 2910002",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910002.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2910004",
+              "name": "Subject 2910004",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910004.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2910601",
+              "name": "Subject 2910601",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910601.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2910602",
+              "name": "Subject 2910602",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910602.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2910903",
+              "name": "Subject 2910903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2910904",
+              "name": "Subject 2910904",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910904.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2910905",
+              "name": "Subject 2910905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2910905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2911102",
+              "name": "Subject 2911102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2911102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2911103",
+              "name": "Subject 2911103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2911103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2911104",
+              "name": "Subject 2911104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2911104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2911901",
+              "name": "Subject 2911901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2911901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2911903",
+              "name": "Subject 2911903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2911903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920602",
+              "name": "Subject 2920602",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920602.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920604",
+              "name": "Subject 2920604",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920604.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920605",
+              "name": "Subject 2920605",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920605.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920901",
+              "name": "Subject 2920901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920903",
+              "name": "Subject 2920903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920904",
+              "name": "Subject 2920904",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920904.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2920905",
+              "name": "Subject 2920905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2920905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921102",
+              "name": "Subject 2921102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921103",
+              "name": "Subject 2921103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921104",
+              "name": "Subject 2921104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921901",
+              "name": "Subject 2921901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921902",
+              "name": "Subject 2921902",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921902.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921903",
+              "name": "Subject 2921903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2921904",
+              "name": "Subject 2921904",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2921904.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930601",
+              "name": "Subject 2930601",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930601.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930602",
+              "name": "Subject 2930602",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930602.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930603",
+              "name": "Subject 2930603",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930603.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930606",
+              "name": "Subject 2930606",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930606.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930902",
+              "name": "Subject 2930902",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930902.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930904",
+              "name": "Subject 2930904",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930904.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2930905",
+              "name": "Subject 2930905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2930905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931101",
+              "name": "Subject 2931101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931102",
+              "name": "Subject 2931102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931103",
+              "name": "Subject 2931103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931107",
+              "name": "Subject 2931107",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931107.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931901",
+              "name": "Subject 2931901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931903",
+              "name": "Subject 2931903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931904",
+              "name": "Subject 2931904",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931904.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2931905",
+              "name": "Subject 2931905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2931905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940601",
+              "name": "Subject 2940601",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940601.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940602",
+              "name": "Subject 2940602",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940602.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940604",
+              "name": "Subject 2940604",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940604.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940605",
+              "name": "Subject 2940605",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940605.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940608",
+              "name": "Subject 2940608",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940608.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940901",
+              "name": "Subject 2940901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940902",
+              "name": "Subject 2940902",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940902.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2940903",
+              "name": "Subject 2940903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2940903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2941102",
+              "name": "Subject 2941102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2941102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2941103",
+              "name": "Subject 2941103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2941103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2941901",
+              "name": "Subject 2941901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2941901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2941902",
+              "name": "Subject 2941902",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2941902.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2941903",
+              "name": "Subject 2941903",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2941903.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2941907",
+              "name": "Subject 2941907",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2941907.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950601",
+              "name": "Subject 2950601",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950601.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950602",
+              "name": "Subject 2950602",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950602.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950603",
+              "name": "Subject 2950603",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950603.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950604",
+              "name": "Subject 2950604",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950604.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950901",
+              "name": "Subject 2950901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950902",
+              "name": "Subject 2950902",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950902.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950906",
+              "name": "Subject 2950906",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950906.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2950910",
+              "name": "Subject 2950910",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2950910.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951101",
+              "name": "Subject 2951101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951102",
+              "name": "Subject 2951102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951103",
+              "name": "Subject 2951103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951901",
+              "name": "Subject 2951901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951906",
+              "name": "Subject 2951906",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951906.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951909",
+              "name": "Subject 2951909",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951909.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2951910",
+              "name": "Subject 2951910",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2951910.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2960604",
+              "name": "Subject 2960604",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2960604.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2960607",
+              "name": "Subject 2960607",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2960607.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2961901",
+              "name": "Subject 2961901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2961901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2961905",
+              "name": "Subject 2961905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2961905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2961910",
+              "name": "Subject 2961910",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2961910.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2961912",
+              "name": "Subject 2961912",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2961912.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970601",
+              "name": "Subject 2970601",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970601.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970602",
+              "name": "Subject 2970602",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970602.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970605",
+              "name": "Subject 2970605",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970605.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970606",
+              "name": "Subject 2970606",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970606.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970608",
+              "name": "Subject 2970608",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970608.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970610",
+              "name": "Subject 2970610",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970610.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970611",
+              "name": "Subject 2970611",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970611.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970901",
+              "name": "Subject 2970901",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970901.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970904",
+              "name": "Subject 2970904",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970904.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970905",
+              "name": "Subject 2970905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2970910",
+              "name": "Subject 2970910",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2970910.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971101",
+              "name": "Subject 2971101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971106",
+              "name": "Subject 2971106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971107",
+              "name": "Subject 2971107",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971107.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971110",
+              "name": "Subject 2971110",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971110.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971905",
+              "name": "Subject 2971905",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971905.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971908",
+              "name": "Subject 2971908",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971908.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2971910",
+              "name": "Subject 2971910",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/EP/2971910.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "EP",
+  "checkedOn": "2026-10-16"
+}

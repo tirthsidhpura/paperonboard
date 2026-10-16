@@ -1,0 +1,595 @@
+{
+  "id": "gtu-mc",
+  "name": "Master of Computer Applications",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "4639303",
+              "name": "Subject 4639303",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/4639303.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "4659302",
+              "name": "Subject 4659302",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/4659302.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "619402",
+              "name": "Subject 619402",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619402.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "619403",
+              "name": "Subject 619403",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619403.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "619404",
+              "name": "Subject 619404",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619404.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "619406",
+              "name": "Subject 619406",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/619406.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629401",
+              "name": "Subject 629401",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629401.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629403",
+              "name": "Subject 629403",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629403.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629404",
+              "name": "Subject 629404",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629404.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629406",
+              "name": "Subject 629406",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629406.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629407",
+              "name": "Subject 629407",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629407.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629408",
+              "name": "Subject 629408",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629408.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "629409",
+              "name": "Subject 629409",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/629409.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "639401",
+              "name": "Subject 639401",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639401.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "639402",
+              "name": "Subject 639402",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639402.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "639403",
+              "name": "Subject 639403",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639403.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "639407",
+              "name": "Subject 639407",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639407.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "639409",
+              "name": "Subject 639409",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639409.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "639410",
+              "name": "Subject 639410",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/639410.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC01094011",
+              "name": "Subject MC01094011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC01094021",
+              "name": "Subject MC01094021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094021.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC01094031",
+              "name": "Subject MC01094031",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094031.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC01094041",
+              "name": "Subject MC01094041",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094041.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC01094051",
+              "name": "Subject MC01094051",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC01094051.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC02094011",
+              "name": "Subject MC02094011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC02094021",
+              "name": "Subject MC02094021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094021.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC02094031",
+              "name": "Subject MC02094031",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094031.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC02094041",
+              "name": "Subject MC02094041",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094041.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC02094051",
+              "name": "Subject MC02094051",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094051.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC02094061",
+              "name": "Subject MC02094061",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC02094061.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094011",
+              "name": "Subject MC03094011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094021",
+              "name": "Subject MC03094021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094021.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094031",
+              "name": "Subject MC03094031",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094031.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094051",
+              "name": "Subject MC03094051",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094051.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094071",
+              "name": "Subject MC03094071",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094071.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094081",
+              "name": "Subject MC03094081",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094081.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094091",
+              "name": "Subject MC03094091",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094091.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094101",
+              "name": "Subject MC03094101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094111",
+              "name": "Subject MC03094111",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094111.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094121",
+              "name": "Subject MC03094121",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094121.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094131",
+              "name": "Subject MC03094131",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094131.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094141",
+              "name": "Subject MC03094141",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094141.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094151",
+              "name": "Subject MC03094151",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094151.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MC03094161",
+              "name": "Subject MC03094161",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MC/MC03094161.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MC",
+  "checkedOn": "2026-10-16"
+}

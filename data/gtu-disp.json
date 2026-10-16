@@ -1,0 +1,10 @@
+{
+  "id": "gtu-disp",
+  "name": "GTU course DISP",
+  "examTemplates": [],
+  "branches": [],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DISP",
+  "checkedOn": "2026-10-16"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "gtu-bn",
+  "name": "Bachelor of Design",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "10130106",
+              "name": "Subject 10130106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "10130201",
+              "name": "Subject 10130201",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130201.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "10130203",
+              "name": "Subject 10130203",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130203.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "10130302",
+              "name": "Subject 10130302",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130302.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "10130401",
+              "name": "Subject 10130401",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130401.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "10130403",
+              "name": "Subject 10130403",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/10130403.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1110004",
+              "name": "Subject 1110004",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/1110004.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1120005",
+              "name": "Subject 1120005",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2024",
+                  "urlVersion": "v1",
+                  "path": "W2024/BN/1120005.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BN",
+  "checkedOn": "2026-10-16"
+}

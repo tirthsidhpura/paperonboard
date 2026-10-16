@@ -1,0 +1,361 @@
+{
+  "id": "gtu-fd",
+  "name": "Pharm.D.",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "818801",
+              "name": "Subject 818801",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818801.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "818802",
+              "name": "Subject 818802",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818802.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "818803",
+              "name": "Subject 818803",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818803.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "818804",
+              "name": "Subject 818804",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818804.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "818805",
+              "name": "Subject 818805",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/818805.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "828801",
+              "name": "Subject 828801",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828801.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "828802",
+              "name": "Subject 828802",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828802.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "828803",
+              "name": "Subject 828803",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828803.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "828804",
+              "name": "Subject 828804",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828804.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "828805",
+              "name": "Subject 828805",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828805.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "828806",
+              "name": "Subject 828806",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/828806.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "838801",
+              "name": "Subject 838801",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838801.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "838802",
+              "name": "Subject 838802",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838802.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "838803",
+              "name": "Subject 838803",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838803.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "838804",
+              "name": "Subject 838804",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838804.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "838805",
+              "name": "Subject 838805",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838805.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "838806",
+              "name": "Subject 838806",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/838806.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "848801",
+              "name": "Subject 848801",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848801.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "848802",
+              "name": "Subject 848802",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848802.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "848803",
+              "name": "Subject 848803",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848803.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "848804",
+              "name": "Subject 848804",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848804.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "848805",
+              "name": "Subject 848805",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848805.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "848806",
+              "name": "Subject 848806",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/848806.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "858801",
+              "name": "Subject 858801",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/858801.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "858802",
+              "name": "Subject 858802",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/858802.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "858803",
+              "name": "Subject 858803",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/FD/858803.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "FD",
+  "checkedOn": "2026-10-16"
+}

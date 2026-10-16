@@ -1,0 +1,556 @@
+{
+  "id": "gtu-mp",
+  "name": "Master of Pharmacy",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "MAT101T",
+              "name": "Subject MAT101T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MAT101T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPC102T",
+              "name": "Subject MPC102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPC102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPC103T",
+              "name": "Subject MPC103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPC103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPC104T",
+              "name": "Subject MPC104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPC104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPC202T",
+              "name": "Subject MPC202T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPC202T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPC203T",
+              "name": "Subject MPC203T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPC203T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH102T",
+              "name": "Subject MPH102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH103T",
+              "name": "Subject MPH103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH104T",
+              "name": "Subject MPH104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH201T",
+              "name": "Subject MPH201T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH201T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH202T",
+              "name": "Subject MPH202T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH202T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH203T",
+              "name": "Subject MPH203T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH203T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPH204T",
+              "name": "Subject MPH204T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPH204T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL102T",
+              "name": "Subject MPL102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL103T",
+              "name": "Subject MPL103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL104T",
+              "name": "Subject MPL104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL201T",
+              "name": "Subject MPL201T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL201T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL202T",
+              "name": "Subject MPL202T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL202T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL203T",
+              "name": "Subject MPL203T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL203T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPL204T",
+              "name": "Subject MPL204T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPL204T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPM102T",
+              "name": "Subject MPM102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPM102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPM103T",
+              "name": "Subject MPM103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPM103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPM104T",
+              "name": "Subject MPM104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPM104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPM203T",
+              "name": "Subject MPM203T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPM203T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPM204T",
+              "name": "Subject MPM204T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPM204T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPP101T",
+              "name": "Subject MPP101T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPP101T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPP102T",
+              "name": "Subject MPP102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPP102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPP103T",
+              "name": "Subject MPP103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPP103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPP104T",
+              "name": "Subject MPP104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPP104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MPT104T",
+              "name": "Subject MPT104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MPT104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA102T",
+              "name": "Subject MQA102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA103T",
+              "name": "Subject MQA103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA104T",
+              "name": "Subject MQA104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA201T",
+              "name": "Subject MQA201T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA201T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA202T",
+              "name": "Subject MQA202T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA202T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA203T",
+              "name": "Subject MQA203T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA203T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MQA204T",
+              "name": "Subject MQA204T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MQA204T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MRA101T",
+              "name": "Subject MRA101T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MRA101T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MRA102T",
+              "name": "Subject MRA102T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MRA102T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MRA103T",
+              "name": "Subject MRA103T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MRA103T.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "MRA104T",
+              "name": "Subject MRA104T",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/MP/MRA104T.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MP",
+  "checkedOn": "2026-10-16"
+}

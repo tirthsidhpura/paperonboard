@@ -1,0 +1,49 @@
+{
+  "id": "gtu-pr",
+  "name": "Post Graduate Diploma in IPR",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "PR01095011",
+              "name": "Subject PR01095011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/PR/PR01095011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PR01095021",
+              "name": "Subject PR01095021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/PR/PR01095021.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "PR",
+  "checkedOn": "2026-10-16"
+}

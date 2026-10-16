@@ -1,0 +1,127 @@
+{
+  "id": "gtu-mh",
+  "name": "Master of Arts in Hindu Studies",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "1420101",
+              "name": "Subject 1420101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1420101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1420102",
+              "name": "Subject 1420102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1420102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1420103",
+              "name": "Subject 1420103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1420103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1420104",
+              "name": "Subject 1420104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1420104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1440101",
+              "name": "Subject 1440101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1440101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1440102",
+              "name": "Subject 1440102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1440102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1440103",
+              "name": "Subject 1440103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1440103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1440104",
+              "name": "Subject 1440104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MH/1440104.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MH",
+  "checkedOn": "2026-10-16"
+}

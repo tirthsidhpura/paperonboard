@@ -35,6 +35,384 @@
       "shortName": "B.Pharm",
       "description": "A healthy dose of preparation",
       "file": "data/pharma.json"
+    },
+    {
+      "id": "gtu-mb",
+      "name": "Master of Business Administration",
+      "shortName": "MB",
+      "description": "GTU official repository Ã‚Â· Course MB",
+      "file": "data/gtu-mb.json"
+    },
+    {
+      "id": "gtu-mc",
+      "name": "Master of Computer Applications",
+      "shortName": "MC",
+      "description": "GTU official repository Ã‚Â· Course MC",
+      "file": "data/gtu-mc.json"
+    },
+    {
+      "id": "gtu-me",
+      "name": "Master of Engineering",
+      "shortName": "ME",
+      "description": "GTU official repository Ã‚Â· Course ME",
+      "file": "data/gtu-me.json"
+    },
+    {
+      "id": "gtu-mp",
+      "name": "Master of Pharmacy",
+      "shortName": "MP",
+      "description": "GTU official repository Ã‚Â· Course MP",
+      "file": "data/gtu-mp.json"
+    },
+    {
+      "id": "gtu-bb",
+      "name": "Bachelor of Business Administration (Honours/Honours with Research)",
+      "shortName": "BB",
+      "description": "GTU official repository Ã‚Â· Course BB",
+      "file": "data/gtu-bb.json"
+    },
+    {
+      "id": "gtu-bc",
+      "name": "Bachelor of Computer Applications (Honours/Honours with Research)",
+      "shortName": "BC",
+      "description": "GTU official repository Ã‚Â· Course BC",
+      "file": "data/gtu-bc.json"
+    },
+    {
+      "id": "gtu-bh",
+      "name": "Bachelor of Hotel Management and Catering Technology",
+      "shortName": "BH",
+      "description": "GTU official repository Ã‚Â· Course BH",
+      "file": "data/gtu-bh.json"
+    },
+    {
+      "id": "gtu-bi",
+      "name": "Bachelor of Interior Design",
+      "shortName": "BI",
+      "description": "GTU official repository Ã‚Â· Course BI",
+      "file": "data/gtu-bi.json"
+    },
+    {
+      "id": "gtu-bv",
+      "name": "Bachelor of Vocation",
+      "shortName": "BV",
+      "description": "GTU official repository Ã‚Â· Course BV",
+      "file": "data/gtu-bv.json"
+    },
+    {
+      "id": "gtu-da",
+      "name": "Diploma in Architecture",
+      "shortName": "DA",
+      "description": "GTU official repository Ã‚Â· Course DA",
+      "file": "data/gtu-da.json"
+    },
+    {
+      "id": "gtu-dp",
+      "name": "Diploma in Pharmacy",
+      "shortName": "DP",
+      "description": "GTU official repository Ã‚Â· Course DP",
+      "file": "data/gtu-dp.json"
+    },
+    {
+      "id": "gtu-dv",
+      "name": "Diploma in Vocation",
+      "shortName": "DV",
+      "description": "GTU official repository Ã‚Â· Course DV",
+      "file": "data/gtu-dv.json"
+    },
+    {
+      "id": "gtu-bl",
+      "name": "Bachelor of Planning",
+      "shortName": "BL",
+      "description": "GTU official repository Ã‚Â· Course BL",
+      "file": "data/gtu-bl.json"
+    },
+    {
+      "id": "gtu-bn",
+      "name": "Bachelor of Design",
+      "shortName": "BN",
+      "description": "GTU official repository Ã‚Â· Course BN",
+      "file": "data/gtu-bn.json"
+    },
+    {
+      "id": "gtu-bs",
+      "name": "Bachelor of Science (Honours/Honours with Research)",
+      "shortName": "BS",
+      "description": "GTU official repository Ã‚Â· Course BS",
+      "file": "data/gtu-bs.json"
+    },
+    {
+      "id": "gtu-cs",
+      "name": "Master of Science (Integrated)",
+      "shortName": "CS",
+      "description": "GTU official repository Ã‚Â· Course CS",
+      "file": "data/gtu-cs.json"
+    },
+    {
+      "id": "gtu-db",
+      "name": "Post Graduate Diploma in Bioinformatics",
+      "shortName": "DB",
+      "description": "GTU official repository Ã‚Â· Course DB",
+      "file": "data/gtu-db.json"
+    },
+    {
+      "id": "gtu-dh",
+      "name": "Post Graduate Diploma in Hospital Management",
+      "shortName": "DH",
+      "description": "GTU official repository Ã‚Â· Course DH",
+      "file": "data/gtu-dh.json"
+    },
+    {
+      "id": "gtu-dm",
+      "name": "Post Graduate Diploma in Digital Marketing",
+      "shortName": "DM",
+      "description": "GTU official repository Ã‚Â· Course DM",
+      "file": "data/gtu-dm.json"
+    },
+    {
+      "id": "gtu-ds",
+      "name": "Post Graduate Diploma in Data Science",
+      "shortName": "DS",
+      "description": "GTU official repository Ã‚Â· Course DS",
+      "file": "data/gtu-ds.json"
+    },
+    {
+      "id": "gtu-ep",
+      "name": "Bachelor of Engineering (Part Time)",
+      "shortName": "EP",
+      "description": "GTU official repository Ã‚Â· Course EP",
+      "file": "data/gtu-ep.json"
+    },
+    {
+      "id": "gtu-fd",
+      "name": "Pharm.D.",
+      "shortName": "FD",
+      "description": "GTU official repository Ã‚Â· Course FD",
+      "file": "data/gtu-fd.json"
+    },
+    {
+      "id": "gtu-ib",
+      "name": "Master of Science (Industrial Biotechnology)",
+      "shortName": "IB",
+      "description": "GTU official repository Ã‚Â· Course IB",
+      "file": "data/gtu-ib.json"
+    },
+    {
+      "id": "gtu-ic",
+      "name": "Master of Computer Applications (Integrated)",
+      "shortName": "IC",
+      "description": "GTU official repository Ã‚Â· Course IC",
+      "file": "data/gtu-ic.json"
+    },
+    {
+      "id": "gtu-im",
+      "name": "Integrated M.Sc. (Biotechnology)",
+      "shortName": "IM",
+      "description": "GTU official repository Ã‚Â· Course IM",
+      "file": "data/gtu-im.json"
+    },
+    {
+      "id": "gtu-mh",
+      "name": "Master of Arts in Hindu Studies",
+      "shortName": "MH",
+      "description": "GTU official repository Ã‚Â· Course MH",
+      "file": "data/gtu-mh.json"
+    },
+    {
+      "id": "gtu-mn",
+      "name": "Master of Planning",
+      "shortName": "MN",
+      "description": "GTU official repository Ã‚Â· Course MN",
+      "file": "data/gtu-mn.json"
+    },
+    {
+      "id": "gtu-mr",
+      "name": "Master of Architecture",
+      "shortName": "MR",
+      "description": "GTU official repository Ã‚Â· Course MR",
+      "file": "data/gtu-mr.json"
+    },
+    {
+      "id": "gtu-mt",
+      "name": "GTU course MT",
+      "shortName": "MT",
+      "description": "GTU official repository Ã‚Â· Course MT",
+      "file": "data/gtu-mt.json"
+    },
+    {
+      "id": "gtu-mv",
+      "name": "Master of Business Administration (Part Time)",
+      "shortName": "MV",
+      "description": "GTU official repository Ã‚Â· Course MV",
+      "file": "data/gtu-mv.json"
+    },
+    {
+      "id": "gtu-pp",
+      "name": "Bachelor of Pharmacy (Practice)",
+      "shortName": "PP",
+      "description": "GTU official repository Ã‚Â· Course PP",
+      "file": "data/gtu-pp.json"
+    },
+    {
+      "id": "gtu-pr",
+      "name": "Post Graduate Diploma in IPR",
+      "shortName": "PR",
+      "description": "GTU official repository Ã‚Â· Course PR",
+      "file": "data/gtu-pr.json"
+    },
+    {
+      "id": "gtu-ma",
+      "name": "Master of Business Administration (Integrated)",
+      "shortName": "MA",
+      "description": "GTU official repository Ã‚Â· Course MA",
+      "file": "data/gtu-ma.json"
+    },
+    {
+      "id": "gtu-pd",
+      "name": "Post Diploma Degree Course",
+      "shortName": "PD",
+      "description": "GTU official repository Ã‚Â· Course PD",
+      "file": "data/gtu-pd.json"
+    },
+    {
+      "id": "gtu-pb",
+      "name": "Pharm.D. (Post Baccalaureate)",
+      "shortName": "PB",
+      "description": "GTU official repository Ã‚Â· Course PB",
+      "file": "data/gtu-pb.json"
+    },
+    {
+      "id": "gtu-af",
+      "name": "GTU course AF",
+      "shortName": "AF",
+      "description": "GTU official repository Ã‚Â· Course AF",
+      "file": "data/gtu-af.json"
+    },
+    {
+      "id": "gtu-bd",
+      "name": "GTU course BD",
+      "shortName": "BD",
+      "description": "GTU official repository Ã‚Â· Course BD",
+      "file": "data/gtu-bd.json"
+    },
+    {
+      "id": "gtu-besp",
+      "name": "GTU course BESP",
+      "shortName": "BESP",
+      "description": "GTU official repository Ã‚Â· Course BESP",
+      "file": "data/gtu-besp.json"
+    },
+    {
+      "id": "gtu-bm",
+      "name": "GTU course BM",
+      "shortName": "BM",
+      "description": "GTU official repository Ã‚Â· Course BM",
+      "file": "data/gtu-bm.json"
+    },
+    {
+      "id": "gtu-bpsp",
+      "name": "GTU course BPSP",
+      "shortName": "BPSP",
+      "description": "GTU official repository Ã‚Â· Course BPSP",
+      "file": "data/gtu-bpsp.json"
+    },
+    {
+      "id": "gtu-bsit",
+      "name": "GTU course BSIT",
+      "shortName": "BSIT",
+      "description": "GTU official repository Ã‚Â· Course BSIT",
+      "file": "data/gtu-bsit.json"
+    },
+    {
+      "id": "gtu-bt",
+      "name": "GTU course BT",
+      "shortName": "BT",
+      "description": "GTU official repository Ã‚Â· Course BT",
+      "file": "data/gtu-bt.json"
+    },
+    {
+      "id": "gtu-ci",
+      "name": "GTU course CI",
+      "shortName": "CI",
+      "description": "GTU official repository Ã‚Â· Course CI",
+      "file": "data/gtu-ci.json"
+    },
+    {
+      "id": "gtu-disp",
+      "name": "GTU course DISP",
+      "shortName": "DISP",
+      "description": "GTU official repository Ã‚Â· Course DISP",
+      "file": "data/gtu-disp.json"
+    },
+    {
+      "id": "gtu-hm",
+      "name": "GTU course HM",
+      "shortName": "HM",
+      "description": "GTU official repository Ã‚Â· Course HM",
+      "file": "data/gtu-hm.json"
+    },
+    {
+      "id": "gtu-mcsp",
+      "name": "GTU course MCSP",
+      "shortName": "MCSP",
+      "description": "GTU official repository Ã‚Â· Course MCSP",
+      "file": "data/gtu-mcsp.json"
+    },
+    {
+      "id": "gtu-md",
+      "name": "GTU course MD",
+      "shortName": "MD",
+      "description": "GTU official repository Ã‚Â· Course MD",
+      "file": "data/gtu-md.json"
+    },
+    {
+      "id": "gtu-ml",
+      "name": "Master of Philosophy",
+      "shortName": "ML",
+      "description": "GTU official repository Ã‚Â· Course ML",
+      "file": "data/gtu-ml.json"
+    },
+    {
+      "id": "gtu-ms",
+      "name": "GTU course MS",
+      "shortName": "MS",
+      "description": "GTU official repository Ã‚Â· Course MS",
+      "file": "data/gtu-ms.json"
+    },
+    {
+      "id": "gtu-ph",
+      "name": "Doctor of Philosophy",
+      "shortName": "PH",
+      "description": "GTU official repository Ã‚Â· Course PH",
+      "file": "data/gtu-ph.json"
+    },
+    {
+      "id": "gtu-pi",
+      "name": "Post Graduate Diploma",
+      "shortName": "PI",
+      "description": "GTU official repository Ã‚Â· Course PI",
+      "file": "data/gtu-pi.json"
+    },
+    {
+      "id": "gtu-pm",
+      "name": "Master of Business Administration (Pharmacy Management)",
+      "shortName": "PM",
+      "description": "GTU official repository Ã‚Â· Course PM",
+      "file": "data/gtu-pm.json"
+    },
+    {
+      "id": "gtu-te",
+      "name": "GTU course TE",
+      "shortName": "TE",
+      "description": "GTU official repository Ã‚Â· Course TE",
+      "file": "data/gtu-te.json"
+    },
+    {
+      "id": "gtu-vp",
+      "name": "GTU course VP",
+      "shortName": "VP",
+      "description": "GTU official repository Ã‚Â· Course VP",
+      "file": "data/gtu-vp.json"
     }
   ],
   "latestSession": "Summer 2026"

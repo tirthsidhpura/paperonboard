@@ -1,0 +1,101 @@
+{
+  "id": "gtu-mt",
+  "name": "GTU course MT",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "4210101",
+              "name": "Subject 4210101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "4210102",
+              "name": "Subject 4210102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "4210103",
+              "name": "Subject 4210103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "4210104",
+              "name": "Subject 4210104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "4210105",
+              "name": "Subject 4210105",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210105.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "4210108",
+              "name": "Subject 4210108",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2018",
+                  "urlVersion": "v1",
+                  "path": "S2018/MT/4210108.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MT",
+  "checkedOn": "2026-10-16"
+}

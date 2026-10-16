@@ -1,0 +1,127 @@
+{
+  "id": "gtu-pp",
+  "name": "Bachelor of Pharmacy (Practice)",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "PP101TP",
+              "name": "Subject PP101TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP101TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP102TP",
+              "name": "Subject PP102TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP102TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP201TP",
+              "name": "Subject PP201TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP201TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP202TP",
+              "name": "Subject PP202TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP202TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP203TP",
+              "name": "Subject PP203TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP203TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP204TP",
+              "name": "Subject PP204TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP204TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP205TP",
+              "name": "Subject PP205TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP205TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "PP206TP",
+              "name": "Subject PP206TP",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2019",
+                  "urlVersion": "v1",
+                  "path": "S2019/PP/PP206TP.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "PP",
+  "checkedOn": "2026-10-16"
+}

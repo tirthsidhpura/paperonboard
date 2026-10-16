@@ -1,0 +1,380 @@
+{
+  "id": "gtu-bi",
+  "name": "Bachelor of Interior Design",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "2X15103",
+              "name": "Subject 2X15103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15104",
+              "name": "Subject 2X15104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15104.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15106",
+              "name": "Subject 2X15106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15106.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15107",
+              "name": "Subject 2X15107",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15107.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15107.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X15108",
+              "name": "Subject 2X15108",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X15108.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X15108.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25102",
+              "name": "Subject 2X25102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X25102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25103",
+              "name": "Subject 2X25103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X25103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X25103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25105",
+              "name": "Subject 2X25105",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X25105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X25105.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25106",
+              "name": "Subject 2X25106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X25106.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X25106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X25108",
+              "name": "Subject 2X25108",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X25108.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X25108.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35103",
+              "name": "Subject 2X35103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X35103.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X35103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35105",
+              "name": "Subject 2X35105",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X35105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X35105.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35106",
+              "name": "Subject 2X35106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X35106.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X35106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X35108",
+              "name": "Subject 2X35108",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X35108.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45102",
+              "name": "Subject 2X45102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X45102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45103",
+              "name": "Subject 2X45103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X45103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45105",
+              "name": "Subject 2X45105",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X45105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X45105.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X45106",
+              "name": "Subject 2X45106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X45106.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X45106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X55102",
+              "name": "Subject 2X55102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X55102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X55107",
+              "name": "Subject 2X55107",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/BI/2X55107.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "2X65102",
+              "name": "Subject 2X65102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/BI/2X65102.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BI",
+  "checkedOn": "2026-10-16"
+}

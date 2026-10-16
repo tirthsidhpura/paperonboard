@@ -1,0 +1,1052 @@
+{
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "checkedOn": "2026-10-16",
+  "courses": [
+    {
+      "code": "AF",
+      "id": "gtu-af",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BA",
+      "id": "architecture",
+      "papersListed": 25,
+      "sessionsWithListings": [
+        "S2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024"
+      ]
+    },
+    {
+      "code": "BB",
+      "id": "gtu-bb",
+      "papersListed": 28,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "BC",
+      "id": "gtu-bc",
+      "papersListed": 12,
+      "sessionsWithListings": [
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "BD",
+      "id": "gtu-bd",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BE",
+      "id": "bachelors",
+      "papersListed": 1989,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "BESP",
+      "id": "gtu-besp",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BH",
+      "id": "gtu-bh",
+      "papersListed": 78,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "BI",
+      "id": "gtu-bi",
+      "papersListed": 35,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "BL",
+      "id": "gtu-bl",
+      "papersListed": 3,
+      "sessionsWithListings": [
+        "W2020"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020"
+      ]
+    },
+    {
+      "code": "BM",
+      "id": "gtu-bm",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BN",
+      "id": "gtu-bn",
+      "papersListed": 8,
+      "sessionsWithListings": [
+        "W2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024"
+      ]
+    },
+    {
+      "code": "BP",
+      "id": "pharma",
+      "papersListed": 104,
+      "sessionsWithListings": [
+        "S2026",
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "BPSP",
+      "id": "gtu-bpsp",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BS",
+      "id": "gtu-bs",
+      "papersListed": 12,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "BSIT",
+      "id": "gtu-bsit",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BT",
+      "id": "gtu-bt",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "BV",
+      "id": "gtu-bv",
+      "papersListed": 287,
+      "sessionsWithListings": [
+        "S2026",
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "CI",
+      "id": "gtu-ci",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "CS",
+      "id": "gtu-cs",
+      "papersListed": 75,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "DA",
+      "id": "gtu-da",
+      "papersListed": 50,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "DB",
+      "id": "gtu-db",
+      "papersListed": 1,
+      "sessionsWithListings": [
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "DH",
+      "id": "gtu-dh",
+      "papersListed": 6,
+      "sessionsWithListings": [
+        "W2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024"
+      ]
+    },
+    {
+      "code": "DI",
+      "id": "diploma",
+      "papersListed": 2093,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "DISP",
+      "id": "gtu-disp",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "DM",
+      "id": "gtu-dm",
+      "papersListed": 8,
+      "sessionsWithListings": [
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "DP",
+      "id": "gtu-dp",
+      "papersListed": 43,
+      "sessionsWithListings": [
+        "S2026",
+        "W2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024"
+      ]
+    },
+    {
+      "code": "DS",
+      "id": "gtu-ds",
+      "papersListed": 4,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "DV",
+      "id": "gtu-dv",
+      "papersListed": 26,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "EP",
+      "id": "gtu-ep",
+      "papersListed": 94,
+      "sessionsWithListings": [
+        "W2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024"
+      ]
+    },
+    {
+      "code": "FD",
+      "id": "gtu-fd",
+      "papersListed": 26,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "HM",
+      "id": "gtu-hm",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "IB",
+      "id": "gtu-ib",
+      "papersListed": 21,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "IC",
+      "id": "gtu-ic",
+      "papersListed": 44,
+      "sessionsWithListings": [
+        "S2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024"
+      ]
+    },
+    {
+      "code": "IM",
+      "id": "gtu-im",
+      "papersListed": 19,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "MA",
+      "id": "gtu-ma",
+      "papersListed": 189,
+      "sessionsWithListings": [
+        "S2026",
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "MB",
+      "id": "gtu-mb",
+      "papersListed": 320,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "MC",
+      "id": "gtu-mc",
+      "papersListed": 44,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "MCSP",
+      "id": "gtu-mcsp",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "MD",
+      "id": "gtu-md",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "ME",
+      "id": "gtu-me",
+      "papersListed": 629,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "MH",
+      "id": "gtu-mh",
+      "papersListed": 8,
+      "sessionsWithListings": [
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "ML",
+      "id": "gtu-ml",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "MN",
+      "id": "gtu-mn",
+      "papersListed": 48,
+      "sessionsWithListings": [
+        "S2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025"
+      ]
+    },
+    {
+      "code": "MP",
+      "id": "gtu-mp",
+      "papersListed": 41,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "MR",
+      "id": "gtu-mr",
+      "papersListed": 10,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "MS",
+      "id": "gtu-ms",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "MT",
+      "id": "gtu-mt",
+      "papersListed": 6,
+      "sessionsWithListings": [
+        "S2018"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018"
+      ]
+    },
+    {
+      "code": "MV",
+      "id": "gtu-mv",
+      "papersListed": 25,
+      "sessionsWithListings": [
+        "S2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024"
+      ]
+    },
+    {
+      "code": "PB",
+      "id": "gtu-pb",
+      "papersListed": 20,
+      "sessionsWithListings": [
+        "S2026",
+        "S2024"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024"
+      ]
+    },
+    {
+      "code": "PD",
+      "id": "gtu-pd",
+      "papersListed": 136,
+      "sessionsWithListings": [
+        "S2026",
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "PH",
+      "id": "gtu-ph",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "PI",
+      "id": "gtu-pi",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "PM",
+      "id": "gtu-pm",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "PP",
+      "id": "gtu-pp",
+      "papersListed": 8,
+      "sessionsWithListings": [
+        "S2019"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019"
+      ]
+    },
+    {
+      "code": "PR",
+      "id": "gtu-pr",
+      "papersListed": 2,
+      "sessionsWithListings": [
+        "W2025"
+      ],
+      "sessionsChecked": [
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "code": "TE",
+      "id": "gtu-te",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    },
+    {
+      "code": "VP",
+      "id": "gtu-vp",
+      "papersListed": 0,
+      "sessionsWithListings": [],
+      "sessionsChecked": [
+        "S2026",
+        "W2025",
+        "S2025",
+        "W2024",
+        "S2024",
+        "W2023",
+        "S2023",
+        "W2022",
+        "S2022",
+        "W2021",
+        "S2021",
+        "W2020",
+        "S2020",
+        "W2019",
+        "S2019",
+        "W2018",
+        "S2018",
+        "W2017"
+      ]
+    }
+  ],
+  "limitations": "GTU sometimes returns server errors for session/course searches. Zero retrieved listings does not establish that a course has no papers. Subject names, branches and semesters were not inferred from codes. Existing curated catalogs are preserved."
+}

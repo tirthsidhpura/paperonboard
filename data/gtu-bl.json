@@ -1,0 +1,62 @@
+{
+  "id": "gtu-bl",
+  "name": "Bachelor of Planning",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "1075502",
+              "name": "Subject 1075502",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BL/1075502.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1075507",
+              "name": "Subject 1075507",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BL/1075507.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1075511",
+              "name": "Subject 1075511",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2020",
+                  "urlVersion": "v1",
+                  "path": "W2020/BL/1075511.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "BL",
+  "checkedOn": "2026-10-16"
+}

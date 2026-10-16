@@ -1,0 +1,75 @@
+{
+  "id": "gtu-ds",
+  "name": "Post Graduate Diploma in Data Science",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "DS01080011",
+              "name": "Subject DS01080011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "DS01080021",
+              "name": "Subject DS01080021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080021.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "DS01080031",
+              "name": "Subject DS01080031",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080031.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "DS01080041",
+              "name": "Subject DS01080041",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DS/DS01080041.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DS",
+  "checkedOn": "2026-10-16"
+}

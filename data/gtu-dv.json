@@ -1,0 +1,361 @@
+{
+  "id": "gtu-dv",
+  "name": "Diploma in Vocation",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "1210101",
+              "name": "Subject 1210101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1210101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1210102",
+              "name": "Subject 1210102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1210102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1210103",
+              "name": "Subject 1210103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1210103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1210104",
+              "name": "Subject 1210104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1210104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1220101",
+              "name": "Subject 1220101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1220101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1220102",
+              "name": "Subject 1220102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1220102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1220103",
+              "name": "Subject 1220103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1220103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1220104",
+              "name": "Subject 1220104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1220104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1230102",
+              "name": "Subject 1230102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1230102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1230104",
+              "name": "Subject 1230104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1230104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1230201",
+              "name": "Subject 1230201",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1230201.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1230202",
+              "name": "Subject 1230202",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1230202.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1240201",
+              "name": "Subject 1240201",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1240201.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1240202",
+              "name": "Subject 1240202",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1240202.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1240203",
+              "name": "Subject 1240203",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1240203.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1240204",
+              "name": "Subject 1240204",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1240204.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1250201",
+              "name": "Subject 1250201",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1250201.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1250202",
+              "name": "Subject 1250202",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1250202.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1250203",
+              "name": "Subject 1250203",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1250203.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1250204",
+              "name": "Subject 1250204",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1250204.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1260102",
+              "name": "Subject 1260102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1260103",
+              "name": "Subject 1260103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1260201",
+              "name": "Subject 1260201",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260201.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1260202",
+              "name": "Subject 1260202",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260202.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1260203",
+              "name": "Subject 1260203",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260203.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1260204",
+              "name": "Subject 1260204",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/DV/1260204.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DV",
+  "checkedOn": "2026-10-16"
+}

@@ -1,0 +1,647 @@
+{
+  "id": "gtu-mn",
+  "name": "Master of Planning",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "114AA01",
+              "name": "Subject 114AA01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AA01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AB01",
+              "name": "Subject 114AB01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AB01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AC01",
+              "name": "Subject 114AC01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AC01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AG01",
+              "name": "Subject 114AG01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AG01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AH01",
+              "name": "Subject 114AH01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AH01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AI01",
+              "name": "Subject 114AI01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AI01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AL01",
+              "name": "Subject 114AL01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AL01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AN01",
+              "name": "Subject 114AN01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AN01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AO01",
+              "name": "Subject 114AO01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AO01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AS01",
+              "name": "Subject 114AS01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AS01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AT01",
+              "name": "Subject 114AT01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AT01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "114AV01",
+              "name": "Subject 114AV01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/114AV01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AA01",
+              "name": "Subject 115AA01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AA01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AB02",
+              "name": "Subject 115AB02",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AB02.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AC02",
+              "name": "Subject 115AC02",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AC02.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AD01",
+              "name": "Subject 115AD01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AD01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AF01",
+              "name": "Subject 115AF01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AF01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AG01",
+              "name": "Subject 115AG01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AG01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AH01",
+              "name": "Subject 115AH01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AH01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AI01",
+              "name": "Subject 115AI01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AI01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AL01",
+              "name": "Subject 115AL01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AL01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AN01",
+              "name": "Subject 115AN01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AN01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AN02",
+              "name": "Subject 115AN02",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AN02.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AO02",
+              "name": "Subject 115AO02",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AO02.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "115AS01",
+              "name": "Subject 115AS01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/115AS01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "117AG01",
+              "name": "Subject 117AG01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AG01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "117AH01",
+              "name": "Subject 117AH01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AH01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "117AJ01",
+              "name": "Subject 117AJ01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AJ01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "117AL01",
+              "name": "Subject 117AL01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/117AL01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AA01",
+              "name": "Subject N114AA01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AA01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AB01",
+              "name": "Subject N114AB01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AB01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AC01",
+              "name": "Subject N114AC01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AC01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AF01",
+              "name": "Subject N114AF01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AF01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AG01",
+              "name": "Subject N114AG01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AG01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AH01",
+              "name": "Subject N114AH01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AH01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AI01",
+              "name": "Subject N114AI01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AI01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AJ01",
+              "name": "Subject N114AJ01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AJ01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AK01",
+              "name": "Subject N114AK01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AK01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AN01",
+              "name": "Subject N114AN01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AN01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AO01",
+              "name": "Subject N114AO01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AO01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AP01",
+              "name": "Subject N114AP01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AP01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AR01",
+              "name": "Subject N114AR01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AR01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AS01",
+              "name": "Subject N114AS01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AS01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AT01",
+              "name": "Subject N114AT01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AT01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AU01",
+              "name": "Subject N114AU01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AU01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AU02",
+              "name": "Subject N114AU02",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AU02.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114AV01",
+              "name": "Subject N114AV01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114AV01.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "N114Al01",
+              "name": "Subject N114Al01",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/MN/N114Al01.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "MN",
+  "checkedOn": "2026-10-16"
+}

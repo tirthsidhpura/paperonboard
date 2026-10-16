@@ -1,0 +1,36 @@
+{
+  "id": "gtu-db",
+  "name": "Post Graduate Diploma in Bioinformatics",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "1310105",
+              "name": "Subject 1310105",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2025",
+                  "urlVersion": "v1",
+                  "path": "S2025/DB/1310105.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "DB",
+  "checkedOn": "2026-10-16"
+}

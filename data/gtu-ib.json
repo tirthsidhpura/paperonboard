@@ -1,0 +1,268 @@
+{
+  "id": "gtu-ib",
+  "name": "Master of Science (Industrial Biotechnology)",
+  "examTemplates": [],
+  "branches": [
+    {
+      "id": "official-papers",
+      "name": "Papers by official subject code",
+      "semesters": [
+        {
+          "id": "unclassified",
+          "name": "Subjects by official code",
+          "subjects": [
+            {
+              "code": "1310105",
+              "name": "Subject 1310105",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/1310105.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/1310105.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1330101",
+              "name": "Subject 1330101",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/1330101.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1330102",
+              "name": "Subject 1330102",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/1330102.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1330103",
+              "name": "Subject 1330103",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/1330103.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1330104",
+              "name": "Subject 1330104",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/1330104.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "1330106",
+              "name": "Subject 1330106",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/1330106.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB01001011",
+              "name": "Subject IB01001011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB01001011.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/IB01001011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB01001021",
+              "name": "Subject IB01001021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/IB01001021.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB01001031",
+              "name": "Subject IB01001031",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/IB01001031.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB01001041",
+              "name": "Subject IB01001041",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB01001041.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/IB01001041.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB01001051",
+              "name": "Subject IB01001051",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB01001051.pdf",
+                  "type": "paper"
+                },
+                {
+                  "label": "Winter 2025",
+                  "urlVersion": "v1",
+                  "path": "W2025/IB/IB01001051.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB02001011",
+              "name": "Subject IB02001011",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB02001011.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB02001021",
+              "name": "Subject IB02001021",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB02001021.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB02001031",
+              "name": "Subject IB02001031",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB02001031.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB02001041",
+              "name": "Subject IB02001041",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB02001041.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB02001051",
+              "name": "Subject IB02001051",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB02001051.pdf",
+                  "type": "paper"
+                }
+              ]
+            },
+            {
+              "code": "IB02001061",
+              "name": "Subject IB02001061",
+              "useExamTemplates": false,
+              "papers": [
+                {
+                  "label": "Summer 2026",
+                  "urlVersion": "v1",
+                  "path": "S2026/IB/IB02001061.pdf",
+                  "type": "paper"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imported": true,
+  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "gtuCourseCode": "IB",
+  "checkedOn": "2026-10-16"
+}
