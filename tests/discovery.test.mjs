@@ -9,6 +9,19 @@ const read = (file) => fs.readFileSync(path.join(root, 'dist', file), 'utf8');
 const site = JSON.parse(read('data/site.json'));
 const source = JSON.parse(read('data/gtu-source.json'));
 
+test('subject overview and labelled top placement precede accessible paper navigation', () => {
+  const html = read('subject-bachelors--3161613.html');
+  assert.ok(html.includes('<section id="subject-stage" class="subject-stage">'));
+  assert.ok(html.includes('<aside id="subject-ad" class="subject-top-ad" aria-label="Advertisements">'));
+  assert.match(html, /3161613/);
+  assert.match(html, /id="skip-to-papers" class="skip-link" href="#subject-resources"/);
+  assert.match(html, /href="#subject-resources">Browse papers/);
+  assert.ok(html.indexOf('id="subject-ad"') < html.indexOf('id="subject-resources"'));
+  assert.match(read('index.html'), /id="subject-stage" class="subject-stage" hidden/);
+  assert.match(read('catalog-bachelors.html'), /id="subject-stage" class="subject-stage" hidden/);
+  assert.match(read('catalog.css'), /prefers-reduced-motion: reduce/);
+});
+
 test('homepage summary counts match the full catalogs without embedding their resources', () => {
   let subjects = 0;
   for (const stream of site.streams) {

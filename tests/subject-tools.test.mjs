@@ -9,6 +9,7 @@ const script = fs.readFileSync(new URL('../index.js', import.meta.url), 'utf8')
 class Node {
   constructor(tag) { this.tagName = tag; this.children = []; this.dataset = {}; this.style = {}; this.attributes = {}; this.listeners = new Map(); }
   append(...children) { this.children.push(...children); }
+  replaceChildren(...children) { this.children = children; }
   setAttribute(key, value) { this.attributes[key] = value; }
   addEventListener(event, handler) { this.listeners.set(event, handler); }
   focus() { this.focused = true; }
@@ -115,4 +116,51 @@ test('shared URLs restore session/year filters, reject invalid values, and retai
   vm.runInContext('restoreURL()', ui.runtime);
   assert.equal(vm.runInContext('state.session', ui.runtime), '');
   assert.equal(vm.runInContext('state.year', ui.runtime), '');
+});
+
+test('subject top ad remains mounted and is requested once across subject views', () => {
+  const ui = page();
+  const nodes = new Map(['subject-stage', 'subject-overview', 'subject-ad', 'subject-ad-unit', 'skip-to-papers'].map((id) => [id, new Node('div')]));
+  ui.runtime.document.getElementById = (id) => nodes.get(id);
+  ui.runtime.location.hostname = 'paperonboard.in';
+  ui.runtime.window = { adsbygoogle: [] };
+  vm.runInContext("config.ads = { displaySlot: '123456' }; updateSubjectStage(entries[0])", ui.runtime);
+  const unit = nodes.get('subject-ad-unit');
+  assert.equal(unit.children.length, 1);
+  assert.equal(ui.runtime.window.adsbygoogle.length, 1);
+  assert.equal(nodes.get('subject-ad').hidden, false);
+  assert.equal(nodes.get('skip-to-papers').href, '#subject-resources');
+  vm.runInContext('updateSubjectStage(null); updateSubjectStage(entries[1]); updateSubjectStage(entries[0])', ui.runtime);
+  assert.equal(unit.children.length, 1);
+  assert.equal(ui.runtime.window.adsbygoogle.length, 1);
+  vm.runInContext("config.ads.subjectSlot = ''; updateSubjectStage(entries[0])", ui.runtime);
+  assert.equal(nodes.get('subject-ad').hidden, true);
+  assert.equal(ui.runtime.window.adsbygoogle.length, 1);
+});
+
+test('local previews and subjects without question papers never request a top ad', () => {
+  const ui = page();
+  const nodes = new Map(['subject-stage', 'subject-overview', 'subject-ad', 'subject-ad-unit'].map((id) => [id, new Node('div')]));
+  ui.runtime.document.getElementById = (id) => nodes.get(id);
+  ui.runtime.window = { adsbygoogle: [] };
+  ui.runtime.location.hostname = 'localhost';
+  vm.runInContext("config.ads = { displaySlot: '123456' }; updateSubjectStage(entries[0])", ui.runtime);
+  assert.equal(ui.runtime.window.adsbygoogle.length, 0);
+  ui.runtime.location.hostname = 'paperonboard.in';
+  vm.runInContext('entries[0].resources = []; entries[1].resources = []; updateSubjectStage(entries[0])', ui.runtime);
+  assert.equal(nodes.get('subject-ad').hidden, true);
+  assert.equal(ui.runtime.window.adsbygoogle.length, 0);
+});
+
+test('browse-papers jump clears the fixed navigation and focuses the download controls', () => {
+  const ui = page();
+  const target = new Node('section');
+  target.id = 'subject-resources';
+  target.getBoundingClientRect = () => ({ top: 600 });
+  ui.runtime.document.getElementById = () => target;
+  let scrolled;
+  ui.runtime.window = { scrollY: 100, matchMedia: () => ({ matches: true }), scrollTo: (_x, y) => { scrolled = y; } };
+  assert.equal(vm.runInContext("scrollToSection('#subject-resources', true)", ui.runtime), true);
+  assert.equal(scrolled, 620);
+  assert.equal(target.focused, true);
 });
