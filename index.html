@@ -17,7 +17,7 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2553242957639447" crossorigin="anonymous"></script>
 </head>
 <body>
-  <a class="skip-link" href="#library">Skip to papers</a>
+  <a id="skip-to-papers" class="skip-link" href="#library">Skip to papers</a>
   <nav aria-label="Main navigation">
     <button id="open-nav" class="hamburger" type="button" aria-label="Open menu" aria-controls="nav-list" aria-expanded="false">&#9776;</button>
     <div class="logo"><h3><a href="index.html" data-route>PAPERONBO<span style="color:#0059ff">A<sup style="position:relative;right:10px">+</sup></span><span style="position:relative;right:10px">RD</span></a></h3></div>
@@ -44,6 +44,18 @@
   <main id="library" tabindex="-1">
     <div id="load-error" role="alert" hidden></div>
     <p id="load-status" class="catalog-message" role="status" hidden>Loading question papers…</p>
+    <section id="subject-stage" class="subject-stage" hidden>
+      <div id="subject-overview"></div>
+      <aside id="subject-ad" class="subject-top-ad" aria-label="Advertisements" hidden>
+        <p class="site-ad-label">Advertisements</p>
+        <div id="subject-ad-unit"></div>
+      </aside>
+      <div class="papers-wayfinding">
+        <p>Your question papers are below</p>
+        <a class="papers-scroll-link" href="#subject-resources">Browse papers <span aria-hidden="true">↓</span></a>
+        <p class="papers-wayfinding-note">Filter by exam session and year, then open a paper.</p>
+      </div>
+    </section>
     <div id="content"><p class="catalog-message" role="status">Loading question papers…</p></div>
   </main>
   <section id="oldpaper">

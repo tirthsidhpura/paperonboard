@@ -30,7 +30,7 @@ class Node {
 export function prerender(root, destination, site) {
   const origin = 'https://paperonboard.in/';
   const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
-  const nodes = new Map(['content', 'announcement', 'search', 'about', 'oldpaper'].map((id) => [id, new Node('div')]));
+  const nodes = new Map(['content', 'announcement', 'search', 'about', 'oldpaper', 'subject-stage', 'subject-overview', 'subject-ad', 'subject-ad-unit'].map((id) => [id, new Node('div')]));
   let extended = false;
   const document = {
     baseURI: origin,
@@ -80,6 +80,12 @@ export function prerender(root, destination, site) {
       .replace(/<meta name="description"[^>]+>/, `<meta id="page-description" name="description" content="${escape(route.description)}">`)
       .replace(/<div id="content">.*?<\/div>\s*<\/main>/s, `<div id="content">${nodes.get('content').children.map((n) => n.toHTML()).join('')}</div>\n  </main>`)
       .replace('<body>', `<body${extended ? ' class="extended-page"' : ''}>`);
+    html = html.replace('<div id="subject-overview"></div>', `<div id="subject-overview">${nodes.get('subject-overview').children.map((node) => node.toHTML()).join('')}</div>`);
+    if (!nodes.get('subject-stage').hidden) {
+      html = html.replace('<section id="subject-stage" class="subject-stage" hidden>', '<section id="subject-stage" class="subject-stage">')
+        .replace('id="skip-to-papers" class="skip-link" href="#library"', 'id="skip-to-papers" class="skip-link" href="#subject-resources"');
+      if (!nodes.get('subject-ad').hidden) html = html.replace('<aside id="subject-ad" class="subject-top-ad" aria-label="Advertisements" hidden>', '<aside id="subject-ad" class="subject-top-ad" aria-label="Advertisements">');
+    }
     for (const id of ['oldpaper', 'announcement']) if (nodes.get(id).hidden) html = html.replace(`<section id="${id}">`, `<section id="${id}" hidden>`);
     if (nodes.get('about').hidden) html = html.replace('<section class="about">', '<section class="about" hidden>');
     const url = origin + (route.file === 'index.html' ? '' : route.file);

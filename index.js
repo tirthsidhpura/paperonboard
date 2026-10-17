@@ -25,10 +25,11 @@ function scrollToSection(hash, animate = true, updateHistory = false) {
   if (!hash || !target) return false;
   cancelScrollAnimation();
   const start = window.scrollY;
-  const end = target.getBoundingClientRect().top + start;
+  const end = Math.max(0, target.getBoundingClientRect().top + start - (target.id === 'subject-resources' ? 80 : 0));
   const finish = () => {
     scrollFrame = null;
     if (updateHistory && location.hash !== hash) history.pushState(null, '', hash);
+    if (target.id === 'subject-resources') target.focus({ preventScroll: true });
   };
   if (!animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     window.scrollTo(0, end);
@@ -382,7 +383,6 @@ function renderBranch(catalog, branch, content) {
   }
 }
 function renderSubject(entry, content) {
-  content.append(banner(`GTU ${entry.subject.name} (${entry.subject.code}) Question Papers`, 'headerimg1'));
   const related = entries.filter((item) => item.catalog.id === entry.catalog.id && item.subject.code === entry.subject.code);
   content.append(element('p', 'catalog-message', `${entry.catalog.name} · ${entry.semester.name}. Choose an available examination session below to open the linked question paper or study resource. PaperOnBoard is independent of Gujarat Technological University.`));
   const contexts = new Map(related.map((item) => [`${item.branch.id}/${item.semester.id}`, item]));
@@ -401,6 +401,8 @@ function renderSubject(entry, content) {
   select.addEventListener('change', () => applyFilters({ resource: select.value }));
   content.append(controls([routeLink('← Back to subjects', { stream: entry.catalog.id, branch: entry.branch.id }), select]));
   const toolbar = element('section', 'subject-tools');
+  toolbar.id = 'subject-resources';
+  toolbar.setAttribute('tabindex', '-1');
   toolbar.setAttribute('aria-label', 'Filter and share subject papers');
   const filters = element('div', 'paper-filters');
   const sessions = element('div', 'session-filters');
@@ -529,12 +531,35 @@ function renderSubject(entry, content) {
   }
   refreshFilters();
 }
+function updateSubjectStage(entry) {
+  const stage = $('subject-stage');
+  if (!stage) return;
+  stage.hidden = !entry || Boolean(state.q);
+  const skip = $('skip-to-papers');
+  if (skip) skip.href = stage.hidden ? '#library' : '#subject-resources';
+  const overview = $('subject-overview');
+  overview.replaceChildren();
+  if (stage.hidden) return;
+  const related = entries.filter((item) => item.catalog.id === entry.catalog.id && item.subject.code === entry.subject.code);
+  const resources = new Map(related.flatMap((item) => item.resources.map((resource) => [resource.url, resource])));
+  const years = [...new Set([...resources.values()].map((resource) => examDetails(resource).year).filter(Boolean))].sort();
+  const intro = element('header', 'subject-overview');
+  intro.append(element('p', 'subject-eyebrow', 'GTU QUESTION PAPER LIBRARY'), element('h1', '', `GTU ${entry.subject.name} (${entry.subject.code}) Question Papers`), element('p', 'subject-context', `${entry.catalog.name} · ${entry.branch.name} · ${entry.semester.name}`));
+  const facts = element('div', 'subject-facts');
+  for (const fact of [`${resources.size} recorded resources`, years.length ? `${years[0]}${years.length > 1 ? '–' + years.at(-1) : ''} exam years` : 'Check available sessions below', 'Free access']) facts.append(element('span', '', fact));
+  intro.append(facts);
+  overview.append(intro);
+  const slot = config.ads?.subjectSlot ?? config.ads?.displaySlot;
+  $('subject-ad').hidden = !/^\d+$/.test(slot || '') || ![...resources.values()].some((resource) => (resource.type || 'paper') === 'paper');
+  if (!$('subject-ad').hidden) initializeAd('subject-ad', 'subject-ad-unit', slot);
+}
 function render() {
   const content = $('content');
   content.replaceChildren();
   const catalog = catalogs.find((c) => c.id === state.stream);
   const branch = catalog?.branches.find((b) => b.id === state.branch);
   const entry = entries.find((e) => e.catalog.id === state.stream && e.branch.id === state.branch && e.semester.id === state.semester && e.subject.code === state.subject);
+  updateSubjectStage(entry);
   const isContributors = !state.q && !catalog && state.view === 'contributors';
   const isHome = !state.q && !catalog && !['courses', 'contributors'].includes(state.view);
   document.body.classList.toggle('extended-page', isHome || isContributors);
@@ -702,15 +727,18 @@ function initializeOpenSourceNotice() {
 }
 function initializeDisplayAd() {
   const slot = config.ads?.displaySlot;
+  initializeAd('site-ad', 'site-ad-unit', slot);
+}
+function initializeAd(areaId, unitId, slot) {
   // Only request real ads on the live site, once per document, never per route.
   if (!/^(www\.)?paperonboard\.in$/.test(location.hostname) || !/^\d+$/.test(slot || '')) return;
-  const container = $('site-ad-unit');
+  const container = $(unitId);
   if (container.children.length) return;
   const ad = element('ins', 'adsbygoogle');
   ad.setAttribute('data-ad-client', 'ca-pub-2553242957639447');
   ad.setAttribute('data-ad-slot', slot);
   container.append(ad);
-  $('site-ad').hidden = false;
+  $(areaId).hidden = false;
   try { (window.adsbygoogle = window.adsbygoogle || []).push({}); }
   catch (error) { console.warn('Display ad unavailable:', error); }
 }
