@@ -14,6 +14,8 @@ import re
 import socket
 import ssl
 import sys
+import tempfile
+import time
 
 ROOT = Path(__file__).resolve().parents[1]
 JSON_STATE = 'deployment-json-state.json'
@@ -26,6 +28,121 @@ def stage(message):
     global CURRENT_STAGE
     CURRENT_STAGE = message
     print(message, flush=True)
+
+
+class ReliableFTP:
+    """Reconnect idempotent operations, and restart writes before final rename."""
+    attempts = 4
+    session_files = 100
+
+    def __init__(self, host, username, password, remote, context):
+        self.host, self.username, self.password = host, username, password
+        self.directory, self.context = remote, context
+        self.connection = None
+        self.completed = 0
+
+    def _discard(self):
+        if self.connection is not None:
+            try:
+                self.connection.close()
+            except OSError:
+                pass
+        self.connection = None
+
+    def _connect(self):
+        self.connection = ftplib.FTP_TLS(context=self.context, timeout=60)
+        stage('Connecting to FTP host using TLS')
+        connect_ftp(self.connection, self.host)
+        stage('Authenticating FTP account')
+        self.connection.login(self.username, self.password)
+        self.connection.prot_p()
+        self.connection.set_pasv(True)
+        stage('Checking confirmed document root / restoring transfer directory')
+        self.connection.cwd(self.directory)
+        self.connection.voidcmd('TYPE I')
+        self.completed = 0
+
+    def _run(self, operation):
+        global CURRENT_STAGE
+        operation_stage = CURRENT_STAGE
+        for attempt in range(self.attempts):
+            try:
+                if self.connection is None:
+                    self._connect()
+                CURRENT_STAGE = operation_stage
+                return operation(self.connection)
+            except ssl.SSLCertVerificationError:
+                self._discard()
+                raise
+            except (EOFError, OSError, ftplib.error_temp) as error:
+                self._discard()
+                CURRENT_STAGE = operation_stage
+                if attempt + 1 == self.attempts:
+                    raise
+                print(f'FTP connection interrupted ({type(error).__name__}); reconnecting and retrying {attempt + 1}/{self.attempts - 1}.', flush=True)
+                time.sleep(min(2 ** attempt, 4))
+
+    def __enter__(self):
+        try:
+            self._run(lambda ftp: None)
+        except Exception:
+            self._discard()
+            raise
+        return self
+
+    def __exit__(self, *_args):
+        self._discard()
+
+    def cwd(self, directory):
+        target = str(PurePosixPath(self.directory) / directory) if not directory.startswith('/') else directory
+        self._run(lambda ftp: ftp.cwd(target))
+        self.directory = target
+
+    def mkd(self, directory):
+        return self._run(lambda ftp: ftp.mkd(directory))
+
+    def voidcmd(self, command):
+        return self._run(lambda ftp: ftp.voidcmd(command))
+
+    def size(self, filename):
+        return self._run(lambda ftp: ftp.size(filename))
+
+    def retrbinary(self, command, receive):
+        # Retry into a fresh buffer so partial reads never corrupt a hash/state.
+        with tempfile.SpooledTemporaryFile(max_size=1024 * 1024) as buffer:
+            def retrieve(ftp):
+                buffer.seek(0)
+                buffer.truncate()
+                ftp.retrbinary(command, buffer.write)
+            self._run(retrieve)
+            buffer.seek(0)
+            while chunk := buffer.read(64 * 1024):
+                receive(chunk)
+
+    def upload_atomic(self, filename, source):
+        start = source.tell()
+        def upload(ftp):
+            source.seek(start)
+            ftp.storbinary('STOR ' + filename + '.uploading', source)
+            ftp.rename(filename + '.uploading', filename)
+        # If the rename succeeded but its reply was lost, upload and rename the
+        # entire file again instead of retrying a now-missing temporary filename.
+        self._run(upload)
+
+    def file_completed(self):
+        self.completed += 1
+        if self.completed >= self.session_files:
+            print('Renewing encrypted FTP connection for the next batch.', flush=True)
+            self._discard()
+            self._run(lambda ftp: None)
+
+
+def upload_atomic(ftp, filename, source):
+    if isinstance(ftp, ReliableFTP):
+        ftp.upload_atomic(filename, source)
+    else:
+        ftp.storbinary('STOR ' + filename + '.uploading', source)
+        ftp.rename(filename + '.uploading', filename)
 
 
 def checked_host(value):
@@ -108,8 +225,7 @@ def read_json_state(ftp, filename=JSON_STATE):
 def write_state(ftp, remote, filename, records):
     ftp.cwd(remote)
     state = json.dumps({'version': 1, 'files': records}, sort_keys=True).encode('utf-8')
-    ftp.storbinary('STOR ' + filename + '.uploading', io.BytesIO(state))
-    ftp.rename(filename + '.uploading', filename)
+    upload_atomic(ftp, filename, io.BytesIO(state))
 
 
 def upload_files(ftp, directory, files, remote, verbose=False):
@@ -160,10 +276,8 @@ def upload_files(ftp, directory, files, remote, verbose=False):
             if verbose:
                 print('  Unchanged: skipped', flush=True)
         else:
-            temporary = file.name + '.uploading'
             with file.open('rb') as source:
-                ftp.storbinary('STOR ' + temporary, source)
-            ftp.rename(temporary, file.name)
+                upload_atomic(ftp, file.name, source)
             uploaded += 1
             if verbose:
                 print('  Uploaded and renamed successfully', flush=True)
@@ -178,6 +292,8 @@ def upload_files(ftp, directory, files, remote, verbose=False):
             since_checkpoint = 0
         if position % 25 == 0 or position == len(files):
             print(f'Progress {position}/{len(files)}: {uploaded} uploaded, {skipped} unchanged; {relative.as_posix()}', flush=True)
+        if isinstance(ftp, ReliableFTP):
+            ftp.file_completed()
     if current != previous_files:
         stage('Saving final file checkpoint')
         write_state(ftp, remote, FILE_STATE, current)
@@ -198,14 +314,7 @@ def deploy(check_only=False, verbose=False):
     files = [] if check_only else deployment_files(directory)
     context = ssl.create_default_context()
     context.minimum_version = ssl.TLSVersion.TLSv1_2
-    with ftplib.FTP_TLS(context=context, timeout=60) as ftp:
-        stage('Connecting to FTP host using TLS')
-        connect_ftp(ftp, host)
-        stage('Authenticating FTP account')
-        ftp.login(os.environ['FTP_USERNAME'], os.environ['FTP_PASSWORD'])
-        stage('Enabling encrypted data transfers')
-        ftp.prot_p()
-        ftp.set_pasv(True)
+    with ReliableFTP(host, os.environ['FTP_USERNAME'], os.environ['FTP_PASSWORD'], remote, context) as ftp:
         # Require the owner-confirmed document root to already exist.
         stage('Checking confirmed document root')
         ftp.cwd(remote)

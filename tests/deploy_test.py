@@ -6,6 +6,8 @@ import socket
 import ftplib
 import json
 import tempfile
+import io
+import ssl
 
 
 class MemoryFTP:
@@ -55,12 +57,86 @@ class DeploymentTests(unittest.TestCase):
     def test_check_only_validates_login_and_root_without_build_or_upload(self):
         environment = {'FTP_HOST': 'ftpupload.net', 'FTP_USERNAME': 'test-user', 'FTP_PASSWORD': 'test-only-value', 'FTP_DIRECTORY': '/htdocs'}
         with patch.dict(deployment.os.environ, environment), patch.object(deployment.ftplib, 'FTP_TLS') as connection, patch.object(deployment, 'deployment_files') as files:
-            ftp = connection.return_value.__enter__.return_value
+            ftp = connection.return_value
             deployment.deploy(check_only=True)
             ftp.login.assert_called_once_with('test-user', 'test-only-value')
             ftp.cwd.assert_called_with('/htdocs')
             ftp.storbinary.assert_not_called()
             files.assert_not_called()
+
+    def test_reconnect_restarts_partial_upload_in_current_directory(self):
+        first, second = Mock(), Mock()
+        first.storbinary.side_effect = lambda command, source: (source.read(3), self.raise_eof())[1]
+        uploaded = []
+        second.storbinary.side_effect = lambda command, source: uploaded.append(source.read())
+        with patch.object(deployment.ftplib, 'FTP_TLS', side_effect=[first, second]), patch.object(deployment.time, 'sleep'):
+            with deployment.ReliableFTP('example.test', 'user', 'test-value', '/htdocs', None) as ftp:
+                ftp.cwd('data')
+                ftp.upload_atomic('catalog.json', io.BytesIO(b'complete content'))
+        second.cwd.assert_called_with('/htdocs/data')
+        self.assertEqual(uploaded, [b'complete content'])
+        second.rename.assert_called_once_with('catalog.json.uploading', 'catalog.json')
+
+    @staticmethod
+    def raise_eof():
+        raise EOFError()
+
+    def test_lost_rename_reply_reuploads_complete_file(self):
+        first, second = Mock(), Mock()
+        first.rename.side_effect = EOFError()
+        uploaded = []
+        for connection in (first, second):
+            connection.storbinary.side_effect = lambda command, source: uploaded.append(source.read())
+        with patch.object(deployment.ftplib, 'FTP_TLS', side_effect=[first, second]), patch.object(deployment.time, 'sleep'):
+            with deployment.ReliableFTP('example.test', 'user', 'test-value', '/htdocs', None) as ftp:
+                ftp.upload_atomic('page.html', io.BytesIO(b'complete page'))
+        self.assertEqual(uploaded, [b'complete page', b'complete page'])
+        second.rename.assert_called_once()
+
+    def test_partial_download_retry_does_not_duplicate_received_bytes(self):
+        first, second = Mock(), Mock()
+        def partial(command, receive):
+            receive(b'part')
+            raise EOFError()
+        first.retrbinary.side_effect = partial
+        second.retrbinary.side_effect = lambda command, receive: receive(b'complete content')
+        received = bytearray()
+        with patch.object(deployment.ftplib, 'FTP_TLS', side_effect=[first, second]), patch.object(deployment.time, 'sleep'):
+            with deployment.ReliableFTP('example.test', 'user', 'test-value', '/htdocs', None) as ftp:
+                ftp.retrbinary('RETR checkpoint.json', received.extend)
+        self.assertEqual(received, b'complete content')
+
+    def test_repeated_disconnects_stop_after_four_attempts(self):
+        connection = Mock()
+        connection.size.side_effect = EOFError()
+        with patch.object(deployment.ftplib, 'FTP_TLS', return_value=connection) as factory, patch.object(deployment.time, 'sleep') as sleep:
+            with deployment.ReliableFTP('example.test', 'user', 'test-value', '/htdocs', None) as ftp:
+                with self.assertRaises(EOFError):
+                    ftp.size('page.html')
+        self.assertEqual(factory.call_count, 4)
+        self.assertEqual(sleep.call_count, 3)
+
+    def test_invalid_login_and_certificate_fail_without_retry(self):
+        for error in (ftplib.error_perm('530 Login failed'), ssl.SSLCertVerificationError('Invalid certificate')):
+            connection = Mock()
+            connection.login.side_effect = error
+            with patch.object(deployment.ftplib, 'FTP_TLS', return_value=connection) as factory, patch.object(deployment.time, 'sleep') as sleep:
+                with self.assertRaises(type(error)):
+                    with deployment.ReliableFTP('example.test', 'user', 'test-value', '/htdocs', None):
+                        pass
+            factory.assert_called_once()
+            sleep.assert_not_called()
+
+    def test_long_sessions_are_renewed_between_files(self):
+        first, second = Mock(), Mock()
+        with patch.object(deployment.ftplib, 'FTP_TLS', side_effect=[first, second]):
+            with deployment.ReliableFTP('example.test', 'user', 'test-value', '/htdocs', None) as ftp:
+                ftp.session_files = 2
+                ftp.cwd('data')
+                ftp.file_completed()
+                ftp.file_completed()
+        first.close.assert_called_once()
+        second.cwd.assert_called_with('/htdocs/data')
 
     def test_ftp_hostname_is_normalized_without_modifying_passwords(self):
         self.assertEqual(deployment.checked_host(' ftpupload.net\r\n'), 'ftpupload.net')

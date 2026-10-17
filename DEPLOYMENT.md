@@ -62,6 +62,8 @@ Files are compared by content rather than Git timestamps, so same-size local edi
 
 The state assumes hosted files are managed by this deployer. If you manually edit hosted files without changing their size, remove both `deployment-file-state.json` and `deployment-json-state.json` through your hosting file manager before the next deployment to force fresh deployment/comparison. Network and authentication failures stop deployment rather than silently treating comparison errors as unchanged files. An interrupted site upload can leave a mix of versions until the next successful run; per-file staging and checkpoints do not make whole-site deployment atomic.
 
+Transient connection drops (including `EOFError`), timeouts and temporary FTP errors reconnect and retry the interrupted operation up to three times. The connection restores its transfer directory; interrupted writes restart from the beginning and rename only after a complete transfer. Checkpoint downloads discard partial bytes before retrying. Connections are also renewed every 100 processed files. Certificate and login failures stop immediately. If all retries fail, rerun the launcher to resume from the saved checkpoints.
+
 If contributor retrieval, validation, tests, or upload fails, the workflow fails visibly. Contributor retrieval failures do not publish an empty replacement list. Missing FTP secrets fail deployment; deployment stays skipped until `DEPLOY_ENABLED` is set.
 
 The workflow has not been connected to a live repository or FTP account yet. The first live upload must confirm that the selected InfinityFree directory, credentials, TLS, and rename operations work for your account.
