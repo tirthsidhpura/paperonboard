@@ -33,6 +33,18 @@ function Run-Step([string]$Label, [string]$Program, [string[]]$Arguments) {
     if ($code -ne 0) { throw ('Step failed with exit code ' + $code) }
 }
 
+function Save-VerifiedSettings($Settings) {
+    $temporary = $credentialFile + '.new'
+    $Settings | Export-Clixml -LiteralPath $temporary
+    $acl = Get-Acl -LiteralPath $temporary
+    $acl.SetAccessRuleProtection($true, $false)
+    $sid = [System.Security.Principal.WindowsIdentity]::GetCurrent().User
+    $acl.SetAccessRule([System.Security.AccessControl.FileSystemAccessRule]::new($sid, 'FullControl', 'Allow'))
+    Set-Acl -LiteralPath $temporary -AclObject $acl
+    Move-Item -LiteralPath $temporary -Destination $credentialFile -Force
+    Status 'Verified FTP settings encrypted for this Windows account and saved under ignored .local/.'
+}
+
 Push-Location $root
 try {
     if ($env:OS -ne 'Windows_NT') { throw 'This encrypted launcher requires Windows.' }
@@ -41,8 +53,10 @@ try {
     $git = Find-Program 'git.exe' @('C:\Program Files\Git\cmd\git.exe', (Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe'))
     $env:GIT_BIN = $git
     $saved = if (Test-Path -LiteralPath $credentialFile) { Import-Clixml -LiteralPath $credentialFile } else { $null }
+    $settings = $saved
+    $saveSettings = $false
     if ($Configure -or -not $saved -or -not $saved.Directory) {
-        $stage = 'Save encrypted FTP settings'
+        $stage = 'Configure FTP settings'
         $defaultHost = if ($saved) { $saved.Hostname } else { 'ftpupload.net' }
         $hostname = Read-Host ('FTP hostname (Enter for ' + $defaultHost + ')')
         if (-not $hostname) { $hostname = $defaultHost }
@@ -52,16 +66,9 @@ try {
         $directory = Read-Host 'Confirmed domain FTP directory, such as /htdocs'
         if (-not $directory) { throw 'The domain document root must be set before upload.' }
         $settings = [pscustomobject]@{ Hostname = $hostname; Directory = $directory; Credential = [System.Management.Automation.PSCredential]::new($username, $password) }
-        $settings | Export-Clixml -LiteralPath $credentialFile
-        $acl = Get-Acl -LiteralPath $credentialFile
-        $acl.SetAccessRuleProtection($true, $false)
-        $sid = [System.Security.Principal.WindowsIdentity]::GetCurrent().User
-        $acl.SetAccessRule([System.Security.AccessControl.FileSystemAccessRule]::new($sid, 'FullControl', 'Allow'))
-        Set-Acl -LiteralPath $credentialFile -AclObject $acl
-        Status 'FTP credential encrypted for this Windows account and saved under ignored .local/.'
+        $saveSettings = $true
     }
     $stage = 'Read encrypted FTP settings'
-    $settings = Import-Clixml -LiteralPath $credentialFile
     if (-not $settings.Directory) { throw 'Document root is not configured. Run the launcher with -Configure.' }
     Status ('Log: ' + $logFile)
     Status 'Credentials are never printed. All uploads use encrypted FTPS.'
@@ -71,12 +78,14 @@ try {
         $env:FTP_PASSWORD = $settings.Credential.GetNetworkCredential().Password
         $env:FTP_DIRECTORY = $settings.Directory
         Run-Step 'Check FTPS connection and confirmed document root (no uploads)' $python @('-u', 'scripts/deploy.py', '--check')
+        if ($saveSettings) { Save-VerifiedSettings $settings }
     } else {
         $env:FTP_HOST = $settings.Hostname
         $env:FTP_USERNAME = $settings.Credential.UserName
         $env:FTP_PASSWORD = $settings.Credential.GetNetworkCredential().Password
         $env:FTP_DIRECTORY = $settings.Directory
         Run-Step 'Check FTPS login and document root before building' $python @('-u', 'scripts/deploy.py', '--check')
+        if ($saveSettings) { Save-VerifiedSettings $settings }
         foreach ($key in @('FTP_HOST', 'FTP_USERNAME', 'FTP_PASSWORD', 'FTP_DIRECTORY')) { [Environment]::SetEnvironmentVariable($key, $null, 'Process') }
         Run-Step 'Check files for accidental secrets' $node @('scripts/check-public.mjs')
         Run-Step 'Build website' $node @('scripts/build.mjs')
