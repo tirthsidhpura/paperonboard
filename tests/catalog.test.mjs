@@ -72,6 +72,14 @@ test('rendered course routes and legacy query URLs restore the same state', () =
   vm.runInContext('restoreURL()', runtime);
   assert.equal(vm.runInContext('state.view', runtime), 'courses');
   assert.equal(vm.runInContext('state.stream', runtime), '');
+  runtime.entriesFixture = [{ catalog: { id: 'diploma' }, branch: { id: 'computer' }, semester: { id: '1' }, subject: { code: '4300001' } }];
+  runtime.location.pathname = '/subject-diploma--4300001.html'; runtime.location.search = '?resource=material';
+  vm.runInContext('entries = entriesFixture; restoreURL()', runtime);
+  assert.equal(vm.runInContext('state.subject', runtime), '4300001');
+  assert.equal(vm.runInContext('state.branch', runtime), 'computer');
+  assert.equal(vm.runInContext('state.semester', runtime), '1');
+  assert.equal(vm.runInContext('state.resource', runtime), 'material');
+  assert.equal(vm.runInContext('routeURL(entryRoute(entries[0]))', runtime), 'subject-diploma--4300001.html');
 });
 
 test('paper cards sort oldest to newest with summer before winter and undated resources last', () => {
@@ -116,7 +124,7 @@ test('single-page routes preserve the original course, semester, dropdown and do
     setAttribute(key, value) { this.attributes[key] = value; }
     addEventListener() {}
   }
-  const nodes = new Map(['content', 'announcement', 'search', 'about', 'oldpaper'].map((id) => [id, new Node('div')]));
+  const nodes = new Map(['content', 'announcement', 'search', 'about', 'oldpaper', 'page-canonical', 'page-description', 'page-robots', 'page-og-title', 'page-og-description', 'page-og-url', 'page-schema'].map((id) => [id, new Node('div')]));
   let modern = false;
   const doc = {
     body: { classList: { toggle: (_name, enabled) => { modern = enabled; } } },
@@ -163,7 +171,7 @@ test('single-page routes preserve the original course, semester, dropdown and do
   for (const menu of all().filter((node) => node.className === 'paper')) {
     assert.equal(menu.children.length, 1);
     assert.equal(menu.children[0].textContent, 'View all question papers');
-    assert.ok(menu.children[0].href.includes('subject='));
+    assert.match(menu.children[0].href, /^subject-diploma--.+\.html$/);
   }
   assert.ok(!all().some((node) => node.className === 'bigcard'));
   runtime.location.search = '?stream=diploma&branch=computer&semester=1&subject=4300001';
@@ -171,6 +179,19 @@ test('single-page routes preserve the original course, semester, dropdown and do
   assert.ok(all().some((node) => node.className === 'bigcard'));
   assert.ok(all().some((node) => node.tagName === 'article' && node.className === 'card'));
   assert.ok(all().some((node) => node.tagName === 'a' && node.textContent === 'Download' && node.href.startsWith('https://')));
+  const canonical = 'https://paperonboard.in/subject-diploma--4300001.html';
+  assert.equal(nodes.get('page-canonical').href, canonical);
+  runtime.location.pathname = '/subject-diploma--4300001.html';
+  runtime.location.search = '';
+  vm.runInContext('restoreURL()', runtime);
+  assert.equal(nodes.get('page-canonical').href, canonical);
+  assert.match(doc.title, /^GTU .*4300001.*Question Papers/);
+  const schema = JSON.parse(nodes.get('page-schema').textContent);
+  assert.equal(schema['@graph'].find((item) => item['@type'] === 'BreadcrumbList').itemListElement.at(-1).item, canonical);
+  runtime.location.search = '?resource=material';
+  vm.runInContext('restoreURL()', runtime);
+  assert.equal(nodes.get('page-canonical').href, canonical);
+  assert.equal(nodes.get('page-robots').attributes.content, 'noindex,follow');
 });
 
 test('contributors count merged PR authors, excluding closed unmerged PRs and bots', () => {
