@@ -16,7 +16,7 @@ concurrency:
 jobs:
   site:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,10 +38,11 @@ jobs:
       - name: Test deployment path checks
         run: python3 -m unittest discover -s tests -p '*_test.py'
       - name: Deploy to InfinityFree
+        timeout-minutes: 80
         if: github.ref == 'refs/heads/main' && vars.DEPLOY_ENABLED == 'true'
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_DIRECTORY: ${{ secrets.FTP_DIRECTORY }}
-        run: python3 scripts/deploy.py
+        run: python3 -u scripts/deploy.py

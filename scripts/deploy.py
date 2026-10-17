@@ -4,6 +4,7 @@ Credentials are environment variables, never repository files. No remote files
 are deleted. Each upload is staged beside its destination and renamed on success.
 """
 import ftplib
+import argparse
 import hashlib
 import io
 import json
@@ -16,6 +17,15 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 JSON_STATE = 'deployment-json-state.json'
+FILE_STATE = 'deployment-file-state.json'
+CHECKPOINT_FILES = 50
+CURRENT_STAGE = 'starting deployment'
+
+
+def stage(message):
+    global CURRENT_STAGE
+    CURRENT_STAGE = message
+    print(message, flush=True)
 
 
 def checked_host(value):
@@ -71,16 +81,16 @@ def remote_digest(ftp, filename):
     return digest.hexdigest()
 
 
-def read_json_state(ftp):
+def read_json_state(ftp, filename=JSON_STATE):
     content = bytearray()
 
     def receive(chunk):
         content.extend(chunk)
-        if len(content) > 1024 * 1024:
-            raise ValueError('Deployment JSON state exceeds its size limit.')
+        if len(content) > 5 * 1024 * 1024:
+            raise ValueError('Deployment state exceeds its size limit.')
 
     try:
-        ftp.retrbinary('RETR ' + JSON_STATE, receive)
+        ftp.retrbinary('RETR ' + filename, receive)
     except ftplib.error_perm as error:
         if str(error).startswith('550'):
             return {}
@@ -95,76 +105,126 @@ def read_json_state(ftp):
     return {}
 
 
-def upload_files(ftp, directory, files, remote):
+def write_state(ftp, remote, filename, records):
     ftp.cwd(remote)
-    previous = read_json_state(ftp)
-    current = {}
+    state = json.dumps({'version': 1, 'files': records}, sort_keys=True).encode('utf-8')
+    ftp.storbinary('STOR ' + filename + '.uploading', io.BytesIO(state))
+    ftp.rename(filename + '.uploading', filename)
+
+
+def upload_files(ftp, directory, files, remote, verbose=False):
+    global CURRENT_STAGE
+    stage('Reading deployment checkpoints')
+    ftp.cwd(remote)
+    previous_json = read_json_state(ftp)
+    previous_files = read_json_state(ftp, FILE_STATE)
+    previous = {**previous_json, **previous_files}
+    paths = {file.relative_to(directory).as_posix() for file in files}
+    current = {key: value for key, value in previous.items() if key in paths}
+    current_json = {}
     uploaded = skipped = 0
+    since_checkpoint = 0
+    current_directory = remote
     ftp.voidcmd('TYPE I')
-    for file in files:
+    print(f'Uploading {len(files)} build files; unchanged files will be skipped.', flush=True)
+    for position, file in enumerate(files, 1):
         relative = file.relative_to(directory)
-        ftp.cwd(remote)
-        for part in relative.parts[:-1]:
-            try:
-                ftp.cwd(part)
-            except ftplib.error_perm:
-                ftp.mkd(part)
-                ftp.cwd(part)
-        if file.suffix.lower() == '.json':
-            record = {'sha256': hashlib.sha256(file.read_bytes()).hexdigest(), 'size': file.stat().st_size}
-            current[relative.as_posix()] = record
-            unchanged = False
-            if previous.get(relative.as_posix()) == record:
+        CURRENT_STAGE = f'file {position}/{len(files)}: {relative.as_posix()}'
+        if verbose:
+            print(f'Checking {CURRENT_STAGE}', flush=True)
+        parent = relative.parent.as_posix()
+        target_directory = remote if parent == '.' else remote + '/' + parent
+        if current_directory != target_directory:
+            ftp.cwd(remote)
+            for part in relative.parts[:-1]:
                 try:
-                    unchanged = ftp.size(file.name) == record['size']
-                except ftplib.error_perm as error:
-                    if not str(error).startswith('550'):
-                        raise
-            else:
-                unchanged = remote_digest(ftp, file.name) == record['sha256']
-            if unchanged:
-                skipped += 1
-                continue
-        temporary = file.name + '.uploading'
-        with file.open('rb') as source:
-            ftp.storbinary('STOR ' + temporary, source)
-        ftp.rename(temporary, file.name)
-        uploaded += 1
-    # Commit hashes only after every file succeeds. An interrupted run cannot
-    # incorrectly mark a JSON file as deployed, and retries can compare its bytes.
-    if current != previous:
-        ftp.cwd(remote)
-        state = json.dumps({'version': 1, 'files': current}, sort_keys=True).encode('utf-8')
-        ftp.storbinary('STOR ' + JSON_STATE + '.uploading', io.BytesIO(state))
-        ftp.rename(JSON_STATE + '.uploading', JSON_STATE)
+                    ftp.cwd(part)
+                except ftplib.error_perm:
+                    ftp.mkd(part)
+                    ftp.cwd(part)
+            current_directory = target_directory
+        record = {'sha256': hashlib.sha256(file.read_bytes()).hexdigest(), 'size': file.stat().st_size}
+        unchanged = False
+        if previous.get(relative.as_posix()) == record:
+            try:
+                unchanged = ftp.size(file.name) == record['size']
+            except ftplib.error_perm as error:
+                if not str(error).startswith('550'):
+                    raise
+        elif file.suffix.lower() == '.json':
+            unchanged = remote_digest(ftp, file.name) == record['sha256']
+        if file.suffix.lower() == '.json':
+            current_json[relative.as_posix()] = record
+        if unchanged:
+            skipped += 1
+            if verbose:
+                print('  Unchanged: skipped', flush=True)
+        else:
+            temporary = file.name + '.uploading'
+            with file.open('rb') as source:
+                ftp.storbinary('STOR ' + temporary, source)
+            ftp.rename(temporary, file.name)
+            uploaded += 1
+            if verbose:
+                print('  Uploaded and renamed successfully', flush=True)
+        # Never record a new hash until its final rename has succeeded.
+        if current.get(relative.as_posix()) != record:
+            current[relative.as_posix()] = record
+            since_checkpoint += 1
+        if since_checkpoint >= CHECKPOINT_FILES:
+            CURRENT_STAGE = f'saving checkpoint after file {position}/{len(files)}'
+            write_state(ftp, remote, FILE_STATE, current)
+            current_directory = remote
+            since_checkpoint = 0
+        if position % 25 == 0 or position == len(files):
+            print(f'Progress {position}/{len(files)}: {uploaded} uploaded, {skipped} unchanged; {relative.as_posix()}', flush=True)
+    if current != previous_files:
+        stage('Saving final file checkpoint')
+        write_state(ftp, remote, FILE_STATE, current)
+    # Retain the old JSON-only state for compatibility with earlier deployers.
+    if current_json != previous_json:
+        stage('Saving JSON checkpoint')
+        write_state(ftp, remote, JSON_STATE, current_json)
     return uploaded, skipped
 
 
-def deploy():
+def deploy(check_only=False, verbose=False):
     required = ['FTP_HOST', 'FTP_USERNAME', 'FTP_PASSWORD', 'FTP_DIRECTORY']
     if any(not os.environ.get(key) for key in required):
         raise ValueError('Set FTP_HOST, FTP_USERNAME, FTP_PASSWORD, and FTP_DIRECTORY in GitHub Actions secrets.')
     host = checked_host(os.environ['FTP_HOST'])
     remote = checked_remote(os.environ['FTP_DIRECTORY'])
     directory = ROOT / 'dist'
-    files = deployment_files(directory)
+    files = [] if check_only else deployment_files(directory)
     context = ssl.create_default_context()
     context.minimum_version = ssl.TLSVersion.TLSv1_2
     with ftplib.FTP_TLS(context=context, timeout=60) as ftp:
+        stage('Connecting to FTP host using TLS')
         connect_ftp(ftp, host)
+        stage('Authenticating FTP account')
         ftp.login(os.environ['FTP_USERNAME'], os.environ['FTP_PASSWORD'])
+        stage('Enabling encrypted data transfers')
         ftp.prot_p()
         ftp.set_pasv(True)
         # Require the owner-confirmed document root to already exist.
+        stage('Checking confirmed document root')
         ftp.cwd(remote)
-        uploaded, skipped = upload_files(ftp, directory, files, remote)
-    print(f'Deployed {uploaded} static files; skipped {skipped} unchanged JSON files. Existing unrelated remote files were not removed.')
+        if check_only:
+            stage('FTPS login and document root checks passed. No files uploaded.')
+            return
+        uploaded, skipped = upload_files(ftp, directory, files, remote, verbose=verbose)
+    print(f'Deployed {uploaded} static files; skipped {skipped} unchanged files. Existing unrelated remote files were not removed.', flush=True)
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Deploy the reviewed static build over encrypted FTPS.')
+    parser.add_argument('--check', action='store_true', help='Check login and the configured document root without uploading.')
+    parser.add_argument('--verbose', action='store_true', help='Print each public file and its upload/skip result.')
+    args = parser.parse_args()
     try:
-        deploy()
+        deploy(check_only=args.check, verbose=args.verbose)
     except Exception as error:
+        print(f'Failed during {CURRENT_STAGE}.', file=sys.stderr, flush=True)
         # Do not echo remote server replies or connection details into public logs.
         if isinstance(error, ValueError):
             print(str(error), file=sys.stderr)
