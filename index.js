@@ -3,7 +3,7 @@
 import { resolvePaperURL, validateURLSources } from './paper-urls.js';
 
 const $ = (id) => document.getElementById(id);
-const state = { stream: '', branch: '', semester: '', subject: '', resource: '', q: '', view: '' };
+const state = { stream: '', branch: '', semester: '', subject: '', resource: '', session: '', year: '', q: '', view: '' };
 let config;
 let urlSources;
 let catalogs = [];
@@ -121,21 +121,31 @@ function matchesQuery(entry) {
   return state.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean).every((token) => entry.searchText.includes(token));
 }
 function matchingResources(entry) {
-  return entry.resources.filter((r) => !state.resource || (r.type || 'paper') === state.resource)
+  return entry.resources.filter((r) => {
+    const exam = examDetails(r);
+    return (!state.resource || (r.type || 'paper') === state.resource)
+      && (!state.session || exam.session === state.session)
+      && (!state.year || exam.year === state.year);
+  })
     .sort((a, b) => examOrder(a) - examOrder(b));
+}
+function examDetails(resource) {
+  if (resource.type === 'material') return {};
+  const match = (resource.label || '').match(/\b(sum+er|winter)[\s-]+((?:19|20)\d\s?\d)/i);
+  return match ? { session: match[1].toLowerCase() === 'winter' ? 'winter' : 'summer', year: match[2].replace(/\s/g, '') } : {};
 }
 function examOrder(resource) {
   // Undated resources stay after dated papers, in their original order.
-  const match = (resource.label || '').match(/\b(sum+er|winter)\s+((?:19|20)\d\s?\d)/i);
-  if (!match) return Number.MAX_SAFE_INTEGER;
-  const year = Number(match[2].replace(/\s/g, ''));
-  return year * 2 + (match[1].toLowerCase() === 'winter' ? 1 : 0);
+  const exam = examDetails(resource);
+  return exam.year ? Number(exam.year) * 2 + (exam.session === 'winter' ? 1 : 0) : Number.MAX_SAFE_INTEGER;
 }
 function routeURL(values) {
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(values)) if (value) params.set(key, value);
   if (values.stream && values.subject && !values.q) {
-    return `subject-${encodeURIComponent(values.stream)}--${encodeURIComponent(values.subject)}.html${values.resource ? `?resource=${encodeURIComponent(values.resource)}` : ''}`;
+    const filters = new URLSearchParams();
+    for (const key of ['resource', 'session', 'year']) if (values[key]) filters.set(key, values[key]);
+    return `subject-${encodeURIComponent(values.stream)}--${encodeURIComponent(values.subject)}.html${filters.size ? `?${filters}` : ''}`;
   }
   if (values.stream && !values.subject && !values.q && !values.semester) {
     return `catalog-${encodeURIComponent(values.stream)}${values.branch ? '--' + encodeURIComponent(values.branch) : ''}.html`;
@@ -377,6 +387,9 @@ function renderSubject(entry, content) {
   content.append(element('p', 'catalog-message', `${entry.catalog.name} · ${entry.semester.name}. Choose an available examination session below to open the linked question paper or study resource. PaperOnBoard is independent of Gujarat Technological University.`));
   const contexts = new Map(related.map((item) => [`${item.branch.id}/${item.semester.id}`, item]));
   content.append(controls([...contexts.values()].map((item) => routeLink(`${item.branch.name} · ${item.semester.name}`, { stream: item.catalog.id, branch: item.branch.id }))));
+  const unique = new Map();
+  for (const item of related) for (const resource of item.resources) if (!unique.has(resource.url)) unique.set(resource.url, resource);
+  const allResources = [...unique.values()].sort((a, b) => examOrder(a) - examOrder(b));
   const select = element('select');
   select.setAttribute('aria-label', 'Resource type');
   for (const [value, label] of [['', 'All resources'], ['paper', 'Question papers'], ['material', 'Study material']]) {
@@ -385,15 +398,90 @@ function renderSubject(entry, content) {
     select.append(option);
   }
   select.value = state.resource;
-  select.addEventListener('change', () => navigate(routeURL({ ...entryRoute(entry), resource: select.value }), { preserveScroll: true }));
+  select.addEventListener('change', () => applyFilters({ resource: select.value }));
   content.append(controls([routeLink('← Back to subjects', { stream: entry.catalog.id, branch: entry.branch.id }), select]));
+  const toolbar = element('section', 'subject-tools');
+  toolbar.setAttribute('aria-label', 'Filter and share subject papers');
+  const filters = element('div', 'paper-filters');
+  const sessions = element('div', 'session-filters');
+  sessions.setAttribute('role', 'group');
+  sessions.setAttribute('aria-label', 'Exam session');
+  const sessionButtons = [];
+  for (const [value, label] of [['', 'All sessions'], ['summer', 'Summer'], ['winter', 'Winter']]) {
+    const button = element('button', 'filter-chip', label);
+    button.type = 'button';
+    button.addEventListener('click', () => applyFilters({ session: value }));
+    sessionButtons.push({ button, value });
+    sessions.append(button);
+  }
+  const yearLabel = element('label', 'year-filter', 'Exam year ');
+  const yearSelect = element('select');
+  yearSelect.setAttribute('aria-label', 'Exam year');
+  const years = [...new Set(allResources.map((resource) => examDetails(resource).year).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+  for (const year of ['', ...years]) {
+    const option = element('option', '', year || 'All years');
+    option.value = year;
+    yearSelect.append(option);
+  }
+  if (state.year && !years.includes(state.year)) {
+    const option = element('option', '', state.year);
+    option.value = state.year;
+    yearSelect.append(option);
+  }
+  yearSelect.addEventListener('change', () => applyFilters({ year: yearSelect.value }));
+  yearLabel.append(yearSelect);
+  const reset = element('button', 'filter-reset', 'Clear filters');
+  reset.type = 'button';
+  reset.addEventListener('click', () => applyFilters({ session: '', year: '', resource: '' }));
+  filters.append(sessions, yearLabel, reset);
+  const share = element('div', 'subject-share');
+  const shareButton = element('button', '', 'Share subject');
+  shareButton.type = 'button';
+  const whatsapp = element('a', '', 'WhatsApp');
+  whatsapp.target = '_blank';
+  whatsapp.rel = 'noopener noreferrer';
+  const shareStatus = element('p', 'share-status');
+  shareStatus.setAttribute('role', 'status');
+  const manualLink = element('input', 'share-link');
+  manualLink.type = 'text';
+  manualLink.setAttribute('readonly', '');
+  manualLink.setAttribute('aria-label', 'Subject link — select and copy');
+  manualLink.hidden = true;
+  const subjectURL = () => new URL(routeURL({ ...entryRoute(entry), resource: state.resource, session: state.session, year: state.year }), 'https://paperonboard.in/').href;
+  shareButton.addEventListener('click', async () => {
+    shareButton.disabled = true;
+    manualLink.hidden = true;
+    shareStatus.textContent = '';
+    const url = subjectURL();
+    try {
+      if (typeof navigator !== 'undefined' && navigator.share) {
+        try {
+          await navigator.share({ title: `GTU ${entry.subject.name} (${entry.subject.code})`, url });
+          return;
+        } catch (error) { if (error.name === 'AbortError') return; }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        shareStatus.textContent = 'Link copied. Share it with your classmates.';
+      } catch {
+        manualLink.value = url;
+        manualLink.hidden = false;
+        manualLink.focus();
+        manualLink.select();
+        shareStatus.textContent = 'Select and copy this link to share it.';
+      }
+    } finally { shareButton.disabled = false; }
+  });
+  share.append(shareButton, whatsapp, manualLink, shareStatus);
+  toolbar.append(filters, share);
+  content.append(toolbar);
+  const resultStatus = element('p', 'paper-result-status');
+  resultStatus.setAttribute('role', 'status');
+  content.append(resultStatus);
   if (entry.catalog.archivePolicy === 'listed-only') content.append(element('p', 'catalog-message', 'Only recorded paper links are shown. New courses and revised subjects may not have papers from earlier years.'));
   const cards = element('div', 'bigcard');
-  // Shared subjects have one crawlable page, with resources from every listing.
-  const unique = new Map();
-  for (const item of related) for (const resource of item.resources) if (!unique.has(resource.url)) unique.set(resource.url, resource);
-  const resources = matchingResources({ resources: [...unique.values()] });
-  for (const paper of resources) {
+  const cardNodes = new Map();
+  for (const paper of allResources) {
     const card = element('article', 'card');
     card.append(element('h2', 'card-header', entry.subject.name));
     const body = element('div', 'card-body');
@@ -411,10 +499,35 @@ function renderSubject(entry, content) {
     body.append(download);
     card.append(body);
     cards.append(card);
+    cardNodes.set(paper.url, card);
   }
   content.append(cards);
-  if (!resources.length) content.append(element('p', 'catalog-message', 'No resources have been added yet.'));
-  if (resources.some((p) => p.archive)) content.append(element('p', 'catalog-message', 'Some GTU archive sessions may not have a paper for this subject.'));
+  const empty = element('p', 'catalog-message');
+  content.append(empty);
+  if (allResources.some((p) => p.archive)) content.append(element('p', 'catalog-message', 'Some GTU archive sessions may not have a paper for this subject.'));
+  function refreshFilters() {
+    const resources = matchingResources({ resources: allResources });
+    const visible = new Set(resources.map((resource) => resource.url));
+    for (const [url, card] of cardNodes) card.hidden = !visible.has(url);
+    for (const { button, value } of sessionButtons) button.setAttribute('aria-pressed', String(state.session === value));
+    yearSelect.value = state.year;
+    select.value = state.resource;
+    reset.hidden = !state.session && !state.year && !state.resource;
+    resultStatus.textContent = `Showing ${resources.length} of ${allResources.length} resources`;
+    empty.hidden = resources.length > 0;
+    empty.textContent = allResources.length ? 'No resources match these filters. Try another session or year, or clear the filters.' : 'No resources have been added yet.';
+    whatsapp.href = `https://wa.me/?text=${encodeURIComponent(`GTU ${entry.subject.name} (${entry.subject.code}) question papers: ${subjectURL()}`)}`;
+  }
+  function applyFilters(values) {
+    Object.assign(state, values);
+    refreshFilters();
+    manualLink.hidden = true;
+    shareStatus.textContent = '';
+    history.replaceState(null, '', routeURL({ ...entryRoute(entry), resource: state.resource, session: state.session, year: state.year }));
+    renderedRoute = `${location.pathname}${location.search}`;
+    updatePageMetadata(entry.catalog, entry.branch, entry);
+  }
+  refreshFilters();
 }
 function render() {
   const content = $('content');
@@ -485,7 +598,7 @@ function updatePageMetadata(catalog, branch, entry) {
   const description = entry ? `Find GTU ${entry.subject.name} (${entry.subject.code}) papers for ${catalog.name}. Browse available exam sessions and download from linked sources.` : branch ? `Browse GTU ${catalog.name} ${branch.name} question papers by subject code and exam session.` : catalog ? `Browse GTU ${catalog.name} previous-year question papers and available official archive links.` : 'Find GTU question papers by course, branch, semester and subject code. Independent, free, community-maintained paper directory.';
   canonical.href = url;
   $('page-description').setAttribute('content', description);
-  $('page-robots').setAttribute('content', state.q || state.resource || unavailable ? 'noindex,follow' : 'index,follow,max-image-preview:large');
+  $('page-robots').setAttribute('content', state.q || state.resource || state.session || state.year || unavailable ? 'noindex,follow' : 'index,follow,max-image-preview:large');
   $('page-og-title').setAttribute('content', document.title);
   $('page-og-description').setAttribute('content', description);
   $('page-og-url').setAttribute('content', url);
@@ -530,6 +643,8 @@ function restoreURL() {
     if (entry) state.semester = entry.semester.id;
   }
   if (!['', 'paper', 'material'].includes(state.resource)) state.resource = '';
+  if (!['', 'summer', 'winter'].includes(state.session)) state.session = '';
+  if (!/^(?:19|20)\d{2}$/.test(state.year)) state.year = '';
   $('search').value = state.q;
   render();
   renderedRoute = `${location.pathname}${location.search}`;
