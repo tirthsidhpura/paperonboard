@@ -8,6 +8,8 @@ let config;
 let urlSources;
 let catalogs = [];
 let entries = [];
+const catalogRequests = new Map();
+let navigationVersion = 0;
 let contributorsData = { repository: null, updatedAt: null, contributors: [] };
 let renderedRoute = '';
 let scrollFrame = null;
@@ -63,6 +65,44 @@ async function readJSON(path) {
   const response = await fetch(path);
   if (!response.ok) throw new Error(`Could not load ${path} (${response.status}).`);
   return response.json();
+}
+async function loadCatalog(stream) {
+  if (catalogs.some((catalog) => catalog.id === stream.id)) return;
+  if (!catalogRequests.has(stream.id)) {
+    const request = (async () => {
+      const catalog = await readJSON(stream.file);
+      if (catalog.id !== stream.id || !Array.isArray(catalog.branches)) throw new Error(`Invalid catalog ${stream.file}`);
+      const added = [];
+      for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
+        const resources = resourcesFor(catalog, subject);
+        added.push({ catalog, branch, semester, subject, resources, searchText: [catalog.name, catalog.gtuCourseCode || '', branch.name, semester.name, subject.name, subject.code, ...resources.map((p) => p.label)].join(' ').toLocaleLowerCase() });
+      }
+      catalogs.push(catalog);
+      entries.push(...added);
+    })();
+    catalogRequests.set(stream.id, request);
+  }
+  try { await catalogRequests.get(stream.id); }
+  finally { catalogRequests.delete(stream.id); }
+}
+async function loadRouteCatalogs(url) {
+  const target = new URL(url, document.baseURI);
+  const file = target.pathname.split('/').pop();
+  const stream = /^(?:catalog|subject)-(.+)\.html$/.exec(file)?.[1].split('--')[0];
+  const id = stream ? decodeURIComponent(stream) : target.searchParams.get('stream');
+  // Global search is the only view that needs the complete catalog collection.
+  const required = target.searchParams.get('q')?.trim() ? config.streams : config.streams.filter((item) => item.id === id);
+  const loaded = await Promise.allSettled(required.map(loadCatalog));
+  const failed = required.filter((_item, i) => loaded[i].status === 'rejected');
+  if (failed.length) throw new Error(`Could not load ${failed.map((item) => item.name).join(', ')}. Please retry.`);
+}
+function showLoadError() {
+  $('load-error').hidden = false;
+  $('load-error').textContent = 'Some interactive features could not load. You can still use the page links, or reload to try again.';
+}
+function setLoading(loading) {
+  const status = $('load-status');
+  if (status) status.hidden = !loading;
 }
 function resourcesFor(catalog, subject) {
   const resources = (subject.papers || []).map((paper) => ({ ...paper, url: resolvePaperURL(paper, urlSources, subject.code) }));
@@ -155,7 +195,7 @@ function subjectDropdown(entry, includeContext = false) {
 }
 function courseBoxes() {
   const boxes = element('div', 'coarsename');
-  for (const stream of config.streams.filter((s) => catalogs.some((c) => c.id === s.id))) {
+  for (const stream of config.streams) {
     const heading = element('h1');
     heading.append(routeLink(stream.name, { stream: stream.id }));
     boxes.append(heading);
@@ -170,7 +210,7 @@ function home() {
   const heading = element('div', 'heading');
   heading.append(element('p', 'hero-kicker', `${config.latestSession || 'Latest'} papers now available` ), element('h1', '', 'GTU Question Papers'), element('p', 'shared-hero-description', 'Your next exam starts here. Find Gujarat Technological University previous-year question papers by course, branch, semester and subject code. Free to access. Built together by students.'));
   const subjects = element('div', 'subjects');
-  const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id)).slice(0, 8)
+  const links = config.streams.slice(0, 8)
     .map((stream) => routeLink(stream.name, { stream: stream.id }));
   links.push(routeLink('VIEW MORE', { view: 'courses' }));
   subjects.append(dropdown('Select your stream', links, true));
@@ -178,8 +218,8 @@ function home() {
   hero.append(both);
   page.append(hero);
   const stats = element('div', 'premium-stats premium-wrap');
-  const uniqueSubjects = new Set(entries.map((e) => `${e.catalog.id}/${e.subject.code}`)).size;
-  for (const [value, label] of [[String(catalogs.length).padStart(2, '0'), 'streams to explore'], [uniqueSubjects.toLocaleString(), 'subjects in the library'], ['100%', 'free to access']]) {
+  const uniqueSubjects = config.catalogSummary?.subjects ?? new Set(entries.map((e) => `${e.catalog.id}/${e.subject.code}`)).size;
+  for (const [value, label] of [[String(config.streams.length).padStart(2, '0'), 'streams to explore'], [uniqueSubjects.toLocaleString(), 'subjects in the library'], ['100%', 'free to access']]) {
     const item = element('div');
     item.append(element('strong', '', value), element('span', '', label));
     stats.append(item);
@@ -189,13 +229,15 @@ function home() {
   courses.id = 'choose-course';
   courses.append(sectionIntro('THE PAPER LIBRARY', 'Your course. Your next step.', 'Choose your stream, then find your branch and semester.'));
   const grid = element('div', 'premium-course-grid');
-  for (const stream of config.streams.filter((s) => catalogs.some((c) => c.id === s.id)).slice(0, 8)) {
+  for (const stream of config.streams.slice(0, 8)) {
+    const summary = config.catalogSummary?.streams[stream.id];
     const catalog = catalogs.find((c) => c.id === stream.id);
+    const branchCount = summary?.branches ?? catalog?.branches.length ?? 0;
     const link = routeLink('', { stream: stream.id });
     link.className = 'premium-course';
     const top = element('div', 'course-top');
     top.append(element('span', 'course-mark', stream.shortName), element('span', 'course-arrow', '↗'));
-    link.append(top, element('h3', '', stream.name), element('p', '', stream.description), element('span', 'course-count', catalog.imported ? 'Browse official subject codes' : `${catalog.branches.length} ${catalog.branches.length === 1 ? 'branch' : 'branches'} · Explore papers`));
+    link.append(top, element('h3', '', stream.name), element('p', '', stream.description), element('span', 'course-count', (summary?.imported ?? catalog?.imported) ? 'Browse official subject codes' : `${branchCount} ${branchCount === 1 ? 'branch' : 'branches'} · Explore papers`));
     grid.append(link);
   }
   courses.append(grid, controls([routeLink('Browse all GTU courses →', { view: 'courses' })]));
@@ -492,13 +534,29 @@ function restoreURL() {
   render();
   renderedRoute = `${location.pathname}${location.search}`;
 }
-function navigate(url, { preserveScroll = false } = {}) {
+async function navigate(url, { preserveScroll = false, historyChange = false } = {}) {
+  const version = ++navigationVersion;
   cancelScrollAnimation();
   const previousY = window.scrollY;
-  history.pushState(null, '', url);
-  restoreURL();
-  setMenuOpen(false);
-  if (!scrollToSection(location.hash, false)) window.scrollTo(0, preserveScroll ? previousY : 0);
+  setLoading(true);
+  try {
+    await loadRouteCatalogs(url);
+    if (version !== navigationVersion) return;
+    if (!historyChange) history.pushState(null, '', url);
+    $('load-error').hidden = true;
+    restoreURL();
+    setMenuOpen(false);
+    if (!historyChange && !scrollToSection(location.hash, false)) window.scrollTo(0, preserveScroll ? previousY : 0);
+  } catch (error) {
+    if (version !== navigationVersion) return;
+    console.error('Catalog loading failed:', error);
+    // For history navigation the existing DOM can belong to a different route.
+    // A document load restores that route's pre-rendered page if data is unavailable.
+    if (historyChange) { location.reload(); return; }
+    showLoadError();
+  } finally {
+    if (version === navigationVersion) setLoading(false);
+  }
 }
 function setMenuOpen(open) {
   $('nav-list').classList.toggle('menu-open', open);
@@ -546,27 +604,8 @@ async function initialize() {
   try {
     [config, urlSources, contributorsData] = await Promise.all([readJSON('data/site.json'), readJSON('data/urls.json'), readJSON('data/contributors.json').catch(() => ({ repository: null, contributors: [], unavailable: true }))]);
     validateURLSources(urlSources);
-    const loaded = await Promise.allSettled(config.streams.map(async (stream) => {
-      const catalog = await readJSON(stream.file);
-      if (catalog.id !== stream.id || !Array.isArray(catalog.branches)) throw new Error(`Invalid catalog ${stream.file}`);
-      return catalog;
-    }));
-    catalogs = loaded.filter((r) => r.status === 'fulfilled').map((r) => r.value);
-    const failed = loaded.map((r, i) => r.status === 'rejected' ? config.streams[i].name : null).filter(Boolean);
-    if (failed.length) {
-      $('load-error').hidden = false;
-      $('load-error').textContent = `Could not load ${failed.join(', ')}. Reload to try again.`;
-    }
-    if (!catalogs.length) throw new Error('No catalogs available');
-    for (const catalog of catalogs) for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
-      const resources = resourcesFor(catalog, subject);
-      entries.push({ catalog, branch, semester, subject, resources, searchText: [catalog.name, catalog.gtuCourseCode || '', branch.name, semester.name, subject.name, subject.code, ...resources.map((p) => p.label)].join(' ').toLocaleLowerCase() });
-    }
     if (config.announcement) $('announcement-text').textContent = config.announcement;
-    restoreURL();
     initializeDisplayAd();
-    // Catalogs load asynchronously, so fragment targets only exist after render.
-    if (location.hash) requestAnimationFrame(() => scrollToSection(location.hash, false));
     document.addEventListener('click', (event) => {
       const link = event.target.closest('a');
       if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
@@ -599,15 +638,25 @@ async function initialize() {
     window.addEventListener('popstate', () => {
       cancelScrollAnimation();
       // Let native history restore scroll; hash-only history must not rebuild the page.
-      if (renderedRoute !== `${location.pathname}${location.search}`) restoreURL();
+      if (renderedRoute !== `${location.pathname}${location.search}`) navigate(location.href, { historyChange: true });
+      else { navigationVersion++; setLoading(false); } // Cancel in-flight navigation on hash-only history.
     });
     window.addEventListener('wheel', cancelScrollAnimation, { passive: true });
     window.addEventListener('touchstart', cancelScrollAnimation, { passive: true });
+    const version = navigationVersion;
+    setLoading(true);
+    await loadRouteCatalogs(location.href).catch((error) => {
+      if (version === navigationVersion) throw error;
+    });
+    if (version === navigationVersion) {
+      setLoading(false);
+      restoreURL();
+      if (location.hash) requestAnimationFrame(() => scrollToSection(location.hash, false));
+    }
   } catch (error) {
     console.error('Library loading failed:', error);
-    $('load-error').hidden = false;
-    $('load-error').textContent = 'The paper catalog could not load. Use a static HTTP server (see README), check the data files, and reload.';
-    $('content').replaceChildren(element('p', 'catalog-message', 'Question papers are temporarily unavailable.'));
+    setLoading(false);
+    showLoadError();
   }
 }
 initialize();

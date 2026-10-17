@@ -46,6 +46,12 @@ Each file is uploaded to a temporary name and renamed after upload; `index.html`
 
 The uploader overwrites matching files but **does not delete unrelated files**. Existing PHP pages and uploads on InfinityFree remain until you review and remove them separately. Review the old hosted backend before declaring the production site static-only. Stale static files are also retained; a renamed or removed public file needs an explicit hosting cleanup if it must stop being accessible.
 
+JSON files are uploaded only when their contents differ. The uploader stores SHA-256 hashes and byte sizes in `deployment-json-state.json` in the confirmed document root. On subsequent runs, a matching local hash plus remote file size skips that JSON upload. Missing remote files are restored. When the state is absent or unusable, or a local hash changes, the uploader downloads the existing remote JSON to compare its actual hash before deciding whether to upload it. The first run can therefore avoid re-uploading identical JSON that is already hosted.
+
+The state file contains public paths, hashes and sizes only, and is replaced after every site file succeeds. Failed runs do not commit new state; retries compare already-completed JSON where necessary. Files are compared by content rather than Git timestamps, so same-size changes and rollbacks are detected. JSON generated during the build, including contributor data, follows the same rules. Other static files keep the existing upload behavior. Logs report uploaded files and skipped JSON files.
+
+The state assumes JSON is managed by this deployer. If you manually edit hosted JSON without changing its size, remove `deployment-json-state.json` through your hosting file manager before the next deployment to force a fresh remote content comparison. Network and authentication failures stop deployment rather than silently treating comparison errors as unchanged files.
+
 If contributor retrieval, validation, tests, or upload fails, the workflow fails visibly. Contributor retrieval failures do not publish an empty replacement list. Missing FTP secrets fail deployment; deployment stays skipped until `DEPLOY_ENABLED` is set.
 
 The workflow has not been connected to a live repository or FTP account yet. The first live upload must confirm that the selected InfinityFree directory, credentials, TLS, and rename operations work for your account.

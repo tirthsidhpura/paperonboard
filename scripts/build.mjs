@@ -22,12 +22,18 @@ copy('data/gtu-subjects.json');
 copy('data/gtu-subject-overrides.json');
 copy('data/gtu-course-map.json');
 for (const file of ['index.html', 'index.js', 'paper-urls.js', 'style.css', 'inside.css', 'catalog.css', 'landing.css', 'img/imgbg.gif', 'img/headimg1.gif', 'img/oldpaper.png', 'img/pob_logo.png', 'CONTRIBUTING.md', 'data/site.json', 'data/urls.json', 'data/contributors.json', ...site.streams.map((s) => s.file)]) copy(file);
+// Small, deterministic homepage counts avoid fetching every catalog on mobile.
+site.catalogSummary = { subjects: 0, streams: {} };
 for (const stream of site.streams) {
   const catalog = JSON.parse(fs.readFileSync(path.join(root, stream.file), 'utf8'));
+  const subjects = new Set(catalog.branches.flatMap((branch) => branch.semesters.flatMap((semester) => semester.subjects.map((subject) => subject.code))));
+  site.catalogSummary.subjects += subjects.size;
+  site.catalogSummary.streams[stream.id] = { branches: catalog.branches.length, imported: Boolean(catalog.imported) };
   for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) for (const paper of subject.papers) {
     if (paper.url?.startsWith('uploads/')) copy(decodeURIComponent(paper.url));
   }
 }
+fs.writeFileSync(path.join(destination, 'data/site.json'), JSON.stringify(site, null, 2) + '\n');
 // Old shared branch URLs continue to work on static hosting, including subpaths.
 const reportPath = path.join(root, 'data/migration-report.json');
 if (fs.existsSync(reportPath)) {
