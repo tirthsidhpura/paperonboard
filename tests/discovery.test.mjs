@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { root } from '../scripts/validate.mjs';
+import { resolvePaperURL } from '../paper-urls.js';
 
 const read = (file) => fs.readFileSync(path.join(root, 'dist', file), 'utf8');
 const site = JSON.parse(read('data/site.json'));
@@ -54,7 +55,7 @@ test('sitemap URLs have matching canonical HTML, unique metadata and parsed stru
 });
 
 test('rendered internal route links resolve to files included in the build', () => {
-  const files = fs.readdirSync(path.join(root, 'dist')).filter((file) => /^(catalog-|index\.|courses\.|contributors\.)/.test(file) && file.endsWith('.html'));
+  const files = fs.readdirSync(path.join(root, 'dist')).filter((file) => /^(subject-|catalog-|index\.|courses\.|contributors\.)/.test(file) && file.endsWith('.html'));
   for (const file of files) {
     for (const match of read(file).matchAll(/<a\b[^>]*\bhref="([^"#]+)"[^>]*data-route/g)) {
       const target = new URL(match[1].replaceAll('&amp;', '&'), 'https://paperonboard.in/' + file);
@@ -93,7 +94,7 @@ test('imported programs use verified semester navigation and named subjects', ()
   assert.match(course, /Select The Semester/);
   assert.match(course, /Semester 3/);
   assert.match(course, /Database Management Systems/);
-  assert.match(course, /subject=4639303/);
+  assert.match(course, /subject-gtu-mc--4639303\.html/);
   assert.ok(!mca.includes('Subjects by official code'));
   assert.match(read('catalog-gtu-mc--official-papers.html'), /url=catalog-gtu-mc.html/);
   assert.match(read('courses.html'), /Select your stream/);
@@ -117,6 +118,38 @@ test('historical papers remain in subject records behind subject-page navigation
   const subject = branch.semesters.flatMap((s) => s.subjects).find((s) => s.code === '4639303');
   assert.ok(subject.papers.some((p) => p.label === 'Winter 2018' && p.path === 'W2018/MC/4639303.pdf'));
   const html = read(`catalog-gtu-mc--${branch.id}.html`);
-  assert.match(html, /subject=4639303/);
+  assert.match(html, /subject-gtu-mc--4639303\.html/);
   assert.ok(!html.includes('W2018/MC/4639303.pdf'));
+});
+
+test('subject pages expose real downloads without JavaScript and consolidate shared subjects', () => {
+  const expected = new Map();
+  const branches = new Map();
+  const sources = JSON.parse(read('data/urls.json'));
+  for (const stream of site.streams) {
+    const catalog = JSON.parse(read(stream.file));
+    for (const branch of catalog.branches) for (const semester of branch.semesters) for (const subject of semester.subjects) {
+      const file = `subject-${encodeURIComponent(catalog.id)}--${encodeURIComponent(subject.code)}.html`;
+      if (!expected.has(file)) expected.set(file, { code: subject.code, papers: [] });
+      expected.get(file).papers.push(...subject.papers);
+      const branchFile = `catalog-${catalog.id}--${branch.id}.html`;
+      if (!branches.has(branchFile)) branches.set(branchFile, read(branchFile));
+      assert.ok(branches.get(branchFile).includes(`href="${file}"`));
+    }
+  }
+  const files = fs.readdirSync(path.join(root, 'dist')).filter((file) => file.startsWith('subject-'));
+  assert.equal(files.length, expected.size);
+  for (const [file, { code, papers }] of expected) {
+    const html = read(file);
+    assert.ok(html.includes(code.replaceAll('&', '&amp;')));
+    assert.ok(!html.includes('Loading question papers'));
+    assert.ok(html.includes(`rel="canonical" href="https://paperonboard.in/${file}"`));
+    if (papers.length) assert.match(html, /aria-label="Download /);
+    const urls = new Set(papers.map((paper) => resolvePaperURL(paper, sources, code)));
+    assert.equal([...html.matchAll(/aria-label="Download /g)].length, urls.size, `Missing or duplicate downloads in ${file}`);
+    const schema = JSON.parse(html.match(/<script id="page-schema" type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+    const crumbs = schema['@graph'].find((item) => item['@type'] === 'BreadcrumbList').itemListElement;
+    for (const crumb of crumbs) assert.ok(fs.existsSync(path.join(root, 'dist', new URL(crumb.item).pathname.slice(1) || 'index.html')));
+  }
+  assert.match(read('subject-gtu-mc--4639303.html'), /W2018\/MC\/4639303.pdf/);
 });

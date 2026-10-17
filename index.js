@@ -94,6 +94,9 @@ function examOrder(resource) {
 function routeURL(values) {
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(values)) if (value) params.set(key, value);
+  if (values.stream && values.subject && !values.q) {
+    return `subject-${encodeURIComponent(values.stream)}--${encodeURIComponent(values.subject)}.html${values.resource ? `?resource=${encodeURIComponent(values.resource)}` : ''}`;
+  }
   if (values.stream && !values.subject && !values.q && !values.semester) {
     return `catalog-${encodeURIComponent(values.stream)}${values.branch ? '--' + encodeURIComponent(values.branch) : ''}.html`;
   }
@@ -165,7 +168,7 @@ function home() {
   hero.id = 'container1';
   const both = element('div', 'both');
   const heading = element('div', 'heading');
-  heading.append(element('p', 'hero-kicker', `${config.latestSession || 'Latest'} papers now available` ), element('h1', '', 'Your next exam.\nA better starting point.'), element('p', 'shared-hero-description', 'Find previous-year papers by course, branch and semester. Free to access. Built together by students.'));
+  heading.append(element('p', 'hero-kicker', `${config.latestSession || 'Latest'} papers now available` ), element('h1', '', 'GTU Question Papers'), element('p', 'shared-hero-description', 'Your next exam starts here. Find Gujarat Technological University previous-year question papers by course, branch, semester and subject code. Free to access. Built together by students.'));
   const subjects = element('div', 'subjects');
   const links = config.streams.filter((stream) => catalogs.some((catalog) => catalog.id === stream.id)).slice(0, 8)
     .map((stream) => routeLink(stream.name, { stream: stream.id }));
@@ -327,7 +330,11 @@ function renderBranch(catalog, branch, content) {
   }
 }
 function renderSubject(entry, content) {
-  content.append(banner(`${entry.subject.name} - ${entry.subject.code}`, 'headerimg1'));
+  content.append(banner(`GTU ${entry.subject.name} (${entry.subject.code}) Question Papers`, 'headerimg1'));
+  const related = entries.filter((item) => item.catalog.id === entry.catalog.id && item.subject.code === entry.subject.code);
+  content.append(element('p', 'catalog-message', `${entry.catalog.name} · ${entry.semester.name}. Choose an available examination session below to open the linked question paper or study resource. PaperOnBoard is independent of Gujarat Technological University.`));
+  const contexts = new Map(related.map((item) => [`${item.branch.id}/${item.semester.id}`, item]));
+  content.append(controls([...contexts.values()].map((item) => routeLink(`${item.branch.name} · ${item.semester.name}`, { stream: item.catalog.id, branch: item.branch.id }))));
   const select = element('select');
   select.setAttribute('aria-label', 'Resource type');
   for (const [value, label] of [['', 'All resources'], ['paper', 'Question papers'], ['material', 'Study material']]) {
@@ -340,7 +347,10 @@ function renderSubject(entry, content) {
   content.append(controls([routeLink('← Back to subjects', { stream: entry.catalog.id, branch: entry.branch.id }), select]));
   if (entry.catalog.archivePolicy === 'listed-only') content.append(element('p', 'catalog-message', 'Only recorded paper links are shown. New courses and revised subjects may not have papers from earlier years.'));
   const cards = element('div', 'bigcard');
-  const resources = matchingResources(entry);
+  // Shared subjects have one crawlable page, with resources from every listing.
+  const unique = new Map();
+  for (const item of related) for (const resource of item.resources) if (!unique.has(resource.url)) unique.set(resource.url, resource);
+  const resources = matchingResources({ resources: [...unique.values()] });
   for (const paper of resources) {
     const card = element('article', 'card');
     card.append(element('h2', 'card-header', entry.subject.name));
@@ -354,6 +364,7 @@ function renderSubject(entry, content) {
       body.append(detail);
     }
     const download = resourceLink(paper, 'Download');
+    download.setAttribute('aria-label', `Download ${entry.subject.name} (${entry.subject.code}) — ${paper.label}`);
     download.className = 'btn';
     body.append(download);
     card.append(body);
@@ -375,7 +386,7 @@ function render() {
   $('oldpaper').hidden = isContributors;
   $('announcement').hidden = !isHome;
   document.querySelector('.about').hidden = !isHome;
-  document.title = entry ? `${entry.subject.name} (${entry.subject.code}) Question Papers | ${config.name}` : branch ? `${catalog.name} ${branch.name} Question Papers | ${config.name}` : catalog ? `${catalog.name} Question Papers | ${config.name}` : `${config.name} | GTU Question Papers`;
+  document.title = entry ? `GTU ${entry.subject.name} (${entry.subject.code}) ${catalog.name} Question Papers | ${config.name}` : branch ? `GTU ${catalog.name} ${branch.name} Question Papers | ${config.name}` : catalog ? `GTU ${catalog.name} Question Papers | ${config.name}` : `GTU Question Papers PDF Download | ${config.name}`;
   if (state.q) {
     content.append(banner(`Search question papers: ${state.q}`));
     content.append(controls([routeLink('Clear search', {}), routeLink('Select course', { view: 'courses' })]));
@@ -428,7 +439,7 @@ function updatePageMetadata(catalog, branch, entry) {
   const values = entry ? entryRoute(entry) : branch ? { stream: catalog.id, branch: branch.id } : catalog ? { stream: catalog.id } : state.view ? { view: state.view } : {};
   const relative = routeURL(values);
   const url = relative === 'index.html' ? origin : new URL(relative, origin).href;
-  const unavailable = (state.stream && !catalog) || (state.branch && !branch) || (state.subject && !entry) || (catalog && !catalog.branches.length);
+  const unavailable = (state.stream && !catalog) || (state.branch && !branch) || (state.subject && !entry) || (catalog && !catalog.branches.length) || (entry && !entries.some((item) => item.catalog.id === catalog.id && item.subject.code === entry.subject.code && item.resources.length));
   const description = entry ? `Find GTU ${entry.subject.name} (${entry.subject.code}) papers for ${catalog.name}. Browse available exam sessions and download from linked sources.` : branch ? `Browse GTU ${catalog.name} ${branch.name} question papers by subject code and exam session.` : catalog ? `Browse GTU ${catalog.name} previous-year question papers and available official archive links.` : 'Find GTU question papers by course, branch, semester and subject code. Independent, free, community-maintained paper directory.';
   canonical.href = url;
   $('page-description').setAttribute('content', description);
@@ -436,7 +447,16 @@ function updatePageMetadata(catalog, branch, entry) {
   $('page-og-title').setAttribute('content', document.title);
   $('page-og-description').setAttribute('content', description);
   $('page-og-url').setAttribute('content', url);
-  $('page-schema').textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: document.title, description, url, isPartOf: { '@type': 'WebSite', name: config.name, url: origin } });
+  const crumbs = [{ '@type': 'ListItem', position: 1, name: 'Home', item: origin }];
+  if (catalog) crumbs.push({ '@type': 'ListItem', position: 2, name: catalog.name, item: new URL(routeURL({ stream: catalog.id }), origin).href });
+  if (branch) crumbs.push({ '@type': 'ListItem', position: 3, name: branch.name, item: new URL(routeURL({ stream: catalog.id, branch: branch.id }), origin).href });
+  if (entry) crumbs.push({ '@type': 'ListItem', position: 4, name: `${entry.subject.name} (${entry.subject.code})`, item: url });
+  if (state.view && !catalog) crumbs.push({ '@type': 'ListItem', position: 2, name: state.view === 'courses' ? 'All courses' : 'Contributors', item: url });
+  $('page-schema').textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': [
+    { '@type': 'WebSite', '@id': origin + '#website', name: config.name, url: origin, inLanguage: 'en' },
+    { '@type': catalog || state.view ? 'CollectionPage' : 'WebPage', '@id': url + '#page', name: document.title.replace(` | ${config.name}`, ''), description, url, isPartOf: { '@id': origin + '#website' }, inLanguage: 'en' },
+    { '@type': 'BreadcrumbList', itemListElement: crumbs },
+  ] });
 }
 function restoreURL() {
   const params = new URLSearchParams(location.search);
@@ -445,6 +465,15 @@ function restoreURL() {
     const [stream, branch] = file.slice(8, -5).split('--').map(decodeURIComponent);
     params.set('stream', stream);
     if (branch) params.set('branch', branch);
+  } else if (file?.startsWith('subject-') && file.endsWith('.html')) {
+    const [stream, code] = file.slice(8, -5).split('--').map(decodeURIComponent);
+    params.set('stream', stream);
+    params.set('subject', code);
+    const entry = entries.find((item) => item.catalog.id === stream && item.subject.code === code);
+    if (entry) {
+      params.set('branch', entry.branch.id);
+      params.set('semester', entry.semester.id);
+    }
   } else if (file === 'courses.html') params.set('view', 'courses');
   else if (file === 'contributors.html') params.set('view', 'contributors');
   for (const key of Object.keys(state)) state[key] = params.get(key) || '';

@@ -52,13 +52,26 @@ export function prerender(root, destination, site) {
     }
   `, runtime);
   const template = fs.readFileSync(path.join(destination, 'index.html'), 'utf8');
-  const routes = [{ file: 'index.html', title: 'GTU Question Papers', description: 'Find GTU previous-year question papers by course, branch, semester and subject code. Free access, Summer 2026 sessions, and official GTU paper links.', breadcrumbs: [] },
+  const routes = [{ file: 'index.html', title: 'GTU Question Papers PDF Download', description: 'Find Gujarat Technological University (GTU) previous-year question papers by course, branch, semester and subject code. Browse free paper links and available sessions.', breadcrumbs: [] },
     { file: 'courses.html', title: 'All GTU Courses and Question Papers', description: `Browse ${site.streams.length} course codes listed in the GTU official question-paper repository, including engineering, pharmacy, management and more.`, breadcrumbs: ['All courses'] },
     { file: 'contributors.html', title: 'Contributors', description: 'Meet the GitHub contributors helping students find GTU question papers. Learn how to add papers and correct links.', breadcrumbs: ['Contributors'] }];
   for (const catalog of runtime.fixtures) {
     const count = catalog.branches.flatMap((b) => b.semesters.flatMap((s) => s.subjects)).length;
-    routes.push({ file: `catalog-${catalog.id}.html`, title: `${catalog.name} Question Papers`, description: `Browse GTU ${catalog.name} previous-year question papers by subject code. ${count ? `${count} subject listings, with links to available exam sessions.` : 'See the official GTU repository for currently available papers.'}`, breadcrumbs: [catalog.name], noindex: !count });
-    for (const branch of catalog.branches) routes.push({ file: `catalog-${catalog.id}--${branch.id}.html`, title: `${catalog.name} ${branch.name} Question Papers`, description: `Find GTU ${catalog.name} ${branch.name} question papers. Browse available subject codes and exam sessions with direct resource links.`, breadcrumbs: [catalog.name, branch.name], courseFile: `catalog-${catalog.id}.html` });
+    routes.push({ file: `catalog-${catalog.id}.html`, title: `GTU ${catalog.name} Question Papers`, description: `Browse GTU ${catalog.name} previous-year question papers by subject code. ${count ? `${count} subject listings, with links to available exam sessions.` : 'See the official GTU repository for currently available papers.'}`, breadcrumbs: [catalog.name], noindex: !count });
+    for (const branch of catalog.branches) routes.push({ file: `catalog-${catalog.id}--${branch.id}.html`, title: `GTU ${catalog.name} ${branch.name} Question Papers`, description: `Find GTU ${catalog.name} ${branch.name} question papers. Browse available subject codes and exam sessions with direct resource links.`, breadcrumbs: [catalog.name, branch.name], courseFile: `catalog-${catalog.id}.html` });
+  }
+  // One page per course/subject code avoids indexing duplicate common subjects
+  // once per branch. The shared renderer combines their recorded resource links.
+  const subjects = new Map();
+  for (const entry of vm.runInContext('entries', runtime)) {
+    const key = `${entry.catalog.id}/${entry.subject.code}`;
+    if (!subjects.has(key)) subjects.set(key, { entry, hasResources: false });
+    if (entry.resources.length) subjects.get(key).hasResources = true;
+  }
+  for (const { entry, hasResources } of subjects.values()) {
+    const { catalog, branch, subject } = entry;
+    const file = vm.runInContext(`routeURL(${JSON.stringify({ stream: catalog.id, subject: subject.code })})`, runtime);
+    routes.push({ file, title: `GTU ${subject.name} (${subject.code}) ${catalog.name} Question Papers`, description: `Find GTU ${subject.name} (${subject.code}) papers for ${catalog.name}. Browse available exam sessions and download from linked sources.`, breadcrumbs: [catalog.name, branch.name, `${subject.name} (${subject.code})`], breadcrumbFiles: [`catalog-${catalog.id}.html`, `catalog-${catalog.id}--${branch.id}.html`, file], noindex: !hasResources });
   }
   for (const route of routes) {
     location.pathname = '/' + route.file;
@@ -74,7 +87,7 @@ export function prerender(root, destination, site) {
       '@context': 'https://schema.org', '@graph': [
         { '@type': 'WebSite', '@id': origin + '#website', name: 'PaperOnBoard', url: origin, description: 'Independent, community-maintained GTU question-paper directory.', inLanguage: 'en' },
         { '@type': route.file === 'index.html' ? 'WebPage' : 'CollectionPage', '@id': url + '#page', url, name: route.title, description: route.description, isPartOf: { '@id': origin + '#website' }, inLanguage: 'en' },
-        { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: origin }, ...route.breadcrumbs.map((name, i) => ({ '@type': 'ListItem', position: i + 2, name, item: i === route.breadcrumbs.length - 1 ? url : origin + route.courseFile }))] },
+        { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: origin }, ...route.breadcrumbs.map((name, i) => ({ '@type': 'ListItem', position: i + 2, name, item: route.breadcrumbFiles ? origin + route.breadcrumbFiles[i] : i === route.breadcrumbs.length - 1 ? url : origin + route.courseFile }))] },
       ],
     };
     const metadata = `<link id="page-canonical" rel="canonical" href="${escape(url)}">
