@@ -60,6 +60,14 @@ The workflow has not been connected to a live repository or FTP account yet. The
 
 If connection fails with `gaierror`, first edit the `FTP_HOST` repository secret. It must contain just the FTP hostname shown by InfinityFree, typically `ftpupload.net`. Do not include `ftp://`, `ftps://`, `https://`, `:21`, `/htdocs`, or quotes. The script trims surrounding whitespace and rejects malformed hostnames before connecting. If the hostname is correct, rerun the workflow; the failure may be temporary DNS resolution on the runner or at the provider. A DNS failure during connection occurs before username/password authentication.
 
+## Google Analytics
+
+The original site's GA4 measurement ID, `G-F7Y6W97FD0`, is restored by `analytics.js`, which is included once in every generated content page. It loads Google's tag asynchronously only on `paperonboard.in` and `www.paperonboard.in`; localhost and preview hosts do not load the tag or submit analytics. The measurement ID is a public site identifier, not an API credential.
+
+The integration uses GA4's automatic pageviews rather than adding duplicate manual events. In the existing GA4 property's web stream, check **Admin → Data Streams → Web → Enhanced measurement → Page views → Show advanced settings**, and enable **Page changes based on browser history events**. This account setting is needed to measure navigation between courses, branches and subjects that update the URL without a full document reload. See [Google's SPA measurement guide](https://developers.google.com/analytics/devguides/collection/ga4/single-page-applications).
+
+After deployment, verify the initial page load and navigation to another subject in Realtime/DebugView or Google Tag Assistant. Confirm that the Google tag points to the expected existing property and that each navigation produces one pageview. No Analytics account settings are changed by a repository deployment, and ad blockers or browser tracking protection may prevent collection.
+
 ## Controlled ad placement
 
 The shared page has one labelled display-ad area after the main content and old-paper explanation, separated from download controls. Its space is reserved before requesting the ad: 250x250 on narrow phones, 300x250 on larger phones, and 728x90 on desktop. It stays mounted during route changes and is requested only once per page load. An empty slot ID hides the area completely.

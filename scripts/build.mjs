@@ -16,6 +16,7 @@ const copy = (file) => {
   fs.copyFileSync(path.join(root, file), target);
 };
 copy('ads.txt');
+copy('analytics.js');
 copy('data/gtu-source.json');
 copy('data/gtu-program-names.json');
 copy('data/gtu-subjects.json');
