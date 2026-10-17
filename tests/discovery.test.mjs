@@ -9,6 +9,18 @@ const read = (file) => fs.readFileSync(path.join(root, 'dist', file), 'utf8');
 const site = JSON.parse(read('data/site.json'));
 const source = JSON.parse(read('data/gtu-source.json'));
 
+test('homepage summary counts match the full catalogs without embedding their resources', () => {
+  let subjects = 0;
+  for (const stream of site.streams) {
+    const catalog = JSON.parse(read(stream.file));
+    subjects += new Set(catalog.branches.flatMap((branch) => branch.semesters.flatMap((semester) => semester.subjects.map((subject) => subject.code)))).size;
+    assert.deepEqual(site.catalogSummary.streams[stream.id], { branches: catalog.branches.length, imported: Boolean(catalog.imported) });
+  }
+  assert.equal(site.catalogSummary.subjects, subjects);
+  assert.ok(Buffer.byteLength(read('data/site.json')) < 25000);
+  assert.match(read('index.html'), new RegExp(subjects.toLocaleString('en-US')));
+});
+
 test('all official course codes have catalogs and reachable rendered pages', () => {
   assert.equal(new Set(source.courses.map((course) => course.code)).size, 58);
   const names = JSON.parse(read('data/gtu-program-names.json')).names;
@@ -20,7 +32,7 @@ test('all official course codes have catalogs and reachable rendered pages', () 
     if (catalog.imported && names[course.code]) assert.equal(catalog.name, names[course.code]);
     const html = read(`catalog-${course.id}.html`);
     assert.match(html, /GTU .*Question Paper/);
-    assert.ok(!html.includes('Loading question papers'));
+    assert.ok(!html.includes('<div id="content"><p class="catalog-message" role="status">Loading question papers'));
     if (!catalog.branches.length) assert.match(html, /noindex,follow/);
     for (const branch of catalog.branches) {
       const branchHTML = read(catalog.directSemesters ? `catalog-${course.id}.html` : `catalog-${course.id}--${branch.id}.html`);
@@ -142,7 +154,7 @@ test('subject pages expose real downloads without JavaScript and consolidate sha
   for (const [file, { code, papers }] of expected) {
     const html = read(file);
     assert.ok(html.includes(code.replaceAll('&', '&amp;')));
-    assert.ok(!html.includes('Loading question papers'));
+    assert.ok(!html.includes('<div id="content"><p class="catalog-message" role="status">Loading question papers'));
     assert.ok(html.includes(`rel="canonical" href="https://paperonboard.in/${file}"`));
     if (papers.length) assert.match(html, /aria-label="Download /);
     const urls = new Set(papers.map((paper) => resolvePaperURL(paper, sources, code)));

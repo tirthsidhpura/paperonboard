@@ -56,7 +56,7 @@ The inference from this sample is that the broad query is competitive. Dedicated
 
 - Measure the deployed homepage, branch and subject page with PageSpeed Insights and Search Console Core Web Vitals. Set priorities from measured loading time, interaction delay and layout shift rather than an assumed score.
 - Review mobile ad placement, especially any Auto ads. Keep advertisements away from download controls and verify that they do not obstruct navigation or cause unexpected movement.
-- Investigate the cost of loading every catalog for interactive navigation if live measurements show it is a bottleneck. Static subject content is now available immediately, but browser initialization still fetches the catalog collection.
+- Browser initialization now loads only the current course catalog; the homepage and course directory use small build-generated summary counts without loading catalogs. Navigation reuses loaded catalogs. Global search loads the remaining catalogs on demand, so measure its loading time separately on slower connections.
 
 ### 4. Earn relevant visibility
 
