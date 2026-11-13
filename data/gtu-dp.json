@@ -78,7 +78,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/410006.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/410006.pdf"
             }
           ]
         },
@@ -146,7 +146,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/420003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/420003.pdf"
             }
           ]
         },
@@ -220,7 +220,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/410004.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/410004.pdf"
             },
             {
               "code": "410005",
@@ -282,7 +282,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/410005.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/410005.pdf"
             },
             {
               "code": "DP104TP",
@@ -314,7 +314,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP104TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP104TP.pdf"
             },
             {
               "code": "DP102TP",
@@ -346,7 +346,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP102TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP102TP.pdf"
             },
             {
               "code": "410002",
@@ -408,7 +408,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/410002.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/410002.pdf"
             },
             {
               "code": "DP101TP",
@@ -440,7 +440,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP101TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP101TP.pdf"
             },
             {
               "code": "410001",
@@ -502,7 +502,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/410001.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/410001.pdf"
             },
             {
               "code": "410003",
@@ -570,7 +570,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/410003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/410003.pdf"
             },
             {
               "code": "DP103TP",
@@ -602,7 +602,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DP/DP103TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DP/DP103TP.pdf"
             },
             {
               "code": "DP105TP",
@@ -634,7 +634,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DP/DP105TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DP/DP105TP.pdf"
             }
           ]
         },
@@ -660,7 +660,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP203TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP203TP.pdf"
             },
             {
               "code": "DP202TP",
@@ -680,7 +680,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP202TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP202TP.pdf"
             },
             {
               "code": "420005",
@@ -748,7 +748,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/420005.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/420005.pdf"
             },
             {
               "code": "420006",
@@ -810,7 +810,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DP/420006.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DP/420006.pdf"
             },
             {
               "code": "DP205TP",
@@ -830,7 +830,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP205TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP205TP.pdf"
             },
             {
               "code": "420002",
@@ -892,7 +892,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/420002.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/420002.pdf"
             },
             {
               "code": "420004",
@@ -960,7 +960,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/420004.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/420004.pdf"
             },
             {
               "code": "420001",
@@ -1016,7 +1016,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/420001.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/420001.pdf"
             },
             {
               "code": "DP201TP",
@@ -1030,7 +1030,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP201TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP201TP.pdf"
             },
             {
               "code": "DP204TP",
@@ -1050,7 +1050,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP204TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP204TP.pdf"
             },
             {
               "code": "DP206TT",
@@ -1070,16 +1070,16 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/DP/DP206TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/DP/DP206TT.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
   "imported": true,
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "DP",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"

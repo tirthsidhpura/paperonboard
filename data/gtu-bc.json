@@ -30,7 +30,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001071.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC01001071.pdf"
             },
             {
               "code": "BC01001011",
@@ -50,7 +50,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001011.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC01001011.pdf"
             },
             {
               "code": "BC01001021",
@@ -70,7 +70,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001021.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC01001021.pdf"
             },
             {
               "code": "BC01001031",
@@ -90,7 +90,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001031.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC01001031.pdf"
             },
             {
               "code": "BC01001081",
@@ -110,7 +110,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001081.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC01001081.pdf"
             },
             {
               "code": "BC01001051",
@@ -130,7 +130,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC01001051.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC01001051.pdf"
             }
           ]
         },
@@ -150,7 +150,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001031.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC02001031.pdf"
             },
             {
               "code": "BC02001011",
@@ -164,7 +164,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001011.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC02001011.pdf"
             },
             {
               "code": "BC02001021",
@@ -178,7 +178,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001021.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC02001021.pdf"
             },
             {
               "code": "BC02001051",
@@ -192,7 +192,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001051.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC02001051.pdf"
             },
             {
               "code": "BC02001081",
@@ -206,7 +206,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001081.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC02001081.pdf"
             },
             {
               "code": "BC02001071",
@@ -220,16 +220,16 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BC/BC02001071.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BC/BC02001071.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
   "imported": true,
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "BC",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"

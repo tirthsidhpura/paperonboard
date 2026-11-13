@@ -36,7 +36,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2020/BL/1075507.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2020/BL/1075507.pdf"
             },
             {
               "code": "1075511",
@@ -62,7 +62,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2020/BL/1075511.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2020/BL/1075511.pdf"
             },
             {
               "code": "1075502",
@@ -88,16 +88,16 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2020/BL/1075502.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2020/BL/1075502.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
   "imported": true,
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "BL",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"

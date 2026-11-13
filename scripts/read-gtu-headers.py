@@ -1,5 +1,6 @@
 """Read official PDF headers and cache verified subject/semester metadata locally."""
 import concurrent.futures, io, json, logging, re, sys, time, urllib.request
+from urllib.parse import urljoin
 from pathlib import Path
 from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,6 +16,7 @@ def main():
     CACHE.parent.mkdir(exist_ok=True)
     jobs = {}
     site = json.loads((ROOT/'data/site.json').read_text(encoding='utf-8'))
+    sources = json.loads((ROOT/'data/urls.json').read_text(encoding='utf-8'))['versions']
     for stream in site['streams']:
         catalog = json.loads((ROOT/stream['file']).read_text(encoding='utf-8'))
         groups = [[subject for subject in semester['subjects'] if subject.get('verificationSource') or branch.get('generatedCourse') or branch['id'] in {'official-papers', 'additional-papers'}] for branch in catalog['branches'] for semester in branch['semesters']]
@@ -23,7 +25,7 @@ def main():
             for subject in group:
                 key = catalog['gtuCourseCode'] + '/' + subject['code']
                 if key in cache and cache[key].get('metadata'): continue
-                links = ['https://old26.gtu.ac.in/uploads/' + p['path'] for p in subject['papers'] if p.get('path')]
+                links = [urljoin(sources[p['urlVersion']], p['path']) for p in subject['papers'] if p.get('path')]
                 jobs[key] = links[:2]
     # Complete smaller new programs first, then the larger curated-stream additions.
     jobs = dict(sorted(jobs.items(), key=lambda item: (item[0].split('/')[0] in {'BE', 'DI'}, item[0].split('/')[0] != 'MC', item[0])))

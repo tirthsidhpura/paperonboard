@@ -11,6 +11,25 @@ test('all registered catalogs, resource types and local file references are vali
   assert.equal(validate().streams.length >= 4, true);
 });
 
+test('production GTU paper links use the migrated API and canonical session paths', () => {
+  const sources = JSON.parse(fs.readFileSync(path.join(root, 'data/urls.json'), 'utf8'));
+  const base = 'https://www.gtu.ac.in/api/v1/question-papers/archive/file/';
+  assert.equal(sources.versions.v1, base);
+  assert.equal(resolvePaperURL({ urlVersion: 'v1', path: 'S2026/BE/3160707.pdf' }, sources), `${base}S2026/BE/3160707.pdf`);
+  for (const stream of validate().streams) {
+    const catalog = JSON.parse(fs.readFileSync(path.join(root, stream.file), 'utf8'));
+    assert.ok(!JSON.stringify(catalog).includes('https://old26.gtu.ac.in/uploads/'), stream.file);
+    const subjects = [...catalog.branches.flatMap((branch) => branch.semesters.flatMap((semester) => semester.subjects)), ...(catalog.pendingSubjects || [])];
+    for (const subject of subjects) for (const paper of subject.papers) {
+      if (!paper.urlVersion) continue;
+      const url = resolvePaperURL(paper, sources, subject.code);
+      assert.ok(url.startsWith(base), url);
+      assert.match(url.slice(base.length), /^[SW]\d{4}\/[A-Z]+\/.+\.pdf$/i);
+      assert.match(paper.path, /^[SW]\d{4}\//);
+    }
+  }
+});
+
 const script = fs.readFileSync(path.join(root, 'index.js'), 'utf8').replace(/^import .* from '\.\/paper-urls\.js';\s*$/m, '').replace(/initialize\(\);\s*$/, '');
 const context = vm.createContext({ URL, URLSearchParams, resolvePaperURL, validateURLSources, document: { baseURI: 'https://example.test/project/index.html' } });
 vm.runInContext(script, context);

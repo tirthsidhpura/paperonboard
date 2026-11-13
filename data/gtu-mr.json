@@ -42,7 +42,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X16203.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MR/X16203.pdf"
             },
             {
               "code": "X16202",
@@ -74,7 +74,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X16202.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MR/X16202.pdf"
             }
           ]
         },
@@ -118,7 +118,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X26204.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/MR/X26204.pdf"
             },
             {
               "code": "X26202",
@@ -162,7 +162,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X26202.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/MR/X26202.pdf"
             },
             {
               "code": "X26203",
@@ -206,7 +206,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X26203.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/MR/X26203.pdf"
             }
           ]
         },
@@ -244,7 +244,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X36202.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MR/X36202.pdf"
             },
             {
               "code": "X36203",
@@ -276,7 +276,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MR/X36203.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MR/X36203.pdf"
             }
           ]
         },
@@ -314,16 +314,16 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/MR/X46202.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/MR/X46202.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
   "imported": true,
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "MR",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"

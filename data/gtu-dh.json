@@ -24,7 +24,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077021.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DH/DH01077021.pdf"
             },
             {
               "code": "DH01077041",
@@ -38,7 +38,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077041.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DH/DH01077041.pdf"
             },
             {
               "code": "DH01077031",
@@ -52,7 +52,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077031.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DH/DH01077031.pdf"
             },
             {
               "code": "DH01077051",
@@ -66,7 +66,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077051.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DH/DH01077051.pdf"
             },
             {
               "code": "1517701",
@@ -104,7 +104,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/1517701.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DH/1517701.pdf"
             },
             {
               "code": "DH01077011",
@@ -118,16 +118,16 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2024/DH/DH01077011.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2024/DH/DH01077011.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
   "imported": true,
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "DH",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"

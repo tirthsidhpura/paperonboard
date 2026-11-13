@@ -5,17 +5,17 @@
     {
       "label": "Summer 2026",
       "urlVersion": "v1",
-      "path": "s2026/BP/{code}.pdf"
+      "path": "S2026/BP/{code}.pdf"
     },
     {
       "label": "Winter 2025",
       "urlVersion": "v1",
-      "path": "w2025/BP/{code}.pdf"
+      "path": "W2025/BP/{code}.pdf"
     },
     {
       "label": "Summer 2025",
       "urlVersion": "v1",
-      "path": "s2025/BP/{code}.pdf"
+      "path": "S2025/BP/{code}.pdf"
     },
     {
       "label": "Winter 2024",
@@ -3398,7 +3398,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP503TP.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP503TP.pdf"
             },
             {
               "code": "2250006",
@@ -3484,7 +3484,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2250006.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/2250006.pdf"
             }
           ]
         },
@@ -3570,7 +3570,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2260003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/2260003.pdf"
             },
             {
               "code": "2260005",
@@ -3662,7 +3662,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2260005.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/2260005.pdf"
             }
           ]
         },
@@ -3754,7 +3754,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270001.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BP/2270001.pdf"
             },
             {
               "code": "2270016",
@@ -3828,7 +3828,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270016.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BP/2270016.pdf"
             },
             {
               "code": "2270003",
@@ -3914,7 +3914,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2270003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/2270003.pdf"
             },
             {
               "code": "2270002",
@@ -4000,7 +4000,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270002.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BP/2270002.pdf"
             },
             {
               "code": "2270005",
@@ -4086,7 +4086,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270005.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BP/2270005.pdf"
             },
             {
               "code": "2270004",
@@ -4172,7 +4172,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2270004.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BP/2270004.pdf"
             }
           ]
         },
@@ -4216,7 +4216,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP807TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP807TT.pdf"
             },
             {
               "code": "BP812TT",
@@ -4254,7 +4254,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP812TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP812TT.pdf"
             },
             {
               "code": "BP810TT",
@@ -4292,7 +4292,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP810TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP810TT.pdf"
             },
             {
               "code": "2280003",
@@ -4378,7 +4378,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2025/BP/2280003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2025/BP/2280003.pdf"
             },
             {
               "code": "BP804TT",
@@ -4422,7 +4422,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP804TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP804TT.pdf"
             },
             {
               "code": "2280005",
@@ -4496,7 +4496,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2280005.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/2280005.pdf"
             },
             {
               "code": "2280004",
@@ -4576,7 +4576,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/2280004.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/2280004.pdf"
             },
             {
               "code": "BP805TT",
@@ -4620,7 +4620,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP805TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP805TT.pdf"
             },
             {
               "code": "BP806TT",
@@ -4664,7 +4664,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP806TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP806TT.pdf"
             },
             {
               "code": "BP802TT",
@@ -4708,15 +4708,15 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2026/BP/BP802TT.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2026/BP/BP802TT.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "BP",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"

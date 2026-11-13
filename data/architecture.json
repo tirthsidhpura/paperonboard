@@ -5,37 +5,37 @@
     {
       "label": "Summer 2026",
       "urlVersion": "v1",
-      "path": "s2026/BA/{code}.pdf"
+      "path": "S2026/BA/{code}.pdf"
     },
     {
       "label": "Winter 2025",
       "urlVersion": "v1",
-      "path": "w2025/BA/{code}.pdf"
+      "path": "W2025/BA/{code}.pdf"
     },
     {
       "label": "Winter 2024",
       "urlVersion": "v1",
-      "path": "w2024/BA/{code}.pdf"
+      "path": "W2024/BA/{code}.pdf"
     },
     {
       "label": "Summer 2024",
       "urlVersion": "v1",
-      "path": "s2024/BA/{code}.pdf"
+      "path": "S2024/BA/{code}.pdf"
     },
     {
       "label": "Winter 2023",
       "urlVersion": "v1",
-      "path": "w2023/BA/{code}.pdf"
+      "path": "W2023/BA/{code}.pdf"
     },
     {
       "label": "Summer 2023",
       "urlVersion": "v1",
-      "path": "s2023/BA/{code}.pdf"
+      "path": "S2023/BA/{code}.pdf"
     },
     {
       "label": "Winter 2022",
       "urlVersion": "v1",
-      "path": "w2022/BA/{code}.pdf"
+      "path": "W2022/BA/{code}.pdf"
     }
   ],
   "branches": [
@@ -76,7 +76,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X15006.pdf",
+                  "path": "S2026/BA/2X15006.pdf",
                   "type": "paper"
                 },
                 {
@@ -146,7 +146,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X15003.pdf",
+                  "path": "S2026/BA/2X15003.pdf",
                   "type": "paper"
                 },
                 {
@@ -217,7 +217,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X15005.pdf",
+                  "path": "S2026/BA/2X15005.pdf",
                   "type": "paper"
                 },
                 {
@@ -288,7 +288,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X15002.pdf",
+                  "path": "S2026/BA/2X15002.pdf",
                   "type": "paper"
                 },
                 {
@@ -359,7 +359,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X25006.pdf",
+                  "path": "S2026/BA/2X25006.pdf",
                   "type": "paper"
                 },
                 {
@@ -417,7 +417,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X25005.pdf",
+                  "path": "S2026/BA/2X25005.pdf",
                   "type": "paper"
                 },
                 {
@@ -476,7 +476,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X25004.pdf",
+                  "path": "S2026/BA/2X25004.pdf",
                   "type": "paper"
                 },
                 {
@@ -535,7 +535,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X25002.pdf",
+                  "path": "S2026/BA/2X25002.pdf",
                   "type": "paper"
                 },
                 {
@@ -600,7 +600,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X35002.pdf",
+                  "path": "S2026/BA/2X35002.pdf",
                   "type": "paper"
                 },
                 {
@@ -647,7 +647,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X35005.pdf",
+                  "path": "S2026/BA/2X35005.pdf",
                   "type": "paper"
                 },
                 {
@@ -706,7 +706,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X35004.pdf",
+                  "path": "S2026/BA/2X35004.pdf",
                   "type": "paper"
                 },
                 {
@@ -765,7 +765,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X35003.pdf",
+                  "path": "S2026/BA/2X35003.pdf",
                   "type": "paper"
                 },
                 {
@@ -824,7 +824,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X35006.pdf",
+                  "path": "S2026/BA/2X35006.pdf",
                   "type": "paper"
                 },
                 {
@@ -894,7 +894,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X45002.pdf",
+                  "path": "S2026/BA/2X45002.pdf",
                   "type": "paper"
                 },
                 {
@@ -952,7 +952,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X45004.pdf",
+                  "path": "S2026/BA/2X45004.pdf",
                   "type": "paper"
                 },
                 {
@@ -1010,7 +1010,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X45006.pdf",
+                  "path": "S2026/BA/2X45006.pdf",
                   "type": "paper"
                 },
                 {
@@ -1068,7 +1068,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X45003.pdf",
+                  "path": "S2026/BA/2X45003.pdf",
                   "type": "paper"
                 },
                 {
@@ -1126,7 +1126,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X55002.pdf",
+                  "path": "S2026/BA/2X55002.pdf",
                   "type": "paper"
                 },
                 {
@@ -1282,7 +1282,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X55004.pdf",
+                  "path": "S2026/BA/2X55004.pdf",
                   "type": "paper"
                 },
                 {
@@ -1336,7 +1336,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X65002.pdf",
+                  "path": "S2026/BA/2X65002.pdf",
                   "type": "paper"
                 },
                 {
@@ -1372,7 +1372,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X65005.pdf",
+                  "path": "S2026/BA/2X65005.pdf",
                   "type": "paper"
                 },
                 {
@@ -1414,7 +1414,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X65003.pdf",
+                  "path": "S2026/BA/2X65003.pdf",
                   "type": "paper"
                 },
                 {
@@ -1456,7 +1456,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X65004.pdf",
+                  "path": "S2026/BA/2X65004.pdf",
                   "type": "paper"
                 },
                 {
@@ -1717,7 +1717,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X25003.pdf",
+                  "path": "S2026/BA/2X25003.pdf",
                   "type": "paper"
                 },
                 {
@@ -1751,7 +1751,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X25003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2024/BA/2X25003.pdf"
             }
           ]
         },
@@ -1773,7 +1773,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X85003.pdf",
+                  "path": "S2026/BA/2X85003.pdf",
                   "type": "paper"
                 },
                 {
@@ -1789,7 +1789,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X85003.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2024/BA/2X85003.pdf"
             }
           ]
         },
@@ -1811,7 +1811,7 @@
                 {
                   "label": "Summer 2026",
                   "urlVersion": "v1",
-                  "path": "s2026/BA/2X105002.pdf",
+                  "path": "S2026/BA/2X105002.pdf",
                   "type": "paper"
                 },
                 {
@@ -1821,15 +1821,15 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/S2024/BA/2X105002.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/S2024/BA/2X105002.pdf"
             }
           ]
         }
       ],
-      "source": "https://old26.gtu.ac.in/Download1.aspx"
+      "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository"
     }
   ],
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "BA",
   "checkedOn": "2026-10-16",
   "archivePolicy": "listed-only"
