@@ -42,7 +42,7 @@
                   "type": "paper"
                 }
               ],
-              "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM203T.pdf"
+              "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPM203T.pdf"
             }
           ]
         }
@@ -51,7 +51,7 @@
     }
   ],
   "imported": true,
-  "source": "https://old26.gtu.ac.in/Download1.aspx",
+  "source": "https://www.gtu.ac.in/student-corner/examination/question-paper-repository",
   "gtuCourseCode": "MP",
   "checkedOn": "2026-10-16",
   "pendingSubjects": [
@@ -133,7 +133,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MAT101T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MAT101T.pdf"
     },
     {
       "code": "MPC102T",
@@ -207,7 +207,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPC102T.pdf"
     },
     {
       "code": "MPC103T",
@@ -263,7 +263,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPC103T.pdf"
     },
     {
       "code": "MPC104T",
@@ -337,7 +337,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPC104T.pdf"
     },
     {
       "code": "MPC202T",
@@ -393,7 +393,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC202T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPC202T.pdf"
     },
     {
       "code": "MPC203T",
@@ -455,7 +455,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPC203T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPC203T.pdf"
     },
     {
       "code": "MPH102T",
@@ -535,7 +535,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH102T.pdf"
     },
     {
       "code": "MPH103T",
@@ -609,7 +609,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH103T.pdf"
     },
     {
       "code": "MPH104T",
@@ -689,7 +689,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH104T.pdf"
     },
     {
       "code": "MPH201T",
@@ -757,7 +757,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH201T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH201T.pdf"
     },
     {
       "code": "MPH202T",
@@ -825,7 +825,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH202T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH202T.pdf"
     },
     {
       "code": "MPH203T",
@@ -899,7 +899,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH203T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH203T.pdf"
     },
     {
       "code": "MPH204T",
@@ -967,7 +967,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPH204T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPH204T.pdf"
     },
     {
       "code": "MPL102T",
@@ -1047,7 +1047,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL102T.pdf"
     },
     {
       "code": "MPL103T",
@@ -1127,7 +1127,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL103T.pdf"
     },
     {
       "code": "MPL104T",
@@ -1207,7 +1207,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL104T.pdf"
     },
     {
       "code": "MPL201T",
@@ -1275,7 +1275,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL201T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL201T.pdf"
     },
     {
       "code": "MPL202T",
@@ -1343,7 +1343,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL202T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL202T.pdf"
     },
     {
       "code": "MPL203T",
@@ -1399,7 +1399,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL203T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL203T.pdf"
     },
     {
       "code": "MPL204T",
@@ -1455,7 +1455,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPL204T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPL204T.pdf"
     },
     {
       "code": "MPM102T",
@@ -1493,7 +1493,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPM102T.pdf"
     },
     {
       "code": "MPM103T",
@@ -1525,7 +1525,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPM103T.pdf"
     },
     {
       "code": "MPM104T",
@@ -1563,7 +1563,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPM104T.pdf"
     },
     {
       "code": "MPM204T",
@@ -1595,7 +1595,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPM204T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPM204T.pdf"
     },
     {
       "code": "MPP101T",
@@ -1645,7 +1645,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP101T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPP101T.pdf"
     },
     {
       "code": "MPP102T",
@@ -1701,7 +1701,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPP102T.pdf"
     },
     {
       "code": "MPP103T",
@@ -1757,7 +1757,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPP103T.pdf"
     },
     {
       "code": "MPP104T",
@@ -1813,7 +1813,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPP104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPP104T.pdf"
     },
     {
       "code": "MPT104T",
@@ -1875,7 +1875,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MPT104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MPT104T.pdf"
     },
     {
       "code": "MQA102T",
@@ -1955,7 +1955,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA102T.pdf"
     },
     {
       "code": "MQA103T",
@@ -2035,7 +2035,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA103T.pdf"
     },
     {
       "code": "MQA104T",
@@ -2115,7 +2115,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA104T.pdf"
     },
     {
       "code": "MQA201T",
@@ -2189,7 +2189,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA201T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA201T.pdf"
     },
     {
       "code": "MQA202T",
@@ -2263,7 +2263,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA202T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA202T.pdf"
     },
     {
       "code": "MQA203T",
@@ -2331,7 +2331,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA203T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA203T.pdf"
     },
     {
       "code": "MQA204T",
@@ -2405,7 +2405,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MQA204T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MQA204T.pdf"
     },
     {
       "code": "MRA101T",
@@ -2455,7 +2455,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA101T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MRA101T.pdf"
     },
     {
       "code": "MRA102T",
@@ -2511,7 +2511,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA102T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MRA102T.pdf"
     },
     {
       "code": "MRA103T",
@@ -2567,7 +2567,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA103T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MRA103T.pdf"
     },
     {
       "code": "MRA104T",
@@ -2617,7 +2617,7 @@
           "type": "paper"
         }
       ],
-      "verificationSource": "https://old26.gtu.ac.in/uploads/W2025/MP/MRA104T.pdf"
+      "verificationSource": "https://www.gtu.ac.in/api/v1/question-papers/archive/file/W2025/MP/MRA104T.pdf"
     }
   ],
   "archivePolicy": "listed-only"
